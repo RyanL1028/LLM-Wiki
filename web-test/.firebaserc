@@ -1,0 +1,43 @@
+{
+  "projects": {
+    "default": "smart-study-site"
+  },
+  "targets": {
+    "smart-study-site": {
+      "hosting": {
+        "main": [
+          "smart-study-site"
+        ],
+        "staff": [
+          "smart-study-staff"
+        ],
+        "chat": [
+          "smartchatter"
+        ],
+        "main-test": [
+          "smart-study-site-test"
+        ],
+        "staff-test": [
+          "ss-staff-tester"
+        ],
+        "chat-test": [
+          "smartchatter-test"
+        ]
+      }
+    },
+    "smart-study-by-ryan": {
+      "hosting": {
+        "chat": [
+          "smartchatter"
+        ],
+        "main": [
+          "smart-study-site"
+        ],
+        "staff": [
+          "smart-study-staff"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

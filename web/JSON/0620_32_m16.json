@@ -1,0 +1,1163 @@
+{
+  "id": "0620_32_m16",
+  "subject": "Chemistry",
+  "code": "0620/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering the Periodic Table, isotopes, electrolysis, metals, structure and bonding, transition elements, acids, and organic compounds.",
+  "type": "past",
+  "session": "Feb/March 2016",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Periodic Table & Isotopes",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The diagram shows part of the Periodic Table (Li, C, N, O, F, Ne, Al, Si, Cl, Ar, Ti, Cr, Fe, Cu, Zn, Ge, Br, Sn, I, Xe, Pb).\nWhich element forms 78% of the air?",
+          "keywords": [
+            [
+              "nitrogen",
+              "N",
+              "N2",
+              "N₂"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which element has an oxide which is a product of respiration?",
+          "keywords": [
+            [
+              "carbon",
+              "C",
+              "CO2",
+              "CO₂"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which element is used to make food containers because of its resistance to corrosion?",
+          "keywords": [
+            [
+              "aluminium",
+              "Al",
+              "aluminum"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which element forms an ion of type X³⁺?",
+          "keywords": [
+            [
+              "aluminium",
+              "Al",
+              "aluminum"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which element forms an ion whose aqueous solution forms a light blue precipitate on addition of a few drops of aqueous ammonia?",
+          "keywords": [
+            [
+              "copper",
+              "Cu",
+              "Cu2+",
+              "Cu²⁺"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calcium is an element with several naturally-occurring isotopes. What is the meaning of the term element?",
+          "keywords": [
+            [
+              "one type of atom",
+              "same type of atom",
+              "same atomic number",
+              "same number of protons",
+              "cannot be broken down",
+              "cannot be split",
+              "substance made of one type of atom"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 3,
+          "type": "fillblank",
+          "question": "Two isotopes of calcium are ⁴³₂₀Ca and ⁴⁸₂₀Ca. Complete the table to show the number of protons, neutrons and electrons in one atom of each isotope.",
+          "blanks": [
+            {
+              "id": "1",
+              "prompt": "⁴³Ca: protons",
+              "answer": "20",
+              "keywords": [
+                [
+                  "20"
+                ]
+              ]
+            },
+            {
+              "id": "2",
+              "prompt": "⁴³Ca: neutrons",
+              "answer": "23",
+              "keywords": [
+                [
+                  "23"
+                ]
+              ]
+            },
+            {
+              "id": "3",
+              "prompt": "⁴³Ca: electrons",
+              "answer": "20",
+              "keywords": [
+                [
+                  "20"
+                ]
+              ]
+            },
+            {
+              "id": "4",
+              "prompt": "⁴⁸Ca: protons",
+              "answer": "20",
+              "keywords": [
+                [
+                  "20"
+                ]
+              ]
+            },
+            {
+              "id": "5",
+              "prompt": "⁴⁸Ca: neutrons",
+              "answer": "28",
+              "keywords": [
+                [
+                  "28"
+                ]
+              ]
+            },
+            {
+              "id": "6",
+              "prompt": "⁴⁸Ca: electrons",
+              "answer": "20",
+              "keywords": [
+                [
+                  "20"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Determine the number of electrons in one calcium ion, Ca²⁺.",
+          "keywords": [
+            [
+              "18",
+              "eighteen"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Electrolysis & Halogens",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Molten potassium bromide can be electrolysed using graphite electrodes. Predict the products of this electrolysis at the:\npositive electrode (anode): ...\nnegative electrode (cathode): ...",
+          "keywords": [
+            [
+              "bromine",
+              "Br2",
+              "Br₂"
+            ],
+            [
+              "potassium",
+              "K",
+              "potassium metal"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why graphite electrodes are used in this electrolysis.",
+          "keywords": [
+            [
+              "conducts electricity",
+              "conductor",
+              "good conductor of electricity",
+              "electrical conductor"
+            ],
+            [
+              "inert",
+              "unreactive",
+              "does not react",
+              "chemically inert"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one other use of graphite.",
+          "keywords": [
+            [
+              "pencil",
+              "pencil lead",
+              "pencils"
+            ],
+            [
+              "lubricant",
+              "lubrication"
+            ],
+            [
+              "electrodes",
+              "electrode"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "When chlorine is bubbled through an aqueous solution of potassium bromide, the solution turns red-brown in colour. Which substance causes the red-brown colour?",
+          "keywords": [
+            [
+              "bromine",
+              "Br2",
+              "Br₂"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe what you would observe when an aqueous solution of potassium bromide is added to an acidified aqueous solution of silver nitrate.",
+          "keywords": [
+            [
+              "cream precipitate",
+              "cream ppt",
+              "pale yellow precipitate",
+              "off-white precipitate",
+              "cream solid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Silver nitrate decomposes when heated. One of the products is nitrogen dioxide. State one adverse effect of nitrogen dioxide on health.",
+          "keywords": [
+            [
+              "respiratory problems",
+              "breathing problems",
+              "asthma",
+              "lung damage",
+              "irritates lungs",
+              "respiratory"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Metals & Rate of Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "long",
+          "question": "Describe the reaction of sodium with cold water, and iron with steam. In your answer describe the products formed and any observations that can be made.",
+          "keywords": [
+            [
+              "sodium",
+              "Na",
+              "sodium with water"
+            ],
+            [
+              "hydrogen",
+              "H2",
+              "H₂",
+              "gas"
+            ],
+            [
+              "sodium hydroxide",
+              "NaOH",
+              "alkaline",
+              "alkali"
+            ],
+            [
+              "floats",
+              "moves",
+              "melts",
+              "ball",
+              "fizzing",
+              "effervescence"
+            ],
+            [
+              "iron",
+              "Fe",
+              "iron with steam"
+            ],
+            [
+              "iron oxide",
+              "Fe3O4",
+              "Fe₃O₄",
+              "metal oxide"
+            ],
+            [
+              "glows",
+              "hot",
+              "hydrogen produced"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "long",
+          "question": "Iron reacts with hydrochloric acid: Fe(s) + 2HCl(aq) → FeCl₂(aq) + H₂(g). Describe a practical method to investigate the rate of this reaction. You may draw a labelled diagram.",
+          "keywords": [
+            [
+              "measure volume",
+              "gas syringe",
+              "measuring cylinder",
+              "collect gas",
+              "inverted cylinder",
+              "inverted burette",
+              "inverted measuring cylinder",
+              "water trough"
+            ],
+            [
+              "measure time",
+              "stopwatch",
+              "timer",
+              "clock",
+              "time interval"
+            ],
+            [
+              "same mass",
+              "same amount",
+              "same surface area",
+              "same size"
+            ],
+            [
+              "record",
+              "reading",
+              "volume at intervals",
+              "plot graph"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "The experiment was repeated using different sized pieces of iron. Complete the table (rates: 25, 3, 10 cm³/min) by writing the sizes of the pieces in the first column.",
+          "keywords": [
+            [
+              "iron powder",
+              "powder"
+            ],
+            [
+              "small pieces",
+              "small"
+            ],
+            [
+              "large pieces",
+              "large"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "The graph shows the effect of temperature on the rate of the reaction of hydrochloric acid with iron. Describe the effect of temperature on the rate of this reaction.",
+          "keywords": [
+            [
+              "increases",
+              "faster",
+              "higher",
+              "greater",
+              "rate increases"
+            ],
+            [
+              "directly proportional",
+              "increases with temperature",
+              "positive correlation"
+            ],
+            [
+              "initially slow then faster",
+              "exponential",
+              "curve",
+              "upward slope",
+              "rate increases more rapidly at higher temperatures"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Determine the rate of reaction at 60°C from the graph.",
+          "keywords": [
+            [
+              "20",
+              "20 cm3/min",
+              "20cm3",
+              "about 20",
+              "20 cm3 hydrogen/min"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe how the concentration of hydrochloric acid affects the rate of its reaction with iron.",
+          "keywords": [
+            [
+              "increases",
+              "faster",
+              "higher",
+              "greater"
+            ],
+            [
+              "higher concentration",
+              "more concentrated",
+              "increases rate"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Structure, Bonding & Ammonia",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "long",
+          "question": "The structures of sodium chloride (giant ionic lattice) and nitrogen (N₂ molecules in a simple molecular lattice) are shown. Describe the structure and bonding of these two substances and the differences in their volatility and their electrical conductivity.",
+          "keywords": [
+            [
+              "ionic",
+              "ionic bonding",
+              "electrostatic",
+              "oppositely charged",
+              "electrostatic attraction",
+              "Na+ and Cl-"
+            ],
+            [
+              "covalent",
+              "covalent bonding",
+              "shared electrons",
+              "triple bond",
+              "N≡N"
+            ],
+            [
+              "giant lattice",
+              "regular",
+              "lattice",
+              "giant ionic"
+            ],
+            [
+              "simple molecular",
+              "small molecules",
+              "separate molecules",
+              "diatomic",
+              "N2 molecules"
+            ],
+            [
+              "high melting point",
+              "high boiling point",
+              "not volatile",
+              "low volatility",
+              "giant structure"
+            ],
+            [
+              "low melting point",
+              "low boiling point",
+              "volatile",
+              "easily vaporised"
+            ],
+            [
+              "conducts when molten",
+              "conducts when molten or aqueous",
+              "ions free to move",
+              "mobile ions"
+            ],
+            [
+              "does not conduct",
+              "no ions",
+              "no charged particles",
+              "no free electrons"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Ammonia is manufactured by reacting nitrogen with hydrogen using a catalyst. What is the purpose of the catalyst?",
+          "keywords": [
+            [
+              "speed up",
+              "increase rate",
+              "faster",
+              "rate",
+              "increases rate"
+            ],
+            [
+              "not used up",
+              "unchanged",
+              "remains unchanged",
+              "not consumed"
+            ],
+            [
+              "lower activation energy",
+              "lower Ea",
+              "alternative pathway"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation: N₂ + ...H₂ → ...NH₃",
+          "keywords": [
+            [
+              "3",
+              "3 H2",
+              "3H2",
+              "3H₂"
+            ],
+            [
+              "2",
+              "2 NH3",
+              "2NH3",
+              "2NH₃"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the electronic structure of a molecule of ammonia. Show only the outer electrons. (NH₃ with N having one lone pair and three bonding pairs shared with H.)",
+          "keywords": [
+            [
+              "lone pair",
+              "2 electrons",
+              "one lone pair",
+              "pair of electrons on nitrogen"
+            ],
+            [
+              "shared pairs",
+              "3 bonds",
+              "3 covalent bonds",
+              "3 pairs of electrons shared"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iv)",
+          "marks": 2,
+          "type": "long",
+          "question": "Ammonia reacts with copper(II) oxide: 2NH₃ + 3CuO → 3Cu + 3H₂O + N₂. Which compound is reduced in this reaction? Explain your answer.",
+          "keywords": [
+            [
+              "copper oxide",
+              "CuO",
+              "copper(II) oxide"
+            ],
+            [
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost",
+              "O removed"
+            ],
+            [
+              "reduction",
+              "reduced",
+              "gain of electrons",
+              "oxidation state decreases"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Transition Elements & Salts",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "The table shows properties of cobalt, copper, magnesium and tin (heat conduction, density, melting point, strength). Which metal is the best to use for the base of a pan for cooking food? Use information in the table to give reasons for your answer.",
+          "keywords": [
+            [
+              "copper",
+              "Cu"
+            ],
+            [
+              "high heat conduction",
+              "good heat conductor",
+              "3.85"
+            ],
+            [
+              "high melting point",
+              "1083°C",
+              "high mp"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Which two metals in the table are transition elements? Use information in the table to give reasons for your answer.",
+          "keywords": [
+            [
+              "cobalt",
+              "Co"
+            ],
+            [
+              "copper",
+              "Cu"
+            ],
+            [
+              "high density",
+              "high melting point",
+              "high strength",
+              "hard",
+              "strong"
+            ],
+            [
+              "coloured compounds",
+              "colored compounds"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Which metal in the table is most likely to be used in an alloy for aircraft bodies? Use information in the table to give reasons for your answer.",
+          "keywords": [
+            [
+              "magnesium",
+              "Mg"
+            ],
+            [
+              "low density",
+              "light",
+              "lightweight",
+              "1.74 g/cm3"
+            ],
+            [
+              "strong",
+              "strong enough"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Some observations about the reactions of the four metals with hydrochloric acid are shown (cobalt: very slow bubbles; copper: no bubbles; magnesium: many bubbles rapidly; tin: steady stream of bubbles). Use the information to put these metals in order of reactivity.",
+          "keywords": [
+            [
+              "copper",
+              "Cu"
+            ],
+            [
+              "tin",
+              "Sn"
+            ],
+            [
+              "cobalt",
+              "Co"
+            ],
+            [
+              "magnesium",
+              "Mg"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "long",
+          "question": "Crystals of hydrated cobalt(II) sulfate, CoSO₄·7H₂O, can be made by reacting dilute sulfuric acid with insoluble cobalt carbonate. Describe how you could prepare a pure dry sample of cobalt(II) sulfate crystals from dilute sulfuric acid and cobalt(II) carbonate.",
+          "keywords": [
+            [
+              "add excess cobalt carbonate",
+              "add cobalt carbonate until no more reacts",
+              "add excess",
+              "until effervescence stops"
+            ],
+            [
+              "filter",
+              "filtration",
+              "remove excess",
+              "remove unreacted"
+            ],
+            [
+              "heat",
+              "evaporate",
+              "warm",
+              "heat gently",
+              "heat the filtrate",
+              "evaporate some water"
+            ],
+            [
+              "crystallise",
+              "crystallization",
+              "crystallisation",
+              "leave to cool",
+              "cool",
+              "crystals form"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "When heated, hydrated cobalt(II) sulfate forms an anhydrous salt in a reversible reaction. Complete the equation by inserting the sign for a reversible reaction: CoSO₄·7H₂O ⇌ CoSO₄ + 7H₂O",
+          "keywords": [
+            [
+              "reversible",
+              "⇌",
+              "equilibrium arrow",
+              "reversible arrow",
+              "⇋"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Suggest how you could use this reaction to test for the presence of water.",
+          "keywords": [
+            [
+              "add anhydrous cobalt sulfate",
+              "add anhydrous cobalt(II) sulfate",
+              "CoSO4"
+            ],
+            [
+              "blue to pink",
+              "blue to red",
+              "blue to pale red",
+              "dark blue to pale red",
+              "colour change from blue to pink",
+              "blue to pale red/pink"
+            ],
+            [
+              "water turns it pink",
+              "hydrated form is pink",
+              "anhydrous is blue",
+              "colour change"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Acids & Fermentation",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Citric acid is found in lemon juice. Describe how you could determine the pH of a solution of lemon juice using Universal Indicator.",
+          "keywords": [
+            [
+              "add universal indicator",
+              "universal indicator solution",
+              "universal indicator paper",
+              "dip UI paper"
+            ],
+            [
+              "compare colour",
+              "compare to chart",
+              "match colour",
+              "compare to pH scale",
+              "colour chart",
+              "pH colour chart"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of citric acid is shown. On the diagram, draw a ring around a carboxylic acid functional group.",
+          "keywords": [
+            [
+              "COOH",
+              "-COOH",
+              "carboxyl",
+              "carboxylic acid",
+              "CO₂H",
+              "acid group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of one other carboxylic acid.",
+          "keywords": [
+            [
+              "ethanoic acid",
+              "acetic acid",
+              "methanoic acid",
+              "formic acid",
+              "propanoic acid",
+              "butanoic acid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the word equation: citric acid + calcium carbonate → calcium citrate + ____ + ____",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2",
+              "CO₂"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest how you could separate the excess calcium carbonate from the rest of the solution.",
+          "keywords": [
+            [
+              "filtration",
+              "filter",
+              "filtering",
+              "filter paper"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "The energy level diagram for the reaction of citric acid with sodium hydrogen carbonate is shown (products at higher energy than reactants). Is this reaction exothermic or endothermic? Give a reason.",
+          "keywords": [
+            [
+              "endothermic",
+              "endothermic reaction"
+            ],
+            [
+              "products higher energy",
+              "products have more energy",
+              "energy absorbed",
+              "energy taken in",
+              "temperature decreases"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation for fermentation of glucose: C₆H₁₂O₆ → ...C₂H₅OH + ...CO₂",
+          "keywords": [
+            [
+              "2",
+              "2 C2H5OH"
+            ],
+            [
+              "2",
+              "2 CO2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "State two conditions needed for fermentation.",
+          "keywords": [
+            [
+              "yeast",
+              "enzyme",
+              "zymase"
+            ],
+            [
+              "warm",
+              "30°C",
+              "30-40°C",
+              "37°C",
+              "25-35°C",
+              "moderate temperature"
+            ],
+            [
+              "anaerobic",
+              "absence of oxygen",
+              "no oxygen",
+              "without oxygen",
+              "no air",
+              "absence of air"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the table to calculate the relative molecular mass of glucose (C₆H₁₂O₆).",
+          "keywords": [
+            [
+              "180",
+              "one hundred and eighty",
+              "180 g/mol"
+            ],
+            [
+              "72 + 12 + 96",
+              "6×12=72, 12×1=12, 6×16=96"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Rhenium & Metal Properties",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Rhenium is a metal. Describe three physical properties of rhenium.",
+          "keywords": [
+            [
+              "conducts electricity",
+              "electrical conductor",
+              "good electrical conductivity"
+            ],
+            [
+              "conducts heat",
+              "thermal conductor",
+              "thermal conductivity"
+            ],
+            [
+              "malleable",
+              "malleability",
+              "can be hammered"
+            ],
+            [
+              "ductile",
+              "ductility",
+              "drawn into wires"
+            ],
+            [
+              "shiny",
+              "lustrous",
+              "metallic lustre"
+            ],
+            [
+              "high melting point",
+              "high boiling point"
+            ],
+            [
+              "high density",
+              "dense"
+            ],
+            [
+              "sonorous"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of a rhenium chloride molecule is shown (Re₃Cl₉ cluster with bridging Cl atoms). Determine the simplest formula for this chloride of rhenium.",
+          "keywords": [
+            [
+              "ReCl3",
+              "ReCl₃"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Rhenium oxide is a yellow solid which undergoes sublimation at a low temperature. What is the meaning of the term sublimation?",
+          "keywords": [
+            [
+              "solid to gas",
+              "solid directly to gas",
+              "solid to vapour"
+            ],
+            [
+              "without liquid",
+              "without melting",
+              "skips liquid",
+              "bypasses liquid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Perrhenic acid is strongly acidic. Which one of the following pH values represents an acidic solution? Draw a circle around the correct answer.",
+          "options": [
+            "pH 2",
+            "pH 7",
+            "pH 9",
+            "pH 14"
+          ],
+          "answer": 0
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Perrhenic acid reacts with potassium hydroxide. Complete the word equation: perrhenic acid + potassium hydroxide → potassium perrhenate + ____",
+          "keywords": [
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(iii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Which one of the following compounds will react with perrhenic acid? Tick one box.",
+          "options": [
+            "ethane",
+            "hydrochloric acid",
+            "potassium carbonate",
+            "sodium chloride"
+          ],
+          "answer": 2
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Potassium perrhenate has a similar formula to potassium manganate(VII). Potassium manganate(VII) decomposes to give off oxygen. Describe a test for oxygen.\ntest: ...\nresult: ...",
+          "keywords": [
+            [
+              "glowing splint",
+              "glowing splint",
+              "lighted splint",
+              "glowing taper"
+            ],
+            [
+              "relights",
+              "rekindles",
+              "reignites",
+              "glows brighter",
+              "bursts into flame"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

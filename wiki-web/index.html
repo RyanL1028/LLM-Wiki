@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="PVpMGvC5IxB6HTCGXpfYxbIMX9e6ZT_kZVnd1Q3KwSk" />
+<title>Smart Study Wikipediapedia</title>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<style>
+:root {
+  --bg: #ffffff; --surface: #f8f9fa; --border: #a2a9b1; --text: #202122;
+  --muted: #54595d; --link: #0645ad; --link-visited: #663366;
+  --accent-light: #eaf3ff; --sidebar-w: 260px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --font-serif: 'Georgia', 'Linux Libertine', 'Times New Roman', serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+body.dark {
+  --bg: #1a1a1a; --surface: #2d2d2d; --border: #555; --text: #ddd;
+  --muted: #aaa; --link: #8cb4ff; --link-visited: #c09cff; --accent-light: #1e2a3a;
+  --shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+
+/* ===== Top Chrome Bar ===== */
+.chrome { background: var(--surface); border-bottom: 1px solid var(--border); padding: 8px 16px; display: flex; align-items: center; gap: 12px; position: sticky; top: 0; z-index: 20; }
+.chrome-menu { background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text); padding: 4px 8px; display: flex; align-items: center; }
+.chrome-logo { display: flex; align-items: center; gap: 6px; text-decoration: none; color: var(--text); font-variant: small-caps; font-family: var(--font-serif); font-size: 1.1rem; letter-spacing: 0.03em; white-space: nowrap; }
+.chrome-logo-icon { width: 36px; height: 36px; background: var(--link); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.85rem; font-weight: 700; font-family: var(--font-sans); font-variant: normal; }
+.chrome-search-wrap { flex: 1; max-width: 500px; margin: 0 auto; position: relative; }
+.chrome-search-wrap input { width: 100%; padding: 8px 14px 8px 36px; border: 1px solid var(--border); border-radius: 2px; font-size: 0.85rem; background: var(--bg); color: var(--text); outline: none; font-family: var(--font-sans); }
+.chrome-search-wrap input:focus { border-color: var(--link); box-shadow: inset 0 0 0 1px var(--link); }
+.chrome-search-wrap .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 0.9rem; pointer-events: none; }
+.search-dropdown { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--surface); border: 1px solid var(--border); border-top: none; border-radius: 0 0 4px 4px; max-height: 420px; overflow-y: auto; z-index: 30; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+.search-dropdown.open { display: block; }
+.search-result { display: block; padding: 10px 14px; border-bottom: 1px solid var(--border); cursor: pointer; text-decoration: none; color: var(--text); }
+.search-result:hover, .search-result.active { background: var(--hover); }
+.search-result:last-child { border-bottom: none; }
+.search-result .sr-title { font-size: 0.9rem; font-weight: 600; }
+.search-result .sr-title em { color: var(--link); font-style: normal; }
+.search-result .sr-meta { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+.search-result .sr-tags { font-size: 0.68rem; color: var(--muted); margin-top: 2px; }
+.search-result .sr-tags span { background: var(--hover); padding: 1px 5px; border-radius: 3px; margin-right: 3px; }
+.search-empty { padding: 16px; text-align: center; color: var(--muted); font-size: 0.85rem; }
+.chrome-theme { background: none; border: 1px solid var(--border); border-radius: 2px; padding: 5px 10px; font-size: 0.75rem; cursor: pointer; color: var(--muted); font-family: var(--font-sans); white-space: nowrap; }
+.chrome-link { color: var(--link); text-decoration: none; font-size: 0.8rem; white-space: nowrap; }
+.chrome-link:hover { text-decoration: underline; }
+
+/* ===== Sidebar overlay ===== */
+.sidebar-backdrop { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.4); z-index: 25; }
+.sidebar-backdrop.open { display: block; }
+.sidebar { position: fixed; top: 0; left: 0; bottom: 0; width: var(--sidebar-w); background: var(--surface); border-right: 1px solid var(--border); z-index: 30; display: flex; flex-direction: column; transform: translateX(-100%); transition: transform 0.2s; }
+.sidebar.open { transform: translateX(0); }
+.sidebar-close { position: absolute; top: 8px; right: 12px; background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--muted); }
+.sidebar-logo { padding: 20px 18px 12px; font-family: var(--font-serif); font-size: 1rem; font-variant: small-caps; letter-spacing: 0.03em; color: var(--text); border-bottom: 1px solid var(--border); }
+.sidebar-nav { flex: 1; overflow-y: auto; padding: 8px 0; }
+.sidebar-section { padding: 6px 18px; font-size: 0.7rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 8px; }
+
+/* ===== Tree in sidebar ===== */
+.tree-item { cursor: pointer; user-select: none; }
+.tree-row { display: flex; align-items: center; padding: 3px 18px; font-size: 0.8rem; color: var(--text); transition: background 0.1s; gap: 4px; }
+.tree-row:hover { background: var(--accent-light); }
+.tree-row.active { background: var(--accent-light); color: var(--link); font-weight: 600; }
+.tree-arrow { width: 14px; font-size: 0.55rem; color: var(--muted); flex-shrink: 0; text-align: center; transition: transform 0.15s; }
+.tree-arrow.open { transform: rotate(90deg); }
+.tree-bullet { width: 14px; font-size: 0.45rem; color: var(--muted); flex-shrink: 0; text-align: center; }
+.tree-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tree-children { display: none; }
+.tree-children.open { display: block; }
+.tree-children .tree-row { padding-left: 32px; }
+.tree-children .tree-children .tree-row { padding-left: 46px; }
+
+/* ===== Main Content ===== */
+.main { max-width: 860px; margin: 0 auto; padding: 24px 24px 60px; }
+.main-empty { text-align: center; padding: 100px 20px; color: var(--muted); }
+.main-empty .empty-logo { font-size: 4rem; margin-bottom: 16px; }
+.main-empty h2 { font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 8px; color: var(--text); font-weight: 400; border-bottom: 1px solid var(--border); padding-bottom: 10px; display: inline-block; }
+.main-empty p { font-size: 0.9rem; margin-top: 10px; }
+.main-empty .empty-links { margin-top: 20px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.main-empty .empty-links a { color: var(--link); text-decoration: none; font-size: 0.9rem; }
+.main-empty .empty-links a:hover { text-decoration: underline; }
+
+/* ===== Homepage Sections ===== */
+.home-sections { max-width: 860px; margin: 0 auto; }
+.home-hero { text-align: center; padding: 40px 20px 30px; }
+.home-hero .hero-logo { font-size: 3.5rem; margin-bottom: 10px; }
+.home-hero h2 { font-family: var(--font-serif); font-size: 1.8rem; font-weight: 400; color: var(--text); margin-bottom: 6px; }
+.home-hero .hero-subtitle { font-size: 0.9rem; color: var(--muted); margin-bottom: 4px; }
+.home-hero .hero-count { font-size: 0.8rem; color: var(--muted); }
+
+.home-section { margin: 0 0 32px; }
+.home-section-title { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 400; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 6px; margin-bottom: 14px; }
+
+/* Latest concepts - compact list */
+.latest-list { display: flex; flex-direction: column; gap: 2px; }
+.latest-item { display: flex; align-items: baseline; gap: 12px; padding: 6px 8px; border-radius: 2px; text-decoration: none; color: var(--text); transition: background 0.1s; }
+.latest-item:hover { background: var(--accent-light); }
+.latest-item .latest-title { color: var(--link); font-size: 0.9rem; white-space: nowrap; min-width: 0; }
+.latest-item .latest-title:hover { text-decoration: underline; }
+.latest-item .latest-summary { color: var(--muted); font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+.latest-item .latest-date { color: var(--muted); font-size: 0.7rem; white-space: nowrap; margin-left: auto; }
+
+/* Featured articles - simple link list */
+.featured-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; }
+.featured-card { display: block; padding: 10px 14px; border: 1px solid var(--border); border-radius: 2px; text-decoration: none; color: var(--link); font-size: 0.88rem; transition: background 0.1s; }
+.featured-card:hover { background: var(--accent-light); text-decoration: underline; }
+.featured-card .feat-desc { color: var(--muted); font-size: 0.75rem; margin-top: 2px; }
+
+/* Subject cards */
+.subject-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.subject-card { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 2px; text-decoration: none; color: var(--text); transition: background 0.1s; }
+.subject-card:hover { background: var(--accent-light); }
+.subject-card .subj-icon { font-size: 1.8rem; width: 44px; text-align: center; flex-shrink: 0; }
+.subject-card .subj-name { font-size: 0.9rem; color: var(--link); font-weight: 500; }
+.subject-card .subj-count { font-size: 0.75rem; color: var(--muted); }
+
+/* ===== Wikipedia-style Article ===== */
+.wiki-article {}
+.wiki-title { font-family: var(--font-serif); font-size: 1.8rem; font-weight: 400; color: var(--text); margin-bottom: 2px; line-height: 1.3; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.wiki-subtitle { font-size: 0.85rem; color: var(--muted); margin-bottom: 16px; }
+.wiki-toc { background: var(--surface); border: 1px solid var(--border); padding: 12px 18px; margin: 16px 0 24px; font-size: 0.85rem; display: inline-block; min-width: 260px; }
+.wiki-toc-title { font-weight: 700; margin-bottom: 6px; }
+.wiki-toc ol { margin: 0; padding-left: 22px; }
+.wiki-toc li { margin: 2px 0; }
+.wiki-toc a { color: var(--link); text-decoration: none; }
+.wiki-toc a:hover { text-decoration: underline; }
+.wiki-toc .toc-h2 { font-weight: 500; }
+.wiki-toc .toc-h3 { padding-left: 14px; font-size: 0.82rem; }
+
+.wiki-content h2 { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 400; margin: 24px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--border); color: var(--text); }
+.wiki-content h3 { font-family: var(--font-sans); font-size: 1.05rem; font-weight: 700; margin: 18px 0 6px; color: var(--text); }
+.wiki-content h4 { font-family: var(--font-sans); font-size: 0.95rem; font-weight: 700; margin: 14px 0 4px; color: var(--text); }
+.wiki-content p { line-height: 1.65; margin-bottom: 10px; }
+.wiki-content a { color: var(--link); text-decoration: none; }
+.wiki-content a:hover { text-decoration: underline; }
+.wiki-content ul, .wiki-content ol { margin: 6px 0 12px; padding-left: 24px; }
+.wiki-content li { line-height: 1.6; margin-bottom: 2px; }
+.wiki-content hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+.wiki-content code { background: var(--surface); padding: 1px 5px; border-radius: 2px; font-size: 0.9em; border: 1px solid var(--border); }
+.wiki-content pre { background: var(--surface); border: 1px solid var(--border); padding: 12px 16px; overflow-x: auto; margin: 10px 0; font-size: 0.85rem; line-height: 1.5; }
+.wiki-meta { color: var(--muted); font-size: 0.78rem; margin-bottom: 8px; }
+.wiki-meta span { margin-right: 16px; }
+.wiki-meta strong { color: var(--text); }
+.wikilink { color: var(--link); cursor: pointer; }
+.wikilink:hover { text-decoration: underline; }
+.wikilink.broken { color: #ba0000; }
+.wikilink.broken:hover { text-decoration: none; cursor: default; }
+.wiki-redirect { font-style: italic; color: var(--muted); margin-bottom: 16px; }
+.wiki-related { margin: 24px 0 16px; padding: 16px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; }
+.wiki-related h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 10px; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.wiki-related ul { list-style: none; padding: 0; }
+.wiki-related li { padding: 5px 0; font-size: 0.85rem; }
+.wiki-related li a { color: var(--link); }
+.wiki-related li a:hover { text-decoration: underline; }
+.related-summary { color: var(--muted); font-size: 0.78rem; display: block; margin-left: 0; }
+
+/* Info box / definition card */
+.wiki-infobox { background: var(--accent-light); border: 1px solid #a2c4f0; border-radius: 6px; padding: 16px 20px; margin: 16px 0 24px; font-size: 0.9rem; }
+.wiki-infobox-title { font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--link); margin-bottom: 6px; }
+.wiki-infobox p { margin-bottom: 4px; }
+body.dark .wiki-infobox { background: #1a2740; border-color: #2a3a5a; }
+
+/* Summary definition box */
+.wiki-summary-box { background: linear-gradient(135deg, #f0f9ff, #ecfdf5); border: 1px solid #bae6fd; border-left: 4px solid var(--accent); border-radius: 6px; padding: 16px 20px; margin: 12px 0 20px; }
+.wiki-summary-box p { font-size: 0.95rem; color: #0f172a; line-height: 1.7; margin: 0; }
+.wiki-summary-box p strong { color: var(--text); }
+body.dark .wiki-summary-box { background: linear-gradient(135deg, #0f1a2e, #0a1f1a); border-color: #1e3a5f; }
+body.dark .wiki-summary-box p { color: #cbd5e1; }
+
+/* Tables */
+.wiki-content table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.88rem; }
+.wiki-content thead th { background: var(--surface); border: 1px solid var(--border); padding: 10px 14px; text-align: left; font-weight: 600; color: var(--text); }
+.wiki-content tbody td { border: 1px solid var(--border); padding: 8px 14px; }
+.wiki-content tbody tr:nth-child(even) { background: var(--surface); }
+.wiki-content tbody tr:hover { background: var(--accent-light); }
+
+/* Blockquote */
+.wiki-content blockquote { border-left: 4px solid var(--accent); margin: 14px 0; padding: 8px 18px; background: var(--surface); border-radius: 0 4px 4px 0; color: var(--muted); font-style: italic; }
+
+/* Images */
+.wiki-content img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
+
+/* Tag pills in meta */
+.wiki-tags { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 12px; }
+.wiki-tag { display: inline-block; background: var(--accent-light); color: var(--link); padding: 2px 10px; border-radius: 12px; font-size: 0.72rem; font-weight: 500; border: 1px solid #bfdbfe; }
+body.dark .wiki-tag { background: #1e3a5f; border-color: #2a3a5a; color: #93c5fd; }
+
+/* Key-value definition list */
+.wiki-content dl { margin: 12px 0; }
+.wiki-content dt { font-weight: 700; color: var(--text); margin-top: 10px; }
+.wiki-content dd { margin-left: 20px; color: var(--muted); margin-bottom: 6px; line-height: 1.6; }
+
+/* Footer */
+.wiki-footer { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 0.75rem; color: var(--muted); }
+.wiki-footer a { color: var(--link); text-decoration: none; }
+.wiki-footer a:hover { text-decoration: underline; }
+
+/* Back to top */
+.wiki-back-top { display: none; position: fixed; bottom: 24px; right: 24px; width: 40px; height: 40px; background: var(--accent); color: #fff; border: none; border-radius: 50%; font-size: 1.2rem; cursor: pointer; box-shadow: var(--shadow); z-index: 10; transition: opacity 0.2s; }
+.wiki-back-top.visible { display: block; }
+.wiki-footer { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 0.75rem; color: var(--muted); }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .chrome-logo span { display: none; }
+  .chrome-link { display: none; }
+  .sidebar { width: 100%; }
+  .main { padding: 16px; }
+  .wiki-title { font-size: 1.4rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- Chrome bar -->
+<header class="chrome">
+  <button class="chrome-menu" onclick="toggleSidebar()" title="Menu">☰</button>
+  <a href="#" class="chrome-logo" onclick="goHome();return false">
+    <span class="chrome-logo-icon">W</span>
+    <span>SmartStudy Wiki</span>
+  </a>
+  <div class="chrome-search-wrap">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="search" placeholder="Search 393 pages..." oninput="searchPages()" onfocus="searchPages()" onkeydown="searchKey(event)" autocomplete="off">
+    <div class="search-dropdown" id="search-dropdown"></div>
+  </div>
+  <a href="https://ryanl1028.github.io/smart-study/" class="chrome-link" target="_blank">Study App</a>
+  <a href="https://smartchatter.web.app/#chats" class="chrome-link" target="_blank">Chat</a>
+  <button class="chrome-theme" onclick="toggleTheme()">Light/Dark</button>
+</header>
+
+<!-- Sidebar backdrop -->
+<div class="sidebar-backdrop" id="sidebar-backdrop" onclick="toggleSidebar()"></div>
+
+<!-- Sidebar -->
+<aside class="sidebar" id="sidebar">
+  <button class="sidebar-close" onclick="toggleSidebar()">✕</button>
+  <div class="sidebar-logo">SmartStudy Wiki</div>
+  <div class="sidebar-section">Contents</div>
+  <nav class="sidebar-nav" id="tree-nav"></nav>
+</aside>
+
+<!-- Main content -->
+<main class="main" id="main-content">
+  <div class="main-empty">
+    <div class="empty-logo">📚</div>
+    <h2>Smart Study Wikipedia</h2>
+    <p>The free knowledge base for IGCSE Computer Science, Chemistry, Physics, and MUN.</p>
+    <p style="font-size:0.82rem;color:var(--muted)">393 pages — Select an article from the sidebar (☰) or search above.</p>
+    <div class="empty-links">
+      <a href="#wiki/CS-Index.md">Computer Science</a>
+      <a href="#wiki/Chem-Index.md">Chemistry</a>
+      <a href="#wiki/Bio-Index.md">Biology</a>
+      <a href="#wiki/Phys-Index.md">Physics</a>
+      <a href="#wiki/MUN-Index.md">MUN</a>
+      <a href="#wiki/Sci-Index.md">Basic Science</a>
+    </div>
+  </div>
+</main>
+
+<!-- Suggest Edit Modal -->
+<div id="suggest-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:100;justify-content:center;align-items:center">
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:24px;max-width:500px;width:90%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.3)">
+    <h3 style="margin-bottom:4px;color:var(--text)">Suggest an Edit</h3>
+    <p style="font-size:0.8rem;color:var(--muted);margin-bottom:12px" id="suggest-page-label"></p>
+    <label style="display:block;font-size:0.8rem;font-weight:600;margin-bottom:4px;color:var(--text)">Your Name (optional)</label>
+    <input id="suggest-name" placeholder="Anonymous" style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:4px;margin-bottom:12px;font:0.85rem sans-serif;background:var(--bg);color:var(--text)">
+    <label style="display:block;font-size:0.8rem;font-weight:600;margin-bottom:4px;color:var(--text)">What should be changed?</label>
+    <textarea id="suggest-text" placeholder="Describe the edit or paste corrected text here..." style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:4px;min-height:120px;font:0.85rem sans-serif;resize:vertical;background:var(--bg);color:var(--text);margin-bottom:12px"></textarea>
+    <div id="suggest-msg" style="font-size:0.78rem;margin-bottom:8px"></div>
+    <div style="display:flex;gap:8px;justify-content:flex-end">
+      <button onclick="document.getElementById('suggest-modal').style.display='none'" style="padding:8px 16px;border:1px solid var(--border);border-radius:4px;background:var(--bg);color:var(--text);cursor:pointer;font:0.85rem sans-serif">Cancel</button>
+      <button onclick="submitSuggestion()" style="padding:8px 16px;border:none;border-radius:4px;background:var(--link);color:#fff;cursor:pointer;font:0.85rem sans-serif;font-weight:600">Submit Suggestion</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Firebase init (shared project)
+firebase.initializeApp({
+  apiKey: "AIzaSyCgT3hxSk7o8M2KXwXoN1FhXqXN9qYHhXk",
+  authDomain: "smart-study-site.firebaseapp.com",
+  projectId: "smart-study-site",
+  storageBucket: "smart-study-site.appspot.com"
+});
+const db = firebase.firestore();
+
+// State
+let treeData = null;
+let currentPath = null;
+
+// Theme
+(function() {
+  const saved = localStorage.getItem('llmwiki_wiki_theme');
+  if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.body.classList.add('dark');
+  }
+})();
+
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+  localStorage.setItem('llmwiki_wiki_theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+}
+
+// Sidebar toggle
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('sidebar-backdrop').classList.toggle('open');
+}
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebar-backdrop').classList.remove('open');
+}
+
+// Go home
+async function goHome() {
+  const main = document.getElementById('main-content');
+  window.location.hash = '';
+  document.querySelectorAll('.tree-row.active').forEach(r => r.classList.remove('active'));
+
+  main.innerHTML = '<div style="text-align:center;padding:80px;color:var(--muted)">Loading...</div>';
+
+  try {
+    const res = await fetch('data/home.json');
+    const home = await res.json();
+
+    let html = '<div class="home-sections">';
+
+    // Hero
+    html += '<div class="home-hero">';
+    html += '<div class="hero-logo">📚</div>';
+    html += '<h2>Smart Study Wikipedia</h2>';
+    html += '<p class="hero-subtitle">The free knowledge base for IGCSE Computer Science, Chemistry, Physics, and MUN.</p>';
+    html += '<p class="hero-count">' + home.totalPages + ' pages — Select an article from the sidebar (☰) or search above.</p>';
+    html += '</div>';
+
+    // Latest concepts
+    if (home.latest && home.latest.length) {
+      html += '<div class="home-section">';
+      html += '<h3 class="home-section-title">Latest Concepts</h3>';
+      html += '<div class="latest-list">';
+      home.latest.forEach(p => {
+        let date = p.updated ? p.updated.split('T')[0] : '';
+        html += '<a class="latest-item" href="#wiki/' + encodeURIComponent(p.path) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(p.path) + '\')">';
+        html += '<span class="latest-title">' + esc(p.title) + '</span>';
+        html += '<span class="latest-summary">' + esc(p.summary || '') + '</span>';
+        html += date ? '<span class="latest-date">' + esc(date) + '</span>' : '';
+        html += '</a>';
+      });
+      html += '</div></div>';
+    }
+
+    // Featured articles
+    if (home.featured && home.featured.length) {
+      html += '<div class="home-section">';
+      html += '<h3 class="home-section-title">Featured</h3>';
+      html += '<div class="featured-grid">';
+      home.featured.forEach(p => {
+        html += '<a class="featured-card" href="#wiki/' + encodeURIComponent(p.path) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(p.path) + '\')">';
+        html += '<div>' + esc(p.title) + '</div>';
+        html += '<div class="feat-desc">' + esc(p.summary || p.path) + '</div>';
+        html += '</a>';
+      });
+      html += '</div></div>';
+    }
+
+    // Browse by subject
+    if (home.subjects && home.subjects.length) {
+      html += '<div class="home-section">';
+      html += '<h3 class="home-section-title">Browse by Subject</h3>';
+      html += '<div class="subject-grid">';
+      home.subjects.forEach(s => {
+        html += '<a class="subject-card" href="#' + escAttr(s.link) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(s.link.replace('wiki/', '')) + '\')">';
+        html += '<span class="subj-icon">' + esc(s.icon) + '</span>';
+        html += '<div><div class="subj-name">' + esc(s.name) + '</div>';
+        html += '<div class="subj-count">' + esc(String(s.count)) + ' pages</div></div>';
+        html += '</a>';
+      });
+      html += '</div></div>';
+    }
+
+    html += '</div>';
+    main.innerHTML = html;
+  } catch (e) {
+    // Fallback static content
+    main.innerHTML = '<div class="main-empty">' +
+      '<div class="empty-logo">📚</div>' +
+      '<h2>Smart Study Wikipedia</h2>' +
+      '<p>The free knowledge base for IGCSE Computer Science, Chemistry, Physics, and MUN.</p>' +
+      '<p style="font-size:0.82rem;color:var(--muted)">Select an article from the sidebar (☰) or search above.</p>' +
+      '<div class="empty-links">' +
+      '<a href="#wiki/CS-Index.md">Computer Science</a> ' +
+      '<a href="#wiki/Chem-Index.md">Chemistry</a> ' +
+      '<a href="#wiki/Bio-Index.md">Biology</a> ' +
+      '<a href="#wiki/Phys-Index.md">Physics</a> ' +
+      '<a href="#wiki/MUN-Index.md">MUN</a> ' +
+      '<a href="#wiki/Sci-Index.md">Basic Science</a>' +
+      '</div></div>';
+  }
+}
+
+let searchData = [];
+
+// Load tree
+async function init() {
+  const [treeRes, searchRes] = await Promise.all([
+    fetch('data/tree.json'),
+    fetch('data/search-index.json')
+  ]);
+  treeData = await treeRes.json();
+  searchData = await searchRes.json();
+  renderTree(treeData.children, document.getElementById('tree-nav'));
+
+  if (window.location.hash && window.location.hash.startsWith('#wiki/')) {
+    const path = decodeURIComponent(window.location.hash.slice(1));
+    loadPage(path);
+  } else {
+    goHome();
+  }
+}
+
+function renderTree(children, container, level) {
+  level = level || 0;
+  children.forEach(node => {
+    const div = document.createElement('div');
+    div.className = 'tree-item';
+    div.dataset.path = node.path;
+    div.dataset.name = node.name.toLowerCase();
+
+    const row = document.createElement('div');
+    row.className = 'tree-row';
+    row.style.paddingLeft = (18 + level * 14) + 'px';
+
+    if (node.type === 'dir') {
+      row.innerHTML = '<span class="tree-arrow">▶</span><span class="tree-bullet">●</span><span class="tree-name">' + esc(node.name) + '</span>';
+      row.onclick = function(e) {
+        e.stopPropagation();
+        const arrow = this.querySelector('.tree-arrow');
+        const childContainer = this.parentNode.querySelector('.tree-children');
+        arrow.classList.toggle('open');
+        if (childContainer) childContainer.classList.toggle('open');
+      };
+    } else {
+      row.innerHTML = '<span style="width:14px;flex-shrink:0"></span><span class="tree-bullet">●</span><span class="tree-name">' + esc(node.name) + '</span>';
+      row.onclick = function(e) {
+        e.stopPropagation();
+        loadPage(node.path);
+        closeSidebar();
+        document.querySelectorAll('.tree-row.active').forEach(r => r.classList.remove('active'));
+        this.classList.add('active');
+      };
+    }
+
+    div.appendChild(row);
+    container.appendChild(div);
+
+    if (node.children) {
+      const childDiv = document.createElement('div');
+      childDiv.className = 'tree-children';
+      renderTree(node.children, childDiv, level + 1);
+      div.appendChild(childDiv);
+    }
+  });
+}
+
+function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// Search pages by title, tags, summary, and path
+let searchIdx = -1;
+
+function highlight(text, q) {
+  if (!q) return esc(text);
+  const words = q.split(/\s+/).filter(w => w.length > 0);
+  let out = esc(text);
+  for (const w of words) {
+    const re = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    out = out.replace(re, '<em>$1</em>');
+  }
+  return out;
+}
+
+function searchPages() {
+  const q = document.getElementById('search').value.trim();
+  const dd = document.getElementById('search-dropdown');
+  searchIdx = -1;
+
+  if (!q) {
+    dd.classList.remove('open');
+    dd.innerHTML = '';
+    // Also clear tree filter
+    document.querySelectorAll('.tree-item').forEach(item => item.style.display = '');
+    return;
+  }
+
+  const ql = q.toLowerCase();
+  const words = ql.split(/\s+/).filter(w => w.length > 0);
+
+  // Score pages: title match > tag match > summary match > path match
+  let results = [];
+  for (const p of searchData) {
+    let score = 0;
+    const title = (p.title || '').toLowerCase();
+    const summary = (p.summary || '').toLowerCase();
+    const tags = (p.tags || []).join(' ').toLowerCase();
+    const path = (p.path || '').toLowerCase();
+
+    for (const w of words) {
+      if (title.includes(w)) score += 100;
+      else if (tags.includes(w)) score += 50;
+      else if (summary.includes(w)) score += 20;
+      else if (path.includes(w)) score += 10;
+    }
+    // Bonus for exact title match
+    if (title === ql) score += 200;
+
+    if (score > 0) {
+      results.push({ ...p, score });
+    }
+  }
+
+  results.sort((a, b) => b.score - a.score);
+  results = results.slice(0, 20);
+
+  if (results.length === 0) {
+    dd.innerHTML = '<div class="search-empty">No pages found matching "' + esc(q) + '"</div>';
+  } else {
+    dd.innerHTML = results.map((r, i) => {
+      return '<a class="search-result' + (i === 0 ? ' active' : '') + '" href="#wiki/' + encodeURIComponent(r.path) + '" data-path="' + escAttr(r.path) + '" data-idx="' + i + '" onclick="event.preventDefault();loadPage(\'' + escAttr(r.path) + '\');document.getElementById(\'search-dropdown\').classList.remove(\'open\');document.getElementById(\'search\').blur()">' +
+        '<div class="sr-title">' + highlight(r.title, q) + '</div>' +
+        (r.summary ? '<div class="sr-meta">' + highlight(r.summary, q) + '</div>' : '') +
+        (r.tags.length ? '<div class="sr-tags">' + r.tags.slice(0, 5).map(t => '<span>' + esc(t) + '</span>').join('') + '</div>' : '') +
+        '</a>';
+    }).join('');
+  }
+  dd.classList.add('open');
+  // Keep tree filtering as secondary
+  filterTreeSidebar(q);
+}
+
+function filterTreeSidebar(ql) {
+  document.querySelectorAll('.tree-item').forEach(item => {
+    const name = item.dataset.name || '';
+    const path = item.dataset.path || '';
+    if (!ql || name.includes(ql) || path.toLowerCase().includes(ql)) {
+      item.style.display = '';
+      let p = item.parentNode;
+      while (p) {
+        if (p.classList.contains('tree-children')) { p.classList.add('open'); const arrow = p.parentNode.querySelector('.tree-arrow'); if (arrow) arrow.classList.add('open'); }
+        p = p.parentNode;
+      }
+    } else {
+      item.style.display = 'none';
+    }
+  });
+}
+
+function searchKey(e) {
+  const dd = document.getElementById('search-dropdown');
+  const results = dd.querySelectorAll('.search-result');
+  if (!dd.classList.contains('open') || results.length === 0) return;
+
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    searchIdx = Math.min(searchIdx + 1, results.length - 1);
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    searchIdx = Math.max(searchIdx - 1, 0);
+  } else if (e.key === 'Enter') {
+    e.preventDefault();
+    if (searchIdx >= 0 && results[searchIdx]) {
+      const path = results[searchIdx].dataset.path;
+      loadPage(path);
+      dd.classList.remove('open');
+      document.getElementById('search').blur();
+    }
+    return;
+  } else if (e.key === 'Escape') {
+    dd.classList.remove('open');
+    document.getElementById('search').blur();
+    return;
+  }
+  results.forEach((r, i) => r.classList.toggle('active', i === searchIdx));
+}
+
+// Close search dropdown when clicking outside
+document.addEventListener('click', function(e) {
+  const wrap = document.querySelector('.chrome-search-wrap');
+  if (wrap && !wrap.contains(e.target)) {
+    document.getElementById('search-dropdown').classList.remove('open');
+  }
+});
+
+// Load and render page
+async function loadPage(path) {
+  currentPath = path;
+  window.location.hash = '#wiki/' + encodeURIComponent(path);
+  const main = document.getElementById('main-content');
+  main.innerHTML = '<div style="text-align:center;padding:60px;color:var(--muted)">Loading...</div>';
+
+  try {
+    const res = await fetch('wiki/' + path);
+    if (!res.ok) throw new Error('Not found');
+    const md = await res.text();
+    const { title, metaHtml, bodyHtml, tocHtml, lastUpdated } = renderMarkdown(md);
+    const pageName = path.replace(/\.md$/, '').replace(/.*\//, '');
+    main.innerHTML = `
+      <article class="wiki-article">
+        <h1 class="wiki-title">${title || pageName}</h1>
+        <div class="wiki-subtitle">From Smart Study Wikipedia${lastUpdated ? ' &middot; <strong>Last updated:</strong> ' + esc(lastUpdated) : ''}</div>
+        ${tocHtml}
+        ${metaHtml ? '<div class="wiki-meta">' + metaHtml + '</div>' : ''}
+        <div class="wiki-content">${bodyHtml}</div>
+        ${renderRelatedPages(path)}
+        <div class="wiki-footer">Page: ${esc(path)} &middot; <a href="javascript:void(0)" onclick="openSuggest('${escAttr(path)}')">Suggest Edit</a> &middot; <a href="https://smart-study-wiki.web.app/">Smart Study Wikipedia</a></div>
+      </article>`;
+  } catch (e) {
+    main.innerHTML = '<div class="main-empty"><h2>Page not found</h2><p>' + esc(path) + '</p><p style="margin-top:12px"><a href="#" onclick="goHome();return false">Return to main page</a></p></div>';
+  }
+}
+
+// Wikipedia-style markdown renderer
+function renderMarkdown(md) {
+  let lines = md.split('\n');
+  let title = '';
+  let metaHtml = '';
+  let lastUpdated = '';
+  let bodyHtml = '';
+  let inList = false, listType = '';
+  let tocItems = []; // {level, text, id}
+  let contentStart = 0;
+
+  function closeList() {
+    if (inList) { bodyHtml += '</' + listType + '>'; inList = false; listType = ''; }
+  }
+
+  // Extract title and metadata from preamble
+  for (let i = 0; i < Math.min(lines.length, 12); i++) {
+    let t = lines[i].trim();
+    if (t.startsWith('# ') && !title) {
+      title = t.slice(2);
+      contentStart = Math.max(contentStart, i + 1);
+    } else if (t === '---') {
+      contentStart = Math.max(contentStart, i + 1);
+      break;
+    } else {
+      let m = t.match(/^\*\*(Summary|Tags|Created|Last Updated)\*\*:\s*(.+)/);
+      if (m) {
+        metaHtml += '<span><strong>' + esc(m[1]) + '</strong>: ' + esc(m[2]) + '</span> ';
+        if (m[1] === 'Last Updated') lastUpdated = m[2];
+        contentStart = Math.max(contentStart, i + 1);
+      }
+    }
+  }
+
+  for (let i = contentStart; i < lines.length; i++) {
+    let line = lines[i];
+    let trimmed = line.trim();
+
+    // Skip empty
+    if (!trimmed) { closeList(); continue; }
+
+    // Skip the title line if we already extracted it
+    if (trimmed.startsWith('# ') && !title) { title = trimmed.slice(2); continue; }
+
+    // Horizontal rule
+    if (trimmed === '---') { closeList(); bodyHtml += '<hr>'; continue; }
+
+    // Headers
+    if (trimmed.startsWith('## ')) {
+      closeList();
+      let hText = trimmed.slice(3);
+      let hId = hText.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+      tocItems.push({level: 2, text: hText, id: hId});
+      bodyHtml += '<h2 id="' + hId + '">' + renderInline(hText) + '</h2>';
+      continue;
+    }
+    if (trimmed.startsWith('### ')) {
+      closeList();
+      let hText = trimmed.slice(4);
+      let hId = hText.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+      tocItems.push({level: 3, text: hText, id: hId});
+      bodyHtml += '<h3 id="' + hId + '">' + renderInline(hText) + '</h3>';
+      continue;
+    }
+    if (trimmed.startsWith('#### ')) { closeList(); bodyHtml += '<h4>' + renderInline(trimmed.slice(5)) + '</h4>'; continue; }
+
+    // Unordered list
+    if (trimmed.match(/^[-*]\s+/)) {
+      if (!inList || listType !== 'ul') { closeList(); bodyHtml += '<ul>'; inList = true; listType = 'ul'; }
+      bodyHtml += '<li>' + renderInline(trimmed.replace(/^[-*]\s+/, '')) + '</li>';
+      continue;
+    }
+
+    // Ordered list
+    let olMatch = trimmed.match(/^(\d+)\.\s+/);
+    if (olMatch) {
+      if (!inList || listType !== 'ol') { closeList(); bodyHtml += '<ol>'; inList = true; listType = 'ol'; }
+      bodyHtml += '<li>' + renderInline(trimmed.replace(/^\d+\.\s+/, '')) + '</li>';
+      continue;
+    }
+
+    // Code blocks
+    if (trimmed.startsWith('```')) { closeList(); bodyHtml += '<pre>'; i++;
+      while (i < lines.length && !lines[i].trim().startsWith('```')) {
+        bodyHtml += esc(lines[i]) + '\n'; i++;
+      }
+      bodyHtml += '</pre>'; continue;
+    }
+
+    // Paragraph
+    closeList();
+    bodyHtml += '<p>' + renderInline(trimmed) + '</p>';
+  }
+  closeList();
+
+  // Build TOC
+  let tocHtml = '';
+  if (tocItems.length >= 2) {
+    tocHtml = '<div class="wiki-toc"><div class="wiki-toc-title">Contents</div><ol>';
+    tocItems.forEach(item => {
+      tocHtml += '<li class="' + (item.level === 3 ? 'toc-h3' : 'toc-h2') + '"><a href="#' + item.id + '">' + esc(item.text) + '</a></li>';
+    });
+    tocHtml += '</ol></div>';
+  }
+
+  return { title, metaHtml, bodyHtml, tocHtml, lastUpdated };
+}
+
+function renderInline(text) {
+  let out = esc(text);
+  out = out.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  out = out.replace(/\*(.+?)\*/g, '<em>$1</em>');
+  out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
+  // Wikilinks [[Page]] and [[Page|Display]]
+  out = out.replace(/\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]/g, function(m, page, display) {
+    var pname = page.trim();
+    var dname = display ? display.trim() : pname;
+    var resolved = resolveWikilink(pname);
+    if (resolved) {
+      return '<a href="#wiki/' + encodeURIComponent(resolved) + '" class="wikilink" onclick="event.preventDefault();loadPage(\'' + escAttr(resolved) + '\')">' + esc(dname) + '</a>';
+    } else {
+      return '<span class="wikilink broken" title="Page not found: ' + esc(pname) + '">' + esc(dname) + '</span>';
+    }
+  });
+  return out;
+}
+
+function escAttr(s) { return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
+
+// Resolve wikilink to file path
+function resolveWikilink(name) {
+  if (!treeData) return null;
+  function search(children, target) {
+    for (let node of children) {
+      let nodeName = node.name.replace(/\.md$/, '');
+      if (nodeName.toLowerCase() === target.toLowerCase()) return node.path;
+      if (node.name.toLowerCase() === target.toLowerCase() + '.md') return node.path;
+      if (node.children) {
+        let found = search(node.children, target);
+        if (found) return found;
+      }
+    }
+    return null;
+  }
+  return search(treeData.children, name);
+}
+
+// Find related pages by shared tags
+function renderRelatedPages(currentPath) {
+  if (!searchData || !searchData.length) return '';
+  const current = searchData.find(p => p.path === currentPath || p.path === 'wiki/' + currentPath);
+  if (!current || !current.tags || !current.tags.length) return '';
+
+  const scored = [];
+  for (const p of searchData) {
+    if (p.path === currentPath || p.path === 'wiki/' + currentPath || p.path === current.path) continue;
+    const sharedTags = (current.tags || []).filter(t => (p.tags || []).includes(t));
+    if (sharedTags.length > 0) {
+      scored.push({ ...p, shared: sharedTags.length });
+    }
+  }
+  scored.sort((a, b) => b.shared - a.shared);
+  const top = scored.slice(0, 5);
+  if (!top.length) return '';
+
+  let html = '<div class="wiki-related"><h3>Related Pages</h3><ul>';
+  top.forEach(p => {
+    html += '<li><a href="#wiki/' + encodeURIComponent(p.path) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(p.path) + '\')">' + esc(p.title) + '</a>';
+    if (p.summary) html += ' <span class="related-summary">' + esc(p.summary) + '</span>';
+    html += '</li>';
+  });
+  html += '</ul></div>';
+  return html;
+}
+
+// Suggest Edit
+function openSuggest(pagePath) {
+  document.getElementById('suggest-page-label').textContent = 'Page: ' + pagePath;
+  document.getElementById('suggest-text').value = '';
+  document.getElementById('suggest-name').value = '';
+  document.getElementById('suggest-msg').textContent = '';
+  document.getElementById('suggest-modal').style.display = 'flex';
+}
+async function submitSuggestion() {
+  const name = document.getElementById('suggest-name').value.trim() || 'Anonymous';
+  const text = document.getElementById('suggest-text').value.trim();
+  const pagePath = document.getElementById('suggest-page-label').textContent.replace('Page: ', '');
+  const msgEl = document.getElementById('suggest-msg');
+  if (!text) { msgEl.style.color = '#ef4444'; msgEl.textContent = 'Please describe your suggested edit.'; return; }
+  try {
+    await db.collection('wikiSuggestions').add({
+      pagePath,
+      authorName: name,
+      text,
+      created: new Date().toISOString(),
+      status: 'pending'
+    });
+    msgEl.style.color = '#059669';
+    msgEl.textContent = 'Suggestion submitted! Thank you.';
+    setTimeout(() => { document.getElementById('suggest-modal').style.display = 'none'; }, 1500);
+  } catch(e) {
+    msgEl.style.color = '#ef4444';
+    msgEl.textContent = 'Failed to submit. Please try again.';
+  }
+}
+
+// Close suggest modal on backdrop click
+document.getElementById('suggest-modal').addEventListener('click', function(e) {
+  if (e.target === this) this.style.display = 'none';
+});
+
+init();
+</script>
+<div style="text-align:center;padding:10px;font-size:0.72rem;color:var(--muted);border-top:1px solid var(--border);margin-top:20px">
+  A <a href="https://cybertech-co.web.app" target="_blank" rel="noopener" style="color:var(--accent);font-weight:500;text-decoration:none">CyberTech</a> product &mdash; student-made, student-driven
+</div>
+</body>
+</html>

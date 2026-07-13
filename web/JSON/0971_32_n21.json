@@ -1,0 +1,1037 @@
+{
+  "id": "0971_32_n21",
+  "subject": "Chemistry",
+  "code": "0971/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering formulae and compounds, water analysis, iron extraction, Group I elements, organic chemistry, halogens and electrolysis, sulfur and compounds, and rate of reaction.",
+  "type": "past",
+  "session": "October/November 2021",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Formulae & Compounds",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "A list of formulae: CaCO₃, CaO, Cl₂, CH₄, C₂H₅OH, C₂H₆, CuSO₄, H₂, H₂O, MgO, NaCl, SO₂. State which formula represents a compound that is the main constituent of natural gas.",
+          "keywords": [
+            [
+              "CH4",
+              "methane"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which formula represents an element that is used in water treatment.",
+          "keywords": [
+            [
+              "Cl2",
+              "chlorine"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which formula represents an element that bleaches damp litmus paper.",
+          "keywords": [
+            [
+              "Cl2",
+              "chlorine"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which formula represents a compound that contains an ion with a single negative charge.",
+          "keywords": [
+            [
+              "NaCl",
+              "sodium chloride"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which formula represents a hydrocarbon that is formed by the decomposition of vegetation.",
+          "keywords": [
+            [
+              "CH4",
+              "methane"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the dot-and-cross diagram to show the electron arrangement in a molecule of water (H₂O). Show outer shell electrons only. O has 6 outer electrons, each H has 1; two O-H bonds and two lone pairs.",
+          "keywords": [
+            [
+              "two O-H bonds",
+              "2 covalent bonds",
+              "O shares with H"
+            ],
+            [
+              "two lone pairs",
+              "2 lone pairs",
+              "4 unshared electrons"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "State whether calcium oxide is a basic oxide or an acidic oxide. Give a reason for your answer.",
+          "keywords": [
+            [
+              "basic",
+              "basic oxide",
+              "base"
+            ],
+            [
+              "metal oxide",
+              "formed from metal",
+              "calcium is a metal",
+              "metals form basic oxides"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Water Analysis",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table shows ion masses in 1000 cm³ of lake water: Ca²⁺ 0.41 mg, Cl⁻ 4.40 mg, Mg²⁺ 0.39 mg, NO₃⁻ 0.03 mg, K⁺ 0.30 mg, SiO₃²⁻ 0.02 mg, Na⁺ 2.90 mg, SO₄²⁻ 2.80 mg. State which negative ion has the lowest concentration.",
+          "keywords": [
+            [
+              "silicate",
+              "SiO3",
+              "silicate ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the compound containing Na⁺ and NO₃⁻ ions.",
+          "keywords": [
+            [
+              "sodium nitrate",
+              "NaNO3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of chloride ions in 250 cm³ of lake water. (Chloride: 4.40 mg per 1000 cm³.)",
+          "keywords": [
+            [
+              "1.1",
+              "1.10",
+              "1.1 mg",
+              "1.10 mg"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for sulfate ions.",
+          "keywords": [
+            [
+              "add barium chloride",
+              "barium chloride",
+              "BaCl2",
+              "add hydrochloric acid",
+              "acidify",
+              "HCl"
+            ],
+            [
+              "white precipitate",
+              "white ppt",
+              "white solid",
+              "barium sulfate",
+              "BaSO4"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of citric acid is shown (contains 3 COOH carboxylic acid groups, C₆H₈O₇). Deduce the number of carboxylic acid groups in one molecule of citric acid.",
+          "keywords": [
+            [
+              "3",
+              "three"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "The formula of citric acid is C₆H₈O₇. Complete the table to calculate Mr. C: 6×12=72, H: 8×1=8, O: 7×16=112. Find Mr.",
+          "keywords": [
+            [
+              "192",
+              "Mr 192",
+              "relative molecular mass 192"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Iron Extraction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Iron is extracted from iron ore in a blast furnace. Name an ore of iron.",
+          "keywords": [
+            [
+              "haematite",
+              "hematite",
+              "magnetite",
+              "iron(III) oxide",
+              "Fe2O3",
+              "Fe3O4"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation for the reduction of iron(III) oxide in the blast furnace. Fe₂O₃ + .....CO → .....Fe + 3CO₂",
+          "keywords": [
+            [
+              "3",
+              "3CO"
+            ],
+            [
+              "2",
+              "2Fe"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the meaning of the term reduction.",
+          "keywords": [
+            [
+              "loss of oxygen",
+              "removal of oxygen",
+              "oxygen removed",
+              "gain of electrons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Calcium carbonate (limestone) is added to the blast furnace and undergoes thermal decomposition. State the meaning of the term thermal decomposition.",
+          "keywords": [
+            [
+              "breaking down",
+              "breakdown",
+              "decompose",
+              "break down"
+            ],
+            [
+              "heat",
+              "heating",
+              "thermal",
+              "temperature",
+              "heat energy"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Iron can be made into stainless steel. Give one use of stainless steel.",
+          "keywords": [
+            [
+              "cutlery",
+              "kitchen utensils",
+              "sinks",
+              "surgical instruments",
+              "pipes",
+              "chemical plant"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe one advantage of stainless steel compared with pure iron.",
+          "keywords": [
+            [
+              "does not rust",
+              "corrosion resistant",
+              "stainless",
+              "harder",
+              "stronger",
+              "does not corrode"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 3,
+          "type": "short",
+          "question": "The symbol for an isotope of iron is ⁵⁷Fe (atomic number 26). Deduce the number of electrons, neutrons and protons in one atom of this isotope.",
+          "keywords": [
+            [
+              "26",
+              "26 electrons",
+              "electrons 26"
+            ],
+            [
+              "31",
+              "31 neutrons",
+              "neutrons 31",
+              "57-26=31"
+            ],
+            [
+              "26",
+              "26 protons",
+              "protons 26"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "f",
+          "marks": 2,
+          "type": "short",
+          "question": "Iron is a good conductor of heat and electricity. Give two other physical properties of iron that are characteristic of all metals.",
+          "keywords": [
+            [
+              "malleable",
+              "malleability",
+              "can be hammered"
+            ],
+            [
+              "ductile",
+              "ductility",
+              "drawn into wires"
+            ],
+            [
+              "shiny",
+              "lustrous",
+              "metallic lustre"
+            ],
+            [
+              "high density",
+              "dense"
+            ],
+            [
+              "high melting point",
+              "high boiling point"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "g",
+          "marks": 2,
+          "type": "short",
+          "question": "Iron rusts. Name the two substances needed for iron to rust.",
+          "keywords": [
+            [
+              "water",
+              "moisture",
+              "H2O"
+            ],
+            [
+              "oxygen",
+              "air",
+              "O2"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Group I Elements",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Table shows Group I element properties: Li (mp 181°C, density 0.53), Na (mp 98°C, rapid bubbling, no flame), K (density 0.86, rapid bubbling, lilac flame), Rb (mp 39°C, density 1.53, very rapid bubbling, red flame), Cs (mp 29°C, density 1.88, explodes), Fr (mp 27°C). Predict the melting point of potassium and the density of francium.",
+          "keywords": [
+            [
+              "63",
+              "about 63",
+              "around 63",
+              "63°C",
+              "60-65"
+            ],
+            [
+              "about 2",
+              "around 2",
+              "2",
+              "greater than 1.88"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the observations when lithium reacts with water.",
+          "keywords": [
+            [
+              "bubbles slowly",
+              "bubbles",
+              "slow bubbling",
+              "less vigorous",
+              "no flame",
+              "least reactive",
+              "slowly"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the electronic structure of sodium (atomic number 11).",
+          "keywords": [
+            [
+              "2,8,1",
+              "2.8.1",
+              "11 electrons",
+              "three shells",
+              "one outer electron"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why a potassium ion has a single positive charge.",
+          "keywords": [
+            [
+              "loses one electron",
+              "loses 1 electron",
+              "one outer electron",
+              "1 outer electron lost",
+              "loses its outer electron",
+              "K+ by losing one"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Sodium reacts with water to produce aqueous sodium hydroxide and a gas which 'pops' with a lighted splint. Complete the chemical equation: 2Na + 2H₂O → .....NaOH + ..........",
+          "keywords": [
+            [
+              "2",
+              "2NaOH"
+            ],
+            [
+              "H2",
+              "hydrogen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose one value that best describes the pH of aqueous sodium hydroxide. Circle your answer.",
+          "options": [
+            "pH 1",
+            "pH 4",
+            "pH 7",
+            "pH 14"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Organic Chemistry",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Table shows structures of organic compounds: G (C₃H₈ propane) – alkane (given); H (C₂H₅OH ethanol); J (C₃H₆ propene). Complete the table by naming the homologous series for compounds H and J.",
+          "keywords": [
+            [
+              "alcohol",
+              "alcohols",
+              "alcohol homologous series"
+            ],
+            [
+              "alkene",
+              "alkenes",
+              "alkene homologous series"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structure of a compound containing two carbon atoms which belongs to the same homologous series as compound H (ethanol, C₂H₅OH). Show all atoms and bonds.",
+          "keywords": [
+            [
+              "C2H5OH",
+              "CH3CH2OH",
+              "ethanol",
+              "alcohol"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Compound J (propene) is an alkene. Describe the colour change when excess compound J is added to aqueous bromine.",
+          "keywords": [
+            [
+              "brown",
+              "orange",
+              "red-brown",
+              "reddish brown"
+            ],
+            [
+              "colourless",
+              "decolourised",
+              "decolorized"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Compound J can be obtained by cracking petroleum fractions. State the conditions needed for cracking.",
+          "keywords": [
+            [
+              "high temperature",
+              "heat",
+              "600-700°C",
+              "hot"
+            ],
+            [
+              "catalyst",
+              "alumina",
+              "silica",
+              "zeolite",
+              "catalytic"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete this sentence about cracking using a word from the list: bitumen, hydrogen, oxygen, petroleum. The chemicals manufactured by cracking include alkanes, alkenes and .......................... .",
+          "keywords": [
+            [
+              "hydrogen",
+              "H2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Compound G is propane. Complete the word equation for the complete combustion of propane. propane + oxygen → ........................ + ........................",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2"
+            ],
+            [
+              "water",
+              "H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "f(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Compound J (propene) can form polymers. State the meaning of the term polymer.",
+          "keywords": [
+            [
+              "large molecule",
+              "long chain",
+              "many",
+              "macromolecule"
+            ],
+            [
+              "repeating units",
+              "monomers",
+              "small molecules joined",
+              "many monomers",
+              "repeat units"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "f(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Nylon is also a polymer. Give one use of nylon.",
+          "keywords": [
+            [
+              "clothing",
+              "clothes",
+              "rope",
+              "carpet",
+              "fabric",
+              "textiles",
+              "stockings",
+              "tights"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe one pollution problem caused by non-biodegradable plastics.",
+          "keywords": [
+            [
+              "do not decompose",
+              "do not rot",
+              "persist",
+              "accumulate",
+              "landfill",
+              "litter",
+              "harm wildlife",
+              "animals eat",
+              "choke",
+              "toxic when burned"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Halogens & Electrolysis",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "long",
+          "question": "Diagrams show part of the structures of potassium iodide (giant ionic lattice of K⁺ and I⁻ ions) and bromine (simple molecular, Br₂ molecules). Describe the physical properties in terms of volatility, solubility in water, and electrical conductivity when molten (liquid).",
+          "keywords": [
+            [
+              "not volatile",
+              "low volatility",
+              "high bp",
+              "KI volatility"
+            ],
+            [
+              "soluble",
+              "dissolves",
+              "soluble in water",
+              "KI solubility"
+            ],
+            [
+              "conducts",
+              "conducts electricity",
+              "good conductor",
+              "KI conductivity"
+            ],
+            [
+              "volatile",
+              "high volatility",
+              "low bp",
+              "Br2 volatility"
+            ],
+            [
+              "slightly soluble",
+              "somewhat soluble",
+              "not very soluble",
+              "sparingly soluble",
+              "Br2 solubility"
+            ],
+            [
+              "does not conduct",
+              "non-conductor",
+              "does not conduct electricity",
+              "Br2 conductivity"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Molten potassium iodide is electrolysed using carbon (graphite) electrodes. Name the substance produced at the positive electrode.",
+          "keywords": [
+            [
+              "iodine",
+              "I2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the word equation: potassium iodide + bromine → ........................ + ........................",
+          "keywords": [
+            [
+              "potassium bromide",
+              "KBr"
+            ],
+            [
+              "iodine",
+              "I2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain in terms of the reactivity of the halogens why aqueous potassium chloride does not react with aqueous bromine.",
+          "keywords": [
+            [
+              "bromine",
+              "less reactive",
+              "chlorine",
+              "more reactive",
+              "chlorine more reactive than bromine",
+              "Br less reactive than Cl",
+              "cannot displace"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the change of state when liquid bromine changes to solid bromine.",
+          "keywords": [
+            [
+              "freezing",
+              "solidification",
+              "freezes",
+              "solidifying"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Sulfur & Compounds",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "long",
+          "question": "Use the kinetic particle theory to describe the differences between sulfur gas and solid sulfur in terms of the arrangement and separation of the particles.",
+          "keywords": [
+            [
+              "random",
+              "irregular",
+              "no pattern",
+              "gas arrangement"
+            ],
+            [
+              "regular",
+              "ordered",
+              "pattern",
+              "lattice",
+              "solid arrangement"
+            ],
+            [
+              "far apart",
+              "widely separated",
+              "large distances",
+              "gas separation"
+            ],
+            [
+              "close together",
+              "closely packed",
+              "touching",
+              "solid separation"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the major use of sulfur in industry.",
+          "keywords": [
+            [
+              "sulfuric acid",
+              "sulphuric acid",
+              "manufacture of sulfuric acid",
+              "H2SO4",
+              "contact process"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Sulfur dioxide is a pollutant that contributes to acid rain. State one adverse effect of sulfur dioxide on health.",
+          "keywords": [
+            [
+              "breathing problems",
+              "respiratory",
+              "asthma",
+              "bronchitis",
+              "irritates lungs",
+              "coughing"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name one other oxide that contributes to acid rain.",
+          "keywords": [
+            [
+              "oxides of nitrogen",
+              "nitrogen oxides",
+              "nitrogen dioxide",
+              "NO2",
+              "nitric oxide",
+              "NO"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "SO₂ reacts with water to produce sulfurous acid: SO₂ + H₂O ⇋ H₂SO₃. The reaction is reversible. Draw the symbol for a reversible reaction.",
+          "keywords": [
+            [
+              "⇋",
+              "reversible arrow",
+              "double arrow",
+              "two arrows",
+              "reversible"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "The equation is Na₂SO₃ + 3Zn → Na₂S + 3ZnO. Explain how this equation shows that zinc is oxidised.",
+          "keywords": [
+            [
+              "gains oxygen",
+              "oxygen added",
+              "gains O",
+              "combines with oxygen",
+              "oxygen gained",
+              "forms ZnO"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Rate of Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "A student investigates CaCO₃ with excess HCl: CaCO₃ + 2HCl → CaCl₂ + CO₂ + H₂O. Graph shows mass of reaction mixture vs time: mass decreases from about 200g, levelling off at about 197.5g after about 100s. Deduce the time taken for the mass to decrease by 1.0g.",
+          "keywords": [
+            [
+              "30",
+              "about 30",
+              "30 s",
+              "30 seconds",
+              "around 30",
+              "25-35"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "The experiment was repeated using HCl of higher concentration. All other conditions stayed the same. Draw a line on the grid to show how the mass changes with time. (Describe: steeper initial slope, same final mass, reaches endpoint sooner.)",
+          "keywords": [
+            [
+              "steeper",
+              "faster decrease",
+              "more steep",
+              "steeper slope",
+              "faster"
+            ],
+            [
+              "same final mass",
+              "same endpoint",
+              "same final",
+              "levels off at same"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the effect on the rate of reaction when: (1) carried out at a higher temperature; (2) using large pieces of CaCO₃ instead of small pieces. All other conditions stay the same.",
+          "keywords": [
+            [
+              "faster",
+              "increases",
+              "higher rate",
+              "quicker",
+              "more rapid"
+            ],
+            [
+              "slower",
+              "decreases",
+              "lower rate",
+              "less rapid"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "When 0.44g of CaCO₃ is used, 100 cm³ of CO₂ is formed. Calculate the mass of CaCO₃ needed to produce 25 cm³ of CO₂.",
+          "keywords": [
+            [
+              "0.11",
+              "0.11g",
+              "0.11 g"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Table shows reaction of four metals with dilute HCl: Fe (bubbles slowly), Mg (bubbles very rapidly), Ni (bubbles very slowly), Ag (no bubbles). Put the metals in order of reactivity, least reactive first.",
+          "keywords": [
+            [
+              "silver",
+              "Ag"
+            ],
+            [
+              "nickel",
+              "Ni"
+            ],
+            [
+              "iron",
+              "Fe"
+            ],
+            [
+              "magnesium",
+              "Mg"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    }
+  ]
+}

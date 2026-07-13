@@ -1,0 +1,45 @@
+{
+  "id": "MS-iM18",
+  "type": "mark_scheme",
+  "paperCode": "0620/32",
+  "session": " ????",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "1(b)",
+      "answer": "protons: 8",
+      "marks": 1
+    },
+    {
+      "question": "1(c)",
+      "answer": "glowing splint",
+      "marks": 1
+    },
+    {
+      "question": "3(c)",
+      "answer": "Br2",
+      "marks": 1
+    },
+    {
+      "question": "4(a)",
+      "answer": "1st and 3rd boxes down ticked (1 mark each)",
+      "marks": 2
+    },
+    {
+      "question": "4(b)",
+      "answer": "alkane(s)",
+      "marks": 1
+    },
+    {
+      "question": "4(f)",
+      "answer": "steam",
+      "marks": 1
+    },
+    {
+      "question": "4(g)",
+      "answer": "monomers",
+      "marks": 1
+    }
+  ],
+  "answerCount": 7
+}

@@ -1,0 +1,1065 @@
+{
+  "id": "0971_32_n22",
+  "subject": "Chemistry",
+  "code": "0971/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering structure and bonding, Earth and Moon composition and iron extraction, fuels and energy, halogens, air and fertilisers, acids bases and salts, organic chemistry, and metals and electroplating.",
+  "type": "past",
+  "session": "October/November 2022",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Structure & Bonding",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Structures of seven substances A–G: A (CH₄), B (PCl₃), C (N₂ triple bond), D (CO₂), E (H₂O bent), F (C₂H₄ ethene alkene), G (C₄H₁₀ alkane). State which structure represents a compound that contains atoms of a Group VII element.",
+          "keywords": [
+            [
+              "B",
+              "PCl3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which structure represents an element with a giant covalent structure.",
+          "keywords": [
+            [
+              "C",
+              "N2",
+              "nitrogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which structure represents a compound that turns anhydrous copper(II) sulfate blue.",
+          "keywords": [
+            [
+              "E",
+              "water",
+              "H2O"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which structure represents an element that conducts electricity. (Note: none of these are metallic; the answer is the giant covalent element C which can conduct in some forms; or interpret as none being metallic conductors.)",
+          "keywords": [
+            [
+              "C",
+              "nitrogen",
+              "N2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which structure represents an unsaturated hydrocarbon.",
+          "keywords": [
+            [
+              "F",
+              "ethene",
+              "C2H4"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for an unsaturated hydrocarbon.",
+          "keywords": [
+            [
+              "bromine water",
+              "aqueous bromine",
+              "bromine",
+              "add bromine"
+            ],
+            [
+              "decolourises",
+              "turns colourless",
+              "orange to colourless",
+              "brown to colourless",
+              "decolorizes"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the two products formed when compound A (CH₄, methane) undergoes complete combustion.",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2"
+            ],
+            [
+              "water",
+              "H2O"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Earth & Moon Composition / Iron Extraction",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table compares element percentages by mass in Earth's crust vs Moon's crust. Earth: O 46.60, Si 29.50, Al 8.20, Fe 5.00, Ca 3.60, Mg 2.00, Ti 0.55, other 4.55. Moon: O 40.00, Si 19.50, Fe 13.50, Al 7.50, Ca 7.50, Mg 5.50, Ti 3.00. Deduce the percentage by mass of the other elements in the Moon's crust.",
+          "keywords": [
+            [
+              "3.50",
+              "3.5",
+              "3.5%",
+              "3.50%"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which element is present in the Earth's crust in the greatest percentage by mass.",
+          "keywords": [
+            [
+              "oxygen",
+              "O"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two major differences in the composition of the Earth's crust and the Moon's crust.",
+          "keywords": [
+            [
+              "Moon has more iron",
+              "Moon has more Fe",
+              "Moon 13.50 vs Earth 5.00"
+            ],
+            [
+              "Earth has more silicon",
+              "Earth has more Si",
+              "Earth 29.50 vs Moon 19.50",
+              "Earth has more oxygen",
+              "Earth 46.60 vs Moon 40.00"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the diagram to show the electron arrangement in a silicon atom (atomic number 14). Draw shells with electrons: 2,8,4.",
+          "keywords": [
+            [
+              "2,8,4",
+              "2.8.4",
+              "14 electrons",
+              "three shells",
+              "two first shell",
+              "eight second",
+              "four third"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Iron reacts with oxygen to form Fe₃O₄. Complete the chemical equation: .....Fe + .....O₂ → Fe₃O₄",
+          "keywords": [
+            [
+              "3",
+              "3Fe"
+            ],
+            [
+              "2",
+              "2O2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 4,
+          "type": "fillblank",
+          "question": "Complete these sentences about iron extraction in a blast furnace using words from the list: air, decomposed, dioxide, hydrogen, iron, monoxide, oxidised, reduced, slag. The raw materials are iron ore, limestone and ............ . Carbon monoxide reacts with iron(III) oxide to produce iron. In this reaction iron(III) oxide is ............ . Limestone decomposes to produce calcium oxide and carbon ............ . Calcium oxide reacts with impurities in the iron ore to form ............ .",
+          "blanks": [
+            {
+              "id": "a",
+              "prompt": "raw materials: iron ore, limestone and __________",
+              "answer": "air",
+              "keywords": [
+                [
+                  "air"
+                ]
+              ]
+            },
+            {
+              "id": "b",
+              "prompt": "iron(III) oxide is __________",
+              "answer": "reduced",
+              "keywords": [
+                [
+                  "reduced"
+                ]
+              ]
+            },
+            {
+              "id": "c",
+              "prompt": "calcium oxide and carbon __________",
+              "answer": "dioxide",
+              "keywords": [
+                [
+                  "dioxide"
+                ]
+              ]
+            },
+            {
+              "id": "d",
+              "prompt": "calcium oxide reacts with impurities to form __________",
+              "answer": "slag",
+              "keywords": [
+                [
+                  "slag"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Iron is converted to steel using oxygen. Explain how the oxygen removes the carbon.",
+          "keywords": [
+            [
+              "reacts with carbon",
+              "burns carbon",
+              "oxidises carbon",
+              "carbon dioxide",
+              "CO2",
+              "carbon reacts with oxygen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Choose from the list the name of the other type of compound used to convert iron into steel: acidic oxide, alcohol, basic oxide, hydrocarbon.",
+          "keywords": [
+            [
+              "basic oxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(iii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Steel is an alloy. Choose the diagram J, K, L or M which best represents an alloy (different sized atoms mixed in a lattice).",
+          "options": [
+            "J",
+            "K",
+            "L",
+            "M"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Fuels & Energy",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Chemical reactions can be endothermic or exothermic. State the meaning of the term endothermic.",
+          "keywords": [
+            [
+              "absorbs energy",
+              "takes in energy",
+              "energy taken in",
+              "energy absorbed",
+              "heat absorbed",
+              "gains heat",
+              "absorbs thermal energy",
+              "energy from surroundings"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Diagram shows apparatus to compare energy released when 100 cm³ of water is heated by burning different liquid fuels P, Q, R, S. Results: P (3g burned, +6°C), Q (2g burned, +8°C), R (1g burned, +3°C), S (3g burned, +9°C). Deduce which fuel releases the least energy per gram.",
+          "keywords": [
+            [
+              "R",
+              "P"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Name a gas that is used as a fuel.",
+          "keywords": [
+            [
+              "methane",
+              "natural gas",
+              "hydrogen",
+              "propane",
+              "butane"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "An energy level diagram (energy vs progress of reaction) shows a downward slope from left to right. Complete the diagram by writing reactants on the left (higher energy) and products on the right (lower energy).",
+          "keywords": [
+            [
+              "reactants",
+              "higher",
+              "left"
+            ],
+            [
+              "products",
+              "lower",
+              "right"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "The radioactive isotope ²³⁵U is used as a source of energy. State one other use of radioactive isotopes.",
+          "keywords": [
+            [
+              "medical",
+              "cancer treatment",
+              "radiotherapy",
+              "sterilisation",
+              "sterilization",
+              "tracers",
+              "carbon dating",
+              "smoke detectors"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Halogens",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Table shows halogen properties: Cl (mp –101°C, bp –35°C, density 0.003), Br (mp –7°C, bp 59°C, density 3.12), I (mp 114°C, bp 184°C), At (bp 302°C, density 6.35). Predict the density of iodine and the boiling point of astatine.",
+          "keywords": [
+            [
+              "4.9",
+              "about 4.9",
+              "around 4.9",
+              "4.93",
+              "approximately 5"
+            ],
+            [
+              "about 350",
+              "around 350",
+              "350",
+              "340-360",
+              "greater than 302"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Predict the physical state of bromine at 20°C. Give a reason for your answer.",
+          "keywords": [
+            [
+              "liquid"
+            ],
+            [
+              "20°C",
+              "between melting and boiling",
+              "above -7",
+              "below 59",
+              "between -7 and 59",
+              "temperature between mp and bp"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation: Br₂ + SO₂ + ......H₂O → H₂SO₄ + ......HBr",
+          "keywords": [
+            [
+              "2",
+              "2H2O"
+            ],
+            [
+              "2",
+              "2HBr"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "In this reaction both oxidation and reduction take place. State the meaning of the term reduction.",
+          "keywords": [
+            [
+              "gain of electrons",
+              "gain electrons",
+              "loss of oxygen",
+              "removal of oxygen",
+              "oxygen removed"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "long",
+          "question": "Concentrated aqueous hydrobromic acid releases fumes of acidic HBr gas. A long glass tube has cotton wool soaked in concentrated hydrobromic acid at one end and damp blue litmus paper at the other. At first the litmus paper does not turn red, then after a short time it turns red. Explain these observations using the kinetic particle model.",
+          "keywords": [
+            [
+              "hydrogen bromide particles",
+              "HBr",
+              "gas particles"
+            ],
+            [
+              "diffuse",
+              "diffusion",
+              "move"
+            ],
+            [
+              "random motion",
+              "randomly",
+              "random movement"
+            ],
+            [
+              "from high concentration",
+              "from cotton wool",
+              "along tube"
+            ],
+            [
+              "takes time",
+              "time delay",
+              "after a short time",
+              "eventually reaches"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Air & Fertilisers",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Air contains nitrogen, oxygen, noble gases and carbon dioxide. State the percentage of nitrogen in clean, dry air.",
+          "keywords": [
+            [
+              "78",
+              "78%",
+              "79%",
+              "about 78",
+              "approximately 78",
+              "78 percent"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Polluted air contains oxides of nitrogen. Give one source of oxides of nitrogen in the air.",
+          "keywords": [
+            [
+              "car engines",
+              "vehicle engines",
+              "car exhaust",
+              "combustion",
+              "lightning",
+              "power stations"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one adverse effect of oxides of nitrogen on health.",
+          "keywords": [
+            [
+              "breathing problems",
+              "respiratory",
+              "asthma",
+              "bronchitis",
+              "lung damage"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Many fertilisers contain nitrogen and potassium. Name one other element found in most fertilisers.",
+          "keywords": [
+            [
+              "phosphorus",
+              "P",
+              "phosphate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why farmers use fertilisers on fields where crops are to be grown.",
+          "keywords": [
+            [
+              "increase crop yield",
+              "more crops",
+              "better growth",
+              "provide nutrients",
+              "replace nutrients",
+              "plants need minerals",
+              "improve growth"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for potassium ions.",
+          "keywords": [
+            [
+              "flame test",
+              "flame",
+              "burn",
+              "platinum wire",
+              "nichrome wire"
+            ],
+            [
+              "lilac",
+              "purple",
+              "lilac flame",
+              "pale purple"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Acids, Bases & Salts",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "long",
+          "question": "Describe the reaction of excess dilute sulfuric acid with magnesium carbonate and with magnesium oxide. Give the names of the products and any observations.",
+          "keywords": [
+            [
+              "magnesium sulfate",
+              "magnesium sulphate",
+              "MgSO4"
+            ],
+            [
+              "water",
+              "H2O",
+              "carbon dioxide",
+              "CO2"
+            ],
+            [
+              "bubbles",
+              "effervescence",
+              "fizzing",
+              "gas produced",
+              "solid disappears",
+              "solid dissolves"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "State the colour change when excess aqueous sodium hydroxide is added to a solution of litmus in dilute sulfuric acid.",
+          "keywords": [
+            [
+              "red",
+              "pink",
+              "litmus in acid is red"
+            ],
+            [
+              "blue",
+              "purple",
+              "litmus in alkali is blue"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe how universal indicator can be used to find the pH of an acidic solution.",
+          "keywords": [
+            [
+              "dip",
+              "add",
+              "place",
+              "drop",
+              "put",
+              "universal indicator",
+              "indicator paper",
+              "universal indicator paper"
+            ],
+            [
+              "compare",
+              "colour chart",
+              "match colour",
+              "pH scale"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose the pH value that is acidic. Circle your answer.",
+          "options": [
+            "pH 2",
+            "pH 7",
+            "pH 10",
+            "pH 14"
+          ],
+          "answer": 0
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "The salt zinc chloride can be prepared by reacting hydrochloric acid with zinc oxide. Choose the type of reaction that occurs. Circle your answer.",
+          "options": [
+            "addition",
+            "neutralisation",
+            "polymerisation",
+            "reduction"
+          ],
+          "answer": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "The method for preparing pure dry crystals of zinc chloride. Steps 1 and 2: Add excess zinc oxide to dilute HCl and warm. Step 4: Evaporate filtrate until point of crystallisation. Step 5: Remove crystals. Complete missing steps 3 and 6.",
+          "keywords": [
+            [
+              "filter",
+              "filtration",
+              "filter off excess",
+              "filter the mixture",
+              "remove unreacted solid"
+            ],
+            [
+              "dry",
+              "dry the crystals",
+              "leave to dry",
+              "dry between filter paper",
+              "warm dry",
+              "press dry"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Small pieces of zinc react with excess dilute HCl at different temperatures. Times recorded: 64s, 16s, 256s for temperatures 20°C, 40°C, 60°C. Complete the table by matching temperatures to times. (Higher temp = faster = shorter time.)",
+          "keywords": [
+            [
+              "60",
+              "60°C",
+              "40°C",
+              "20°C"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the effect on the time taken when the reaction is carried out with HCl of a higher concentration. All other conditions stay the same.",
+          "keywords": [
+            [
+              "decrease",
+              "shorter",
+              "faster",
+              "less time",
+              "time decreases"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Organic Chemistry",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "The structure of compound T is shown (a 4-carbon chain with COOH and OH groups, a hydroxy-acid). Choose the word that describes compound T: alcohol, alkane, alkene, carboxylic acid.",
+          "options": [
+            "alcohol",
+            "alkane",
+            "alkene",
+            "carboxylic acid"
+          ],
+          "answer": 3
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the formula of compound T to show the number of carbon, hydrogen and oxygen atoms (C₄H₈O₃, a hydroxy-butanoic acid).",
+          "keywords": [
+            [
+              "C4H8O3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Compound T reacts with ethanol in the presence of a catalyst. State the meaning of the term catalyst.",
+          "keywords": [
+            [
+              "speeds up reaction",
+              "increases rate",
+              "lower activation energy",
+              "not used up",
+              "not consumed",
+              "chemically unchanged",
+              "remains unchanged"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the sentence about ethanol using a word from the list: combustion, cracking, electrolysis, fermentation. Ethanol is manufactured from ethene or by ......................................... .",
+          "keywords": [
+            [
+              "fermentation"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Ethene can be produced from ethanol. Draw the structure of ethene to show all atoms and all bonds (C₂H₄ with C=C double bond and four H atoms).",
+          "keywords": [
+            [
+              "C=C",
+              "double bond",
+              "two carbons",
+              "four hydrogens",
+              "CH2=CH2",
+              "H2C=CH2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Ethene is a gas at room temperature. Use the kinetic particle model to describe the separation of the particles in a gas.",
+          "keywords": [
+            [
+              "far apart",
+              "widely separated",
+              "large distances",
+              "spread out",
+              "not close"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Ethene can be produced by cracking long-chain hydrocarbons to form short-chain hydrocarbons. Explain why long-chain hydrocarbons are cracked.",
+          "keywords": [
+            [
+              "more demand for short-chain",
+              "more demand for shorter",
+              "short-chain more useful",
+              "shorter more valuable",
+              "gasoline demand",
+              "more useful products"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Ethene can be polymerised. State the name of the polymer formed.",
+          "keywords": [
+            [
+              "poly(ethene)",
+              "polyethene",
+              "polythene",
+              "polyethylene",
+              "PE"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Terylene is a polymer. Give one use of Terylene.",
+          "keywords": [
+            [
+              "clothing",
+              "fabric",
+              "textiles",
+              "clothes",
+              "shirts",
+              "curtains",
+              "carpets"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Name a polymer that is a constituent of food.",
+          "keywords": [
+            [
+              "starch",
+              "protein",
+              "carbohydrate",
+              "cellulose",
+              "glucose polymer"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Metals & Electroplating",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Chromium is a transition element. Potassium is a Group I element. Chromium has a higher density than potassium. Give two other ways in which the physical properties of chromium differ from potassium.",
+          "keywords": [
+            [
+              "higher melting point",
+              "higher mp",
+              "higher boiling point",
+              "higher bp"
+            ],
+            [
+              "harder",
+              "stronger",
+              "less reactive",
+              "less malleable"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Apparatus for electroplating a nickel rod with chromium: nickel rod connected to negative terminal, chromium rod to positive, in Cr³⁺ solution. Choose a word which describes the nickel rod. Circle your answer.",
+          "options": [
+            "anode",
+            "cathode",
+            "cation",
+            "electrolyte",
+            "mixture"
+          ],
+          "answer": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "One use of electroplating is to make objects attractive. Describe one other reason for electroplating an object.",
+          "keywords": [
+            [
+              "prevent rusting",
+              "prevent corrosion",
+              "corrosion resistance",
+              "protect",
+              "protective layer",
+              "harder surface",
+              "wear resistance"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Deduce the number of electrons and neutrons in one atom of ⁵⁴Cr (atomic number 24).",
+          "keywords": [
+            [
+              "24",
+              "24 electrons",
+              "electrons 24"
+            ],
+            [
+              "30",
+              "30 neutrons",
+              "neutrons 30",
+              "54-24=30"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "A compound of chromium has formula CrH₂O₆. Complete the table to calculate Mr. Cr: 1×52=52, H: 2×1=2, O: 6×16=96. Find Mr.",
+          "keywords": [
+            [
+              "150",
+              "Mr 150",
+              "relative molecular mass 150"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Table shows rates of reaction of four metals with air: Cr (reacts very slowly only when heated strongly), Ag (does not react), Na (reacts quickly at room temp), U (reacts slowly at room temp). Put the metals in order of reactivity, least reactive first.",
+          "keywords": [
+            [
+              "silver",
+              "Ag"
+            ],
+            [
+              "chromium",
+              "Cr"
+            ],
+            [
+              "uranium",
+              "U"
+            ],
+            [
+              "sodium",
+              "Na"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    }
+  ]
+}

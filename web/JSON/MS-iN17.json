@@ -1,0 +1,65 @@
+{
+  "id": "MS-iN17",
+  "type": "mark_scheme",
+  "paperCode": "0620/33",
+  "session": "October/November 2017",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "1(c)",
+      "answer": "number of protons: 7",
+      "marks": 1
+    },
+    {
+      "question": "2(b)",
+      "answer": "limewater",
+      "marks": 1
+    },
+    {
+      "question": "3(a)",
+      "answer": "calcium carbonate",
+      "marks": 1
+    },
+    {
+      "question": "4(a)",
+      "answer": "electrical conductivity of solid diamond: does not conduct",
+      "marks": 1
+    },
+    {
+      "question": "4(b)",
+      "answer": "low boiling point",
+      "marks": 1
+    },
+    {
+      "question": "4(e)",
+      "answer": "positive electrode (anode): bromine / Br2",
+      "marks": 1
+    },
+    {
+      "question": "5(a)",
+      "answer": "3 (O2)",
+      "marks": 1
+    },
+    {
+      "question": "5(c)",
+      "answer": "air / oxygen",
+      "marks": 1
+    },
+    {
+      "question": "5(e)",
+      "answer": "mixture",
+      "marks": 1
+    },
+    {
+      "question": "6(a)",
+      "answer": "X in bottom compartment of fractionating column",
+      "marks": 1
+    },
+    {
+      "question": "6(b)",
+      "answer": "naphtha",
+      "marks": 1
+    }
+  ],
+  "answerCount": 11
+}

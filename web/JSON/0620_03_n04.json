@@ -1,0 +1,985 @@
+{
+  "id": "0620_03_n04",
+  "subject": "Chemistry",
+  "code": "0620/03",
+  "paper": "Paper 3",
+  "name": "October/November 2004 Paper 3",
+  "description": "IGCSE Chemistry 0620 Paper 3 from the October/November 2004 session. Covers air and atmosphere, salt preparation, methanol and equilibrium, reactivity series, bonding, polymers, thermal decomposition, and alkenes.",
+  "type": "past",
+  "session": "October/November 2004",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Air and Atmosphere",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Two of the gases in air are nitrogen and oxygen. Name two other gases present in unpolluted air.",
+          "keywords": [
+            [
+              "argon",
+              "Ar",
+              "carbon dioxide",
+              "CO2"
+            ],
+            [
+              "carbon dioxide",
+              "CO2",
+              "argon",
+              "Ar"
+            ],
+            [
+              "water vapour",
+              "neon"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "type": "long",
+          "question": "State the source and harmful effect of sulphur dioxide and lead compounds as air pollutants.",
+          "keywords": [
+            [
+              "burning fossil fuels",
+              "coal",
+              "power stations",
+              "combustion of sulphur-containing fuels"
+            ],
+            [
+              "acid rain",
+              "respiratory problems",
+              "damages lungs",
+              "harms buildings"
+            ],
+            [
+              "car exhaust",
+              "lead in petrol",
+              "vehicle emissions"
+            ],
+            [
+              "damages brain",
+              "poisonous",
+              "toxic",
+              "affects nervous system",
+              "harms children development"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "c",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Respiration and photosynthesis change the percentages of oxygen and carbon dioxide in air. Name another process that changes the percentages of these two gases in air.",
+          "keywords": [
+            [
+              "combustion",
+              "burning",
+              "burning fossil fuels",
+              "rusting",
+              "respiration"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the reaction for respiration: C6H12O6 + 6O2 → ____ + ____. This is an ____ reaction.",
+          "keywords": [
+            [
+              "6CO2",
+              "carbon dioxide"
+            ],
+            [
+              "6H2O",
+              "water"
+            ],
+            [
+              "exothermic",
+              "exothermic"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe how you could show that the gas collected in the photosynthesis experiment is oxygen.",
+          "keywords": [
+            [
+              "relights a glowing splint",
+              "glowing splint test",
+              "supports combustion",
+              "rekindles glowing splint"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "What measurements are needed to calculate the rate of this reaction (photosynthesis of pond weed)?",
+          "keywords": [
+            [
+              "volume of gas collected",
+              "amount of oxygen produced"
+            ],
+            [
+              "time",
+              "time taken",
+              "time interval"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "sublabel": "iii",
+          "marks": 2,
+          "type": "short",
+          "question": "What would be the effect, and why, of moving the apparatus further away from the light?",
+          "keywords": [
+            [
+              "rate decreases",
+              "slower reaction",
+              "less gas produced",
+              "photosynthesis slows"
+            ],
+            [
+              "less light intensity",
+              "light intensity decreases",
+              "less light energy",
+              "further from light source"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Salt Preparation (Copper(II) Sulphate)",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 6,
+          "type": "fillblank",
+          "question": "Complete the instructions for making copper(II) sulphate using six of the words below: blue, cool, dilute, filter, saturated, sulphate, white, oxide.",
+          "blanks": [
+            {
+              "id": "word1",
+              "prompt": "Add excess copper(II) oxide to ____ sulphuric acid in a beaker and boil it.",
+              "answer": "dilute",
+              "keywords": [
+                [
+                  "dilute"
+                ]
+              ]
+            },
+            {
+              "id": "word2",
+              "prompt": "____ to remove the unreacted copper(II) oxide.",
+              "answer": "filter",
+              "keywords": [
+                [
+                  "filter"
+                ]
+              ]
+            },
+            {
+              "id": "word3",
+              "prompt": "Heat the solution until it is ____.",
+              "answer": "saturated",
+              "keywords": [
+                [
+                  "saturated"
+                ]
+              ]
+            },
+            {
+              "id": "word4",
+              "prompt": "____ the solution.",
+              "answer": "cool",
+              "keywords": [
+                [
+                  "cool"
+                ]
+              ]
+            },
+            {
+              "id": "word5",
+              "prompt": "to form ____ coloured crystals.",
+              "answer": "blue",
+              "keywords": [
+                [
+                  "blue"
+                ]
+              ]
+            },
+            {
+              "id": "word6",
+              "prompt": "of copper(II) ____.",
+              "answer": "sulphate",
+              "keywords": [
+                [
+                  "sulphate",
+                  "sulfate"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Methanol and Equilibrium",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "CO(g) + 2H2(g) ⇌ CH3OH(g). Reversible reactions can come to equilibrium. Explain the term equilibrium.",
+          "keywords": [
+            [
+              "rate of forward equals rate of reverse",
+              "forward and reverse rates equal",
+              "rates are the same"
+            ],
+            [
+              "concentrations remain constant",
+              "no net change",
+              "concentrations do not change"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "At 400°C, the percentage of methanol in the equilibrium mixture is lower than at 300°C. Suggest an explanation.",
+          "keywords": [
+            [
+              "forward reaction is exothermic",
+              "reaction is exothermic"
+            ],
+            [
+              "equilibrium shifts left at higher temperature",
+              "increase in temperature favours endothermic reverse reaction",
+              "Le Chatelier principle"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a",
+          "sublabel": "iii",
+          "marks": 5,
+          "type": "long",
+          "question": "Suggest two advantages of using high pressure for this reaction. Give a reason for each advantage.",
+          "keywords": [
+            [
+              "higher yield",
+              "more methanol produced",
+              "higher percentage methanol"
+            ],
+            [
+              "fewer moles of gas on product side",
+              "equilibrium shifts right",
+              "3 moles to 1 mole",
+              "fewer gas molecules on right"
+            ],
+            [
+              "faster reaction",
+              "increased rate",
+              "more collisions per second"
+            ],
+            [
+              "higher concentration of reactants",
+              "molecules closer together",
+              "more frequent collisions"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the equation for the combustion of methanol in an excess of oxygen: CH3OH + O2 → ____ + ____.",
+          "keywords": [
+            [
+              "CO2",
+              "carbon dioxide"
+            ],
+            [
+              "H2O",
+              "water"
+            ],
+            [
+              "2CH3OH + 3O2",
+              "balanced equation"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the word equation: methanol + ethanoic acid → ____ + ____.",
+          "keywords": [
+            [
+              "methyl ethanoate",
+              "methyl ethanoate",
+              "ester"
+            ],
+            [
+              "water",
+              "H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "sublabel": "iii",
+          "marks": 1,
+          "type": "short",
+          "question": "Methanol can be oxidised to an acid. Name this acid.",
+          "keywords": [
+            [
+              "methanoic acid",
+              "formic acid",
+              "HCOOH"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Reactivity Series and Electrochemical Cells",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "In the reactivity series (Zn, Sn, Hg, Ag), write an ionic equation that includes a more reactive metal at the top of the series.",
+          "keywords": [
+            [
+              "Mg",
+              "Mg2+",
+              "Mg -> Mg2+ + 2e-"
+            ],
+            [
+              "Na",
+              "Na+",
+              "Na -> Na+ + e-"
+            ],
+            [
+              "K",
+              "K+",
+              "K -> K+ + e-"
+            ],
+            [
+              "Ca",
+              "Ca2+",
+              "Ca -> Ca2+ + 2e-"
+            ],
+            [
+              "Al",
+              "Al3+",
+              "Al -> Al3+ + 3e-"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Define oxidation in terms of electron transfer.",
+          "keywords": [
+            [
+              "loss of electrons",
+              "losing electrons",
+              "removal of electrons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a",
+          "sublabel": "iii",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why the positive ions are likely to be oxidising agents.",
+          "keywords": [
+            [
+              "they gain electrons",
+              "they accept electrons",
+              "they are reduced",
+              "they can be reduced"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a",
+          "sublabel": "iv",
+          "marks": 1,
+          "type": "short",
+          "question": "Which positive ion(s) can oxidise mercury metal (Hg)?",
+          "keywords": [
+            [
+              "Ag+",
+              "silver ions",
+              "silver(I) ions",
+              "Ag+ only"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "In a cell with zinc and tin electrodes in dilute sulphuric acid, predict how the voltage would change if the tin electrode was replaced with a silver one.",
+          "keywords": [
+            [
+              "voltage increases",
+              "higher voltage",
+              "greater voltage",
+              "larger potential difference"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Which electrode would go into the solution as positive ions? Give a reason for your choice.",
+          "keywords": [
+            [
+              "zinc",
+              "zinc electrode"
+            ],
+            [
+              "zinc is more reactive",
+              "zinc loses electrons more easily",
+              "zinc is higher in reactivity series",
+              "zinc is oxidised more readily"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "iii",
+          "marks": 1,
+          "type": "short",
+          "question": "State how you can predict the direction of the electron flow in cells of this type.",
+          "keywords": [
+            [
+              "from more reactive to less reactive",
+              "from higher in series to lower",
+              "from metal that loses electrons to one that gains",
+              "electrons flow from more reactive metal"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Bonding and Chlorides",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Strontium and sulphur chlorides both have formula XCl2. Explain why Group II and Group VI elements both have a valency of 2.",
+          "keywords": [
+            [
+              "Group II loses 2 electrons",
+              "Group II has 2 outer electrons",
+              "Group II forms +2 ions"
+            ],
+            [
+              "Group VI gains 2 electrons",
+              "Group VI has 6 outer electrons needs 2 more",
+              "Group VI forms -2 ions"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "long",
+          "question": "Draw a diagram showing the arrangement of the valency electrons in one covalent molecule of sulphur chloride (SCl2). Use x for sulphur electrons, o for chlorine electrons.",
+          "keywords": [
+            [
+              "sulphur central atom",
+              "S in centre",
+              "two Cl around S"
+            ],
+            [
+              "two S-Cl bonds",
+              "two shared pairs",
+              "each Cl shares one electron"
+            ],
+            [
+              "two lone pairs on sulphur",
+              "sulphur has two non-bonding pairs",
+              "S has two lone pairs"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain the difference in electrical conductivity between solid and liquid strontium chloride.",
+          "keywords": [
+            [
+              "solid ions cannot move",
+              "ions fixed in lattice",
+              "solid ions not free"
+            ],
+            [
+              "liquid ions are mobile",
+              "molten ions can move",
+              "ions free to carry charge"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain the difference in electrical conductivity between liquid strontium chloride and liquid sulphur chloride.",
+          "keywords": [
+            [
+              "SrCl2 has mobile ions",
+              "SrCl2 is ionic",
+              "strontium chloride conducts as it has ions"
+            ],
+            [
+              "SCl2 has no ions",
+              "SCl2 is covalent",
+              "sulphur chloride has molecules only",
+              "no charged particles"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Polymers",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structural formula of the monomer of poly(dichloroethene).",
+          "keywords": [
+            [
+              "CH2=CCl2",
+              "H2C=CCl2",
+              "dichloroethene",
+              "dichloroethylene"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why oxygen can diffuse faster through the polymer bag than carbon dioxide can.",
+          "keywords": [
+            [
+              "oxygen molecules are smaller",
+              "O2 has lower molecular mass",
+              "O2 is smaller than CO2"
+            ],
+            [
+              "lighter molecules diffuse faster",
+              "smaller molecules pass through pores more easily"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "long",
+          "question": "A polyester can be formed from HO-CH2CH2-OH and HOOC-C6H4-COOH. Draw the structure of this polyester.",
+          "keywords": [
+            [
+              "repeating ester linkage",
+              "-COO-",
+              "ester group"
+            ],
+            [
+              "alternating diol and diacid units",
+              "alternating monomers",
+              "repeating unit"
+            ],
+            [
+              "benzene ring in structure",
+              "C6H4",
+              "aromatic ring"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Name a naturally occurring class of compounds that contains the ester linkage.",
+          "keywords": [
+            [
+              "fats",
+              "lipids",
+              "oils",
+              "triglycerides",
+              "waxes",
+              "phospholipids"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "iii",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest what is meant by the term thermal stability.",
+          "keywords": [
+            [
+              "resistant to heat",
+              "does not decompose when heated",
+              "stable at high temperatures",
+              "can withstand high temperatures without breaking down"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe two environmental problems caused by the disposal of plastic (polymer) waste.",
+          "keywords": [
+            [
+              "non-biodegradable",
+              "does not decompose",
+              "lasts for years",
+              "persists in environment"
+            ],
+            [
+              "produces toxic gases when burned",
+              "burning releases harmful fumes",
+              "incineration causes pollution"
+            ],
+            [
+              "fills landfill",
+              "takes up space in landfill",
+              "litter"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "The best way of disposing of plastic waste is recycling. What is another advantage of recycling plastics made from petroleum?",
+          "keywords": [
+            [
+              "conserves petroleum",
+              "saves crude oil",
+              "preserves fossil fuels",
+              "saves non-renewable resources",
+              "petroleum is finite resource"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Thermal Decomposition",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Write a symbol equation for the action of heat on zinc hydroxide.",
+          "keywords": [
+            [
+              "Zn(OH)2",
+              "zinc hydroxide"
+            ],
+            [
+              "ZnO",
+              "zinc oxide"
+            ],
+            [
+              "H2O",
+              "water"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe what happens when solid sodium hydroxide is heated strongly.",
+          "keywords": [
+            [
+              "melts",
+              "it melts",
+              "becomes liquid",
+              "no decomposition",
+              "does not decompose"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "long",
+          "question": "What would be observed when copper(II) nitrate is heated?",
+          "keywords": [
+            [
+              "brown gas",
+              "brown fumes",
+              "nitrogen dioxide",
+              "NO2"
+            ],
+            [
+              "black solid",
+              "copper(II) oxide",
+              "CuO",
+              "black residue"
+            ],
+            [
+              "oxygen gas",
+              "O2",
+              "colourless gas",
+              "gas relights glowing splint"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "type": "long",
+          "question": "Iron(III) sulphate decomposes: Fe2(SO4)3(s) → Fe2O3(s) + 3SO3(g). Mass of one mole Fe2(SO4)3 is 400g. Calculate the mass of Fe2O3 formed and volume of SO3 when 10.0g is heated.",
+          "keywords": [
+            [
+              "0.025",
+              "0.0250",
+              "10/400"
+            ],
+            [
+              "0.025",
+              "0.0250",
+              "same as Fe2(SO4)3"
+            ],
+            [
+              "4",
+              "4.0",
+              "4.0g",
+              "0.025 x 160"
+            ],
+            [
+              "0.075",
+              "0.0750",
+              "3 x 0.025"
+            ],
+            [
+              "1.8",
+              "1.80",
+              "1.8 dm3",
+              "0.075 x 24"
+            ]
+          ],
+          "anyOf": 5
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Alkenes",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the table by giving the formula of hexene and predicting its boiling point (ethene -102°C, propene -48°C, butene -7°C, pentene 30°C).",
+          "keywords": [
+            [
+              "C6H12"
+            ],
+            [
+              "about 63-70",
+              "63",
+              "69",
+              "around 65°C",
+              "boiling point increases"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "long",
+          "question": "Deduce the formula of the alkene which has a relative molecular mass of 168. Show your working.",
+          "keywords": [
+            [
+              "C12H24",
+              "12 carbons"
+            ],
+            [
+              "168/14 = 12",
+              "general formula CnH2n",
+              "14n = 168",
+              "n = 12"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "long",
+          "question": "Describe a test that will distinguish between the two isomers, but-2-ene and cyclobutane. Give the result with each.",
+          "keywords": [
+            [
+              "add bromine water",
+              "bromine test",
+              "add Br2",
+              "bromine"
+            ],
+            [
+              "but-2-ene decolourises bromine",
+              "brown to colourless",
+              "bromine turns colourless",
+              "decolourises rapidly"
+            ],
+            [
+              "cyclobutane no change",
+              "bromine stays brown",
+              "no reaction",
+              "does not decolourise"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Alkenes undergo addition reactions. What class of organic compound is formed when an alkene reacts with water?",
+          "keywords": [
+            [
+              "alcohol",
+              "alcohols",
+              "alkanol"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the structural formula of the compound formed when hydrogen chloride reacts with but-2-ene.",
+          "keywords": [
+            [
+              "CH3CHClCH2CH3",
+              "2-chlorobutane",
+              "CH3-CHCl-CH2-CH3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "sublabel": "iii",
+          "marks": 2,
+          "type": "long",
+          "question": "Draw the structure of the polymer formed from but-2-ene.",
+          "keywords": [
+            [
+              "repeating unit from but-2-ene",
+              "-CH(CH3)-CH(CH3)-",
+              "carbon backbone"
+            ],
+            [
+              "methyl groups on alternating carbons",
+              "two CH3 side groups per repeat",
+              "polybutene structure"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

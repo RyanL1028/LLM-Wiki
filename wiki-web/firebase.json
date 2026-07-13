@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "target": "wiki",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      "**/node_modules/**",
+      "*.py",
+      ".git",
+      ".gitignore",
+      ".DS_Store",
+      "extract_ebook.py",
+      "extract_ebook_full.py",
+      "ingest_ebook.py"
+    ]
+  }
+}

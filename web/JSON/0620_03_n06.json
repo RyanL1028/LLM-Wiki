@@ -1,0 +1,1089 @@
+{
+  "id": "0620_03_n06",
+  "subject": "Chemistry",
+  "code": "0620/03",
+  "paper": "Paper 3 (Extended)",
+  "name": "Cambridge IGCSE Chemistry Paper 3 (Extended) Oct/Nov 2006",
+  "description": "Full past paper covering gas identification, substance properties, calcium carbonate, air pollution and catalytic converters, Haber process and urea, copper extraction and electrolysis, reaction rates, and food chemistry (carbohydrates, proteins, fats).",
+  "type": "past",
+  "session": "October/November 2006",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Gas Identification",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 6,
+          "type": "short",
+          "question": "Choose a gas from the list (ammonia, argon, carbon dioxide, carbon monoxide, chlorine, ethene, hydrogen, nitrogen, oxygen) for each description: (i) a noble gas, (ii) an acidic oxide, (iii) can be polymerised, (iv) the active component of air, (v) used in the treatment of water, (vi) a product of respiration. Give all six answers.",
+          "keywords": [
+            [
+              "argon, carbon dioxide, ethene, oxygen, chlorine, carbon dioxide"
+            ],
+            [
+              "Ar, CO2, C2H4, O2, Cl2, CO2"
+            ],
+            [
+              "argon, carbon dioxide, ethene, oxygen, chlorine, carbon dioxide"
+            ]
+          ],
+          "anyOf": 6
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Substance Properties and Bonding",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "choosethree",
+          "question": "Which three substances (A to F) are solids at room temperature?",
+          "options": [
+            "A: 961 mp / 2193 bp",
+            "B: 113 mp / 444 bp",
+            "C: 0 mp / 100 bp",
+            "D: 803 mp / 1465 bp",
+            "E: -5 to -10 mp / 102-105 bp",
+            "F: -85 mp / -60 bp"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which one substance (A to F) is an ionic compound?",
+          "keywords": [
+            [
+              "D"
+            ],
+            [
+              "substance D"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which one substance (A to F) is a gas at room temperature?",
+          "keywords": [
+            [
+              "F"
+            ],
+            [
+              "substance F"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which two substances (A to F) are liquids at room temperature?",
+          "keywords": [
+            [
+              "C and E"
+            ],
+            [
+              "C, E"
+            ],
+            [
+              "C and E"
+            ],
+            [
+              "substances C and E"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which substance (A to F) is a metal?",
+          "keywords": [
+            [
+              "A"
+            ],
+            [
+              "substance A"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(vi)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which one substance (A to F) is an impure substance?",
+          "keywords": [
+            [
+              "E"
+            ],
+            [
+              "substance E"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Calcium Carbonate and Calculations",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Name a rock which is made up of calcium carbonate.",
+          "keywords": [
+            [
+              "limestone"
+            ],
+            [
+              "chalk"
+            ],
+            [
+              "marble"
+            ],
+            [
+              "calcite"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Calculate the relative formula mass of CaCO3 and CaO.",
+          "keywords": [
+            [
+              "100 and 56"
+            ],
+            [
+              "CaCO3=100 CaO=56"
+            ],
+            [
+              "100, 56"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "7.00 kg of calcium oxide was formed by heating CaCO3. What mass of calcium carbonate was heated?",
+          "keywords": [
+            [
+              "12.5 kg"
+            ],
+            [
+              "12.5"
+            ],
+            [
+              "12500 g"
+            ],
+            [
+              "12.5 kilograms"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Why is it important to control soil acidity?",
+          "keywords": [
+            [
+              "plants do not grow well in acidic soil"
+            ],
+            [
+              "crops need neutral pH"
+            ],
+            [
+              "for healthy plant growth"
+            ],
+            [
+              "most plants cannot tolerate acidic soil"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Both calcium carbonate (insoluble) and calcium oxide (slightly soluble) are used to increase soil pH. Suggest two advantages of using calcium carbonate over calcium oxide.",
+          "keywords": [
+            [
+              "does not make soil too alkaline"
+            ],
+            [
+              "cheaper"
+            ],
+            [
+              "slower acting"
+            ],
+            [
+              "longer lasting"
+            ],
+            [
+              "safer to handle"
+            ],
+            [
+              "less corrosive"
+            ],
+            [
+              "does not over-neutralise"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one use of calcium carbonate other than for making calcium oxide and controlling soil pH.",
+          "keywords": [
+            [
+              "making cement"
+            ],
+            [
+              "making glass"
+            ],
+            [
+              "building material"
+            ],
+            [
+              "construction"
+            ],
+            [
+              "iron extraction"
+            ],
+            [
+              "blast furnace flux"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Air Pollution and Catalytic Converters",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Write the equation for complete combustion of methane.",
+          "keywords": [
+            [
+              "CH4 + 2O2 \\u2192 CO2 + 2H2O"
+            ],
+            [
+              "CH4(g) + 2O2(g) \\u2192 CO2(g) + 2H2O(g)"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain why it is dangerous to use a gas fire in a poorly ventilated room.",
+          "keywords": [
+            [
+              "incomplete combustion produces carbon monoxide"
+            ],
+            [
+              "CO is poisonous"
+            ],
+            [
+              "CO binds to haemoglobin"
+            ],
+            [
+              "lack of oxygen leads to CO formation"
+            ],
+            [
+              "carbon monoxide is toxic"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "long",
+          "question": "Low sulphur fuels contain less than 50 ppm of sulphur (ordinary diesel contains 500 ppm). Why is this an advantage to the environment?",
+          "keywords": [
+            [
+              "less sulphur dioxide produced"
+            ],
+            [
+              "reduces acid rain"
+            ],
+            [
+              "less SO2 emitted"
+            ],
+            [
+              "less air pollution from sulphur compounds"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What type of elements are the metals rhodium, platinum and palladium used in catalytic converters?",
+          "keywords": [
+            [
+              "transition metals"
+            ],
+            [
+              "transition elements"
+            ],
+            [
+              "transition"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Rhodium catalyses the decomposition of 2NO \\u2192 N2 + O2. Two other pollutants are carbon monoxide and unburnt hydrocarbons. How are they made into less harmful substances?",
+          "keywords": [
+            [
+              "oxidised to carbon dioxide and water"
+            ],
+            [
+              "2CO + O2 \\u2192 2CO2"
+            ],
+            [
+              "reacted with oxygen"
+            ],
+            [
+              "converted to CO2 and H2O"
+            ],
+            [
+              "hydrocarbons oxidised to CO2 and water"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Haber Process and Urea",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the catalyst for the Haber process reaction N2 + 3H2 \\u21CC 2NH3?",
+          "keywords": [
+            [
+              "iron"
+            ],
+            [
+              "Fe"
+            ],
+            [
+              "finely divided iron"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Newer catalysts lower the operating temperature from 450\\u00b0C to 400\\u00b0C. What is the advantage of using a lower temperature? Explain your answer.",
+          "keywords": [
+            [
+              "higher yield of ammonia"
+            ],
+            [
+              "forward reaction is exothermic"
+            ],
+            [
+              "lower temperature shifts equilibrium right"
+            ],
+            [
+              "more ammonia produced"
+            ],
+            [
+              "equilibrium favours exothermic reaction at lower temperature"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "After passing over the catalyst, the mixture contains 15% ammonia. It is cooled, ammonia liquefies and separates from unreacted N2 and H2. How are the gases recycled?",
+          "keywords": [
+            [
+              "pumped back"
+            ],
+            [
+              "recirculated"
+            ],
+            [
+              "returned to the reactor"
+            ],
+            [
+              "fed back into the reaction chamber"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Only ammonia gas liquefies on cooling. Suggest an explanation for this.",
+          "keywords": [
+            [
+              "ammonia has a higher boiling point"
+            ],
+            [
+              "N2 and H2 have much lower boiling points"
+            ],
+            [
+              "ammonia condenses first"
+            ],
+            [
+              "ammonia has stronger intermolecular forces"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Write an equation for the manufacture of urea CO(NH2)2 from ammonia and carbon dioxide.",
+          "keywords": [
+            [
+              "2NH3 + CO2 \\u2192 CO(NH2)2 + H2O"
+            ],
+            [
+              "2NH3(g) + CO2(g) \\u2192 CO(NH2)2(s) + H2O(l)"
+            ],
+            [
+              "2NH3 + CO2 \\u2192 urea + water"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why urea on its own might not be very effective in promoting crop growth.",
+          "keywords": [
+            [
+              "only provides nitrogen"
+            ],
+            [
+              "lacks phosphorus and potassium"
+            ],
+            [
+              "plants need NPK"
+            ],
+            [
+              "does not contain phosphate or potassium"
+            ],
+            [
+              "only contains N"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 3,
+          "type": "long",
+          "question": "Draw a diagram showing the arrangement of the valency electrons in one molecule of the covalent compound urea using o for carbon electron, x for hydrogen electron, and \\u2022 for nitrogen electron.",
+          "keywords": [
+            [
+              "correct dot and cross diagram"
+            ],
+            [
+              "each atom has noble gas configuration"
+            ],
+            [
+              "covalent bonds shown correctly"
+            ],
+            [
+              "O=C(NH2)2 electron arrangement"
+            ],
+            [
+              "carbon double bonded to oxygen, single bonded to nitrogen"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Copper Extraction and Electrolysis",
+      "parts": [
+        {
+          "label": "a.1",
+          "marks": 3,
+          "type": "long",
+          "question": "Analysis of chalcopyrite: 13.80 g ore contains 4.80 g Cu, 4.20 g Fe, and the rest sulphur. Complete the table and calculate the empirical formula.",
+          "keywords": [
+            [
+              "CuFeS2"
+            ],
+            [
+              "copper iron sulphide 1:1:2"
+            ],
+            [
+              "Cu1Fe1S2"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "a.2",
+          "marks": 1,
+          "type": "short",
+          "question": "State the empirical formula of chalcopyrite.",
+          "keywords": [
+            [
+              "CuFeS2"
+            ],
+            [
+              "CuFeS2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i).1",
+          "marks": 1,
+          "type": "short",
+          "question": "For the electrolytic refining of copper, name the material used for the positive electrode (anode).",
+          "keywords": [
+            [
+              "impure copper"
+            ],
+            [
+              "blister copper"
+            ],
+            [
+              "crude copper"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i).2",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the material used for the negative electrode (cathode) in copper refining.",
+          "keywords": [
+            [
+              "pure copper"
+            ],
+            [
+              "pure copper sheet"
+            ],
+            [
+              "pure copper cathode"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i).3",
+          "marks": 1,
+          "type": "short",
+          "question": "Name a suitable electrolyte for the refining of copper.",
+          "keywords": [
+            [
+              "copper(II) sulfate"
+            ],
+            [
+              "CuSO4"
+            ],
+            [
+              "copper sulfate solution"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Write an ionic equation for the reaction at the negative electrode (cathode) during copper refining.",
+          "keywords": [
+            [
+              "Cu2+ + 2e- \\u2192 Cu"
+            ],
+            [
+              "Cu2+ + 2e \\u2192 Cu"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the metal that is alloyed with copper to make brass.",
+          "keywords": [
+            [
+              "zinc"
+            ],
+            [
+              "Zn"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c.1",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain the difference in electrical conductivity between copper and sulphur in terms of their structures.",
+          "keywords": [
+            [
+              "copper has delocalised electrons"
+            ],
+            [
+              "copper has metallic bonding"
+            ],
+            [
+              "free electrons can carry charge"
+            ],
+            [
+              "sulphur has covalent molecular structure"
+            ],
+            [
+              "no mobile charge carriers in sulphur"
+            ],
+            [
+              "electrons not free to move in sulphur"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c.2",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain the difference in malleability between copper and sulphur in terms of their structures.",
+          "keywords": [
+            [
+              "copper atoms can slide over each other"
+            ],
+            [
+              "layers of metal ions can slide"
+            ],
+            [
+              "metallic bonding allows layers to move"
+            ],
+            [
+              "sulphur is brittle as covalent bonds are directional"
+            ],
+            [
+              "sulphur has fixed covalent bonds that cannot slide"
+            ],
+            [
+              "distortion breaks bonds in sulphur"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Reaction Rates",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Sketch on the graph the result when two pieces of magnesium ribbon are added to 100 cm3 of 1.0 mol/dm3 HCl (compared to one piece).",
+          "keywords": [
+            [
+              "steeper initial gradient"
+            ],
+            [
+              "same final volume"
+            ],
+            [
+              "faster rate"
+            ],
+            [
+              "curve is steeper"
+            ],
+            [
+              "reaches plateau faster"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Describe how the graph shape would differ when one piece of magnesium is added to 100 cm3 of 1.0 mol/dm3 ethanoic acid compared to HCl.",
+          "keywords": [
+            [
+              "slower rate"
+            ],
+            [
+              "less steep curve"
+            ],
+            [
+              "same final volume"
+            ],
+            [
+              "curve less steep"
+            ],
+            [
+              "takes longer to finish"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b.1",
+          "marks": 2,
+          "type": "long",
+          "question": "Using the idea of reacting particles, explain why increasing concentration increases reaction rate.",
+          "keywords": [
+            [
+              "more particles per unit volume"
+            ],
+            [
+              "particles closer together"
+            ],
+            [
+              "more frequent collisions"
+            ],
+            [
+              "greater collision frequency"
+            ],
+            [
+              "more collisions per second"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b.2",
+          "marks": 2,
+          "type": "long",
+          "question": "Using the idea of reacting particles, explain why increasing temperature increases reaction rate.",
+          "keywords": [
+            [
+              "particles have more kinetic energy"
+            ],
+            [
+              "more particles exceed activation energy"
+            ],
+            [
+              "more frequent and energetic collisions"
+            ],
+            [
+              "more successful collisions"
+            ],
+            [
+              "greater proportion of particles have enough energy"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the two products of the photochemical reaction between carbon dioxide and water in plants.",
+          "keywords": [
+            [
+              "glucose and oxygen"
+            ],
+            [
+              "C6H12O6 and O2"
+            ],
+            [
+              "glucose, oxygen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the chemical (other than light) that is needed for the photochemical reaction in plants.",
+          "keywords": [
+            [
+              "chlorophyll"
+            ],
+            [
+              "chloroplast"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Food Chemistry: Carbohydrates, Proteins and Fats",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is an enzyme?",
+          "keywords": [
+            [
+              "biological catalyst"
+            ],
+            [
+              "protein that catalyses reactions"
+            ],
+            [
+              "catalyst made of protein"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structure of starch.",
+          "keywords": [
+            [
+              "polymer of glucose units"
+            ],
+            [
+              "long chain of glucose molecules"
+            ],
+            [
+              "linked glucose units"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the technique that would show that the products of starch hydrolysis (by enzyme vs acid) are different.",
+          "keywords": [
+            [
+              "chromatography"
+            ],
+            [
+              "paper chromatography"
+            ],
+            [
+              "chromatogram"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Draw the structure of a protein showing the linkage.",
+          "keywords": [
+            [
+              "amide linkage"
+            ],
+            [
+              "-CO-NH-"
+            ],
+            [
+              "peptide bond"
+            ],
+            [
+              "amino acids linked by peptide bonds"
+            ],
+            [
+              "polypeptide chain"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What class of compound is formed by the hydrolysis of proteins?",
+          "keywords": [
+            [
+              "amino acids"
+            ],
+            [
+              "\\u03b1-amino acids"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Write the word equation for the preparation of the ester propyl ethanoate.",
+          "keywords": [
+            [
+              "propanol + ethanoic acid \\u2192 propyl ethanoate + water"
+            ],
+            [
+              "propan-1-ol + ethanoic acid \\u2192 propyl ethanoate + water"
+            ],
+            [
+              "propanol and ethanoic acid form propyl ethanoate and water"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Deduce the structural formula of propyl ethanoate showing each individual bond.",
+          "keywords": [
+            [
+              "CH3COOCH2CH2CH3"
+            ],
+            [
+              "CH3-COO-CH2-CH2-CH3"
+            ],
+            [
+              "CH3CO2CH2CH2CH3"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(iii).1",
+          "marks": 1,
+          "type": "short",
+          "question": "How could you distinguish between a saturated fat and an unsaturated fat? State the test.",
+          "keywords": [
+            [
+              "bromine water"
+            ],
+            [
+              "bromine test"
+            ],
+            [
+              "add bromine water"
+            ],
+            [
+              "bromine solution"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii).2",
+          "marks": 1,
+          "type": "short",
+          "question": "State the result with fat 1 (unsaturated).",
+          "keywords": [
+            [
+              "decolourises"
+            ],
+            [
+              "orange to colourless"
+            ],
+            [
+              "turns colourless"
+            ],
+            [
+              "bromine water loses colour"
+            ],
+            [
+              "decolourised"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii).3",
+          "marks": 1,
+          "type": "short",
+          "question": "State the result with fat 2 (saturated).",
+          "keywords": [
+            [
+              "remains orange"
+            ],
+            [
+              "no change"
+            ],
+            [
+              "stays orange"
+            ],
+            [
+              "does not decolourise"
+            ],
+            [
+              "no reaction"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iv)",
+          "marks": 2,
+          "type": "short",
+          "question": "Both fats are hydrolysed by boiling with aqueous sodium hydroxide. What type of compounds are formed?",
+          "keywords": [
+            [
+              "soap and glycerol"
+            ],
+            [
+              "sodium salts of fatty acids and glycerol"
+            ],
+            [
+              "soap, glycerol"
+            ],
+            [
+              "fatty acid salts and glycerol"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

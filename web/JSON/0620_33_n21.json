@@ -1,0 +1,1090 @@
+{
+  "id": "0620_33_n21",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering chemical formulae & flame tests, ions in river water & organic structures, iron extraction & alloys, halogens & group trends, organic compounds & homologous series, bonding & electrolysis, aluminium & metal reactivity, and rates of reaction.",
+  "type": "past",
+  "session": "October/November 2021",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Chemical Formulae & Bonding",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "A list of formulae is shown: Br₂, CO, CO₂, CH₄, C₂H₆, HCl, KBr, LiCl, MgCl₂, O₂, SO₂.\nState which formula represents a compound that gives a red colour in a flame test.",
+          "keywords": [
+            [
+              "LiCl",
+              "lithium chloride",
+              "LiCl red flame",
+              "lithium compound"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which formula represents a compound containing an ion with a 2+ charge.",
+          "keywords": [
+            [
+              "MgCl2",
+              "MgCl₂",
+              "magnesium chloride"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which formula represents a compound that is a product of respiration.",
+          "keywords": [
+            [
+              "CO2",
+              "CO₂",
+              "carbon dioxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which formula represents a compound used as a food preservative.",
+          "keywords": [
+            [
+              "SO2",
+              "SO₂",
+              "sulfur dioxide",
+              "sulphur dioxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which formula represents an element that is used in the production of steel.",
+          "keywords": [
+            [
+              "O2",
+              "O₂",
+              "oxygen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the dot-and-cross diagram to show the electron arrangement in a molecule of hydrogen chloride. Show outer shell electrons only. (H atom shares one electron with Cl atom, Cl has three lone pairs)",
+          "keywords": [
+            [
+              "shared pair",
+              "covalent bond",
+              "one bond",
+              "single bond",
+              "H-Cl"
+            ],
+            [
+              "lone pairs",
+              "3 lone pairs",
+              "six electrons",
+              "three pairs on Cl"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "State whether carbon dioxide is a basic oxide or an acidic oxide. Give a reason for your answer.",
+          "keywords": [
+            [
+              "acidic",
+              "acidic oxide",
+              "acid oxide"
+            ],
+            [
+              "non-metal",
+              "non-metal oxide",
+              "from non-metal",
+              "carbon is a non-metal"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Ions in River Water & Organic Structures",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table shows masses of ions in 1000 cm³ of river water: NH₄⁺ 1.0, Ca²⁺ 16.5, Cl⁻ 7.0, Fe³⁺ 0.5, Mg²⁺ 4.0, NO₃⁻ 0.5, K⁺ 3.5, SiO₃²⁻ 7.5, Na⁺ 6.0, SO₄²⁻ 11.0.\nState which positive ion has the lowest concentration.",
+          "keywords": [
+            [
+              "iron(III)",
+              "Fe3+",
+              "Fe³⁺",
+              "iron",
+              "iron ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the compound containing Ca²⁺ and NO₃⁻ ions.",
+          "keywords": [
+            [
+              "calcium nitrate",
+              "Ca(NO3)2",
+              "Ca(NO₃)₂"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of sulfate ions in 500 cm³ of river water. (SO₄²⁻ = 11.0 mg in 1000 cm³)",
+          "keywords": [
+            [
+              "5.5",
+              "5.5mg",
+              "5.5 mg"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for iron(III) ions.",
+          "keywords": [
+            [
+              "sodium hydroxide",
+              "NaOH",
+              "aqueous sodium hydroxide",
+              "add NaOH"
+            ],
+            [
+              "red-brown precipitate",
+              "brown precipitate",
+              "reddish brown precipitate",
+              "rust coloured precipitate"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of compound A is shown (a 4-carbon chain with an -OH group and -NO₂ group). On the structure draw a circle around the alcohol functional group.",
+          "keywords": [
+            [
+              "OH",
+              "-OH",
+              "hydroxyl",
+              "alcohol",
+              "alcohol group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the formula of compound A to show the number of carbon, hydrogen, oxygen and nitrogen atoms.",
+          "keywords": [
+            [
+              "C4H7O3N",
+              "C₄H₇O₃N",
+              "C4 H7 O3 N",
+              "C4H7NO3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Another compound has the formula C₄H₈O₂. Complete the table to calculate the relative molecular mass.\ncarbon: 4 × 12 = 48\nhydrogen: __ × 1 = __\noxygen: __ × 16 = __\nrelative molecular mass = ____",
+          "keywords": [
+            [
+              "8",
+              "8 hydrogen",
+              "hydrogen 8"
+            ],
+            [
+              "8",
+              "8 hydrogen"
+            ],
+            [
+              "2",
+              "2 oxygen",
+              "oxygen 2"
+            ],
+            [
+              "32",
+              "32 oxygen"
+            ],
+            [
+              "88",
+              "Mr 88",
+              "relative molecular mass 88"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Iron Extraction & Alloys",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Iron is extracted in a blast furnace. Give two reasons why air is blown into the blast furnace.",
+          "keywords": [
+            [
+              "provide oxygen",
+              "oxygen reacts",
+              "source of oxygen"
+            ],
+            [
+              "reacts with coke",
+              "burn carbon",
+              "burn coke"
+            ],
+            [
+              "produce heat",
+              "heat",
+              "exothermic",
+              "generate heat",
+              "provide energy"
+            ],
+            [
+              "produce carbon dioxide",
+              "form CO2",
+              "form CO₂"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Magnetite is an ore of iron containing Fe₃O₄. Give the name of another ore of iron.",
+          "keywords": [
+            [
+              "haematite",
+              "hematite",
+              "haematite",
+              "iron(III) oxide",
+              "Fe2O3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation for the reduction of Fe₃O₄.\nFe₃O₄ + 4CO → ____ Fe + ____ CO₂",
+          "keywords": [
+            [
+              "3",
+              "3Fe",
+              "three Fe"
+            ],
+            [
+              "4",
+              "4CO2",
+              "4CO₂",
+              "four CO2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain how this equation shows that Fe₃O₄ is reduced.",
+          "keywords": [
+            [
+              "loss of oxygen",
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Calcium carbonate (limestone) is added to the blast furnace. The calcium carbonate undergoes thermal decomposition. Give the meaning of the term thermal decomposition.",
+          "keywords": [
+            [
+              "heat",
+              "heating",
+              "thermal",
+              "high temperature"
+            ],
+            [
+              "breaks down",
+              "decomposes",
+              "breakdown",
+              "one substance breaks into simpler substances"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Iron can form alloys such as vanadium steel. State the meaning of the term alloy.",
+          "keywords": [
+            [
+              "mixture",
+              "mix",
+              "combination"
+            ],
+            [
+              "metal",
+              "metals"
+            ],
+            [
+              "other element",
+              "another element",
+              "other elements",
+              "non-metal"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose from the diagrams B, C, D or E, the structure which best represents an alloy. (Alloy diagram shows atoms of different sizes irregularly arranged)",
+          "options": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answer": 0
+        },
+        {
+          "label": "d(iii)",
+          "marks": 3,
+          "type": "short",
+          "question": "The symbol for an isotope of vanadium is shown: ⁵¹V₂₃. Deduce the number of electrons, neutrons and protons in one atom of this isotope of vanadium.",
+          "keywords": [
+            [
+              "23",
+              "23 electrons",
+              "twenty three electrons"
+            ],
+            [
+              "28",
+              "28 neutrons",
+              "51-23",
+              "twenty eight neutrons"
+            ],
+            [
+              "23",
+              "23 protons",
+              "twenty three protons"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d(iv)",
+          "marks": 2,
+          "type": "short",
+          "question": "Vanadium is malleable and conducts electricity. Give two other physical properties of vanadium that are characteristic of all metals.",
+          "keywords": [
+            [
+              "ductile",
+              "ductility",
+              "can be drawn into wires"
+            ],
+            [
+              "shiny",
+              "lustrous",
+              "metallic lustre"
+            ],
+            [
+              "conducts heat",
+              "thermal conductivity",
+              "good thermal conductor"
+            ],
+            [
+              "high melting point",
+              "high boiling point"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Halogens & Group Trends",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Table shows properties of halogens: chlorine (mp -101, bp -35, density 1.56), bromine (mp -7, bp 59, density ?), iodine (mp 114, bp ?, density 4.93), astatine (mp 302, bp 337, density 6.35).\nComplete the table by predicting the boiling point of iodine and the density of bromine.",
+          "keywords": [
+            [
+              "184",
+              "bp iodine 184",
+              "iodine boiling point 184",
+              "about 184"
+            ],
+            [
+              "3.12",
+              "density bromine 3.12",
+              "bromine density 3.12",
+              "about 3"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the trend in the melting points of the halogens down Group VII.",
+          "keywords": [
+            [
+              "increases",
+              "increase",
+              "goes up",
+              "gets higher",
+              "increases down group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the electronic structure of chlorine. Use the Periodic Table to help you.",
+          "keywords": [
+            [
+              "2,8,7",
+              "2.8.7",
+              "2 8 7"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why a bromide ion has a single negative charge.",
+          "keywords": [
+            [
+              "gains one electron",
+              "gained electron",
+              "one more electron",
+              "electron gained"
+            ],
+            [
+              "7 to 8",
+              "full outer shell",
+              "octet"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Scientists have predicted that sodium astatide reacts with chlorine. Complete the word equation for this reaction.\nsodium astatide + chlorine → ____ + ____",
+          "keywords": [
+            [
+              "sodium chloride",
+              "NaCl"
+            ],
+            [
+              "astatine",
+              "At2",
+              "At₂"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe how you could determine the pH of an acidic solution without using a pH meter.",
+          "keywords": [
+            [
+              "universal indicator",
+              "UI",
+              "universal indicator paper"
+            ],
+            [
+              "compare",
+              "colour chart",
+              "pH scale",
+              "colour",
+              "match colours"
+            ],
+            [
+              "pH paper",
+              "litmus",
+              "indicator"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Organic Compounds & Homologous Series",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Table shows structures of organic compounds F, G and H. Compound F is a carboxylic acid. Complete the table by naming the homologous series for compounds G (alkene) and H (alkane).",
+          "keywords": [
+            [
+              "alkene",
+              "alkenes",
+              "alkene series"
+            ],
+            [
+              "alkane",
+              "alkanes",
+              "alkane series"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structure of a compound containing two carbon atoms which belongs to the same homologous series as compound F (carboxylic acid). Show all atoms and bonds. (Ethanoic acid: CH₃-COOH)",
+          "keywords": [
+            [
+              "ethanoic acid",
+              "CH3COOH",
+              "CH₃COOH",
+              "acetic acid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Compound G (an alkene) reacts with bromine. Choose from the structures P, Q, R or S, the structure of the product formed. (Addition of Br₂ across C=C double bond)",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "S"
+          ],
+          "answer": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Compound G can be obtained by cracking petroleum fractions. Describe what is meant by the term cracking.",
+          "keywords": [
+            [
+              "breaking",
+              "splitting",
+              "break down",
+              "split"
+            ],
+            [
+              "large molecules",
+              "long chain",
+              "large hydrocarbons",
+              "heavy fractions"
+            ],
+            [
+              "smaller molecules",
+              "shorter chain",
+              "smaller hydrocarbons",
+              "lighter fractions",
+              "more useful"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the product of the reaction when compound G reacts with steam.",
+          "keywords": [
+            [
+              "alcohol",
+              "ethanol",
+              "alcohol product"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(iii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Many molecules of compound G can join together to form a compound with a very long chain. Choose the general name given to a compound formed by the addition of many small units. Draw a circle around the correct answer.",
+          "options": [
+            "isomer",
+            "monomer",
+            "naphtha",
+            "polymer"
+          ],
+          "answer": 3
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "State the names of the two compounds formed during the complete combustion of compound H (an alkane).",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2",
+              "CO₂"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Bonding & Electrolysis of NaCl",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "long",
+          "question": "The diagram shows part of the structures of sodium chloride (giant ionic lattice) and pentane (simple molecular). Describe the differences in the physical properties of these substances in terms of volatility, solubility in water, and electrical conductivity when molten.",
+          "keywords": [
+            [
+              "sodium chloride not volatile",
+              "NaCl low volatility",
+              "NaCl high bp",
+              "ionic compounds not volatile"
+            ],
+            [
+              "pentane volatile",
+              "pentane evaporates easily",
+              "pentane low bp",
+              "simple molecular volatile"
+            ],
+            [
+              "sodium chloride soluble",
+              "NaCl dissolves",
+              "NaCl soluble in water"
+            ],
+            [
+              "pentane insoluble",
+              "pentane does not dissolve",
+              "simple molecular insoluble"
+            ],
+            [
+              "sodium chloride conducts molten",
+              "NaCl conducts liquid",
+              "NaCl conducts electricity molten"
+            ],
+            [
+              "pentane does not conduct",
+              "pentane no conductivity",
+              "simple molecular no conductivity"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Concentrated aqueous sodium chloride is electrolysed using carbon (graphite) electrodes. Name the gas produced at the positive electrode.",
+          "keywords": [
+            [
+              "chlorine",
+              "Cl2",
+              "Cl₂",
+              "chlorine gas"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Pentane is a fuel. Under some conditions pentane forms carbon monoxide. State the condition under which pentane forms carbon monoxide.",
+          "keywords": [
+            [
+              "incomplete combustion",
+              "limited oxygen",
+              "not enough oxygen",
+              "insufficient oxygen",
+              "lack of oxygen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one adverse effect of carbon monoxide on health.",
+          "keywords": [
+            [
+              "toxic",
+              "poisonous"
+            ],
+            [
+              "binds to hemoglobin",
+              "haemoglobin",
+              "binds to haemoglobin"
+            ],
+            [
+              "reduces oxygen",
+              "prevents oxygen transport"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Aluminium & Metal Reactivity",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "When aluminium is heated above 660°C it changes from solid to liquid. Name the change of state from solid to liquid.",
+          "keywords": [
+            [
+              "melting",
+              "fusion",
+              "melt"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 4,
+          "type": "long",
+          "question": "Use the kinetic particle theory to describe the differences between solid aluminium and liquid aluminium in terms of the separation of the particles and the motion of the particles.",
+          "keywords": [
+            [
+              "solid close together",
+              "solid packed",
+              "solid regular arrangement",
+              "solid fixed positions",
+              "solid lattice"
+            ],
+            [
+              "liquid close together",
+              "liquid touching",
+              "liquid still close"
+            ],
+            [
+              "solid vibrate",
+              "solid fixed position vibration",
+              "solid cannot move"
+            ],
+            [
+              "liquid slide",
+              "liquid flow",
+              "liquid move around",
+              "liquid move past each other"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Aluminium is extracted from aluminium ore by electrolysis. Explain why aluminium is extracted by electrolysis and not by reduction with carbon.",
+          "keywords": [
+            [
+              "more reactive than carbon",
+              "above carbon",
+              "higher in reactivity series",
+              "carbon cannot reduce",
+              "too reactive for carbon"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two reasons why aluminium is used in the manufacture of aircraft.",
+          "keywords": [
+            [
+              "low density",
+              "lightweight",
+              "light",
+              "low density"
+            ],
+            [
+              "resistant to corrosion",
+              "does not rust",
+              "corrosion resistant",
+              "oxide layer protects"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one advantage of recycling aluminium.",
+          "keywords": [
+            [
+              "saves energy",
+              "less energy",
+              "energy conservation"
+            ],
+            [
+              "conserves resources",
+              "saves ore",
+              "less mining",
+              "bauxite conserved"
+            ],
+            [
+              "less waste",
+              "reduces landfill"
+            ],
+            [
+              "cheaper",
+              "lower cost",
+              "economic"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Table compares ease of reduction of metal oxides when heated with carbon: aluminium oxide not reduced at 2080°C, nickel(II) oxide reduced at 540°C, titanium(IV) oxide reduced at 1600°C, zinc oxide reduced at 850°C.\nPut the four metals in order of their reactivity. Put the least reactive metal first.",
+          "keywords": [
+            [
+              "nickel",
+              "Ni",
+              "nickel least"
+            ],
+            [
+              "zinc",
+              "Zn"
+            ],
+            [
+              "titanium",
+              "Ti"
+            ],
+            [
+              "aluminium",
+              "Al",
+              "aluminium most"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "f(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Methane is used as a fuel in the extraction of some metals. State the main source of methane.",
+          "keywords": [
+            [
+              "natural gas",
+              "fossil fuels",
+              "natural gas deposits"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one adverse effect of methane on the environment.",
+          "keywords": [
+            [
+              "greenhouse gas",
+              "global warming",
+              "climate change",
+              "contributes to warming"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Rates of Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "A student investigated the reaction of zinc with excess dilute HCl. The graph shows volume of H₂ against time (curve rises, then levels off at ~55 cm³). Deduce the time taken from the beginning of the experiment to collect 30 cm³ of hydrogen gas.",
+          "keywords": [
+            [
+              "reading from graph",
+              "time value",
+              "seconds"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "The experiment was repeated using dilute hydrochloric acid of a higher concentration. All other conditions stay the same. Draw a line on the grid to show how the volume of hydrogen gas changes with time. (Steeper initial slope, same final volume)",
+          "keywords": [
+            [
+              "steeper",
+              "steeper curve",
+              "steeper line",
+              "higher initial rate"
+            ],
+            [
+              "same final volume",
+              "same end point"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the effect each of the following has on the rate of reaction. All other conditions stay the same.\n● The reaction is carried out at a lower temperature.\n● The reaction is carried out using zinc powder instead of small pieces of zinc.",
+          "keywords": [
+            [
+              "decreases",
+              "decrease",
+              "slower",
+              "lower",
+              "rate decreases",
+              "fewer collisions"
+            ],
+            [
+              "increases",
+              "increase",
+              "faster",
+              "higher",
+              "rate increases",
+              "more surface area"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "When 0.065 g of zinc is used, 24 cm³ of hydrogen gas is formed. Calculate the mass of zinc needed to produce 96 cm³ of hydrogen gas.",
+          "keywords": [
+            [
+              "0.26",
+              "0.26g",
+              "0.26 g",
+              "0.260"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Aqueous ammonia is added to aqueous zinc chloride. Describe the observations when a few drops of aqueous ammonia are added and when excess aqueous ammonia is added.",
+          "keywords": [
+            [
+              "white precipitate",
+              "white ppt",
+              "white solid",
+              "white suspension"
+            ],
+            [
+              "dissolves",
+              "soluble",
+              "colourless solution",
+              "clear solution",
+              "precipitate dissolves"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

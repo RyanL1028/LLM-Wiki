@@ -1,0 +1,80 @@
+{
+  "id": "MS-J22",
+  "type": "mark_scheme",
+  "paperCode": "0971/32",
+  "session": "May/June 2022",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "1(b)",
+      "answer": "neutron: 1 (1)",
+      "marks": 2
+    },
+    {
+      "question": "2(c)",
+      "answer": "C3H8O3",
+      "marks": 1
+    },
+    {
+      "question": "3(e)",
+      "answer": "(molecule) has two atoms",
+      "marks": 1
+    },
+    {
+      "question": "3(f)",
+      "answer": "volatile",
+      "marks": 1
+    },
+    {
+      "question": "4(a)",
+      "answer": "neutralisation",
+      "marks": 1
+    },
+    {
+      "question": "4(b)",
+      "answer": "acidic: red / pink (1) alkaline: blue (1)",
+      "marks": 2
+    },
+    {
+      "question": "4(e)",
+      "answer": "treating acidic soil / neutralising acidic waste / flue gas desulfurisation / neutralising acidic soil",
+      "marks": 1
+    },
+    {
+      "question": "5(a)",
+      "answer": "A: melting (1)",
+      "marks": 2
+    },
+    {
+      "question": "5(d)",
+      "answer": "oxygen removed from iron oxide / iron oxide loses oxygen",
+      "marks": 1
+    },
+    {
+      "question": "5(f)",
+      "answer": "2,8,3",
+      "marks": 1
+    },
+    {
+      "question": "7(d)",
+      "answer": "158 (2)",
+      "marks": 2
+    },
+    {
+      "question": "8(a)",
+      "answer": "44 (cm3)",
+      "marks": 1
+    },
+    {
+      "question": "8(d)",
+      "answer": "0.44 (g)",
+      "marks": 1
+    },
+    {
+      "question": "8(e)",
+      "answer": "making iron / making cement",
+      "marks": 1
+    }
+  ],
+  "answerCount": 14
+}

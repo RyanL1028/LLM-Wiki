@@ -1,0 +1,430 @@
+{
+  "id": "0620_33_n11",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering electrolysis, extraction of metals, equilibrium and Haber process, organic chemistry, acid-base reactions, and redox.",
+  "type": "past",
+  "session": "Oct/Nov 2011",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Electrolysis",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "short",
+          "question": "Electrolysis of concentrated aqueous sodium chloride. Name the products at the anode and cathode and give two uses of each.",
+          "keywords": [
+            [
+              "chlorine at anode",
+              "Cl2",
+              "water treatment",
+              "PVC",
+              "bleach"
+            ],
+            [
+              "hydrogen at cathode",
+              "H2",
+              "making ammonia",
+              "fuel",
+              "margarine"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Why does the solution become alkaline during electrolysis of NaCl?",
+          "keywords": [
+            [
+              "H+ discharged at cathode",
+              "H+ removed from water"
+            ],
+            [
+              "OH- concentration increases",
+              "NaOH formed",
+              "sodium hydroxide accumulates"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "When dilute NaCl is electrolysed, oxygen is formed at the anode instead of chlorine. Explain why.",
+          "keywords": [
+            [
+              "OH- discharged instead of Cl-",
+              "OH- concentration relatively higher in dilute solution"
+            ],
+            [
+              "4OH- -> 2H2O + O2 + 4e-"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Extraction of Metals",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why aluminium cannot be extracted by reduction with carbon.",
+          "keywords": [
+            [
+              "aluminium more reactive than carbon",
+              "above carbon in reactivity series",
+              "carbon cannot reduce Al2O3"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "type": "short",
+          "question": "Describe the extraction of aluminium from purified alumina by electrolysis.",
+          "keywords": [
+            [
+              "dissolved in molten cryolite",
+              "Na3AlF6",
+              "lowers melting point",
+              "electrolyte"
+            ],
+            [
+              "carbon anodes and cathode",
+              "graphite electrodes"
+            ],
+            [
+              "Al3+ + 3e- -> Al at cathode",
+              "molten aluminium collected"
+            ],
+            [
+              "2O2- -> O2 + 4e- at anode",
+              "oxygen reacts with carbon anodes to form CO2"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two reasons why aluminium is used for overhead power cables.",
+          "keywords": [
+            [
+              "good conductor of electricity",
+              "high electrical conductivity"
+            ],
+            [
+              "low density/lightweight",
+              "ductile",
+              "corrosion resistant"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Equilibrium & Haber Process",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "N2 + 3H2 <=> 2NH3 (exothermic). Explain the effect of increasing pressure on the yield of ammonia.",
+          "keywords": [
+            [
+              "increases yield",
+              "equilibrium shifts right",
+              "4 moles gas -> 2 moles gas"
+            ],
+            [
+              "fewer molecules on product side",
+              "high pressure favours side with fewer moles"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain why a temperature of 450C is used rather than a lower temperature.",
+          "keywords": [
+            [
+              "compromise temperature",
+              "balance between yield and rate"
+            ],
+            [
+              "lower temperature: higher yield but too slow",
+              "higher temperature: faster but lower yield"
+            ],
+            [
+              "450C gives reasonable rate and acceptable yield",
+              "economic optimum"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "What is the role of the iron catalyst in the Haber process?",
+          "keywords": [
+            [
+              "speeds up the reaction",
+              "lowers activation energy",
+              "increases rate"
+            ],
+            [
+              "does not affect equilibrium position",
+              "not used up",
+              "same amount at end"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Organic Chemistry: Alkanes & Alkenes",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe a chemical test to distinguish between ethane and ethene. Include reagents and observations.",
+          "keywords": [
+            [
+              "add bromine water",
+              "Br2(aq)",
+              "bromine"
+            ],
+            [
+              "ethene decolourises bromine water",
+              "orange to colourless"
+            ],
+            [
+              "ethane no change",
+              "remains orange",
+              "no reaction"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Ethene can be converted to ethanol. Name the reagent and give the conditions.",
+          "keywords": [
+            [
+              "steam/water",
+              "H2O",
+              "hydration"
+            ],
+            [
+              "phosphoric acid catalyst",
+              "H3PO4",
+              "300C",
+              "60-70 atm"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Draw the structural formula of ethanol and name the homologous series to which it belongs.",
+          "keywords": [
+            [
+              "CH3CH2OH",
+              "C2H5OH",
+              "alcohols"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 3,
+          "type": "short",
+          "question": "Ethanol can be oxidised to ethanoic acid. Name a suitable oxidising agent and describe what you would observe.",
+          "keywords": [
+            [
+              "acidified potassium manganate(VII)",
+              "KMnO4/H+",
+              "acidified potassium dichromate(VI)",
+              "K2Cr2O7/H+"
+            ],
+            [
+              "purple to colourless for KMnO4",
+              "orange to green for K2Cr2O7"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Acids, Bases & Salts",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Define the term acid in terms of proton transfer.",
+          "keywords": [
+            [
+              "proton donor",
+              "donates H+ ions",
+              "gives protons"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain the difference between a strong acid and a weak acid.",
+          "keywords": [
+            [
+              "strong acid fully ionised",
+              "completely dissociates",
+              "all molecules release H+"
+            ],
+            [
+              "weak acid partially ionised",
+              "only small fraction dissociates",
+              "equilibrium established"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "short",
+          "question": "Describe how to prepare a pure dry sample of copper(II) sulfate crystals from copper(II) oxide and dilute sulfuric acid.",
+          "keywords": [
+            [
+              "add excess CuO to warm acid",
+              "react until no more dissolves",
+              "excess solid"
+            ],
+            [
+              "filter to remove unreacted CuO",
+              "filtration"
+            ],
+            [
+              "heat filtrate to evaporate",
+              "crystallisation",
+              "leave to cool"
+            ],
+            [
+              "filter crystals",
+              "dry between filter paper"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Redox & Oxidation States",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Define oxidation in terms of electron transfer.",
+          "keywords": [
+            [
+              "loss of electrons",
+              "electron loss"
+            ],
+            [
+              "increase in oxidation state"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Mg + CuSO4 -> MgSO4 + Cu. Identify which species is oxidised and which is reduced. Explain.",
+          "keywords": [
+            [
+              "Mg oxidised",
+              "Mg -> Mg2+ + 2e-",
+              "loses electrons"
+            ],
+            [
+              "Cu2+ reduced",
+              "Cu2+ + 2e- -> Cu",
+              "gains electrons"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "What is the oxidation state of sulfur in H2SO4 and in SO2?",
+          "keywords": [
+            [
+              "+6 in H2SO4",
+              "2(+1)+S+4(-2)=0"
+            ],
+            [
+              "+4 in SO2",
+              "S+2(-2)=0"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Cl2 + 2KI -> 2KCl + I2. Name the oxidising agent and explain your answer.",
+          "keywords": [
+            [
+              "chlorine is the oxidising agent",
+              "Cl2"
+            ],
+            [
+              "chlorine gains electrons",
+              "Cl2 reduced to Cl-",
+              "causes oxidation of I-"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

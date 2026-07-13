@@ -1,0 +1,55 @@
+{
+  "id": "MS-iJ20",
+  "type": "mark_scheme",
+  "paperCode": "0620/32",
+  "session": "May/June 2020",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "1(b)",
+      "answer": "+1",
+      "marks": 3
+    },
+    {
+      "question": "2(c)",
+      "answer": "Ca(NO3)2",
+      "marks": 1
+    },
+    {
+      "question": "4(c)",
+      "answer": "blue / purple",
+      "marks": 2
+    },
+    {
+      "question": "6(c)",
+      "answer": "exothermic",
+      "marks": 1
+    },
+    {
+      "question": "6(d)",
+      "answer": "iron gains oxygen (from water)",
+      "marks": 1
+    },
+    {
+      "question": "7(a)",
+      "answer": "circle around OH group only",
+      "marks": 1
+    },
+    {
+      "question": "7(b)",
+      "answer": "C = C bond / carbon-carbon double bond",
+      "marks": 1
+    },
+    {
+      "question": "7(d)",
+      "answer": "X on baseline",
+      "marks": 2
+    },
+    {
+      "question": "8(b)",
+      "answer": "substance containing atoms of two or more different elements chemically combined",
+      "marks": 1
+    }
+  ],
+  "answerCount": 9
+}

@@ -1,0 +1,1424 @@
+{
+  "id": "0971_32_j23",
+  "subject": "Chemistry",
+  "code": "0971/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering the Periodic Table, halogens, water & ions, chlorine & compounds, metals & reactivity, rates of reaction, organic chemistry, and non-metals & air pollution.",
+  "type": "past",
+  "session": "May/June 2023",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "The Periodic Table",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig. 1.1 shows part of the Periodic Table with the elements: C, N, O, He, Ne, K, Ca, Cr, Cu, Zn, Br, Sr, Cl, I.\nEach symbol may be used once, more than once or not at all.\nGive the symbol of the element that forms 21% by volume of clean, dry air.",
+          "keywords": [
+            [
+              "O",
+              "oxygen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the symbol of the element that has an atom with only three occupied electron shells.",
+          "keywords": [
+            [
+              "Cl",
+              "chlorine"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the symbol of the element that has an atom with only one electron in its outer shell.",
+          "keywords": [
+            [
+              "K",
+              "potassium"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the symbol of the element that is a grey-black solid at room temperature.",
+          "keywords": [
+            [
+              "I",
+              "iodine"
+            ],
+            [
+              "C",
+              "carbon"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the symbol of the element that forms an ion that gives a green precipitate on addition of aqueous ammonia.",
+          "keywords": [
+            [
+              "Cr",
+              "chromium"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the symbol of the element that is used in electrical wiring because of its good ductility.",
+          "keywords": [
+            [
+              "Cu",
+              "copper"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Halogens",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table 2.1 shows properties of the halogens:\nChlorine: mp −101°C, bp −35°C, density 0.003 g/cm³\nBromine: mp −7°C, bp +59°C, density 3.12 g/cm³\nIodine: mp +114°C, density 4.93 g/cm³\nAstatine: mp +302°C, bp +337°C\n\nPredict the boiling point of iodine.",
+          "keywords": [
+            [
+              "184",
+              "183",
+              "185",
+              "about 184",
+              "~184",
+              "180-190",
+              "around 180",
+              "184°C",
+              "183°C",
+              "185°C"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the density of astatine at room temperature and pressure.",
+          "keywords": [
+            [
+              "greater than",
+              "more than",
+              "higher than",
+              "above"
+            ],
+            [
+              "4.93",
+              "5",
+              "5.5",
+              "6",
+              "6.5",
+              "~6",
+              "about 6",
+              "6-7",
+              "between 5 and 7"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Predict the physical state of bromine at +50°C. Give a reason for your answer.\nPhysical state: ________\nReason: ________",
+          "keywords": [
+            [
+              "liquid",
+              "liquid state"
+            ],
+            [
+              "between melting and boiling",
+              "between -7 and 59",
+              "above melting point",
+              "below boiling point",
+              "above mp",
+              "below bp",
+              "temperature is between",
+              "between mp and bp"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the word equation for the reaction of aqueous bromine with aqueous potassium iodide.\nbromine + potassium iodide → ________ + ________",
+          "keywords": [
+            [
+              "potassium bromide",
+              "KBr"
+            ],
+            [
+              "iodine",
+              "I2",
+              "I₂"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why aqueous iodine does not react with aqueous potassium bromide.",
+          "keywords": [
+            [
+              "less reactive",
+              "less reactive than bromine",
+              "lower reactivity",
+              "cannot displace",
+              "cannot replace",
+              "weaker",
+              "below bromine",
+              "not reactive enough"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for iodide ions.\nTest: ________\nObservations: ________",
+          "keywords": [
+            [
+              "silver nitrate",
+              "lead nitrate",
+              "lead(II) nitrate",
+              "AgNO3",
+              "AgNO₃",
+              "Pb(NO3)2"
+            ],
+            [
+              "yellow precipitate",
+              "yellow solid",
+              "yellow ppt",
+              "yellow",
+              "precipitate",
+              "bright yellow"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Water & Ions",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Water from natural sources can contain metal compounds and phosphates.\nName two other substances found in water which are harmful to aquatic life.",
+          "keywords": [
+            [
+              "plastics",
+              "plastic"
+            ],
+            [
+              "harmful microbes",
+              "pathogens",
+              "bacteria",
+              "microorganisms",
+              "microbes"
+            ],
+            [
+              "nitrates",
+              "nitrate"
+            ],
+            [
+              "sewage",
+              "waste"
+            ],
+            [
+              "pesticides",
+              "herbicides",
+              "insecticides"
+            ],
+            [
+              "detergents",
+              "detergent"
+            ],
+            [
+              "oil",
+              "oil spill"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State why phosphates are harmful to aquatic life.",
+          "keywords": [
+            [
+              "eutrophication",
+              "algal bloom",
+              "algae",
+              "algae grow",
+              "excess growth",
+              "overgrowth"
+            ],
+            [
+              "oxygen",
+              "deoxygenation",
+              "lack of oxygen",
+              "depletes oxygen",
+              "oxygen depletion",
+              "reduces oxygen",
+              "suffocate",
+              "kill fish",
+              "kill aquatic"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table 3.1 shows masses of ions in 1000 cm³ of polluted water:\nNH₄⁺ (0.5 mg), Ca²⁺ (1.8 mg), Cl⁻ (2.0 mg), Cu²⁺ (0.3 mg), HCO₃⁻ (8.0 mg), Mg²⁺ (1.6 mg), NO₃⁻ (0.6 mg), K⁺ (8.3 mg), SiO₃²⁻ (5.0 mg), Na⁺ (5.2 mg), SO₄²⁻ (0.2 mg).\nName the positive ion present in the highest concentration.",
+          "keywords": [
+            [
+              "potassium",
+              "K+",
+              "K⁺",
+              "potassium ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of the NO₃⁻ ion.",
+          "keywords": [
+            [
+              "nitrate",
+              "nitrate ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of magnesium ions present in 250 cm³ of polluted water. (Mg²⁺ concentration is 1.6 mg per 1000 cm³)",
+          "keywords": [
+            [
+              "0.4",
+              "0.4mg",
+              "0.4 mg"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "CuSO₄•5H₂O(s) → CuSO₄(s) + 5H₂O(l)\nBlue copper(II) sulfate produces white copper(II) sulfate when heated.\nDescribe how white copper(II) sulfate can be changed back to blue copper(II) sulfate.",
+          "keywords": [
+            [
+              "add water",
+              "water",
+              "drops of water",
+              "add a few drops",
+              "add water to",
+              "add water to it"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose a word from the list which best describes white copper(II) sulfate.",
+          "options": [
+            "anhydrous",
+            "aqueous",
+            "hydrated",
+            "oxidised"
+          ],
+          "answer": 0
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the symbol equation for the reaction of calcium with water.\nCa + ____ H₂O → Ca(OH)₂ + ____",
+          "keywords": [
+            [
+              "2",
+              "two",
+              "2H2O",
+              "2H₂O",
+              "2 H2O",
+              "2 H₂O"
+            ],
+            [
+              "H2",
+              "H₂",
+              "hydrogen",
+              "H2 gas"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Chlorine & Compounds",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Define the term diatomic.",
+          "keywords": [
+            [
+              "two atoms",
+              "2 atoms",
+              "a molecule",
+              "molecule"
+            ],
+            [
+              "two",
+              "2",
+              "pair",
+              "made of two",
+              "consists of two",
+              "contains two",
+              "composed of two"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Deduce the number of protons, neutrons and electrons in the chloride ion shown: ³⁷Cl⁻₁₇\nNumber of protons: ____\nNumber of neutrons: ____\nNumber of electrons: ____",
+          "keywords": [
+            [
+              "17",
+              "seventeen",
+              "17 protons"
+            ],
+            [
+              "20",
+              "twenty",
+              "37-17",
+              "37 minus 17",
+              "20 neutrons"
+            ],
+            [
+              "18",
+              "eighteen",
+              "17+1",
+              "17 plus 1",
+              "18 electrons"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "State the meaning of the term exothermic.",
+          "keywords": [
+            [
+              "releases",
+              "gives out",
+              "gives off",
+              "produces",
+              "transfers",
+              "emits"
+            ],
+            [
+              "heat",
+              "energy",
+              "thermal energy",
+              "heat energy",
+              "to surroundings",
+              "to the surroundings",
+              "surroundings"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig. 4.1 shows a reaction pathway diagram for the reaction of chlorine with hydrogen. The diagram has energy decreasing from left to right.\nComplete the diagram by writing Cl₂ + H₂ and 2HCl in the correct positions on the energy axis.\nState where Cl₂ + H₂ is placed and where 2HCl is placed.",
+          "keywords": [
+            [
+              "reactants",
+              "Cl2 + H2",
+              "Cl₂ + H₂",
+              "higher energy",
+              "top of curve",
+              "left",
+              "left side",
+              "higher",
+              "above"
+            ],
+            [
+              "products",
+              "2HCl",
+              "lower energy",
+              "lower",
+              "below",
+              "right",
+              "right side"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain how the reaction pathway diagram shows that the reaction is exothermic.",
+          "keywords": [
+            [
+              "products",
+              "2HCl",
+              "lower",
+              "less",
+              "products lower",
+              "products below"
+            ],
+            [
+              "energy",
+              "energy level",
+              "less energy",
+              "lower energy",
+              "energy of products",
+              "energy is less"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "A few drops of methyl orange indicator are added to dilute hydrochloric acid.\nState the colour of the solution.",
+          "keywords": [
+            [
+              "red",
+              "pink",
+              "reddish",
+              "pinkish"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the word equation for the reaction of dilute hydrochloric acid with sodium hydroxide.\nhydrochloric acid + sodium hydroxide → ________ + ________",
+          "keywords": [
+            [
+              "sodium chloride",
+              "NaCl",
+              "salt"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Write the formula of the ion present in all alkalis.",
+          "keywords": [
+            [
+              "OH-",
+              "OH⁻",
+              "OH",
+              "hydroxide",
+              "hydroxide ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Fig. 4.2 shows apparatus for the electrolysis of concentrated aqueous sodium chloride using graphite electrodes.\nLabel the diagram to show the anode and the electrolyte.\nIdentify which electrode (connected to positive or negative terminal) is the anode, and state what the electrolyte is.",
+          "keywords": [
+            [
+              "positive",
+              "positive terminal",
+              "positive end",
+              "+",
+              "plus",
+              "anode connected to positive"
+            ],
+            [
+              "sodium chloride",
+              "NaCl",
+              "concentrated sodium chloride",
+              "brine",
+              "sodium chloride solution",
+              "NaCl solution",
+              "aqueous sodium chloride"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "f(ii)",
+          "marks": 4,
+          "type": "short",
+          "question": "Name the products and state the observations at the positive and negative electrodes during electrolysis of concentrated aqueous sodium chloride.\nProduct at positive electrode: ____\nObservations at positive electrode: ____\nProduct at negative electrode: ____\nObservations at negative electrode: ____",
+          "keywords": [
+            [
+              "chlorine",
+              "Cl2",
+              "Cl₂",
+              "chlorine gas"
+            ],
+            [
+              "green",
+              "yellowish-green",
+              "yellow-green",
+              "greenish-yellow",
+              "yellow",
+              "green gas",
+              "pungent",
+              "bleaches",
+              "bleaches litmus",
+              "pungent smell",
+              "bubbles"
+            ],
+            [
+              "hydrogen",
+              "H2",
+              "H₂",
+              "hydrogen gas"
+            ],
+            [
+              "colourless",
+              "colourless gas",
+              "pops",
+              "squeaky pop",
+              "burns with pop",
+              "lighted splint"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Metals & Reactivity",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the main ore of iron.",
+          "keywords": [
+            [
+              "haematite",
+              "hematite",
+              "iron ore",
+              "Fe2O3",
+              "Fe₂O₃",
+              "iron(III) oxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Iron(III) oxide in the iron ore is reduced by carbon monoxide.\nName the two substances which react in the blast furnace to produce carbon monoxide.",
+          "keywords": [
+            [
+              "carbon",
+              "coke",
+              "C"
+            ],
+            [
+              "oxygen",
+              "air",
+              "O2",
+              "O₂"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "State one method of preventing rusting.",
+          "keywords": [
+            [
+              "painting",
+              "paint"
+            ],
+            [
+              "oil",
+              "grease",
+              "oiling",
+              "greasing"
+            ],
+            [
+              "galvanising",
+              "galvanizing",
+              "zinc",
+              "zinc coating",
+              "galvanise"
+            ],
+            [
+              "plastic coating",
+              "plastic",
+              "coating"
+            ],
+            [
+              "sacrificial protection",
+              "sacrificial"
+            ],
+            [
+              "electroplating",
+              "electroplate"
+            ],
+            [
+              "tin plating",
+              "tin"
+            ],
+            [
+              "chromium plating",
+              "chrome"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Table 5.1 shows the reaction of four metals with steam:\nBeryllium: reacts slowly\nChromium: reacts slowly only when the metal is very hot\nMagnesium: reacts rapidly\nSilver: no reaction\n\nPut the four metals in order of their reactivity. Put the least reactive metal first.\nleast reactive → most reactive: ____, ____, ____, ____",
+          "keywords": [
+            [
+              "silver",
+              "Ag"
+            ],
+            [
+              "chromium",
+              "Cr"
+            ],
+            [
+              "beryllium",
+              "Be"
+            ],
+            [
+              "magnesium",
+              "Mg"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Rates of Reaction",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "A student investigates the reaction of different-sized pieces of calcium carbonate with dilute hydrochloric acid. The sizes are large, medium, and small. All other conditions stay the same.\nThe times taken for each reaction to finish are: 160 s, 50 s, 450 s.\nComplete Table 6.1 by matching each size to its time: large pieces → ____ s, medium pieces → ____ s, small pieces → ____ s.",
+          "keywords": [
+            [
+              "450",
+              "450s",
+              "450 s",
+              "large"
+            ],
+            [
+              "160",
+              "160s",
+              "160 s",
+              "medium"
+            ],
+            [
+              "50",
+              "50s",
+              "50 s",
+              "small"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the effect on the time taken for small pieces of calcium carbonate to finish reacting when the temperature is increased. All other conditions stay the same.",
+          "keywords": [
+            [
+              "decreases",
+              "decrease",
+              "shorter",
+              "faster",
+              "less time",
+              "quicker",
+              "takes less time",
+              "shorter time",
+              "time decreases",
+              "reduced",
+              "lower time"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the effect on the time taken for small pieces of calcium carbonate to finish reacting when the concentration of hydrochloric acid is decreased. All other conditions stay the same.",
+          "keywords": [
+            [
+              "increases",
+              "increase",
+              "longer",
+              "slower",
+              "more time",
+              "takes longer",
+              "longer time",
+              "time increases",
+              "greater time"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Crystals of calcium chloride can be prepared by reacting excess calcium carbonate with dilute hydrochloric acid.\nName the process used to separate the unreacted calcium carbonate from the rest of the reaction mixture.",
+          "keywords": [
+            [
+              "filtration",
+              "filtering",
+              "filter",
+              "filtrate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose one other compound that is insoluble in water.",
+          "options": [
+            "ammonium sulfate",
+            "potassium nitrate",
+            "silver chloride",
+            "sodium hydroxide"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Organic Chemistry",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig. 7.1 shows the displayed formula of compound D. The compound contains a chain of carbon atoms with C=C double bonds, C=O double bonds, an -OH group (alcohol functional group), and a -COOH group.\nOn the diagram, identify the alcohol functional group and state its formula.",
+          "keywords": [
+            [
+              "OH",
+              "-OH",
+              "hydroxyl",
+              "hydroxy",
+              "alcohol",
+              "OH group",
+              "hydroxyl group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the molecular formula of compound D by counting all C, H, and O atoms shown in its displayed formula. The structure has 5 carbon atoms, 6 hydrogen atoms, and 5 oxygen atoms arranged as a chain with C=C, C=O, -OH, and -COOH groups.",
+          "keywords": [
+            [
+              "C5H6O5",
+              "C₅H₆O₅",
+              "C5 H6 O5",
+              "5C 6H 5O"
+            ],
+            [
+              "C5H4O5",
+              "C₅H₄O₅"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain, by referring to the structure, why compound D is unsaturated.",
+          "keywords": [
+            [
+              "carbon-carbon double bond",
+              "C=C",
+              "C double bond C",
+              "double bond",
+              "double bond between carbons",
+              "contains a double bond",
+              "has C=C",
+              "double covalent bond"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the displayed formula of ethene. Describe the structure: two carbon atoms joined by a double bond, each carbon bonded to two hydrogen atoms.",
+          "keywords": [
+            [
+              "C2H4",
+              "C₂H₄",
+              "CH2=CH2",
+              "H2C=CH2",
+              "CH₂=CH₂",
+              "double bond",
+              "two carbons",
+              "four hydrogens",
+              "ethene structure"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for unsaturated compounds.\nTest: ________\nObservations: ________",
+          "keywords": [
+            [
+              "bromine",
+              "bromine water",
+              "Br2",
+              "Br₂",
+              "bromine solution",
+              "add bromine"
+            ],
+            [
+              "colourless",
+              "decolourised",
+              "decolorized",
+              "turns colourless",
+              "from orange to colourless",
+              "from brown to colourless",
+              "loses colour"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "State two conditions for cracking.",
+          "keywords": [
+            [
+              "heat",
+              "high temperature",
+              "heated",
+              "high temp",
+              "thermal",
+              "hot"
+            ],
+            [
+              "catalyst",
+              "aluminium oxide",
+              "alumina",
+              "aluminum oxide",
+              "zeolite",
+              "silicon dioxide",
+              "silica"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the symbol equation for the cracking of decane, C₁₀H₂₂, to produce ethene and one other hydrocarbon.\nC₁₀H₂₂ → C₂H₄ + ________",
+          "keywords": [
+            [
+              "C8H18",
+              "C₈H₁₈",
+              "C8H18",
+              "octane"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Name one other method of manufacturing ethanol.",
+          "keywords": [
+            [
+              "fermentation",
+              "fermentation of sugars",
+              "fermentation of glucose",
+              "fermentation of carbohydrates",
+              "yeast fermentation"
+            ],
+            [
+              "sugar",
+              "glucose",
+              "carbohydrates",
+              "yeast"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the salt formed when ethanoic acid reacts with sodium.",
+          "keywords": [
+            [
+              "sodium ethanoate",
+              "sodium ethanoate salt",
+              "CH3COONa",
+              "CH₃COONa"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f",
+          "marks": 2,
+          "type": "short",
+          "question": "Ethanoic acid reacts with propanol. The organic product has the molecular formula C₅H₁₀O₂.\nComplete Table 7.1 to calculate the relative molecular mass of C₅H₁₀O₂.\nCarbon: ____ atoms × 12 = ____\nHydrogen: ____ atoms × 1 = ____\nOxygen: 2 atoms × 16 = 32\nRelative molecular mass = ____",
+          "keywords": [
+            [
+              "5",
+              "5 atoms",
+              "five"
+            ],
+            [
+              "60",
+              "sixty",
+              "5 x 12",
+              "5×12"
+            ],
+            [
+              "10",
+              "ten",
+              "10 atoms"
+            ],
+            [
+              "10",
+              "ten",
+              "10 x 1",
+              "10×1"
+            ],
+            [
+              "102",
+              "102 g/mol",
+              "one hundred and two"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Non-Metals & Air Pollution",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe two physical properties which are typical of non-metals.",
+          "keywords": [
+            [
+              "poor conductor",
+              "does not conduct",
+              "insulator",
+              "poor conductor of heat",
+              "poor conductor of electricity",
+              "not a good conductor"
+            ],
+            [
+              "dull",
+              "not shiny",
+              "not lustrous",
+              "dull appearance",
+              "lack lustre"
+            ],
+            [
+              "low melting point",
+              "low boiling point",
+              "low mp",
+              "low bp"
+            ],
+            [
+              "brittle",
+              "brittle when solid",
+              "breaks easily",
+              "not malleable"
+            ],
+            [
+              "low density",
+              "not dense",
+              "low density"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete Fig. 8.1 to show the dot-and-cross diagram for a molecule of methane. Show outer shell electrons only.\nDescribe the diagram: the carbon atom in the centre shares four electrons (shown as crosses or dots) with four hydrogen atoms, each hydrogen contributing one electron, forming four single covalent bonds in a tetrahedral arrangement.",
+          "keywords": [
+            [
+              "carbon",
+              "C",
+              "4",
+              "four",
+              "four electrons",
+              "central"
+            ],
+            [
+              "hydrogen",
+              "H",
+              "1",
+              "one",
+              "one electron",
+              "each hydrogen"
+            ],
+            [
+              "share",
+              "shared",
+              "covalent bond",
+              "single bond",
+              "four bonds",
+              "4 bonds",
+              "four pairs"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Methane is an alkane.\nWrite the general formula for alkanes.",
+          "keywords": [
+            [
+              "CnH2n+2",
+              "CₙH₂ₙ₊₂",
+              "CnH2n plus 2",
+              "CnH(2n+2)",
+              "C n H 2n+2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one source of methane in the air.",
+          "keywords": [
+            [
+              "cattle",
+              "cows",
+              "livestock",
+              "animals",
+              "cattle digestion",
+              "animal digestion"
+            ],
+            [
+              "rice paddy",
+              "rice paddies",
+              "rice fields",
+              "rice farming"
+            ],
+            [
+              "landfill",
+              "landfill sites",
+              "waste",
+              "waste decomposition",
+              "decaying waste"
+            ],
+            [
+              "natural gas",
+              "natural gas leaks",
+              "gas leaks",
+              "gas extraction"
+            ],
+            [
+              "decay",
+              "decaying matter",
+              "decaying organic matter",
+              "rotting"
+            ],
+            [
+              "termites"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one adverse effect of methane in the air.",
+          "keywords": [
+            [
+              "greenhouse gas",
+              "greenhouse effect",
+              "greenhouse",
+              "greenhouse gas"
+            ],
+            [
+              "global warming",
+              "climate change",
+              "warming",
+              "temperature rise",
+              "heat trapped",
+              "traps heat"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name one other compound formed during the incomplete combustion of methane (besides carbon particulates and water).",
+          "keywords": [
+            [
+              "carbon monoxide",
+              "CO"
+            ],
+            [
+              "soot",
+              "carbon",
+              "C",
+              "unburned carbon"
+            ],
+            [
+              "unburned hydrocarbons",
+              "hydrocarbons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose from the list the pH value that is acidic.",
+          "options": [
+            "pH 4",
+            "pH 7",
+            "pH 9",
+            "pH 13"
+          ],
+          "answer": 0
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "State two methods of reducing acid rain.",
+          "keywords": [
+            [
+              "catalytic converter",
+              "catalytic converters",
+              "catalytic convertor"
+            ],
+            [
+              "flue gas desulfurisation",
+              "flue gas desulfurization",
+              "desulfurisation",
+              "desulfurization",
+              "scrubbers",
+              "scrubbing",
+              "remove sulfur",
+              "remove sulfur dioxide"
+            ],
+            [
+              "low sulfur fuels",
+              "low sulfur",
+              "low sulfur fuel",
+              "use less sulfur",
+              "less sulfur fuel"
+            ],
+            [
+              "renewable energy",
+              "renewable",
+              "solar",
+              "wind",
+              "hydroelectric",
+              "alternative energy",
+              "renewable energy sources"
+            ],
+            [
+              "liming",
+              "lime",
+              "add lime",
+              "liming lakes",
+              "neutralise lakes"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(iii)",
+          "marks": 3,
+          "type": "long",
+          "question": "Fig. 8.2 shows a gas jar of sulfur dioxide separated from a gas jar of air by a glass plate. Filter paper soaked in aqueous acidified potassium manganate(VII) is glued to the top of the gas jar of air. The glass plate is removed. At first, the filter paper remains purple. After a short time, the filter paper turns colourless.\nExplain these results in terms of the kinetic particle theory.",
+          "keywords": [
+            [
+              "diffuse",
+              "diffusion",
+              "move",
+              "spread",
+              "travel",
+              "drift",
+              "flow"
+            ],
+            [
+              "random",
+              "random motion",
+              "random movement",
+              "move randomly",
+              "randomly",
+              "random direction"
+            ],
+            [
+              "gas particles",
+              "molecules",
+              "particles",
+              "SO2 particles",
+              "sulfur dioxide particles",
+              "gas"
+            ],
+            [
+              "collide",
+              "collisions",
+              "bounce",
+              "collide with air",
+              "collisions with air"
+            ],
+            [
+              "time",
+              "delay",
+              "eventually",
+              "gradually",
+              "slow",
+              "takes time",
+              "after a short time",
+              "travel time"
+            ],
+            [
+              "reach",
+              "reaches",
+              "reached",
+              "arrive",
+              "arrives",
+              "come into contact",
+              "contacts the filter paper"
+            ],
+            [
+              "react",
+              "reacts",
+              "reacted",
+              "reaction",
+              "reduces",
+              "reduces manganate",
+              "turns colourless",
+              "decolourised"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    }
+  ]
+}

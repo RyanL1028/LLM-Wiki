@@ -1,0 +1,55 @@
+{
+  "id": "MS-iJ24",
+  "type": "mark_scheme",
+  "paperCode": "0620/33",
+  "session": "May/June 2024",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "2(c)",
+      "answer": "NH4Cl",
+      "marks": 1
+    },
+    {
+      "question": "2(d)",
+      "answer": "2nd box down ticked (lead chloride)",
+      "marks": 1
+    },
+    {
+      "question": "4(c)",
+      "answer": "circle around the -O\u2013H group attached to second C atom down",
+      "marks": 1
+    },
+    {
+      "question": "5(c)",
+      "answer": "P3N3Cl6",
+      "marks": 1
+    },
+    {
+      "question": "5(d)",
+      "answer": "164 (2)",
+      "marks": 2
+    },
+    {
+      "question": "5(e)",
+      "answer": "fertilisers / detergents",
+      "marks": 1
+    },
+    {
+      "question": "6(a)",
+      "answer": "aqueous / dissolved in water",
+      "marks": 1
+    },
+    {
+      "question": "6(e)",
+      "answer": "(reaction which) takes in thermal energy (from the surroundings)",
+      "marks": 1
+    },
+    {
+      "question": "7(e)",
+      "answer": "zinc oxide loses oxygen",
+      "marks": 1
+    }
+  ],
+  "answerCount": 9
+}

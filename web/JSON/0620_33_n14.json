@@ -1,0 +1,411 @@
+{
+  "id": "0620_33_n14",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering element properties, states of matter, empirical/molecular formulae, electrolysis, metals and alloys, organic chemistry, and reaction equilibrium.",
+  "type": "past",
+  "session": "Oct/Nov 2014",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Element Properties",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "For bromine (Br2), give one physical and one chemical property.",
+          "keywords": [
+            [
+              "red-brown liquid",
+              "dark red liquid",
+              "volatile",
+              "pungent smell"
+            ],
+            [
+              "reacts with metals",
+              "disinfectant",
+              "bleaching action",
+              "displaces less reactive halogens"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "For carbon (graphite), give one physical and one chemical property.",
+          "keywords": [
+            [
+              "grey-black solid",
+              "soft",
+              "slippery",
+              "conducts electricity"
+            ],
+            [
+              "burns in oxygen to form CO2",
+              "reducing agent",
+              "unreactive at room temperature"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "For manganese (Mn), give one physical and one chemical property.",
+          "keywords": [
+            [
+              "hard grey metal",
+              "high melting point",
+              "high density",
+              "transition metal"
+            ],
+            [
+              "forms coloured compounds",
+              "variable oxidation states",
+              "acts as catalyst"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "States of Matter & Melting",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Compound X is heated from -5C to 90C. Region BC is a plateau. Complete: X(s) <=> ...",
+          "keywords": [
+            [
+              "X(l)",
+              "liquid",
+              "X(s) <=> X(l)",
+              "melting"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the significance of temperature tC on the graph?",
+          "keywords": [
+            [
+              "melting point",
+              "melting point of X"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the physical state of X in region EF (above boiling point)?",
+          "keywords": [
+            [
+              "gas",
+              "gaseous",
+              "vapour"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "What would be different in region BC if an impure sample of X had been used?",
+          "keywords": [
+            [
+              "plateau would slope",
+              "melts over a range",
+              "not a sharp melting point",
+              "lower melting point"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "X is a hydrocarbon with 85.7% carbon. What is the percentage of hydrogen?",
+          "keywords": [
+            [
+              "14.3%",
+              "100-85.7 = 14.3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 3,
+          "type": "short",
+          "question": "Calculate the empirical formula of X (85.7% C, 14.3% H, Mr = 84).",
+          "keywords": [
+            [
+              "C: 85.7/12 = 7.14, H: 14.3/1 = 14.3",
+              "ratio 1:2",
+              "CH2 empirical formula"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the molecular formula of X (Mr = 84, empirical CH2, Mr CH2 = 14)?",
+          "keywords": [
+            [
+              "C6H12",
+              "84/14 = 6",
+              "(CH2)6",
+              "hexene or cyclohexane"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Electrolysis",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe the electrolysis of molten zinc chloride using inert electrodes.",
+          "keywords": [
+            [
+              "zinc at cathode",
+              "Zn2+ + 2e- -> Zn",
+              "grey/metallic deposit"
+            ],
+            [
+              "chlorine at anode",
+              "2Cl- -> Cl2 + 2e-",
+              "green gas"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain the difference between electrolysis of molten and aqueous zinc chloride.",
+          "keywords": [
+            [
+              "molten: Zn at cathode, Cl2 at anode",
+              "only Zn2+ and Cl- present"
+            ],
+            [
+              "aqueous: H2 at cathode instead of Zn",
+              "H+ discharged more easily",
+              "O2 may form at anode if dilute"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two industrial uses of electrolysis.",
+          "keywords": [
+            [
+              "extraction of aluminium",
+              "extraction of reactive metals"
+            ],
+            [
+              "electroplating",
+              "purification of copper",
+              "production of chlorine and NaOH"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Metals & Alloys",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how zinc can be used to protect steel from rusting. Explain why it works.",
+          "keywords": [
+            [
+              "galvanising",
+              "coating steel with zinc",
+              "zinc layer"
+            ],
+            [
+              "sacrificial protection",
+              "zinc more reactive than iron",
+              "zinc corrodes instead",
+              "even when scratched"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why alloys are harder than pure metals.",
+          "keywords": [
+            [
+              "different sized atoms",
+              "distort regular lattice",
+              "disrupt layers"
+            ],
+            [
+              "layers cannot slide easily",
+              "harder to deform"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Name two alloys and give a use for each.",
+          "keywords": [
+            [
+              "stainless steel: cutlery, sinks",
+              "brass: musical instruments, fittings",
+              "bronze: statues, coins",
+              "solder: joining metals"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Organic Chemistry",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the homologous series of: CH4, C2H4, CH3OH, CH3COOH.",
+          "keywords": [
+            [
+              "alkanes, alkenes, alcohols, carboxylic acids"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how ethanoic acid can be made from ethanol. Give conditions.",
+          "keywords": [
+            [
+              "oxidation",
+              "oxidising agent: acidified KMnO4 or K2Cr2O7"
+            ],
+            [
+              "warm",
+              "reflux",
+              "or using bacteria/vinegar production"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe a chemical test to distinguish between ethanol and ethanoic acid.",
+          "keywords": [
+            [
+              "add sodium carbonate to ethanoic acid: CO2 evolved",
+              "bubbles"
+            ],
+            [
+              "ethanol: no reaction with carbonate",
+              "add acidified K2Cr2O7: turns green with ethanol"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Equilibrium & Reversible Reactions",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Define the term equilibrium in a chemical reaction.",
+          "keywords": [
+            [
+              "forward and reverse rates equal",
+              "concentrations constant",
+              "closed system"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Hydrated copper sulfate: CuSO4.5H2O <=> CuSO4 + 5H2O (forward endothermic). Explain the effect of heating.",
+          "keywords": [
+            [
+              "heating favours forward reaction",
+              "blue to white",
+              "water removed"
+            ],
+            [
+              "endothermic forward favoured by heat",
+              "equilibrium shifts right"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Why is the Contact process (SO2 -> SO3) carried out at 450C rather than a lower temperature?",
+          "keywords": [
+            [
+              "compromise temperature",
+              "balance rate and yield",
+              "lower temp higher yield but too slow"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

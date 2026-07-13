@@ -1,0 +1,1065 @@
+{
+  "id": "0620_33_n20",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering the Periodic Table & isotopes, air pollutants & combustion, substance properties & bonding, carboxylic acids & relative molecular mass, ethanol & fermentation, electrolysis of HCl, rates of reaction, and metals & compounds.",
+  "type": "past",
+  "session": "October/November 2020",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Periodic Table & Isotopes",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The diagram shows part of the Periodic Table containing H, K, Ca, N, O, F, Al, Cl, Br, I, Ar, Pt.\nState the symbol of the element that is a fuel which is a gas at room temperature.",
+          "keywords": [
+            [
+              "H",
+              "hydrogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the symbol of the element that is used to kill bacteria in water.",
+          "keywords": [
+            [
+              "Cl",
+              "chlorine"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the symbol of the element that forms a stable ion of type X3+.",
+          "keywords": [
+            [
+              "Al",
+              "aluminium",
+              "aluminum"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the symbol of the element that is a grey-black non-metallic solid at room temperature.",
+          "keywords": [
+            [
+              "I",
+              "iodine"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the symbol of the element that forms an ion which, on addition of aqueous sodium hydroxide, gives a white precipitate which is soluble in excess aqueous sodium hydroxide.",
+          "keywords": [
+            [
+              "Al",
+              "aluminium",
+              "aluminum",
+              "Al3+"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Identify one correct statement about isotopes. Tick one box.",
+          "options": [
+            "They are molecules with the same number of neutrons but different numbers of protons.",
+            "They are atoms with the same number of protons but different numbers of neutrons.",
+            "They are molecules with the same number of protons but different numbers of electrons.",
+            "They are atoms with the same number of neutrons but different numbers of protons."
+          ],
+          "answer": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "An isotope of sulfur is shown: ³³S₁₆. Deduce the number of protons and neutrons in this isotope.",
+          "keywords": [
+            [
+              "16",
+              "protons 16",
+              "sixteen protons"
+            ],
+            [
+              "17",
+              "neutrons 17",
+              "seventeen neutrons",
+              "33-16"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the electronic structure of a sulfur atom. (Draw the electron shells for sulfur: 2,8,6)",
+          "keywords": [
+            [
+              "2,8,6",
+              "2.8.6",
+              "2 8 6"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Air Pollutants & Combustion",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The table shows mass of air pollutants (oxides of nitrogen, sulfur dioxide, carbon monoxide, ozone, particulates) in 1000 cm³ samples over four months (Aug-Nov).\nName the pollutant that shows a decrease in concentration between August and November. (Aug: 29.5, Nov: 12.8)",
+          "keywords": [
+            [
+              "ozone",
+              "O3",
+              "O₃"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of oxides of nitrogen in 250 cm³ of the sample of air taken in August. (August NOx = 106.0 ng in 1000 cm³)",
+          "keywords": [
+            [
+              "26.5",
+              "26.5ng",
+              "26.5 ng"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Carbon monoxide is produced by the incomplete combustion of fossil fuels. State the meaning of the term incomplete combustion.",
+          "keywords": [
+            [
+              "not enough oxygen",
+              "limited oxygen",
+              "insufficient oxygen",
+              "lack of oxygen",
+              "incomplete supply of oxygen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one adverse effect of carbon monoxide on health.",
+          "keywords": [
+            [
+              "toxic",
+              "poisonous"
+            ],
+            [
+              "binds to hemoglobin",
+              "haemoglobin",
+              "binds to haemoglobin"
+            ],
+            [
+              "reduces oxygen",
+              "prevents oxygen transport",
+              "oxygen carrying capacity"
+            ],
+            [
+              "death",
+              "fatal"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Carbon monoxide is also produced when methane reacts with steam in the presence of a catalyst. Explain why a catalyst is used in this reaction.",
+          "keywords": [
+            [
+              "increase rate",
+              "speed up",
+              "faster",
+              "increase reaction rate"
+            ],
+            [
+              "not used up",
+              "not consumed",
+              "unchanged"
+            ],
+            [
+              "lower activation energy",
+              "alternative pathway"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Methane is an air pollutant. State one source of methane in the air.",
+          "keywords": [
+            [
+              "cattle",
+              "cows",
+              "livestock",
+              "animals"
+            ],
+            [
+              "decay",
+              "rotting",
+              "decomposition",
+              "decaying vegetation"
+            ],
+            [
+              "rice paddies",
+              "paddy fields"
+            ],
+            [
+              "natural gas leaks",
+              "fossil fuel extraction"
+            ],
+            [
+              "landfill",
+              "waste decomposition"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation for the reaction of carbon monoxide with oxygen.\n____ CO + O₂ → ____ CO₂",
+          "keywords": [
+            [
+              "2",
+              "2CO",
+              "two CO"
+            ],
+            [
+              "2",
+              "2CO2",
+              "2CO₂",
+              "two CO2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the energy level diagram for the reaction of carbon monoxide with oxygen by writing reactants and products on the diagram. (Reactants at higher energy, products at lower energy)",
+          "keywords": [
+            [
+              "reactants",
+              "reactants higher",
+              "reactants at start"
+            ],
+            [
+              "products",
+              "products lower",
+              "products at end"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain, using information on the energy level diagram, how you know that this reaction is exothermic.",
+          "keywords": [
+            [
+              "products lower energy",
+              "products have less energy"
+            ],
+            [
+              "energy released",
+              "energy given out",
+              "energy goes down"
+            ],
+            [
+              "reactants higher than products"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for carbon dioxide.",
+          "keywords": [
+            [
+              "limewater",
+              "calcium hydroxide",
+              "Ca(OH)2"
+            ],
+            [
+              "turns milky",
+              "milky",
+              "cloudy",
+              "white precipitate",
+              "turns cloudy"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Identify which one of these pH values represents the pH of a solution of carbon dioxide in water. Draw a circle around the correct answer.",
+          "options": [
+            "pH 6",
+            "pH 7",
+            "pH 8",
+            "pH 14"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Substance Properties & Bonding",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "long",
+          "question": "Table shows properties of four substances A, B, C, D:\nA: does not conduct solid or molten, low mp, insoluble\nB: conducts solid and molten, high mp, insoluble\nC: does not conduct solid or molten, very high mp, soluble\nD: does not conduct solid, conducts molten, high mp, soluble\nState which substance, A, B, C or D, is sulfur. Explain your answer.",
+          "keywords": [
+            [
+              "A",
+              "substance A"
+            ],
+            [
+              "does not conduct",
+              "non-conductor",
+              "no electrical conductivity"
+            ],
+            [
+              "low melting point",
+              "low mp",
+              "simple molecular",
+              "covalent"
+            ],
+            [
+              "insoluble",
+              "does not dissolve"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "long",
+          "question": "State which substance, A, B, C or D, is sodium chloride. Explain your answer.",
+          "keywords": [
+            [
+              "D",
+              "substance D"
+            ],
+            [
+              "conducts when molten",
+              "conducts molten",
+              "conducts liquid",
+              "ionic"
+            ],
+            [
+              "high melting point",
+              "high mp"
+            ],
+            [
+              "soluble",
+              "dissolves in water"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Carboxylic Acids & Bases",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of crotonic acid is shown (a 4-carbon chain with a C=C double bond and a -COOH group).\nOn the structure, draw a circle around the functional group which shows that this is an unsaturated compound.",
+          "keywords": [
+            [
+              "C=C",
+              "double bond",
+              "carbon carbon double bond",
+              "alkene",
+              "C double bond C"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the formula of crotonic acid to show the number of carbon, hydrogen and oxygen atoms. (Structure: CH₃-CH=CH-COOH)",
+          "keywords": [
+            [
+              "C4H6O2",
+              "C₄H₆O₂",
+              "C4 H6 O2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the table to calculate the relative molecular mass of crotonic acid.\ncarbon: 4 × 12 = 48\nhydrogen: __ × 1 = __\noxygen: __ × 16 = __\nrelative molecular mass = ____",
+          "keywords": [
+            [
+              "6",
+              "6 hydrogen",
+              "hydrogen 6"
+            ],
+            [
+              "6",
+              "6 hydrogen"
+            ],
+            [
+              "2",
+              "2 oxygen",
+              "oxygen 2"
+            ],
+            [
+              "32",
+              "32 oxygen"
+            ],
+            [
+              "86",
+              "Mr 86",
+              "relative molecular mass 86"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the word equation for the reaction of nitric acid with calcium oxide.\nnitric acid + calcium oxide → ____ + ____",
+          "keywords": [
+            [
+              "calcium nitrate",
+              "Ca(NO3)2",
+              "Ca(NO₃)₂"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calcium oxide is manufactured from limestone by thermal decomposition. Give the name of the main chemical compound in limestone.",
+          "keywords": [
+            [
+              "calcium carbonate",
+              "CaCO3",
+              "CaCO₃"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "State the meaning of the term thermal decomposition.",
+          "keywords": [
+            [
+              "heat",
+              "heating",
+              "thermal",
+              "high temperature"
+            ],
+            [
+              "breaks down",
+              "decomposes",
+              "breakdown",
+              "breaks apart",
+              "one substance into simpler substances"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Calcium oxide reacts with water to produce slaked lime. State one use of slaked lime.",
+          "keywords": [
+            [
+              "neutralise acidic soil",
+              "neutralise soil",
+              "reduce acidity",
+              "agriculture",
+              "farming"
+            ],
+            [
+              "mortar",
+              "building",
+              "construction",
+              "cement"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Ethanol & Fermentation",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "The formula of ethanol is C₂H₆O. Draw the structure of ethanol to show all of the atoms and all of the bonds.",
+          "keywords": [
+            [
+              "CH3CH2OH",
+              "CH₃CH₂OH",
+              "C2H5OH",
+              "ethanol structure",
+              "two carbons",
+              "C-C-O-H"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Ethanol is a liquid at room temperature. Describe the motion and separation of the particles in ethanol.",
+          "keywords": [
+            [
+              "slide past",
+              "slide",
+              "sliding",
+              "move around",
+              "flow",
+              "moving"
+            ],
+            [
+              "close together",
+              "touching",
+              "close",
+              "packed",
+              "little space",
+              "small spaces"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the two products formed when ethanol undergoes complete combustion.",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2",
+              "CO₂"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Ethanol can be manufactured by the fermentation of glucose. One condition is using enzymes in yeast. State two other conditions for fermentation.",
+          "keywords": [
+            [
+              "warm temperature",
+              "30°C",
+              "25-35°C",
+              "warm",
+              "moderate temperature"
+            ],
+            [
+              "anaerobic",
+              "no oxygen",
+              "absence of oxygen",
+              "without air",
+              "no air"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the method used to separate the ethanol from the reaction mixture after fermentation is complete.",
+          "keywords": [
+            [
+              "distillation",
+              "fractional distillation",
+              "distil",
+              "distilling"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Alcohols can also be manufactured from alkenes. Complete the word equation for the manufacture of ethanol by this method.\n____ + ____ → ethanol",
+          "keywords": [
+            [
+              "ethene",
+              "C2H4",
+              "C₂H₄",
+              "ethylene"
+            ],
+            [
+              "steam",
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Electrolysis & Redox",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "long",
+          "question": "Describe the electrolysis of concentrated hydrochloric acid. Include a labelled diagram of the apparatus used for the electrolysis and collection of gases, and the names of the products formed at the positive and negative electrode.",
+          "keywords": [
+            [
+              "chlorine",
+              "Cl2",
+              "Cl₂",
+              "chlorine gas"
+            ],
+            [
+              "hydrogen",
+              "H2",
+              "H₂",
+              "hydrogen gas"
+            ],
+            [
+              "diagram",
+              "apparatus",
+              "electrodes",
+              "power supply",
+              "battery"
+            ],
+            [
+              "carbon",
+              "graphite",
+              "inert electrodes"
+            ],
+            [
+              "test tube",
+              "collection",
+              "collecting",
+              "inverted",
+              "gas collection"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation for the reaction of hydrochloric acid with sodium carbonate.\nNa₂CO₃ + 2HCl → ____ NaCl + ____ + CO₂",
+          "keywords": [
+            [
+              "2",
+              "2NaCl",
+              "two NaCl"
+            ],
+            [
+              "H2O",
+              "H₂O",
+              "water"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Carbon dioxide reacts with carbon to produce carbon monoxide: CO₂ + C → 2CO.\nExplain how this equation shows that carbon dioxide has been reduced.",
+          "keywords": [
+            [
+              "loss of oxygen",
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost",
+              "oxygen taken away"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Rates of Reaction",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "A student investigated the rate of reaction of excess calcium carbonate with dilute HCl by two methods. Method 1: measure volume of CO₂ at intervals. Method 2: measure loss in mass at intervals. Suggest one advantage of Method 1 compared with Method 2.",
+          "keywords": [
+            [
+              "easier",
+              "simpler",
+              "less equipment",
+              "no balance needed"
+            ],
+            [
+              "no need to weigh",
+              "no mass measurement"
+            ],
+            [
+              "graph directly",
+              "direct measurement"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why there is a decrease in mass of the reaction mixture in Method 2.",
+          "keywords": [
+            [
+              "carbon dioxide escapes",
+              "CO2 escapes",
+              "gas escapes",
+              "gas lost",
+              "gas leaves"
+            ],
+            [
+              "carbon dioxide is a gas",
+              "CO2 is a gas"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The graph shows volume of CO₂ against time for large pieces of CaCO₃ (curve starts steep, then levels off at 50 cm³). Describe how the rate of this reaction changes with time.",
+          "keywords": [
+            [
+              "decreases",
+              "decrease",
+              "slows down",
+              "slower",
+              "gets slower",
+              "rate decreases with time"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the time taken to collect 36 cm³ of carbon dioxide from the graph.",
+          "keywords": [
+            [
+              "reading from graph",
+              "time value",
+              "seconds"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "The experiment is repeated using smaller pieces of calcium carbonate. All other conditions stay the same. Draw a line on the grid to show how the volume of carbon dioxide changes with time when smaller pieces are used. (Steeper initial slope, same final volume)",
+          "keywords": [
+            [
+              "steeper",
+              "steeper curve",
+              "steeper line",
+              "higher initial rate"
+            ],
+            [
+              "same final volume",
+              "same end point",
+              "50 cm3",
+              "levels off same"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iv)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe what effect the following changes have on the rate of this reaction. All other conditions stay the same.\n● The temperature is increased.\n● The concentration of the hydrochloric acid is decreased.",
+          "keywords": [
+            [
+              "increases",
+              "increase",
+              "faster",
+              "higher",
+              "rate increases",
+              "more collisions"
+            ],
+            [
+              "decreases",
+              "decrease",
+              "slower",
+              "lower",
+              "rate decreases",
+              "fewer collisions"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Metals & Compounds",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "choosethree",
+          "question": "Sodium is a metal in Group I of the Periodic Table. Identify two correct statements about sodium. Tick two boxes.",
+          "correctIndices": [
+            0,
+            3
+          ],
+          "options": [
+            "It is a relatively soft metal.",
+            "It has a high melting point.",
+            "It forms coloured chlorides.",
+            "It has a lower density than most metals.",
+            "It is a good insulator."
+          ]
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Some changes of state of sodium are shown: solid sodium → R → liquid sodium → S → sodium gas.\nGive the names of the changes of state represented by R and S.",
+          "keywords": [
+            [
+              "melting",
+              "melt",
+              "fusion"
+            ],
+            [
+              "boiling",
+              "evaporation",
+              "vaporisation",
+              "vaporization"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Table compares reactions of four metals with dilute and concentrated HCl:\nberyllium: bubbles form rapidly / bubbles form very rapidly\ncopper: no bubbles seen / no bubbles seen\niron: bubbles form very slowly / bubbles form slowly\nnickel: no bubbles seen / bubbles form slowly\nPut the four metals in order of their reactivity. Put the least reactive metal first.",
+          "keywords": [
+            [
+              "copper",
+              "Cu",
+              "copper least"
+            ],
+            [
+              "nickel",
+              "Ni"
+            ],
+            [
+              "iron",
+              "Fe"
+            ],
+            [
+              "beryllium",
+              "Be",
+              "beryllium most"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "long",
+          "question": "Crystals of magnesium chloride, MgCl₂·6H₂O, can be prepared by adding excess magnesium powder to dilute hydrochloric acid. Describe how to prepare a sample of pure dry magnesium chloride crystals after the reaction is complete. Include how to remove excess magnesium, crystallise the magnesium chloride, and dry the crystals.",
+          "keywords": [
+            [
+              "filter",
+              "filtration",
+              "filter off",
+              "filter paper"
+            ],
+            [
+              "filtrate",
+              "solution",
+              "magnesium chloride solution"
+            ],
+            [
+              "heat",
+              "evaporate",
+              "warm",
+              "heat gently",
+              "evaporation"
+            ],
+            [
+              "crystallisation point",
+              "crystallisation",
+              "saturated",
+              "cool",
+              "crystals form",
+              "leave to crystallise"
+            ],
+            [
+              "dry",
+              "filter paper",
+              "press dry",
+              "pat dry",
+              "between filter paper",
+              "blotting paper"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete this description of the test for sulfur dioxide using words from the list: blue, chloride, colourless, green, manganate(VII), sulfate(VI).\nThe test for sulfur dioxide uses acidified aqueous potassium ____. The colour change is from purple to ____.",
+          "keywords": [
+            [
+              "manganate(VII)",
+              "manganate",
+              "manganate VII",
+              "permanganate"
+            ],
+            [
+              "colourless",
+              "colorless"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Green nickel(II) sulfate crystals turn yellow when heated: NiSO₄·7H₂O → NiSO₄ + 7H₂O.\nSuggest how you would change yellow nickel(II) sulfate to green nickel(II) sulfate.",
+          "keywords": [
+            [
+              "add water",
+              "hydrate",
+              "add water to",
+              "dissolve in water",
+              "rehydrate",
+              "water added"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Identify which word best describes green nickel(II) sulfate with the formula NiSO₄·7H₂O. Draw a circle around the correct answer.",
+          "options": [
+            "anhydrous",
+            "decomposed",
+            "hydrated",
+            "oxidised",
+            "reduced"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

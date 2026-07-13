@@ -1,0 +1,10 @@
+Workflow
+
+1. Convert all past papers and marking scheme to JSON files and put it under a new directory named JSON
+2. Pair the chemistry past paper jsons and marking scheme jsons, create .md file to store the linkage
+3. Analyze the structure of past papers and create a .md file to store structure
+4. Analyze the content of past papers and suggest relevant topics to be included in an LLM Wiki
+5. Create an LLM Wiki using the suggested topics and /Users/ryan/Downloads/IGCSE-Chem-Textbook.json
+6. Generate a mock exam paper based on the structure of the exam and content from the LLM Wiki
+
+Confirm with me every step.

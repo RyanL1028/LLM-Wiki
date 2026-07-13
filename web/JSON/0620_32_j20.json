@@ -1,0 +1,1037 @@
+{
+  "id": "0620_32_j20",
+  "subject": "Chemistry",
+  "code": "0620/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering symbols & formulae, atomic structure, ions in soil solution, compounds & uses, Group I trends & carboxylic acids, electrolysis & halogens, acids & rates of reaction, and organic chemistry & separation techniques.",
+  "type": "past",
+  "session": "May/June 2020",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Symbols, Formulae & Atomic Structure",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "A list of symbols and formulae: CH₄, Cl⁻, CO₂, Cr³⁺, Cu²⁺, Fe²⁺, H₂, K⁺, N₂, O₂, SO₂.\nWhich symbol or formula represents a compound produced by the thermal decomposition of calcium carbonate?",
+          "keywords": [
+            [
+              "CO2",
+              "CO₂",
+              "carbon dioxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which symbol or formula represents an element which is used as a fuel?",
+          "keywords": [
+            [
+              "H2",
+              "H₂",
+              "hydrogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which symbol or formula represents a gas which forms 78% of clean dry air?",
+          "keywords": [
+            [
+              "N2",
+              "N₂",
+              "nitrogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which symbol or formula represents an ion which forms a blue precipitate when added to aqueous sodium hydroxide?",
+          "keywords": [
+            [
+              "Cu2+",
+              "Cu²⁺",
+              "copper(II)",
+              "copper ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which symbol or formula represents an ion formed when an atom gains an electron?",
+          "keywords": [
+            [
+              "Cl-",
+              "Cl⁻",
+              "chloride",
+              "chloride ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete the table to show the relative charge and approximate relative mass of a proton, a neutron and an electron.",
+          "keywords": [
+            [
+              "+1",
+              "positive",
+              "proton charge +1"
+            ],
+            [
+              "1",
+              "proton mass 1"
+            ],
+            [
+              "0",
+              "neutral",
+              "no charge",
+              "zero charge"
+            ],
+            [
+              "1",
+              "neutron mass 1"
+            ],
+            [
+              "-1",
+              "negative",
+              "electron charge -1"
+            ],
+            [
+              "0",
+              "negligible",
+              "1/1840",
+              "very small",
+              "electron mass negligible"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Deduce the number of electrons and neutrons in an atom of the isotope ⁴¹K₁₉.",
+          "keywords": [
+            [
+              "19",
+              "19 electrons",
+              "nineteen electrons"
+            ],
+            [
+              "22",
+              "22 neutrons",
+              "41-19",
+              "twenty two neutrons"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Ions in Soil Solution",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table shows mass of ions in 1000 cm³ of soil solution. Which negative ion has the lowest concentration? (SO₄²⁻ = 5.1 mg)",
+          "keywords": [
+            [
+              "sulfate",
+              "SO4 2-",
+              "SO₄²⁻",
+              "sulphate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of the SO₄²⁻ ion.",
+          "keywords": [
+            [
+              "sulfate",
+              "sulfate ion",
+              "sulphate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of nitrate ions in 200 cm³ of this solution. (NO₃⁻ = 28.0 mg in 1000 cm³)",
+          "keywords": [
+            [
+              "5.6",
+              "5.6mg",
+              "5.6 mg"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the compound that contains NH₄⁺ ions and NO₃⁻ ions.",
+          "keywords": [
+            [
+              "ammonium nitrate",
+              "NH4NO3",
+              "NH₄NO₃"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a chemical test for calcium ions.",
+          "keywords": [
+            [
+              "flame test",
+              "flame"
+            ],
+            [
+              "brick red",
+              "orange-red",
+              "red",
+              "brick red flame",
+              "orange-red flame"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the formula for calcium nitrate from Al(NO₃)₃, Mg(NO₃)₂ and NaNO₃.",
+          "keywords": [
+            [
+              "Ca(NO3)2",
+              "Ca(NO₃)₂"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Compounds & Their Uses",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "short",
+          "question": "Complete the table: water (H₂O), sulfur dioxide (SO₂), calcium hydroxide Ca(OH)₂. Give the number of atoms in each formula and a use for each compound.",
+          "keywords": [
+            [
+              "drinking",
+              "solvent",
+              "washing",
+              "cooking",
+              "water use"
+            ],
+            [
+              "preservative",
+              "food preservative",
+              "bleach",
+              "making sulfuric acid",
+              "SO2 use"
+            ],
+            [
+              "1",
+              "one calcium"
+            ],
+            [
+              "2",
+              "two oxygen"
+            ],
+            [
+              "2",
+              "two hydrogen"
+            ],
+            [
+              "neutralising soil",
+              "mortar",
+              "building",
+              "agriculture",
+              "slaked lime use"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Table compares reactions of metals with steam: copper does not react, magnesium reacts rapidly, sodium reacts explosively, zinc reacts slowly when warmed.\nPut the four metals in order of reactivity. Put the least reactive metal first.",
+          "keywords": [
+            [
+              "copper",
+              "Cu"
+            ],
+            [
+              "zinc",
+              "Zn"
+            ],
+            [
+              "magnesium",
+              "Mg"
+            ],
+            [
+              "sodium",
+              "Na"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the equation: 2Na + ____ NaOH → ____ Na₂O + H₂",
+          "keywords": [
+            [
+              "2",
+              "2NaOH",
+              "two NaOH"
+            ],
+            [
+              "1",
+              "1Na2O",
+              "Na2O"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Group I Elements & Carboxylic Acids",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table shows Group I properties: lithium (d 0.53, mp 181, bp 1342), sodium (d 0.97, mp 98, bp 883), potassium (d 0.86, mp 63, bp 760), rubidium (mp 39, bp 686).\nDescribe the general trend in boiling points of Group I elements.",
+          "keywords": [
+            [
+              "decreases",
+              "decrease",
+              "goes down",
+              "falls",
+              "gets lower"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why it is difficult to predict the density of rubidium.",
+          "keywords": [
+            [
+              "no clear trend",
+              "no trend",
+              "irregular",
+              "does not follow pattern",
+              "varies",
+              "not consistent"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Deduce the state of rubidium at 45°C. Explain your answer.",
+          "keywords": [
+            [
+              "liquid",
+              "liquid state"
+            ],
+            [
+              "between mp and bp",
+              "39 to 686",
+              "above mp below bp"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for hydrogen.",
+          "keywords": [
+            [
+              "lighted splint",
+              "burning splint",
+              "lit splint",
+              "flame"
+            ],
+            [
+              "pops",
+              "squeaky pop",
+              "pop sound",
+              "explodes with pop"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of a carboxylic acid is shown (5-carbon chain with -COOH group). Deduce the formula to show number of C, H and O atoms.",
+          "keywords": [
+            [
+              "C5H10O2",
+              "C₅H₁₀O₂",
+              "C5 H10 O2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Universal indicator is added to aqueous sodium oxide. What colour change is observed? Give a reason.",
+          "keywords": [
+            [
+              "purple",
+              "blue",
+              "violet",
+              "purple/blue",
+              "dark blue"
+            ],
+            [
+              "alkaline",
+              "basic",
+              "sodium oxide is basic",
+              "forms NaOH",
+              "alkali",
+              "base"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Electrolysis & Halogens",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Molten magnesium bromide is electrolysed. Complete the diagram by labelling the anode and cathode and adding the power supply and connecting wires.",
+          "keywords": [
+            [
+              "anode",
+              "positive electrode",
+              "+"
+            ],
+            [
+              "cathode",
+              "negative electrode",
+              "-"
+            ],
+            [
+              "power supply",
+              "battery",
+              "cell",
+              "DC supply"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Predict the products of this electrolysis at the positive electrode and negative electrode.",
+          "keywords": [
+            [
+              "bromine",
+              "Br2",
+              "Br₂",
+              "bromine gas"
+            ],
+            [
+              "magnesium",
+              "Mg",
+              "magnesium metal"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The electrodes must conduct electricity. Give one other property that the electrodes must have.",
+          "keywords": [
+            [
+              "inert",
+              "unreactive",
+              "not react",
+              "high melting point",
+              "chemically inert"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name a suitable element that can be used as an electrode.",
+          "keywords": [
+            [
+              "graphite",
+              "carbon",
+              "C"
+            ],
+            [
+              "platinum",
+              "Pt"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Cl₂ + MgBr₂ → Br₂ + MgCl₂. How does this show chlorine is more reactive than bromine?",
+          "keywords": [
+            [
+              "displaces",
+              "displacement",
+              "displaces bromine",
+              "replaces bromine",
+              "more reactive"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What colour is bromine in aqueous solution?",
+          "keywords": [
+            [
+              "orange",
+              "orange-brown",
+              "reddish brown",
+              "brown"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the equation: ____ Cl₂ + 2P → ____ PCl₅",
+          "keywords": [
+            [
+              "5",
+              "5Cl2",
+              "5Cl₂",
+              "five Cl2"
+            ],
+            [
+              "2",
+              "2PCl5",
+              "2PCl₅",
+              "two PCl5"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Acids & Rate of Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "short",
+          "question": "Hydrochloric acid reacts with magnesium carbonate. Name the products and give the observations.",
+          "keywords": [
+            [
+              "magnesium chloride",
+              "MgCl2",
+              "MgCl₂"
+            ],
+            [
+              "carbon dioxide",
+              "CO2",
+              "CO₂"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ],
+            [
+              "bubbles",
+              "effervescence",
+              "fizzing",
+              "gas"
+            ],
+            [
+              "solid dissolves",
+              "disappears",
+              "reacts"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Results for reaction of iron powder with sulfuric acid: 0.1 mol/dm³ → 33s, 0.2 mol/dm³ → 17s, 0.5 mol/dm³ → 8s.\nDescribe how the rate of reaction changes with concentration of sulfuric acid.",
+          "keywords": [
+            [
+              "increases",
+              "faster",
+              "higher",
+              "greater",
+              "rate increases"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the effect on the rate with 0.5 mol/dm³ sulfuric acid when: larger pieces of iron are used; the temperature is increased. All other conditions stay the same.",
+          "keywords": [
+            [
+              "decreases",
+              "slower",
+              "lower",
+              "less",
+              "rate decreases"
+            ],
+            [
+              "increases",
+              "faster",
+              "higher",
+              "greater",
+              "rate increases"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Heat is given out when iron reacts with sulfuric acid. What term describes a reaction which gives out heat?",
+          "keywords": [
+            [
+              "exothermic",
+              "exothermic reaction"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "3Fe + 4H₂O → Fe₃O₄ + 4H₂. How does this equation show that iron gets oxidised?",
+          "keywords": [
+            [
+              "gains oxygen",
+              "oxygen added",
+              "oxygen gained",
+              "combines with oxygen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Rust contains hydrated iron(III) oxide. Describe and explain one method of preventing iron from rusting.",
+          "keywords": [
+            [
+              "painting",
+              "paint",
+              "oil",
+              "grease",
+              "galvanising",
+              "plastic coating"
+            ],
+            [
+              "barrier",
+              "protective layer",
+              "prevents",
+              "stops",
+              "blocks"
+            ],
+            [
+              "oxygen",
+              "air",
+              "water",
+              "moisture"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Organic Chemistry & Separation",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of nerol is shown. Draw a circle around the alcohol functional group.",
+          "keywords": [
+            [
+              "OH",
+              "-OH",
+              "hydroxyl",
+              "alcohol",
+              "alcohol group",
+              "OH group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "What feature of the nerol molecule shows that it is an unsaturated compound?",
+          "keywords": [
+            [
+              "double bond",
+              "C=C",
+              "carbon carbon double bond"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Crushed plant leaves containing nerol are mixed with octane. Describe how to separate the crushed leaves from the solution.",
+          "keywords": [
+            [
+              "filtration",
+              "filtering",
+              "filter",
+              "filtrate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Nerol bp 224°C, octane bp 126°C. Explain how distillation separates nerol from octane.",
+          "keywords": [
+            [
+              "heat",
+              "heated",
+              "warm"
+            ],
+            [
+              "octane boils first",
+              "lower bp boils",
+              "octane evaporates at 126"
+            ],
+            [
+              "condenses",
+              "condense",
+              "cool"
+            ],
+            [
+              "nerol remains",
+              "nerol left behind",
+              "higher bp stays"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Chromatography diagram. Draw an X to show where the mixture is placed, draw a line for the solvent level.",
+          "keywords": [
+            [
+              "X",
+              "spot",
+              "origin",
+              "baseline",
+              "pencil line"
+            ],
+            [
+              "solvent level",
+              "below X",
+              "below spot",
+              "below origin"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Draw the structure of ethanol to show all atoms and bonds.",
+          "keywords": [
+            [
+              "C2H5OH",
+              "C₂H₅OH",
+              "CH3CH2OH",
+              "CH₃CH₂OH",
+              "ethanol structure"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the sentences using words from the list: catalyst, hydrocarbon, hydrogen, oxygen, plastic, steam.\nEthanol is manufactured by reaction of ethene with ____. The rate is increased by use of a ____.",
+          "keywords": [
+            [
+              "steam",
+              "steam",
+              "water"
+            ],
+            [
+              "catalyst",
+              "catalyst",
+              "phosphoric acid"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "f",
+          "marks": 2,
+          "type": "choosethree",
+          "question": "Ethene and propene are in the same homologous series. Which two statements are correct? Tick two boxes.",
+          "correctIndices": [
+            2,
+            4
+          ],
+          "options": [
+            "They have the same physical properties.",
+            "They have the same number of carbon atoms.",
+            "They have similar chemical properties.",
+            "They have the same number of hydrogen atoms.",
+            "They have the same functional group."
+          ]
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Structure & Bonding",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "long",
+          "question": "The diagram shows structures of caesium chloride and carbon dioxide. Describe both in terms of bonding, solubility in water, and arrangement of particles.",
+          "keywords": [
+            [
+              "ionic",
+              "ionic bonding",
+              "electrostatic",
+              "ions"
+            ],
+            [
+              "covalent",
+              "covalent bonding",
+              "shared"
+            ],
+            [
+              "soluble",
+              "dissolves",
+              "caesium chloride soluble"
+            ],
+            [
+              "insoluble",
+              "slightly soluble",
+              "carbon dioxide slightly soluble"
+            ],
+            [
+              "regular",
+              "lattice",
+              "regular arrangement",
+              "giant lattice",
+              "alternating"
+            ],
+            [
+              "random",
+              "molecules",
+              "separate molecules",
+              "individual molecules"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Caesium oxide is a compound. What is meant by the term compound?",
+          "keywords": [
+            [
+              "two or more",
+              "different",
+              "more than one"
+            ],
+            [
+              "elements",
+              "atoms",
+              "types of atom"
+            ],
+            [
+              "chemically combined",
+              "chemically bonded",
+              "bonded"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why caesium is not extracted from caesium oxide by heating with carbon.",
+          "keywords": [
+            [
+              "more reactive than carbon",
+              "above carbon",
+              "higher in reactivity",
+              "electrolysis needed"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe two properties characteristic of most metals.",
+          "keywords": [
+            [
+              "conducts electricity",
+              "electrical conductivity"
+            ],
+            [
+              "conducts heat",
+              "thermal conductivity"
+            ],
+            [
+              "malleable",
+              "malleability"
+            ],
+            [
+              "ductile",
+              "ductility"
+            ],
+            [
+              "shiny",
+              "lustrous"
+            ],
+            [
+              "high density",
+              "dense"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Which one of these processes does not produce carbon dioxide? Tick one box.",
+          "options": [
+            "the reaction of hydrochloric acid with calcium carbonate",
+            "respiration in animals and plants",
+            "the reaction of hydrochloric acid with magnesium",
+            "the thermal decomposition of calcium carbonate"
+          ],
+          "answer": 2
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Carbon dioxide is a greenhouse gas. Give one effect of an increase in greenhouse gases in the atmosphere.",
+          "keywords": [
+            [
+              "global warming",
+              "climate change",
+              "warming",
+              "temperature increase",
+              "sea level rise",
+              "extreme weather"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    }
+  ]
+}

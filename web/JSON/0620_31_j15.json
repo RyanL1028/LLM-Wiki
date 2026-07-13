@@ -1,0 +1,749 @@
+{
+  "id": "0620_31_j15",
+  "subject": "Chemistry",
+  "code": "0620/31",
+  "paper": "Paper 3 (Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering fossil fuels, acid rain, iron and steel, redox and reaction rates, alcohols, halogens and equilibrium, and acid-base chemistry.",
+  "type": "past",
+  "session": "May/June 2015",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Fossil Fuels & Acid Rain",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Name two other fossil fuels besides coal.",
+          "keywords": [
+            [
+              "petroleum",
+              "crude oil",
+              "oil"
+            ],
+            [
+              "natural gas",
+              "gas",
+              "methane"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Coal heated in absence of air produced water, ammonia and hydrocarbons. Name three other elements present in the coal.",
+          "keywords": [
+            [
+              "carbon",
+              "C"
+            ],
+            [
+              "hydrogen",
+              "H"
+            ],
+            [
+              "nitrogen",
+              "N"
+            ],
+            [
+              "sulfur",
+              "S"
+            ],
+            [
+              "oxygen",
+              "O"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c(i)",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how high temperatures in vehicle engines cause acid rain.",
+          "keywords": [
+            [
+              "nitrogen and oxygen from air react",
+              "N2 + O2 -> 2NO",
+              "nitrogen monoxide formed"
+            ],
+            [
+              "NO oxidised to NO2",
+              "nitrogen dioxide",
+              "NO2 dissolves in rain water"
+            ],
+            [
+              "forms nitric acid",
+              "HNO3",
+              "acid rain"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two harmful effects of acid rain.",
+          "keywords": [
+            [
+              "kills fish and aquatic life",
+              "lakes become acidic"
+            ],
+            [
+              "damages trees and forests",
+              "leaches soil nutrients"
+            ],
+            [
+              "corrodes limestone buildings and metal structures",
+              "erodes stonework"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain why burning wood rather than coal reduces the effect on atmospheric CO2 levels.",
+          "keywords": [
+            [
+              "wood is renewable",
+              "biomass",
+              "trees can be replanted"
+            ],
+            [
+              "trees absorb CO2 during growth",
+              "photosynthesis",
+              "carbon neutral cycle"
+            ],
+            [
+              "coal is fossil fuel",
+              "releases carbon stored millions of years ago",
+              "not part of current carbon cycle"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Iron, Steel & Metallurgy",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "short",
+          "question": "Explain how O2 and CaO remove impurities (C, S, Si, P) from iron. Include an equation for O2 and a word equation for CaO.",
+          "keywords": [
+            [
+              "O2 oxidises C to CO/CO2",
+              "C + O2 -> CO2",
+              "carbon removed as gas"
+            ],
+            [
+              "O2 oxidises S to SO2",
+              "S + O2 -> SO2",
+              "sulfur removed as gas"
+            ],
+            [
+              "O2 oxidises Si to SiO2",
+              "Si + O2 -> SiO2",
+              "silicon dioxide acidic"
+            ],
+            [
+              "O2 oxidises P to P4O10",
+              "phosphorus(V) oxide acidic"
+            ],
+            [
+              "CaO + silicon dioxide -> calcium silicate",
+              "CaO + SiO2 -> CaSiO3",
+              "slag",
+              "basic oxide neutralises acidic oxide"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give a use of mild steel.",
+          "keywords": [
+            [
+              "car bodies",
+              "construction",
+              "girders",
+              "bridges",
+              "pipes",
+              "ships"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest a use of high carbon steel (2% carbon, harder, less malleable).",
+          "keywords": [
+            [
+              "cutting tools",
+              "drill bits",
+              "knives",
+              "chisels",
+              "springs",
+              "hammers"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain why metals are malleable.",
+          "keywords": [
+            [
+              "regular layers of atoms/ions",
+              "lattice structure",
+              "layers"
+            ],
+            [
+              "layers can slide over each other",
+              "when force applied",
+              "atoms move"
+            ],
+            [
+              "delocalised electrons hold layers together",
+              "metallic bonding non-directional",
+              "no bonds permanently broken"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(iv)",
+          "marks": 2,
+          "type": "short",
+          "question": "Suggest why high carbon steel is less malleable and harder than mild steel.",
+          "keywords": [
+            [
+              "more carbon atoms distort the lattice more",
+              "different sized atoms disrupt regular arrangement"
+            ],
+            [
+              "layers cannot slide past each other easily",
+              "atoms locked in place",
+              "increased hardness"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Redox & Reaction Rates",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Zn + 2H+ -> Zn2+ + H2. Which change is oxidation? Give a reason.",
+          "keywords": [
+            [
+              "Zn to Zn2+",
+              "zinc to zinc ion"
+            ],
+            [
+              "loss of electrons",
+              "oxidation state increases 0 to +2",
+              "zinc loses 2 electrons"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Which reactant is the oxidising agent? Give a reason.",
+          "keywords": [
+            [
+              "H+",
+              "hydrogen ions"
+            ],
+            [
+              "gains electrons",
+              "H+ reduced to H2",
+              "electron acceptor",
+              "causes oxidation of Zn"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Adding CuCl2 to Zn + HCl produces copper metal. Explain with an equation.",
+          "keywords": [
+            [
+              "zinc displaces copper",
+              "Zn + Cu2+ -> Zn2+ + Cu",
+              "zinc is more reactive than copper"
+            ],
+            [
+              "copper metal deposited on zinc",
+              "red-brown coating"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 3,
+          "type": "short",
+          "question": "Graph 2 (with copper) is steeper than graph 1 (without copper). Explain how this shows copper catalyses the reaction.",
+          "keywords": [
+            [
+              "faster rate of hydrogen production",
+              "steeper graph",
+              "gas produced faster"
+            ],
+            [
+              "same final volume of gas",
+              "catalyst not consumed",
+              "same amount of product"
+            ],
+            [
+              "copper provides alternative reaction pathway",
+              "lower activation energy"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "short",
+          "question": "How and why would the graph differ if ethanoic acid (CH3COOH) was used instead of HCl?",
+          "keywords": [
+            [
+              "slower reaction",
+              "less steep curve"
+            ],
+            [
+              "same final volume of hydrogen",
+              "same amount of acid"
+            ],
+            [
+              "ethanoic acid is a weak acid",
+              "partially ionised",
+              "lower concentration of H+ ions"
+            ],
+            [
+              "fewer H+ ions means fewer collisions",
+              "lower rate"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "d",
+          "marks": 3,
+          "type": "short",
+          "question": "Calculate the maximum mass of zinc reacting with 50 cm3 of 2.0 mol/dm3 HCl. Zn + 2HCl -> ZnCl2 + H2.",
+          "keywords": [
+            [
+              "moles HCl = 0.05 dm3 x 2.0 = 0.1 mol"
+            ],
+            [
+              "moles Zn = 0.1/2 = 0.05 mol",
+              "1:2 ratio"
+            ],
+            [
+              "mass Zn = 0.05 x 65 = 3.25 g"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Alcohols & Homologous Series",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 3,
+          "type": "short",
+          "question": "Give three characteristics shared by all members of a homologous series.",
+          "keywords": [
+            [
+              "same general formula",
+              "CnH2n+1OH for alcohols"
+            ],
+            [
+              "similar chemical properties",
+              "same functional group -OH"
+            ],
+            [
+              "gradual change in physical properties",
+              "trend in boiling points",
+              "differ by CH2"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the name of the third member of the alcohol series.",
+          "keywords": [
+            [
+              "propanol",
+              "propan-1-ol"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Deduce the molecular formula of the alcohol whose Mr = 158.",
+          "keywords": [
+            [
+              "CnH2n+1OH",
+              "14n + 18 = 158",
+              "14n = 140",
+              "n = 10"
+            ],
+            [
+              "C10H21OH",
+              "C10H22O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why CH3CH2CH2CH2OH and (CH3)3COH are isomers.",
+          "keywords": [
+            [
+              "same molecular formula",
+              "C4H10O",
+              "both C4H9OH"
+            ],
+            [
+              "different structural formula",
+              "different arrangement of atoms",
+              "straight chain vs branched"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Butan-1-ol passed over heated silicon(IV) oxide loses water. Deduce the name and structural formula of the organic product.",
+          "keywords": [
+            [
+              "but-1-ene",
+              "1-butene",
+              "butene"
+            ],
+            [
+              "CH3CH2CH=CH2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest the name of the ester formed from butanol and ethanoic acid.",
+          "keywords": [
+            [
+              "butyl ethanoate",
+              "butyl acetate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Butan-1-ol oxidised by acidified potassium manganate(VII). Deduce the name and structural formula of the organic product.",
+          "keywords": [
+            [
+              "butanoic acid",
+              "butyric acid"
+            ],
+            [
+              "CH3CH2CH2COOH"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Halogens & Equilibrium",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe an experiment showing chlorine is more reactive than iodine. Include an equation.",
+          "keywords": [
+            [
+              "add chlorine water to potassium iodide solution",
+              "Cl2 + 2KI -> 2KCl + I2",
+              "or Cl2 + 2I- -> 2Cl- + I2"
+            ],
+            [
+              "brown colour appears",
+              "iodine formed",
+              "colourless to brown/orange"
+            ],
+            [
+              "chlorine displaces iodine",
+              "more reactive halogen displaces less reactive"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Deduce the formula of the compound with 0.013 mol iodine atoms and 0.065 mol fluorine atoms.",
+          "keywords": [
+            [
+              "IF5",
+              "ratio I:F = 0.013:0.065 = 1:5"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give another example of a reversible reaction.",
+          "keywords": [
+            [
+              "N2 + 3H2 <=> 2NH3",
+              "Haber process",
+              "2SO2 + O2 <=> 2SO3",
+              "Contact process",
+              "CuSO4.5H2O <=> CuSO4 + 5H2O"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain the term equilibrium.",
+          "keywords": [
+            [
+              "forward and reverse rates are equal",
+              "dynamic equilibrium",
+              "rate forward = rate reverse"
+            ],
+            [
+              "concentrations remain constant",
+              "no net change in amounts",
+              "in a closed system"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "ICl + Cl2 <=> ICl3. Chlorine is removed. Explain why less yellow solid (ICl3) and more dark brown liquid (ICl) forms.",
+          "keywords": [
+            [
+              "equilibrium shifts to the left",
+              "reverse reaction favoured",
+              "to replace the removed chlorine"
+            ],
+            [
+              "Le Chatelier's principle",
+              "system opposes the change",
+              "produces more ICl and Cl2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 3,
+          "type": "short",
+          "question": "Sealed tube in ice-cold water: more yellow ICl3 solid forms. What can you deduce about the forward reaction? Explain.",
+          "keywords": [
+            [
+              "forward reaction is exothermic",
+              "ICl + Cl2 -> ICl3 is exothermic"
+            ],
+            [
+              "cooling favours exothermic reaction",
+              "equilibrium shifts to the right",
+              "to produce heat"
+            ],
+            [
+              "Le Chatelier's principle",
+              "system opposes decrease in temperature"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Acid-Base Chemistry & Diffusion",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "In terms of proton transfer, explain what is meant by the term weak base.",
+          "keywords": [
+            [
+              "partially accepts protons",
+              "only partially ionised",
+              "does not fully accept H+"
+            ],
+            [
+              "small proportion of molecules accept protons",
+              "establishes equilibrium",
+              "few OH- produced"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 3,
+          "type": "short",
+          "question": "Given solutions of ethylamine and NaOH, describe how to show NaOH is a stronger base. Ensure a fair comparison.",
+          "keywords": [
+            [
+              "use equal concentrations",
+              "same volume",
+              "same temperature",
+              "fair test"
+            ],
+            [
+              "measure pH with pH meter/probe",
+              "NaOH has higher pH",
+              "more alkaline"
+            ],
+            [
+              "measure electrical conductivity",
+              "NaOH conducts more electricity",
+              "more OH- ions present"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(i)",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete: ...CH3CH2NH2 + ... -> ... Name the salt from sulfuric acid + ethylamine.",
+          "keywords": [
+            [
+              "2",
+              "H2SO4",
+              "2CH3CH2NH2 + H2SO4 ->"
+            ],
+            [
+              "(CH3CH2NH3)2SO4",
+              "ethylammonium sulfate"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest a reagent to displace the weak base ethylamine from ethylammonium chloride.",
+          "keywords": [
+            [
+              "sodium hydroxide",
+              "NaOH",
+              "strong base",
+              "strong alkali",
+              "heat with alkali"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain, using kinetic particle theory, why gases diffuse.",
+          "keywords": [
+            [
+              "particles in constant random motion",
+              "gas molecules move randomly"
+            ],
+            [
+              "move from region of high concentration to low concentration",
+              "spread out to fill available space"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 3,
+          "type": "short",
+          "question": "Ethylamine and HBr gases diffuse towards each other. Predict where (A, B or C) the white solid forms. Explain.",
+          "keywords": [
+            [
+              "closer to the HBr end",
+              "the ethylamine end",
+              "meeting point closer to heavier gas source"
+            ],
+            [
+              "ethylamine has lower Mr than HBr",
+              "lighter molecules diffuse faster",
+              "Graham's law of diffusion"
+            ],
+            [
+              "HBr (Mr 81) much heavier than ethylamine (Mr 45)",
+              "ethylamine travels further in same time"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    }
+  ]
+}

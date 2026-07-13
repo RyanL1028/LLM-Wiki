@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / Editor
+.claude/
+.cursor/
+.obsidian/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+
+# Node (if applicable)
+node_modules/
+
+# Environment / Secrets
+.env
+.env.local
+*.local.json
+
+# Firebase (generated)
+.firebase/
+
+# Large resource files (PDFs, PPTXs — tracked separately if needed)
+resources/source-materials/
+resources/worksheets/

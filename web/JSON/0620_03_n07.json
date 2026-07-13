@@ -1,0 +1,998 @@
+{
+  "id": "0620_03_n07",
+  "subject": "Chemistry",
+  "code": "0620/03",
+  "paper": "Paper 3 (Extended)",
+  "name": "Cambridge IGCSE Chemistry Paper 3 (Extended) Oct/Nov 2007",
+  "description": "Full past paper covering separation techniques, atomic structure and isotopes, ionic bonding and magnesium bromide, zinc extraction and electrolysis, methylamine as a weak base, alcohols and homologous series, and reaction rates.",
+  "type": "past",
+  "session": "October/November 2007",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Separation Techniques",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "short",
+          "question": "From the list (fractional distillation, simple distillation, crystallization, filtration, diffusion) choose the most suitable technique to separate: (i) water from aqueous copper(II) sulphate, (ii) helium from a mixture of helium and argon, (iii) copper(II) sulphate from aqueous copper(II) sulphate, (iv) ethanol from aqueous ethanol, (v) barium sulphate from a mixture of water and barium sulphate.",
+          "keywords": [
+            [
+              "simple distillation, diffusion, crystallization, fractional distillation, filtration"
+            ],
+            [
+              "simple distillation, diffusion, crystallisation, fractional distillation, filtration"
+            ]
+          ],
+          "anyOf": 5
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Atomic Structure and Isotopes",
+      "parts": [
+        {
+          "label": "a.1",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the table for particle B: 11 protons, 11 electrons, 12 neutrons. Give the symbol or formula.",
+          "keywords": [
+            [
+              "23Na"
+            ],
+            [
+              "Na-23"
+            ],
+            [
+              "sodium-23"
+            ],
+            [
+              "sodium"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a.2",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the table for particle C: 18 protons, 18 electrons, 22 neutrons. Give the symbol or formula.",
+          "keywords": [
+            [
+              "40Ar"
+            ],
+            [
+              "Ar-40"
+            ],
+            [
+              "argon-40"
+            ],
+            [
+              "argon"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a.3",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the table for particle D: 15 protons, 18 electrons, 16 neutrons. Give the symbol or formula.",
+          "keywords": [
+            [
+              "31P3-"
+            ],
+            [
+              "P3-"
+            ],
+            [
+              "phosphide"
+            ],
+            [
+              "phosphide ion"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a.4",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the table for particle E: 13 protons, 10 electrons, 14 neutrons. Give the symbol or formula.",
+          "keywords": [
+            [
+              "27Al3+"
+            ],
+            [
+              "Al3+"
+            ],
+            [
+              "aluminium ion"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Which atom in the table is an isotope of the atom with composition 11p, 11e and 14n? Give a reason for your choice.",
+          "keywords": [
+            [
+              "B, same atomic number different neutron number"
+            ],
+            [
+              "particle B, same number of protons but different neutrons"
+            ],
+            [
+              "B (sodium), same protons different neutrons"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Ionic Bonding: Magnesium Bromide",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "long",
+          "question": "Draw a diagram showing the formula of magnesium bromide, the charges on the ions and the arrangement of outer electrons around the negative ion. Use x for Mg electrons and o for Br electrons.",
+          "keywords": [
+            [
+              "Mg2+ with two Br- ions"
+            ],
+            [
+              "correct octet on Br- ions"
+            ],
+            [
+              "Mg2+[Br-]2"
+            ],
+            [
+              "ionic bonding diagram with charges"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain the term lattice as applied to magnesium bromide.",
+          "keywords": [
+            [
+              "regular repeating arrangement of ions"
+            ],
+            [
+              "giant ionic structure"
+            ],
+            [
+              "three-dimensional array of ions"
+            ],
+            [
+              "regular pattern of positive and negative ions"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why the ratio of magnesium ions to bromide ions is 1:2.",
+          "keywords": [
+            [
+              "Mg2+ needs two Br- for electrical neutrality"
+            ],
+            [
+              "charge balance"
+            ],
+            [
+              "magnesium ion has 2+ charge, bromide has 1-"
+            ],
+            [
+              "to balance charges"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii).1",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete: Magnesium is the _____ agent.",
+          "keywords": [
+            [
+              "reducing"
+            ],
+            [
+              "reducing agent"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii).2",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete: Magnesium is the reducing agent because it has _____ electrons.",
+          "keywords": [
+            [
+              "lost"
+            ],
+            [
+              "donated"
+            ],
+            [
+              "given away"
+            ],
+            [
+              "oxidised"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii).3",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete: Bromine has been _____.",
+          "keywords": [
+            [
+              "reduced"
+            ],
+            [
+              "reduction"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii).4",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete: Bromine has been reduced because it has _____ electrons.",
+          "keywords": [
+            [
+              "gained"
+            ],
+            [
+              "accepted"
+            ],
+            [
+              "taken"
+            ],
+            [
+              "received"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Zinc Extraction and Electrolysis",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give another use of sulphur dioxide other than making sulphuric acid.",
+          "keywords": [
+            [
+              "bleaching wood pulp"
+            ],
+            [
+              "making paper"
+            ],
+            [
+              "food preservative"
+            ],
+            [
+              "bleaching agent"
+            ],
+            [
+              "fumigation"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 3,
+          "type": "long",
+          "question": "Describe how sulphur dioxide is converted into sulphur trioxide.",
+          "keywords": [
+            [
+              "react with oxygen"
+            ],
+            [
+              "vanadium(V) oxide catalyst"
+            ],
+            [
+              "450\\u00b0C temperature"
+            ],
+            [
+              "Contact process"
+            ],
+            [
+              "2SO2 + O2 \\u21CC 2SO3"
+            ],
+            [
+              "V2O5 catalyst"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name a fertiliser made from sulphuric acid.",
+          "keywords": [
+            [
+              "ammonium sulfate"
+            ],
+            [
+              "superphosphate"
+            ],
+            [
+              "ammonium phosphate"
+            ],
+            [
+              "(NH4)2SO4"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the two changes of state involved in the process of distillation of zinc.",
+          "keywords": [
+            [
+              "melting and boiling"
+            ],
+            [
+              "fusion and vaporisation"
+            ],
+            [
+              "sublimation and condensation"
+            ],
+            [
+              "liquid to gas, gas to liquid"
+            ],
+            [
+              "evaporation and condensation"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Why is it necessary to use an excess of carbon when reducing zinc oxide?",
+          "keywords": [
+            [
+              "to ensure all zinc oxide is reduced"
+            ],
+            [
+              "carbon reacts with CO2 formed"
+            ],
+            [
+              "to maintain reducing conditions"
+            ],
+            [
+              "ensure complete reaction"
+            ],
+            [
+              "prevents re-oxidation of zinc"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Zinc forms at the negative electrode (cathode) during electrolysis of aqueous zinc sulphate with inert electrodes. Write the equation.",
+          "keywords": [
+            [
+              "Zn2+ + 2e- \\u2192 Zn"
+            ],
+            [
+              "Zn2+ + 2e- \\u2192 Zn(s)"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Write the equation for the reaction at the positive electrode (anode) during electrolysis of aqueous zinc sulphate with inert electrodes.",
+          "keywords": [
+            [
+              "4OH- \\u2192 2H2O + O2 + 4e-"
+            ],
+            [
+              "4OH- - 4e- \\u2192 2H2O + O2"
+            ],
+            [
+              "2H2O \\u2192 O2 + 4H+ + 4e-"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "The electrolyte changes from aqueous zinc sulphate to _____.",
+          "keywords": [
+            [
+              "sulphuric acid"
+            ],
+            [
+              "H2SO4"
+            ],
+            [
+              "sulfuric acid"
+            ],
+            [
+              "dilute sulfuric acid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two uses of zinc.",
+          "keywords": [
+            [
+              "galvanising and making brass"
+            ],
+            [
+              "galvanizing, batteries"
+            ],
+            [
+              "coating steel, alloys"
+            ],
+            [
+              "sacrificial protection, brass production"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Methylamine and Acid-Base Chemistry",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "For CH3NH2 + H2O \\u21CC CH3NH3+ + OH- with unequal arrows, suggest why the arrows are not the same length.",
+          "keywords": [
+            [
+              "equilibrium lies to the left"
+            ],
+            [
+              "methylamine is a weak base"
+            ],
+            [
+              "incomplete dissociation"
+            ],
+            [
+              "reaction favours reactants"
+            ],
+            [
+              "weak base only partially ionises"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain why water is stated to behave as an acid and methylamine as a base in this equilibrium.",
+          "keywords": [
+            [
+              "water donates a proton"
+            ],
+            [
+              "water is proton donor"
+            ],
+            [
+              "methylamine accepts a proton"
+            ],
+            [
+              "methylamine is proton acceptor"
+            ],
+            [
+              "H+ transferred from water to methylamine"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "long",
+          "question": "An aqueous solution of sodium hydroxide is pH 12. Predict the pH of an aqueous solution of methylamine of the same concentration. Give a reason.",
+          "keywords": [
+            [
+              "pH less than 12"
+            ],
+            [
+              "methylamine is a weak base"
+            ],
+            [
+              "partial dissociation produces fewer OH- ions"
+            ],
+            [
+              "pH about 10-11"
+            ],
+            [
+              "lower OH- concentration"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Write the equation for the reaction between methylamine and hydrochloric acid and name the salt formed.",
+          "keywords": [
+            [
+              "CH3NH2 + HCl \\u2192 CH3NH3+Cl-"
+            ],
+            [
+              "methylammonium chloride"
+            ],
+            [
+              "CH3NH2 + HCl \\u2192 CH3NH3Cl"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "When aqueous methylamine is added to aqueous iron(III) chloride, what would you see? (A green precipitate forms with iron(II) sulphate.)",
+          "keywords": [
+            [
+              "brown precipitate"
+            ],
+            [
+              "red-brown precipitate"
+            ],
+            [
+              "rust coloured precipitate"
+            ],
+            [
+              "orange-brown precipitate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest the name of a reagent that will displace methylamine from one of its salts, e.g. methylammonium sulphate.",
+          "keywords": [
+            [
+              "sodium hydroxide"
+            ],
+            [
+              "NaOH"
+            ],
+            [
+              "strong base"
+            ],
+            [
+              "potassium hydroxide"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Alcohols and Homologous Series",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The minus sign on heats of combustion indicates less chemical energy in products than reactants. What form of energy is given out by the reaction?",
+          "keywords": [
+            [
+              "heat"
+            ],
+            [
+              "thermal energy"
+            ],
+            [
+              "heat energy"
+            ],
+            [
+              "thermal"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Is the combustion reaction exothermic or endothermic?",
+          "keywords": [
+            [
+              "exothermic"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Complete the equation for the complete combustion of ethanol: C2H5OH + __ O2 \\u2192 __ + __ .",
+          "keywords": [
+            [
+              "C2H5OH + 3O2 \\u2192 2CO2 + 3H2O"
+            ],
+            [
+              "3O2, 2CO2, 3H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(iv)",
+          "marks": 3,
+          "type": "long",
+          "question": "Determine the heat of combustion of butan-1-ol by plotting the heats of combustion of methanol (-730), ethanol (-1370), propan-1-ol (-2020) against number of carbon atoms and extrapolating.",
+          "keywords": [
+            [
+              "-2670"
+            ],
+            [
+              "-2670 kJ/mol"
+            ],
+            [
+              "approximately -2670"
+            ],
+            [
+              "about -2670"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "a(v)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe two other characteristics of homologous series.",
+          "keywords": [
+            [
+              "same general formula"
+            ],
+            [
+              "similar chemical properties"
+            ],
+            [
+              "same functional group"
+            ],
+            [
+              "differ by CH2"
+            ],
+            [
+              "trend in physical properties"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Give the name and structural formula of an isomer of propan-1-ol.",
+          "keywords": [
+            [
+              "propan-2-ol"
+            ],
+            [
+              "CH3CHOHCH3"
+            ],
+            [
+              "CH3CH(OH)CH3"
+            ],
+            [
+              "isopropyl alcohol"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Describe how hydrogen is obtained from alkanes for the production of methanol.",
+          "keywords": [
+            [
+              "reacting alkane with steam"
+            ],
+            [
+              "cracking"
+            ],
+            [
+              "catalytic cracking"
+            ],
+            [
+              "steam reforming"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Suggest a method of making carbon monoxide from methane.",
+          "keywords": [
+            [
+              "react methane with steam"
+            ],
+            [
+              "CH4 + H2O \\u2192 CO + 3H2"
+            ],
+            [
+              "steam reforming of methane"
+            ],
+            [
+              "react methane with limited oxygen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(iii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Which condition, high or low pressure, would give the maximum yield of methanol for CO(g) + 2H2(g) \\u21CC CH3OH(g)? Give a reason.",
+          "keywords": [
+            [
+              "high pressure"
+            ],
+            [
+              "3 moles of reactants form 1 mole of product"
+            ],
+            [
+              "high pressure favours side with fewer gas moles"
+            ],
+            [
+              "equilibrium shifts right"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the name of the organic product from the reaction between methanol and ethanoic acid.",
+          "keywords": [
+            [
+              "methyl ethanoate"
+            ],
+            [
+              "CH3COOCH3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the name of the organic product from the oxidation of propan-1-ol by potassium dichromate(VI).",
+          "keywords": [
+            [
+              "propanoic acid"
+            ],
+            [
+              "propionic acid"
+            ],
+            [
+              "CH3CH2COOH"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the name of the organic product from the dehydration of ethanol (removal of H2O).",
+          "keywords": [
+            [
+              "ethene"
+            ],
+            [
+              "ethylene"
+            ],
+            [
+              "C2H4"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Rates of Reaction",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain in terms of collisions between reacting particles why the rate in experiment 2 (0.50 mol/dm3 acid) is slower than experiment 1 (1.00 mol/dm3 acid).",
+          "keywords": [
+            [
+              "lower concentration"
+            ],
+            [
+              "fewer particles per unit volume"
+            ],
+            [
+              "less frequent collisions"
+            ],
+            [
+              "fewer acid particles available"
+            ],
+            [
+              "decreased collision frequency"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain in terms of collisions why the rate in experiment 3 (crushed marble) is faster than experiment 1 (one piece of marble).",
+          "keywords": [
+            [
+              "larger surface area"
+            ],
+            [
+              "more particles exposed"
+            ],
+            [
+              "more frequent collisions"
+            ],
+            [
+              "greater area for reaction"
+            ],
+            [
+              "more acid particles can collide with marble"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain in terms of collisions why the rate in experiment 4 (35\\u00b0C) is faster than experiment 1 (25\\u00b0C).",
+          "keywords": [
+            [
+              "higher temperature"
+            ],
+            [
+              "particles have more kinetic energy"
+            ],
+            [
+              "more frequent successful collisions"
+            ],
+            [
+              "more particles exceed activation energy"
+            ],
+            [
+              "greater proportion of effective collisions"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Sketch the graph of volume of carbon dioxide produced against time for the reaction of marble with hydrochloric acid.",
+          "keywords": [
+            [
+              "curve rises steeply then levels off"
+            ],
+            [
+              "plateau"
+            ],
+            [
+              "volume constant after reaction stops"
+            ],
+            [
+              "initial rapid increase then flattens"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 4,
+          "type": "long",
+          "question": "One piece of marble (0.3 g) was added to 5 cm3 of 1.00 mol/dm3 HCl. Which reagent is in excess? (Mr CaCO3 = 100). Calculate and give a reason.",
+          "keywords": [
+            [
+              "calcium carbonate is in excess"
+            ],
+            [
+              "0.003 mol CaCO3 needs 0.006 mol HCl but only 0.005 mol HCl available"
+            ],
+            [
+              "marble is in excess"
+            ],
+            [
+              "CaCO3 excess, HCl limiting"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Use your answer to (ii) to calculate the maximum volume of carbon dioxide produced measured at r.t.p. (24 dm3/mol).",
+          "keywords": [
+            [
+              "0.06 dm3"
+            ],
+            [
+              "60 cm3"
+            ],
+            [
+              "0.06"
+            ],
+            [
+              "60"
+            ],
+            [
+              "0.06 dm3 (60 cm3)"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    }
+  ]
+}
