@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="/smartstudy.png">
+<link rel="icon" type="image/png" href="/assets/images/smartstudy.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#0f172a">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Smart Study">
 <link rel="manifest" href="/manifest.json">
-<link rel="apple-touch-icon" href="/smartstudylogo.svg">
+<link rel="apple-touch-icon" href="/assets/images/smartstudylogo.svg">
 <title>NAISHK Smart Study Site — Study with Flashcards, Games, Past Papers and More!</title>
 <meta name="description" content="Smart Study is a free interactive learning platform. Master biology, chemistry, physics, computer science, and more with flashcards, quizzes, games, and past paper exam prep.">
 <link rel="preconnect" href="https://smart-study-by-ryan.firebaseapp.com">
@@ -1477,6 +1477,9 @@ let scrCards, scrIndex, scrScore, scrTimer, scrInterval, scrHintUsed;
 let snGrid, snSnake, snDirection, snFood, snScore, snQuestion, snTimer, snInterval, snGameOver;
 let cwGrid, cwClues, cwSelected, cwTimer, cwInterval, cwHints, cwSolved;
 let restScore, restCombo, restBestCombo, restTotalServed, restCustomers, restActiveCustomer, restInterval, restGameOver, restMode, restMathLevel, restChemLevel, restMathTarget;
+let _signupMode = 'email';
+let _staffRedirect = false;
+let _hcaptchaWidgetId = null;
 let clState = null, clAnimFrame = null, clKeys = { left: false, right: false, jump: false }, clLastTime = 0;
 
 async function loadAnnouncements() {
@@ -1831,7 +1834,7 @@ function renderTopbar() {
   // Left: Smart Study
   html += `<div class="topbar-left">`;
   html += `<span style="position:relative">`;
-  html += `<span class="topbar-brand" onclick="navigateTo('#home')"><img src="/smartstudylogo.svg" class="topbar-logo" alt="Smart Study">NAISHK Smart Study${s ? ' <span class="caret" style="font-size:1.3rem;margin-left:2px;cursor:pointer;vertical-align:middle" onclick="event.stopPropagation();toggleDropdown(\'smart\')">▼</span>' : ''}</span>`;
+  html += `<span class="topbar-brand" onclick="navigateTo('#home')"><img src="/assets/images/smartstudylogo.svg" class="topbar-logo" alt="Smart Study">NAISHK Smart Study${s ? ' <span class="caret" style="font-size:1.3rem;margin-left:2px;cursor:pointer;vertical-align:middle" onclick="event.stopPropagation();toggleDropdown(\'smart\')">▼</span>' : ''}</span>`;
   if (s) {
     html += `<div class="topbar-dropdown${openDropdown === 'smart' ? ' show' : ''}" id="dd-smart">${smartItems}</div>`;
   }
@@ -1908,7 +1911,7 @@ function renderTopbar() {
   // Mobile menu overlay
   html += `<div class="mobile-menu-overlay" id="mobile-menu">`;
   html += `<div class="mobile-menu-header">`;
-  html += `<span style="font-weight:700;font-size:1rem;color:var(--text)"><img src="/smartstudylogo.svg" style="height:22px;vertical-align:middle;margin-right:6px" alt="">Smart Study</span>`;
+  html += `<span style="font-weight:700;font-size:1rem;color:var(--text)"><img src="/assets/images/smartstudylogo.svg" style="height:22px;vertical-align:middle;margin-right:6px" alt="">Smart Study</span>`;
   html += `<button class="close-btn" onclick="toggleMobileMenu()">✕</button>`;
   html += `</div>`;
   html += `<div class="mobile-menu-section">`;
@@ -2231,6 +2234,9 @@ function renderHome(main) {
 /* ===== Auth Pages ===== */
 
 /* --- Password visibility toggle --- */
+function pwToggleBtn(inputId) {
+  return `<button type="button" class="pw-toggle" aria-label="Show password" onclick="var i=document.getElementById('${inputId}');if(i.type==='password'){i.type='text';this.textContent='🙈'}else{i.type='password';this.textContent='👁'}">👁</button>`;
+}
 
 /* --- Login --- */
 function renderLogin(main) {
@@ -2252,6 +2258,53 @@ function renderLogin(main) {
       </div>
       <div class="auth-alt" style="margin-top:12px">Don't have an account? <a href="#signup">Sign up</a></div>
     </div>`;
+}
+
+function renderSignup(main) {
+  main.innerHTML = `
+    <div class="auth-form">
+      <h2>Create Account</h2>
+      <div class="error-msg" id="signup-error"></div>
+      <div id="signup-email-group">
+        <div class="social-btns">
+          <button class="btn-social btn-google" onclick="signInWithGoogle()"><svg class="social-icon" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>Sign up with Google</button>
+          <button class="btn-social btn-microsoft" onclick="signInWithMicrosoft()"><svg class="social-icon" viewBox="0 0 24 24"><rect x="2" y="2" width="9" height="9" fill="#F25022"/><rect x="13" y="2" width="9" height="9" fill="#7FBA00"/><rect x="2" y="13" width="9" height="9" fill="#00A4EF"/><rect x="13" y="13" width="9" height="9" fill="#FFB900"/></svg>Sign up with Microsoft</button>
+        </div>
+        <div class="auth-divider"><span id="signup-divider-text">or with email</span></div>
+        <div class="form-group"><label for="signup-email">Email</label><input id="signup-email" type="email" autocomplete="email" placeholder="your@email.com"></div>
+      </div>
+      <div class="form-group"><label for="signup-user">Username</label><input id="signup-user" type="text" autocomplete="username" placeholder="Choose a username"></div>
+      <div class="form-group"><label for="signup-pass">Password</label><div class="pw-wrap"><input id="signup-pass" type="password" autocomplete="new-password" placeholder="At least 6 characters">` + pwToggleBtn('signup-pass') + `</div></div>
+      <div class="form-group"><label for="signup-confirm">Confirm Password</label><input id="signup-confirm" type="password" autocomplete="new-password" placeholder="Re-enter your password"></div>
+      <div class="form-group"><label for="signup-role">I am a</label><select id="signup-role"><option value="student">Student</option><option value="teacher">Teacher</option></select></div>
+      <div id="signup-captcha" style="margin:12px 0"></div>
+      <button class="btn-primary btn-full" id="signup-btn" onclick="handleSignup()">Sign Up</button>
+      <div class="auth-alt" style="margin-top:10px;font-size:0.85rem"><a href="javascript:void(0)" id="signup-toggle-link" onclick="toggleSignupMode()">Sign up with username only</a></div>
+      <div class="auth-alt" style="margin-top:8px">Already have an account? <a href="#login">Log in</a></div>
+    </div>`;
+
+  // Render hCaptcha after DOM is ready (script may be async/deferred)
+  function tryRenderHCaptcha() {
+    if (typeof hcaptcha === 'undefined' || typeof hcaptcha.render !== 'function') return false;
+    try {
+      var el = document.getElementById('signup-captcha');
+      if (!el) return false;
+      if (_hcaptchaWidgetId !== null) { try { hcaptcha.reset(_hcaptchaWidgetId); } catch(e) {} }
+      el.innerHTML = '';
+      _hcaptchaWidgetId = hcaptcha.render('signup-captcha', {
+        sitekey: APP_CONFIG.hcaptchaSiteKey,
+        theme: document.body.classList.contains('dark') ? 'dark' : 'light'
+      });
+      return true;
+    } catch(e) { console.error('hcaptcha render failed:', e); return false; }
+  }
+  if (!tryRenderHCaptcha()) {
+    var _hcapAttempts = 0;
+    var _hcapInterval = setInterval(function() {
+      _hcapAttempts++;
+      if (tryRenderHCaptcha() || _hcapAttempts > 30) clearInterval(_hcapInterval);
+    }, 300);
+  }
 }
 
 function toggleSignupMode() {
@@ -6787,7 +6840,7 @@ function renderExamQuestionPart(p, q, keyPrefix) {
     h += `<div class="exam-part-body">${pLabel} `;
     p.blanks.forEach((b, i) => {
       const bVal = (saved && saved[b.id]) ? saved[b.id] : '';
-      h += `${b.prompt} <span class="exam-blank-wrap"><input id="exam-${fullKey}-${b.id}" class="exam-input-blank" size="${Math.max(b.answer.length + 4, 12)}" value="${bVal.replace(/"/g, '&quot;')}" placeholder=".................."></span> `;
+      h += `${b.prompt} <span class="exam-blank-wrap"><input id="exam-${fullKey}-${b.id}" class="exam-input-blank" autocomplete="off" size="${Math.max(b.answer.length + 4, 12)}" value="${bVal.replace(/"/g, '&quot;')}" placeholder=".................."></span> `;
     });
     h += `${marksHtml}</div>`;
   } else if (p.type === 'diagram') {
@@ -6795,17 +6848,17 @@ function renderExamQuestionPart(p, q, keyPrefix) {
     h += `<div class="exam-diagram">`;
     p.diagramOrder.forEach((name, i) => {
       const dVal = (saved && saved[name]) ? saved[name] : '';
-      h += `<div class="exam-diagram-row"><span class="exam-diagram-label">${name}:</span> <span class="exam-arrow">&rarr;</span> <input id="exam-${fullKey}-d${i}" class="exam-input-blank" size="20" value="${dVal.replace(/"/g, '&quot;')}" placeholder=".................."></div>`;
+      h += `<div class="exam-diagram-row"><span class="exam-diagram-label">${name}:</span> <span class="exam-arrow">&rarr;</span> <input id="exam-${fullKey}-d${i}" class="exam-input-blank" autocomplete="off" size="20" value="${dVal.replace(/"/g, '&quot;')}" placeholder=".................."></div>`;
     });
     h += `</div>`;
   } else if (p.type === 'long') {
     const tVal = typeof saved === 'string' ? saved : '';
     h += `<div class="exam-part-body">${pLabel} ${p.question.replace(/\n/g, '<br>')}${marksHtml}</div>`;
-    h += `<div class="exam-lines"><textarea id="exam-${fullKey}" class="exam-input-lines" rows="5" placeholder="...........................................................................................................................................................">${tVal.replace(/</g, '&lt;').replace(/"/g, '&quot;')}</textarea></div>`;
+    h += `<div class="exam-lines"><textarea id="exam-${fullKey}" class="exam-input-lines" autocomplete="off" rows="5" placeholder="...........................................................................................................................................................">${tVal.replace(/</g, '&lt;').replace(/"/g, '&quot;')}</textarea></div>`;
   } else {
     const tVal = typeof saved === 'string' ? saved : '';
     h += `<div class="exam-part-body">${pLabel} ${p.question.replace(/\n/g, '<br>')}${marksHtml}</div>`;
-    h += `<div class="exam-lines"><input id="exam-${fullKey}" class="exam-input-line" value="${tVal.replace(/"/g, '&quot;')}" placeholder="............................................................................................................."></div>`;
+    h += `<div class="exam-lines"><input id="exam-${fullKey}" class="exam-input-line" autocomplete="off" value="${tVal.replace(/"/g, '&quot;')}" placeholder="............................................................................................................."></div>`;
   }
 
   h += `</div>`;
@@ -10682,7 +10735,15 @@ function clCheckEnemyHit() {
         clSpawnParticles(e.x + 12, esy + 14, '#f44', 8);
         return;
       }
-      clTriggerQuestion(i);
+      // Hit by enemy — lose a life, knock back, brief invulnerability
+      s.lives--;
+      s.vy = -6;
+      s.vx = (s.px > e.x ? 5 : -5);
+      s.shakeTimer = 10;
+      s.shakeIntensity = 6;
+      s.combo = 0;
+      clSpawnParticles(s.px + s.playerW/2, s.py + s.playerH/2, '#f44', 10);
+      if (s.lives <= 0) { clEndGame(); return; }
       return;
     }
   }
@@ -10822,7 +10883,7 @@ function clEndGame() {
     '<div style="margin:4px 0;font-size:0.9rem">Score: <b>' + s.score + '</b>' + (isHigh ? ' <span style="color:#4ade80;font-weight:700">NEW BEST!</span>' : '') + '</div>' +
     '<div style="margin:4px 0;font-size:0.9rem">Height: <b>' + s.maxH + 'm</b>' + (isBestH ? ' <span style="color:#4ade80;font-weight:700">NEW BEST!</span>' : '') + '</div>' +
     '<div style="margin:4px 0;font-size:0.8rem;color:#fbbf24">Best Score: ' + prog.scores_climber.highScore + ' | Best Height: ' + prog.scores_climber.bestHeight + 'm</div>' +
-    '<button class="btn-primary" style="margin-top:14px" onclick="currentMode=\'climber\';window.location.hash=\'#study\'">Play Again</button>' +
+    '<button class="btn-primary" style="margin-top:14px" onclick="renderClimber(document.getElementById(\'main\'))">Play Again</button>' +
     '<button class="btn-ghost" style="margin-left:8px;background:rgba(255,255,255,0.1);color:#fff;border:1px solid rgba(255,255,255,0.3)" onclick="currentMode=\'flashcards\';LS.set(\'llmwiki_mode\',\'flashcards\');window.location.hash=\'#study\'">Back to Flashcards</button>' +
     '</div></div>';
 }

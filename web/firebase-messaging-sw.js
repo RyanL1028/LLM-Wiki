@@ -22,13 +22,13 @@ messaging.onBackgroundMessage(function(payload) {
   var notification = payload.notification || {};
   var title = notification.title || 'Smart Study';
   var body = notification.body || 'You have a new message';
-  var icon = notification.icon || '/smartchatter.png';
+  var icon = notification.icon || '/assets/images/smartchatter.png';
   var tag = payload.data && payload.data.tag || 'smartstudy';
 
   var options = {
     body: body,
     icon: icon,
-    badge: '/smartchatter.png',
+    badge: '/assets/images/smartchatter.png',
     tag: tag,
     data: payload.data || {},
     requireInteraction: false,

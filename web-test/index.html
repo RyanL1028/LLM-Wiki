@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="/smartstudy.png">
+<link rel="icon" type="image/png" href="/assets/images/smartstudy.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#0f172a">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Smart Study">
 <link rel="manifest" href="/manifest.json">
-<link rel="apple-touch-icon" href="/smartstudylogo.svg">
+<link rel="apple-touch-icon" href="/assets/images/smartstudylogo.svg">
 <title>NAISHK Smart Study Site — Study with Flashcards, Games, Past Papers and More!</title>
 <meta name="description" content="Smart Study is a free interactive learning platform. Master biology, chemistry, physics, computer science, and more with flashcards, quizzes, games, and past paper exam prep.">
 <link rel="preconnect" href="https://smart-study-by-ryan.firebaseapp.com">
@@ -1802,7 +1802,7 @@ function renderTopbar() {
   // Left: Smart Study
   html += `<div class="topbar-left">`;
   html += `<span style="position:relative">`;
-  html += `<span class="topbar-brand" onclick="navigateTo('#home')"><img src="/smartstudylogo.svg" class="topbar-logo" alt="Smart Study">NAISHK Smart Study${s ? ' <span class="caret" style="font-size:1.3rem;margin-left:2px;cursor:pointer;vertical-align:middle" onclick="event.stopPropagation();toggleDropdown(\'smart\')">▼</span>' : ''}</span>`;
+  html += `<span class="topbar-brand" onclick="navigateTo('#home')"><img src="/assets/images/smartstudylogo.svg" class="topbar-logo" alt="Smart Study">NAISHK Smart Study${s ? ' <span class="caret" style="font-size:1.3rem;margin-left:2px;cursor:pointer;vertical-align:middle" onclick="event.stopPropagation();toggleDropdown(\'smart\')">▼</span>' : ''}</span>`;
   if (s) {
     html += `<div class="topbar-dropdown${openDropdown === 'smart' ? ' show' : ''}" id="dd-smart">${smartItems}</div>`;
   }
@@ -1879,7 +1879,7 @@ function renderTopbar() {
   // Mobile menu overlay
   html += `<div class="mobile-menu-overlay" id="mobile-menu">`;
   html += `<div class="mobile-menu-header">`;
-  html += `<span style="font-weight:700;font-size:1rem;color:var(--text)"><img src="/smartstudylogo.svg" style="height:22px;vertical-align:middle;margin-right:6px" alt="">Smart Study</span>`;
+  html += `<span style="font-weight:700;font-size:1rem;color:var(--text)"><img src="/assets/images/smartstudylogo.svg" style="height:22px;vertical-align:middle;margin-right:6px" alt="">Smart Study</span>`;
   html += `<button class="close-btn" onclick="toggleMobileMenu()">✕</button>`;
   html += `</div>`;
   html += `<div class="mobile-menu-section">`;

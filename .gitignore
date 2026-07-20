@@ -30,3 +30,8 @@ node_modules/
 # Large resource files (PDFs, PPTXs — tracked separately if needed)
 resources/source-materials/
 resources/worksheets/
+
+# Temp / drive uploads
+.tmp.*/
+*.tmp/
+quartz-src/.git/

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="PVpMGvC5IxB6HTCGXpfYxbIMX9e6ZT_kZVnd1Q3KwSk" />
+<title>SmartNexus Ecosystems — Connecting Smart Solutions</title>
+<meta name="description" content="SmartNexus Ecosystems is a student-made technology organisation building innovative apps for education, health, and communication.">
+<meta name="theme-color" content="#f8fafc">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta property="og:title" content="SmartNexus Ecosystems — Connecting Smart Solutions">
+<meta property="og:description" content="A student-led tech ecosystem creating apps for education, health, and communication — built by students, for students.">
+<meta property="og:image" content="https://smartnexus.web.app/logo-pfp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://smartnexus.web.app">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  html { scroll-behavior: smooth; }
+  :root {
+    --bg: #f8fafc;
+    --bg-warm: #faf9f7;
+    --surface: #ffffff;
+    --surface2: #f1f5f9;
+    --accent: #0d9488;
+    --accent-light: #14b8a6;
+    --accent2: #06b6d4;
+    --warm: #f59e0b;
+    --text: #1e293b;
+    --text2: #334155;
+    --muted: #64748b;
+    --muted-light: #94a3b8;
+    --border: #e2e8f0;
+    --border-light: #f1f5f9;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.06);
+    --shadow: 0 4px 6px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.04);
+    --shadow-md: 0 10px 25px rgba(0,0,0,0.06), 0 4px 10px rgba(0,0,0,0.04);
+    --shadow-lg: 0 20px 50px rgba(0,0,0,0.08), 0 8px 20px rgba(0,0,0,0.04);
+    --radius: 16px;
+    --radius-sm: 10px;
+    --radius-xs: 8px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Organic background blobs */
+  .bg-decoration {
+    position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden;
+  }
+  .bg-blob {
+    position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.35;
+  }
+  .bg-blob-1 { width: 600px; height: 600px; background: radial-gradient(circle, rgba(13,148,136,0.25) 0%, transparent 70%); top: -200px; right: -100px; }
+  .bg-blob-2 { width: 500px; height: 500px; background: radial-gradient(circle, rgba(6,182,212,0.2) 0%, transparent 70%); bottom: 10%; left: -150px; }
+  .bg-blob-3 { width: 400px; height: 400px; background: radial-gradient(circle, rgba(245,158,11,0.15) 0%, transparent 70%); top: 60%; right: 20%; }
+  .bg-blob-4 { width: 350px; height: 350px; background: radial-gradient(circle, rgba(13,148,136,0.18) 0%, transparent 70%); top: 30%; left: 40%; }
+
+  /* Nav */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(255,255,255,0.8); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+  }
+  .nav-inner {
+    max-width: 1200px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 64px;
+  }
+  .nav-logo {
+    font-size: 1.2rem; font-weight: 700; color: var(--text);
+    display: flex; align-items: center; gap: 10px;
+    text-decoration: none; letter-spacing: -0.01em;
+  }
+  .nav-logo .logo-mark {
+    width: 36px; height: 36px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(13,148,136,0.25);
+  }
+  .nav-links { display: flex; gap: 28px; list-style: none; }
+  .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.88rem; font-weight: 500; transition: color 0.15s; }
+  .nav-links a:hover { color: var(--accent); }
+  .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 6px; border-radius: 8px; }
+  .hamburger:hover { background: var(--surface2); }
+  .hamburger span { display: block; width: 22px; height: 2px; background: var(--text); margin: 5px 0; border-radius: 2px; transition: 0.2s; }
+  .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px,5px); }
+  .hamburger.open span:nth-child(2) { opacity: 0; }
+  .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px,-5px); }
+  .mobile-menu { display: none; position: fixed; top: 64px; left: 0; right: 0; background: rgba(255,255,255,0.97); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid var(--border); padding: 12px 24px; flex-direction: column; gap: 4px; z-index: 99; box-shadow: var(--shadow-md); }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a { color: var(--text); text-decoration: none; padding: 12px 8px; font-size: 1rem; font-weight: 500; border-radius: var(--radius-xs); transition: background 0.15s; }
+  .mobile-menu a:hover { background: var(--surface2); }
+
+  /* Hero */
+  .hero {
+    position: relative; z-index: 1;
+    padding: 180px 24px 100px; text-align: center; max-width: 750px; margin: 0 auto;
+  }
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 18px;
+    background: rgba(13,148,136,0.08); border: 1px solid rgba(13,148,136,0.2);
+    border-radius: 24px; font-size: 0.82rem; color: var(--accent);
+    margin-bottom: 24px; font-weight: 500;
+  }
+  .hero-badge .badge-dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--accent-light);
+    animation: pulse-dot 2s ease-in-out infinite;
+  }
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.3); }
+  }
+  .hero h1 {
+    font-size: clamp(2.4rem, 5.5vw, 3.8rem); font-weight: 800;
+    background: linear-gradient(135deg, #0f766e 0%, #0d9488 30%, #0891b2 70%, #06b6d4 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; line-height: 1.12; margin-bottom: 20px;
+    letter-spacing: -0.02em;
+  }
+  .hero p {
+    font-size: 1.12rem; color: var(--muted); max-width: 520px; margin: 0 auto 36px;
+    line-height: 1.65;
+  }
+  .hero-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 13px 30px; border-radius: 28px;
+    font-size: 0.92rem; font-weight: 600; text-decoration: none;
+    transition: all 0.25s; cursor: pointer; border: none;
+    letter-spacing: -0.01em;
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--accent), var(--accent-light));
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(13,148,136,0.3);
+  }
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #0f766e, #0d9488);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(13,148,136,0.4);
+  }
+  .btn-outline {
+    background: var(--surface); color: var(--text);
+    border: 1.5px solid var(--border);
+  }
+  .btn-outline:hover {
+    border-color: var(--accent);
+    background: rgba(13,148,136,0.03);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+
+  /* Sections */
+  .section { position: relative; z-index: 1; padding: 90px 24px; max-width: 1200px; margin: 0 auto; }
+  .section-label { text-align: center; font-size: 0.78rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 10px; }
+  .section h2 { text-align: center; font-size: 2.1rem; font-weight: 750; margin-bottom: 12px; letter-spacing: -0.02em; color: var(--text); }
+  .section-sub { text-align: center; color: var(--muted); margin-bottom: 52px; font-size: 1rem; max-width: 500px; margin-left: auto; margin-right: auto; }
+
+  /* Stats */
+  .stats { display: flex; gap: 48px; justify-content: center; flex-wrap: wrap; margin-top: 60px; }
+  .stat { text-align: center; }
+  .stat-num { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.03em; color: var(--text); }
+  .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 4px; font-weight: 500; }
+
+  /* Products */
+  .product-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 22px;
+  }
+  .product-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 30px; transition: all 0.3s;
+    position: relative; overflow: hidden;
+    text-decoration: none; display: block; color: inherit;
+    box-shadow: var(--shadow-sm);
+  }
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: transparent;
+  }
+  .product-card::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    opacity: 0; transition: opacity 0.3s; border-radius: 0 0 var(--radius) var(--radius);
+  }
+  .product-card:hover::after { opacity: 1; }
+  .product-icon {
+    width: 50px; height: 50px; border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.5rem; margin-bottom: 18px;
+    box-shadow: var(--shadow-sm);
+  }
+  .product-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 10px; letter-spacing: -0.01em; }
+  .product-card p { color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
+  .product-card .tags { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+  .product-card .tag {
+    display: inline-block; padding: 5px 12px;
+    background: var(--surface2); border-radius: 20px; font-size: 0.73rem;
+    color: var(--muted); font-weight: 600;
+  }
+  .product-card .tag.status-live {
+    background: rgba(16,185,129,0.1); color: #059669;
+  }
+  .product-card .tag.status-beta {
+    background: rgba(245,158,11,0.1); color: #d97706;
+  }
+  .product-card .arrow {
+    position: absolute; top: 30px; right: 30px;
+    color: var(--muted-light); transition: all 0.3s; font-size: 1.1rem;
+  }
+  .product-card:hover .arrow { color: var(--accent); transform: translateX(4px); }
+
+  /* Founder */
+  .founder-card {
+    max-width: 620px; margin: 0 auto;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 32px; display: flex; gap: 24px;
+    align-items: center; flex-wrap: wrap;
+    box-shadow: var(--shadow-sm);
+  }
+  .founder-avatar {
+    width: 80px; height: 80px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2rem; color: #fff; flex-shrink: 0;
+    box-shadow: 0 4px 16px rgba(13,148,136,0.3);
+  }
+  .founder-info { flex: 1; min-width: 220px; }
+  .founder-info h4 { font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; }
+  .founder-info p { color: var(--muted); font-size: 0.9rem; line-height: 1.55; margin-bottom: 14px; }
+  .founder-info .btn { padding: 8px 20px; font-size: 0.82rem; }
+
+  /* About */
+  .about-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;
+  }
+  .about-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px; text-align: center;
+    box-shadow: var(--shadow-sm); transition: all 0.25s;
+  }
+  .about-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+  }
+  .about-card .ico { font-size: 2.2rem; margin-bottom: 14px; display: block; }
+  .about-card h4 { font-size: 1.05rem; margin-bottom: 8px; font-weight: 700; }
+  .about-card p { color: var(--muted); font-size: 0.87rem; line-height: 1.55; }
+
+  /* Contact */
+  .contact-section { text-align: center; }
+
+  /* Footer */
+  footer {
+    position: relative; z-index: 1;
+    border-top: 1px solid var(--border); padding: 36px 24px;
+    text-align: center; color: var(--muted); font-size: 0.82rem;
+  }
+  footer span { color: var(--accent); font-weight: 600; }
+
+  /* Responsive */
+  @media (max-width: 700px) {
+    .hero { padding: 140px 16px 60px; }
+    .hero h1 { font-size: 2rem; }
+    .hero p { font-size: 1rem; }
+    .nav-links { display: none; }
+    .hamburger { display: block; }
+    .section { padding: 56px 16px; }
+    .section h2 { font-size: 1.6rem; }
+    .stats { gap: 28px; }
+    .stat-num { font-size: 1.6rem; }
+    .founder-card { padding: 24px; text-align: center; flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-decoration" aria-hidden="true">
+  <div class="bg-blob bg-blob-1"></div>
+  <div class="bg-blob bg-blob-2"></div>
+  <div class="bg-blob bg-blob-3"></div>
+  <div class="bg-blob bg-blob-4"></div>
+</div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="/logo.svg" alt="SmartNexus" class="logo-mark">
+      SmartNexus Ecosystems
+    </a>
+    <ul class="nav-links">
+      <li><a href="#products">Products</a></li>
+      <li><a href="#founder">Founder</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu" onclick="document.getElementById('hamburger').classList.toggle('open');document.getElementById('mobile-menu').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#products" onclick="document.getElementById('hamburger').click()">Products</a>
+    <a href="#founder" onclick="document.getElementById('hamburger').click()">Founder</a>
+    <a href="#about" onclick="document.getElementById('hamburger').click()">About</a>
+    <a href="#contact" onclick="document.getElementById('hamburger').click()">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-badge">
+    <span class="badge-dot"></span> Student-Made Tech Ecosystem
+  </div>
+  <h1>Smart solutions,<br>connected together.</h1>
+  <p>SmartNexus Ecosystems is a student-led technology organisation building a family of interconnected apps for education, health, and communication — all designed to work together seamlessly.</p>
+  <div class="hero-btns">
+    <a href="#products" class="btn btn-primary">Explore Our Ecosystem</a>
+    <a href="#about" class="btn btn-outline">About Us</a>
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="stat-num">4</div><div class="stat-label">Smart Apps</div></div>
+    <div class="stat"><div class="stat-num">50+</div><div class="stat-label">Active Users</div></div>
+    <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Student-Built</div></div>
+  </div>
+</section>
+
+<section class="section" id="products">
+  <div class="section-label">Our Ecosystem</div>
+  <h2>The Smart Family of Apps</h2>
+  <p class="section-sub">Every product is designed, developed, and maintained by students — built to work together.</p>
+  <div class="product-grid">
+
+    <a href="https://smart-study-site.web.app" class="product-card" target="_blank" rel="noopener">
+      <div class="product-icon" style="background:rgba(13,148,136,0.1);color:var(--accent)">📚</div>
+      <span class="arrow">↗</span>
+      <h3>Smart Study</h3>
+      <p>AI-powered learning platform with flashcards, interactive games, AI chatbot tutoring, and progress tracking for IGCSE students.</p>
+      <div class="tags">
+        <span class="tag">Education</span>
+        <span class="tag status-live">🟢 Live</span>
+      </div>
+    </a>
+
+    <a href="https://smarthealth-site.web.app" class="product-card" target="_blank" rel="noopener">
+      <div class="product-icon" style="background:rgba(16,185,129,0.1);color:#059669">🧠</div>
+      <span class="arrow">↗</span>
+      <h3>SmartHealth</h3>
+      <p>Student health and wellness platform — track your health, access mental health resources, and build healthy habits.</p>
+      <div class="tags">
+        <span class="tag">Health</span>
+        <span class="tag status-live">🟢 Live</span>
+      </div>
+    </a>
+
+    <a href="https://smart-study-wiki.web.app" class="product-card" target="_blank" rel="noopener">
+      <div class="product-icon" style="background:rgba(245,158,11,0.1);color:#d97706">📖</div>
+      <span class="arrow">↗</span>
+      <h3>Smart Study Wiki</h3>
+      <p>Collaborative knowledge base and research wiki — a personal encyclopedia for study notes, paper summaries, and shared learning resources.</p>
+      <div class="tags">
+        <span class="tag">Knowledge</span>
+        <span class="tag status-beta">🟡 Beta</span>
+      </div>
+    </a>
+
+    <a href="https://smartchatter.web.app" class="product-card" target="_blank" rel="noopener">
+      <div class="product-icon" style="background:rgba(6,182,212,0.1);color:var(--accent2)">💬</div>
+      <span class="arrow">↗</span>
+      <h3>SmartChatter</h3>
+      <p>Real-time messaging platform for students and teachers. Class group chats, direct messaging, file sharing, polls, and voice calls — all in one place.</p>
+      <div class="tags">
+        <span class="tag">Communication</span>
+        <span class="tag status-live">🟢 Live</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section class="section" id="founder">
+  <div class="section-label">Founder &amp; Lead Developer</div>
+  <h2>The Person Behind the Ecosystem</h2>
+  <p class="section-sub">Student entrepreneur building technology for the next generation — one app at a time.</p>
+  <div class="founder-card">
+    <div class="founder-avatar">RL</div>
+    <div class="founder-info">
+      <h4>Ryan W.G. Leung</h4>
+      <p>Founder of SmartNexus Ecosystems and the lead developer behind all four Smart products. Passionate about using technology to improve education, student health, and communication — building tools that make a real difference in the school community.</p>
+      <a href="https://ryan-bio.web.app" target="_blank" rel="noopener" class="btn btn-outline">View Full Bio ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="section-label">Who We Are</div>
+  <h2>Student-Made, Student-Driven</h2>
+  <p class="section-sub">Founded in 2025 at NAISHK — one student, one laptop, one idea that grew into a connected ecosystem.</p>
+  <div class="about-grid">
+    <div class="about-card">
+      <span class="ico">🏫</span>
+      <h4>NAISHK Roots</h4>
+      <p>Born in a Hong Kong secondary school, SmartNexus builds tools that solve real problems faced by students and teachers every day.</p>
+    </div>
+    <div class="about-card">
+      <span class="ico">🛠</span>
+      <h4>Built With</h4>
+      <p>Firebase, vanilla JavaScript, HTML/CSS, the WhatsApp Cloud API, the Base44 AI platform, and a lot of late nights.</p>
+    </div>
+    <div class="about-card">
+      <span class="ico">🔒</span>
+      <h4>Privacy First</h4>
+      <p>Student data stays encrypted in Google Cloud. No trackers, no ads, no selling data — ever. GDPR &amp; COPPA conscious.</p>
+    </div>
+    <div class="about-card">
+      <span class="ico">🚀</span>
+      <h4>Since 2025</h4>
+      <p>What started as a single flashcard app is now a connected ecosystem of 4 products serving 50+ users across the NAISHK community.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="section-label">Get In Touch</div>
+  <h2>Want to collaborate?</h2>
+  <p class="section-sub">Whether you're a student developer, teacher, or just curious — we'd love to hear from you.</p>
+  <a href="mailto:bio.ryan.enquiries@gmail.com" class="btn btn-primary">Contact Us</a>
+</section>
+
+<footer>
+  <p>&copy; 2026 <span>SmartNexus Ecosystems</span>. A student-made technology organisation. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

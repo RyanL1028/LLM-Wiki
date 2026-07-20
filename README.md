@@ -1,6 +1,6 @@
 # LLM Wiki — Smart Study Platform
 
-> **CyberTech**: A student-made technology organisation building apps for education, wellbeing, and communication.
+> **SmartNexus Ecosystems**: A student-made technology organisation building apps for education, wellbeing, and communication.
 
 ---
 
@@ -13,7 +13,7 @@ This monorepo contains the full Smart Study ecosystem — an AI-powered learning
 | **Smart Study** | [smart-study-site.web.app](https://smart-study-site.web.app) | AI flashcards, games, chatbot tutoring |
 | **SmartChatter** | [smartchatter.web.app](https://smartchatter.web.app) | Real-time class messaging |
 | **Smart Study Wiki** | [smart-study-wiki.web.app](https://smart-study-wiki.web.app) | Collaborative knowledge base |
-| **CyberTech** | [cybertech-co.web.app](https://cybertech-co.web.app) | Parent company landing page |
+| **SmartNexus Ecosystems** | [smartnexus.web.app](https://smartnexus.web.app) | Parent company landing page |
 | **Wellbeing Companion** | [wellbeing-companion-app.web.app](https://wellbeing-companion-app.web.app) | Student mental health app |
 
 ---
@@ -22,6 +22,11 @@ This monorepo contains the full Smart Study ecosystem — an AI-powered learning
 
 ```
 LLM Wiki/
+├── init/                    # ⚙️ Dev config files
+│   ├── .claude/             #    Claude Code settings
+│   ├── .cursor/             #    Cursor IDE hooks & rules
+│   └── .obsidian/           #    Obsidian vault config
+│
 ├── web/                    # 🔥 Smart Study — main app
 │   ├── index.html          #    Main SPA: study modes, games, auth, admin
 │   ├── staff.html          #    Staff/admin dashboard
@@ -42,23 +47,40 @@ LLM Wiki/
 │
 ├── web-test/               # 🧪 Test deployment mirror of web/
 │
-├── cybertech/              # 🏢 CyberTech parent company landing page
+├── SmartNexus-Ecosystems/  # 🏢 SmartNexus parent company landing page
 │   ├── index.html          #    Single-page site
 │   └── cybertech.png       #    Company logo
 │
-├── wiki-web/               # 📚 Smart Study Wiki
-│   ├── index.html          #    Wiki SPA
-│   └── wiki/               #    Wiki data
+├── wiki-web/               # 📚 Smart Study Wiki (Quartz 4 SSG)
+│   ├── wiki/               #    Markdown content (all subjects)
+│   │   ├── IGCSE Chemistry/  # 150+ topic pages
+│   │   ├── IGCSE Biology/    # Biology topic pages
+│   │   ├── IGCSE Physics/     # Physics topic pages
+│   │   ├── IGCSE Mathematics/ # Math topic pages
+│   │   ├── Concepts/         # Cross-subject concept pages
+│   │   └── Science Student Book 7/  # KS3 textbook
+│   ├── quartz-src/         #    Quartz static site generator
+│   │   ├── content → ../wiki  # Symlink to markdown source
+│   │   ├── public/         #    Built HTML output (deployed)
+│   │   └── quartz.config.ts   # Quartz configuration
+│   ├── scripts/            #    Build scripts (link graph, search, etc.)
+│   └── data/               #    Generated JSON (search index, graph)
 │
 ├── resources/              # 📦 Educational content (not deployed)
 │   ├── worksheets/         #    Dr Frost math worksheets (PDF, PPTX)
+│   ├── workbooks/          #    Syllabus PDFs, textbooks
 │   ├── source-materials/   #    Course PPTs, past papers, textbooks
 │   └── templates/          #    Project templates
 │
-├── notes/                  # 📝 Personal notes & Obsidian vault content
+├── Past-Paper/             # 📄 Past exam papers (Chem 0921, CS 0478)
+├── PP-Mark-Schemes/        # 📋 Past paper mark schemes
+├── Specimen-Paper/         # 📝 Specimen papers (CS 0478)
 │
-├── scripts/                # 🔧 Utility scripts (data extraction)
+├── scripts/                # 🔧 Python scripts (syllabus conversion, wiki gen)
+├── notes/                  # 📝 Personal notes & Obsidian vault
+├── logs/                   # 📊 Ingestion logs
 │
+├── .vscode/                # 🖥️ VSCode workspace settings
 ├── LICENSE                 # MIT License
 └── README.md               # This file
 ```
@@ -105,7 +127,7 @@ LLM Wiki/
 | Project | Purpose |
 |---------|---------|
 | `smart-study-by-ryan` | Firestore database, Firebase Auth |
-| `smart-study-site` | Hosting (5 sites: main, staff, chat, wiki, cybertech) |
+| `smart-study-site` | Hosting (5 sites: main, staff, chat, wiki, smartnexus) |
 
 ---
 
@@ -135,7 +157,7 @@ LLM Wiki/
 ```bash
 # Hosting
 cd web && firebase deploy --only hosting:main
-cd cybertech && firebase deploy --only hosting:cybertech
+cd SmartNexus-Ecosystems && firebase deploy --only hosting:smartnexus
 
 # Firestore rules
 cd web && firebase deploy --only firestore:rules --project smart-study-by-ryan
@@ -147,4 +169,4 @@ cd web && firebase deploy --only firestore:rules --project smart-study-by-ryan
 
 MIT — see [LICENSE](LICENSE).
 
-Built with ❤️ by [Ryan W.G. Leung](https://ryan-bio.web.app) — Founder, CyberTech.
+Built with ❤️ by [Ryan W.G. Leung](https://ryan-bio.web.app) — Founder, SmartNexus Ecosystems.

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="/smartchatter.png">
+<link rel="icon" type="image/png" href="/assets/images/smartchatter.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SmartChatter by Smart Study Site</title>
 <meta name="description" content="SmartChatter — Real-time chat for Smart Study students and teachers. Connect with your classes, send direct messages, share files, and collaborate.">
@@ -1194,7 +1194,7 @@ function handleForegroundMessages() {
       try {
         new Notification(title, {
           body: body,
-          icon: '/smartchatter.png',
+          icon: '/assets/images/smartchatter.png',
           tag: payload.data && payload.data.tag || 'smartstudy',
           data: payload.data || {}
         });
@@ -1223,7 +1223,7 @@ function showBrowserNotification(text) {
   // Fallback: basic browser notification for in-app use
   if (!('Notification' in window) || Notification.permission !== 'granted') return;
   try {
-    new Notification('SmartChatter', { body: text, icon: '/smartchatter.png', tag: 'smartchatter' });
+    new Notification('SmartChatter', { body: text, icon: '/assets/images/smartchatter.png', tag: 'smartchatter' });
   } catch(e) {}
 }
 
@@ -1551,7 +1551,7 @@ function renderTopbar() {
   let html = '';
   html += '<div class="topbar-left">';
   html += backBtn;
-  html += '<span class="topbar-brand" onclick="navigateTo(\'#home\')"><img src="/smartchatter.svg" class="topbar-logo" alt="SmartChatter">SmartChatter</span>';
+  html += '<span class="topbar-brand" onclick="navigateTo(\'#home\')"><img src="/assets/images/smartchatter.svg" class="topbar-logo" alt="SmartChatter">SmartChatter</span>';
   html += '</div>';
 
   html += '<div class="topbar-right">';

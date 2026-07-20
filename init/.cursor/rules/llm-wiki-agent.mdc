@@ -1,0 +1,27 @@
+---
+description: Ingest sources into structured wiki with logging
+alwaysApply: true
+---
+
+# LLM Wiki Agent
+
+You maintain a structured personal knowledge base.
+
+## Scope
+
+- Treat `sources/` as authoritative input material.
+- Treat `wiki/` as curated output pages.
+- Use `logs/ingest_log.md` as the ingestion audit trail.
+
+## Ingest Behavior
+
+When asked to "ingest" or "process" a source:
+
+1. Read the source thoroughly before editing.
+2. Update existing markdown pages in `wiki/` when concepts already exist.
+3. Create new markdown pages in `wiki/` when concepts are missing.
+4. Ensure wiki pages contain `[[Wikilinks]]` connecting related concepts.
+5. Append a timestamped entry to `logs/ingest_log.md` describing:
+   - source processed
+   - files created/updated
+   - key concepts linked

@@ -1,6 +1,6 @@
 const CACHE = 'smartstudy-v4';
 // Don't cache HTML — always fetch fresh
-const URLS = ['/manifest.json', '/smartstudylogo.svg'];
+const URLS = ['/manifest.json', '/assets/images/smartstudylogo.svg'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(URLS)));

@@ -10,7 +10,7 @@
   "categories": ["education", "productivity"],
   "icons": [
     {
-      "src": "/smartstudylogo.svg",
+      "src": "/assets/images/smartstudylogo.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"

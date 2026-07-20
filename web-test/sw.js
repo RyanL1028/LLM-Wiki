@@ -1,5 +1,5 @@
 const CACHE = 'smartstudy-v1';
-const URLS = ['/', '/index.html', '/manifest.json', '/smartstudylogo.svg', '/favicon.png'];
+const URLS = ['/', '/index.html', '/manifest.json', '/assets/images/smartstudylogo.svg', '/favicon.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(URLS)));

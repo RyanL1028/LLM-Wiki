@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "e06ee064db4ebe6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "4662f516b5484a9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5f16eb689c01425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki-web/wiki/IGCSE Chemistry/IGCSE-Chem-Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IGCSE-Chem-Index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bcc1036301227c79",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca5d01705774fefa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37280a646281874f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5ee613b2852339cc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Master in",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "60ed8d3316c201a5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "24c0762ebf98358f",
+    "type": "split",
+    "children": [
+      {
+        "id": "64260dbc14753b72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7da5824c25cce0df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/Papers/Combustion Lesson Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Combustion Lesson Notes"
+            }
+          },
+          {
+            "id": "c756c9992911983c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/Papers/Combustion Lesson Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Combustion Lesson Notes"
+            }
+          },
+          {
+            "id": "53870ea5c2474efb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0e23d548a33cc4d0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b6b690e18ebdb715",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/Papers/Combustion Lesson Notes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Combustion Lesson Notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b5f16eb689c01425",
+  "lastOpenFiles": [
+    "wiki-web/wiki/Concepts/Rounding and Approximation.md",
+    "wiki-web/wiki/Concepts/Number Theory.md",
+    "wiki-web/wiki/Concepts/Transformations.md",
+    "wiki-web/wiki/Concepts/Algebraic Expressions.md",
+    "wiki-web/wiki/Concepts/Fractions.md",
+    "wiki-web/wiki/Papers/Rounding and Approximation — DrFrost Y7 Lesson Notes.md",
+    "wiki-web/wiki/Papers/Number Theory — DrFrost Y7 Lesson Notes.md",
+    "wiki-web/wiki/Papers/Fractions — DrFrost Y7 Lesson Notes.md",
+    "wiki-web/wiki/Papers/Transformations — DrFrost Y7 Lesson Notes.md",
+    "wiki-web/wiki/Papers/Algebraic Expressions — DrFrost Y7 Lesson Notes.md",
+    "web-test/assets/images/smartstudylogo.svg",
+    "web-test/assets/images/smartstudy.png",
+    "web-test/assets/images/smartchatter.svg",
+    "web-test/assets/images/smartchatter.png",
+    "web-test/assets/images",
+    "web-test/assets",
+    "web/assets/images/smartstudylogo.svg",
+    "web/assets/images/smartstudy.png",
+    "web/assets/images/smartchatter.svg",
+    "web/assets/images/smartchatter.png",
+    "web/assets/images",
+    "web/assets",
+    "scripts/output/chem-exam-data.js",
+    "scripts/output/chem-content-db.js",
+    "scripts/output",
+    "notes/workflow.txt",
+    "notes/blog-smart-study-3.txt",
+    "scripts/__pycache__/gen_chem_batch2.cpython-313.pyc",
+    "SmartNexus-Ecosystems/logo.svg",
+    "SmartNexus-Ecosystems/logo-pfp.svg",
+    "resources/openstax-chemistry-2e-igcse-topics.md",
+    "wiki-web/wiki/IGCSE Chemistry/Solid.md",
+    "wiki-web/wiki/IGCSE Chemistry/IGCSE-Chem-Index.md",
+    "wiki-web/wiki/Master-Index.md",
+    "wiki-web/wiki/00-Home.md",
+    "wiki-web/quartz-src/node_modules/@types/js-yaml/README.md",
+    "wiki-web/wiki/IGCSE Chemistry/Dynamic Equilibrium.md",
+    "wiki-web/wiki/IGCSE Chemistry/Reducing Agent.md",
+    "wiki-web/wiki/IGCSE Chemistry/Oxidation Number.md",
+    "wiki-web/wiki/IGCSE Chemistry/Potassium Iodide.md",
+    "wiki-web/wiki/IGCSE Chemistry/Potassium Manganate(VII).md",
+    "wiki-web/wiki/IGCSE Chemistry/Chemical Change.md",
+    "wiki-web/wiki/IGCSE Chemistry/Oxidising Agent.md",
+    "wiki-web/wiki/IGCSE Chemistry/Closed System.md",
+    "wiki-web/wiki/IGCSE Chemistry/Contact Process.md",
+    "wiki-web/wiki/IGCSE Chemistry/Reaction Pathway Diagram.md",
+    "wiki-web/quartz-src/docs/Canvas.canvas",
+    "Untitled 1.canvas",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled.canvas",
+    "Untitled 2.canvas"
+  ]
+}

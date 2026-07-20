@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/pip install *)",
+      "Bash(.venv/bin/python3 scripts/build_flashcards.py)",
+      "Bash(python3 -c \"import sys,json; d=json.loads\\(sys.stdin.read\\(\\).replace\\('const FLASHCARD_DATA = ',''\\).rstrip\\(';\\\\n'\\)\\); subjects={}; [subjects.update\\({c['subject']: subjects.get\\(c['subject'],0\\)+1}\\) for c in d]; print\\('By subject:', subjects\\); print\\('Total:', len\\(d\\)\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(open *)",
+      "Bash(.venv/bin/python3 -c ' *)",
+      "Bash(.venv/bin/python3)",
+      "Bash(.venv/bin/python3 scripts/extract_cs_content.py)",
+      "Bash(.venv/bin/pymupdf -o - \"/Users/ryan/Documents/LLM Wiki/sources/520648-june-2024-mark-scheme-paper-11.pdf\")",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(xxd)",
+      "Bash(python3 *)",
+      "Bash(node *)",
+      "Bash(grep *)",
+      "Bash(sort -t'\\(' -k1)",
+      "Bash(awk '{print $2}')"
+    ]
+  }
+}

@@ -194,7 +194,7 @@ function handleForegroundMessages() {
 
     if (typeof Notification !== 'undefined' && Notification.permission === 'granted') {
       try {
-        new Notification(title, { body: body, icon: '/smartstudylogo.svg', tag: payload.data && payload.data.tag || 'smartstudy' });
+        new Notification(title, { body: body, icon: '/assets/images/smartstudylogo.svg', tag: payload.data && payload.data.tag || 'smartstudy' });
       } catch(e) {}
     }
 
