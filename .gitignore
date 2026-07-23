@@ -34,4 +34,7 @@ resources/worksheets/
 # Temp / drive uploads
 .tmp.*/
 *.tmp/
-quartz-src/.git/
+
+# Nested repos (managed independently)
+SmartNexus Ecosystems/Smart Study Wiki/quartz-src/
+SmartNexus Ecosystems/SmartHealth Hub/.git/
