@@ -1,0 +1,1510 @@
+# Unclassified Entries (1506)
+
+These entries could not be classified. Please review and assign to topics.
+
+- **N22** 2(c)(iii): air (1) reduced (1) dioxide (1) slag (1)
+- **iN18** 7(d)(ii): air (1) monoxide (1) decomposes (1) slag (1)
+- **iJ21** 3(a)(i): melting point of Cl any values between –215 and –30 (°C) (inclusive of these values) (1) colour of At: black / grey-black (1) density of F: any values between 0.1 and 1.5 (nm) (inclusive of these valu
+- **iM16** 4(b)(ii): 3(H2); 2(NH3);
+- **iM16** 6(e)(i): 2(C2H5OH) 2(CO2)
+- **iM16** 6(e)(iii): 180; one row correct = [1], e.g. 12 × 1 = 12 or 6 × 16 = 96
+- **iJ17** 4(a)(v): 160 IF full credit is not awarded, allow 1 mark for (Fe =) 56 and (O =16)
+- **J24** 3(d)(iii): blue (1) to colourless (1)
+- **J24** 5(b)(ii): SO2 (1) 2 (MgO) (1)
+- **J24** 6(c)(i): pressure: (rate) decreases / slower (reaction) (1) catalyst: (rate) increases / faster (reaction) (1)
+- **J19** 4(d)(i): 2 (Na2S2O3) (1) 2 (NaI) (1)
+- **iJ16** 2(c)(i): breakdown of an ionic compound by the passage of electricity (1 mark for breakdown of a compound by the passage of / using electricity)
+- **N22** 2(c)(i): 3 (Fe) (1) 2 (O2) (1)
+- **N22** 4(a)(i): density of iodine: values between 3.2 and 6.2 (inclusive of these values) (1) boiling point of astatine: values between 305 and 1000 (inclusive of these values) (1)
+- **N22** 4(b)(i): 2 (H2O) (1) 2 (HBr) (1)
+- **N22** 6(d)(ii): step 3 filter (the mixture) (1) step 6 dry crystals on filter paper / dry crystals in drying oven (1)
+- **iN15** 3(b)(iii): 2Br– → Br2 + 2e– / 2Br– – 2e– → Br2 formulae; balancing;
+- **iN15** 5(d)(ii): 2NaOH + H2SO4 → Na2SO4 + 2H2O Na2SO4; rest of equation correct; or H+ + OH– → H2O H2O as the only product on the right hand side; rest of equation correct; or NaOH + H2SO4 → NaHSO4 + H2O NaHSO4; rest 
+- **J23** 7(b)(ii): aqueous bromine (1) turns colourless / decolourises (1)
+- **iN16** 6(a)(iii): any 2 from: • density increases • melting / boiling point decreases • hardness decreases • reactivity increases
+- **J21** 3(a)(i): boiling point of Rb: any values between 675 and 755 (°C) (inclusive of these values) (1) atomic radius of K: any values between 0.195 and 0.245 (nm) (inclusive of these values) (1)
+- **J21** 6(b)(i): nitrogen (1) oxygen (1)
+- **J21** 6(b)(ii): large(r) particles cannot get through (the small gaps in) the filter / large(r) particles get trapped in the filter / large(r) particles too big to get through (filter) (1) water passes through (1)
+- **J20** 4(b)(i): lighted splint pops / explodes
+- **J20** 6(b)(ii): larger pieces: decreases (rate) increasing temperature: increases (rate)
+- **J20** 7(e)(i): H H I I H – C – C – O – H I I H H
+- **J20** 7(e)(ii): steam catalyst
+- **iN17** 2(d)(ii): 98 IF full credit is not awarded, award 1 mark for (S =) 32 , (O = 16) and (H =1)
+- **iN17** 3(d)(i): structure completed correctly with all of the atoms and all of the bonds IF full credit is not awarded, award 1 mark for OH instead of O–H
+- **N24** 7(b)(ii): (H+) + OH– → H2O OH– (1) H2O (1)
+- **iJ22** 3(b)(iii): Cl2 (1) 2 (NaCl) (1)
+- **iJ22** 3(c)(iii): 1 mark each for any two of:  low(er) density (1)  low(er) melting point (1)  soft(er)
+- **iJ21** 2(c)(i): potassium (1) nitrogen (1)
+- **iJ21** 7(c)(i): separation: far apart / far away (from each other) / distant (from each other) (1) motion: rapid / unrestricted / random (1)
+- **iJ21** 8(b)(i): giant (structure) (1) covalent (bonding) (1)
+- **iJ20** 4(b)(i): lighted splint pops / explodes
+- **iJ20** 6(b)(ii): larger pieces: decreases (rate) increasing temperature: increases (rate)
+- **iJ20** 7(e)(i): H H I I H – C – C – O – H I I H H
+- **iJ20** 7(e)(ii): steam catalyst
+- **iN18** 3(b)(ii): nitrogen dioxide / NO2 (1) lightning / high temperature furnaces (1)
+- **iN18** 4(a)(ii): orange / red-brown (1) to colourless / decolourised (1)
+- **iN24** 7(a)(iii): one mark each for any two of: • heat to point of crystallisation / heat to form saturated solution • filter off crystals / pick out crystals • dry with filter paper
+- **iN20** 4(c)(ii): breakdown of a compound (1) by heating / by high temperature (1)
+- **iN20** 5(d)(ii): fractional (1) distillation (1)
+- **iN20** 8(a)(ii): R: freezing (1) S: boiling / evaporation (1)
+- **iJ19** 2(c)(i): 2 (Fe) (1) 3 (Cl2)
+- **iN22** 2(d)(i): calcium oxide (1) oxygen (1)
+- **iN22** 4(a)(i): boiling point of sodium: values between 770 and 1300 (inclusive of these values) (1) hardness of rubidium: values between 0.1 and 0.35 (inclusive of these values) (1)
+- **iN22** 4(b)(i): 2 (Na) (1) 2 (Na2O) (1)
+- **iN22** 4(b)(ii): lighted splint (1) pops / explosion (1)
+- **iN22** 6(c)(i): from red / pink (1) to yellow (1)
+- **iM18** 2(c)(ii): 46 If 2 marks not obtained: 1 mark for 1 row all correct e.g. hydrogen 6 × 1 = 6 oxygen 1 × 16 = 16
+- **iM18** 4(e)(i): one mark each for any two of: • high temperature • catalyst • high pressure max
+- **iM19** 4(b)(iii): steeper gradient starting at 0-0 (1) ends up at same volume (70 cm3) (1)
+- **iM19** 4(b)(iv): decreases rate / goes slower (1) increases rate / goes faster (1)
+- **iM20** 6(b)(ii): large pieces: (rate) decreases / gets slower / slows down (1) increasing temperature: (rate) increases / gets faster (1)
+- **iM20** 8(d)(i): Cl2 (on left) (1) 2 (KCl) (on right) (1)
+- **iM22** 4(a)(i): sodium nitrate (1) (and) water (1)
+- **iM22** 5(a)(i): G is oxygen (1) H is nitrogen (1)
+- **iM22** 5(b)(i): oxides of nitrogen: breathing difficulties / irritates lungs / irritates eyes / irritates throat / irritates skin / lung problems (1) lead compounds: poisonous / toxic / harms nervous system / harms b
+- **iM22** 6(a)(i): boiling point of Na any values between 800 and 1300 (°C) (inclusive of these values) (1) hardness of Li: any value above 0.70 (MPa) up to a maximum of 5.0 (MPa) (1)
+- **iM22** 7(b)(ii): breakdown of a compound (1) using heat / by heat (1)
+- **iM22** 8(c)(i): 2 (P) (1) 5 (Cl2) (1)
+- **iM22** 8(d)(i): bromine (1) sodium chloride (1)
+- **iM23** 7(c)(ii): air / oxygen (1) water (1)
+- **iM23** 7(d)(ii): 1 mark each for any 2 of: • evaporate to point of crystallisation / evaporate until saturated solution formed • leave to crystalise • filter off crystals / pick out crystals • dry with filter paper
+- **iM23** 8(a)(ii): steeper initial gradient starting at 0-0 (1) line levels off at 44 cm3 (1)
+- **iM17** 1(a)(i): oxygen / O2
+- **iM17** 2(a)(i): A placed either on the left hand lower tube (or on the one on the right directly opposite this) 1 W placed on both or either of the tubes at the top
+- **iM17** 2(b)(i): breakdown of a substance / breakdown of a compound 1 using heat / using high temperature
+- **iM17** 2(b)(ii): CO2
+- **iM17** 2(d)(ii): conducts electricity / inert
+- **iM17** 3(b)(ii): oxygen on left 1 water on right
+- **iM17** 3(c)(i): increases as the number of carbon atoms increases
+- **iM17** 3(c)(ii): pentane / C5H12 1 20 °C is in between its melting and boiling points / boiling point is above 20 °C and melting point is below 20 °C
+- **iM17** 5(c)(i): double C=C bond
+- **iM17** 6(f)(i): 1.8 g
+- **iM16** 1(a)(i): N / nitrogen;
+- **iM16** 1(b)(i): substance containing only one type of atom;
+- **iM16** 1(b)(iii): 18;
+- **iM16** 2(b)(i): they are inert / they do not react;
+- **iM16** 4(b)(i): speeds up (rate of) reaction;
+- **iM16** 5(d)(i): ⇋;
+- **iM16** 7(d)(ii): water;
+- **iM16** 7(d)(iii): potassium carbonate;
+- **iJ17** 2(a)(i): 8 (mg)
+- **iJ17** 2(a)(ii): hydrogencarbonate / HCO3 –
+- **iJ17** 2(a)(iii): nitrate
+- **iJ17** 2(a)(iv): 12.5 (mg)
+- **iJ17** 4(a)(iii): 2 (Fe) 1 3 (CO2)
+- **iJ17** 4(b)(i): hydrogen / H2
+- **iJ17** 4(b)(ii): gas syringe connected to flask OR this described in words 1 closed apparatus / workable apparatus OR this described in words 1 timer / stop-watch OR this described in words
+- **iJ17** 5(e)(i): decreases with an increasing number of carbon atoms ORA
+- **iJ17** 5(e)(ii): any value between 118 and 164 (°C) (exclusive of these values)
+- **iJ17** 6(a)(i): J it is (very) strong / it is the strongest 1 it is cheap
+- **iJ17** 6(a)(ii): M because it is the hardest
+- **iJ17** 6(a)(iii): K because its density is the lowest
+- **iJ17** 6(b)(i): line at a steeper gradient than W 1 ends up at same mass loss
+- **iJ17** 6(b)(iii): 1.05 days
+- **iJ17** 7(d)(i): water 1 air / oxygen
+- **J24** 3(d)(i): H+
+- **J24** 3(d)(ii): hydrogen
+- **J24** 4(a)(i): H H │ │ C = C │ │ H H
+- **J24** 8(a)(i): increases with the number of carbon atoms / increases down the series
+- **J24** 8(a)(ii): CnH2n+1COOH
+- **J24** 8(b)(ii): CH3COONa
+- **J24** 8(c)(ii): covalent
+- **J19** 1(a)(ii): D / nitrogen / N2
+- **J19** 2(d)(i): thermal decomposition
+- **J19** 3(a)(i): 5.0%
+- **J19** 3(a)(ii): oxygen
+- **J19** 5(b)(iii): cannot be decomposed by organisms / cannot be broken down by bacteria / cannot be broken down by fungi
+- **J19** 5(b)(iv): gets stuck in gullets of birds / gets stuck in gullets of animals / blocks drains
+- **J19** 6(b)(i): reversible reaction
+- **J19** 6(b)(ii): heat / warm
+- **J19** 7(b)(i): gas released / gas escapes / gas lost
+- **J19** 7(b)(ii): 0.7 (g)
+- **J19** 7(b)(iv): 0.22 (g)
+- **J19** 7(b)(v): large pieces → 0.005 small pieces → 0.030 powder → 0.100
+- **iJ16** 1(a)(i): C and E;
+- **iJ16** 1(a)(ii): B;
+- **iJ16** 1(a)(iii): B;
+- **iJ16** 1(a)(iv): B;
+- **iJ16** 1(a)(v): C5H5Cl 5 / CHCl;
+- **iJ16** 3(a)(i): black / grey-black / grey;
+- **iJ16** 3(b)(i): potassium bromide; astatine; 2 1
+- **iJ16** 4(c)(ii): 52%;
+- **iJ16** 4(c)(iii): A;
+- **iJ16** 4(d)(i): high temperature / heat;
+- **iJ16** 6(d)(ii): 32%;
+- **iJ16** 6(e)(ii): any suitable use, e.g. fuel / solvent;
+- **iJ16** 7(b)(ii): 3 minutes / 180 s (unit required);
+- **iJ16** 7(b)(iii): line of steeper gradient than the one shown on the grid and starting at (0, 0); line ends at the same volume as the one shown on the grid but reaches this volume sooner; 2 1
+- **iJ15** 4(a)(ii): propanol / propan-1-ol / propan-2-ol;
+- **N22** 2(a)(i): 3.5 (%)
+- **N22** 2(a)(ii): oxygen
+- **N22** 2(d)(ii): basic oxide
+- **N22** 4(b)(ii): loss of oxygen
+- **N22** 5(b)(i): vehicle engines / high temperature furnaces / lightning
+- **N22** 5(b)(ii): breathing difficulties / asthma
+- **N22** 6(e)(i): 40 60 20
+- **N22** 6(e)(ii): time taken is less / shorter
+- **N22** 7(a)(ii): C5H10O2
+- **N22** 7(b)(i): (substance that) speeds up a reaction / (substance that) increases the rate of a reaction / (substance that) makes the reaction go faster
+- **N22** 7(c)(i): H H │ │ C = C │ │ H H
+- **N22** 7(c)(ii): far apart
+- **iN15** 3(a)(i): vibrate (about fixed position) / vibration;
+- **iN15** 3(a)(iii): regular / repeated / pattern / framework / ordered / alternating / organised (arrangement of); positive and negative ions / oppositely charged ions / cations and anions / unlike charged ions; 1
+- **iN15** 3(b)(ii): Li+ + e– → Li / Li+ → Li – e–;
+- **iN15** 4(c)(i): 150 (cm3);
+- **iN15** 4(c)(ii): 100 (cm3);
+- **iN15** 4(c)(iii): This question was discounted.
+- **iN15** 5(b)(iii): Br2 + 2e– → 2Br– / Br2 → 2Br– – 2e–;
+- **J22** 1(a)(i): CO2
+- **J22** 1(a)(ii): K+
+- **J22** 1(a)(iii): O2
+- **J22** 1(a)(v): Br-
+- **J22** 2(a)(iii): 6.4 (g)
+- **J22** 2(d)(i): H H │ │ H─C─C─O─H │ │ H H
+- **J22** 2(d)(iii): fuel / solvent
+- **J22** 4(d)(ii): reactants on top left horizontal line and products on bottom left horizontal line
+- **J22** 5(c)(i): bauxite
+- **J22** 6(a)(i): D and E
+- **J22** 7(a)(ii): density is low(er) / melting point is low(er) / soft
+- **J23** 2(a)(i): values between 115 °C and 335 °C (inclusive of these values)
+- **J23** 2(a)(ii): values between 4.95 and 15.0 (inclusive of these values)
+- **J23** 3(a)(ii): deoxygenation of water / remove oxygen from water
+- **J23** 3(b)(ii): nitrate
+- **J23** 3(b)(iii): 0.4 (mg)
+- **J23** 3(c)(i): add water
+- **J23** 4(c)(ii): Cl2 + H2 on left horizontal line AND 2HCl on right horizontal line
+- **J23** 4(c)(iii): the energy of the reactants is greater than the energy of the product / the energy of Cl2 + H2 is greater than the energy of HCl / the energy of the products is less than the energy of the reactants
+- **J23** 4(e)(ii): OH-
+- **J23** 5(a)(i): hematite
+- **J23** 6(a)(i): medium small large
+- **J23** 6(a)(ii): takes shorter time / less time taken
+- **J23** 7(a)(ii): C5H6O5
+- **J23** 7(c)(ii): C8H18
+- **J23** 8(b)(ii): CnH2n+2
+- **J23** 8(b)(iii): decomposition of vegetation / waste gases from digestion in animals
+- **iN16** 1(a)(i): O / oxygen
+- **iN16** 1(a)(iv): Br / bromine
+- **iN16** 2(a)(iii): 0.5 (g)
+- **iN16** 2(c)(i): filtration / filter
+- **iN16** 2(c)(ii): carbohydrate AND protein
+- **iN16** 3(b)(ii): values between 125(°C)–145 (ºC) inclusive
+- **iN16** 3(b)(iii): increases with (increasing) number of carbon atoms
+- **iN16** 5(a)(ii): arrow(s) pointing in both directions / ⇌
+- **iN16** 5(b)(i): C in or just outside the tube at the top left L in or just outside the tube at the bottom right 1
+- **iN16** 5(b)(ii): to produce a high temperature / for heat(ing)
+- **iN16** 5(d)(ii): SiO2 / Si6O12
+- **iN16** 5(e)(ii): H2O
+- **iN16** 6(c)(ii): one pair of bonding electrons between H and Cl 6 non-bonding electrons around Cl and none around H 1
+- **J21** 2(a)(i): Cl – / chloride
+- **J21** 2(a)(ii): NH4+ AND SO42-
+- **J21** 2(a)(iii): 24 (mg)
+- **J21** 3(a)(ii): decreases (1)
+- **J21** 3(b)(ii): any suitable, e.g. detecting leaks in pipes / measuring thickness of paper / energy production
+- **J21** 4(a)(ii): C4H6O5
+- **J21** 4(e)(ii): 18 (cm3)
+- **J21** 6(b)(iii): to kill bacteria / to kill micro-organisms
+- **J21** 7(a)(ii): platinum (1)
+- **J20** 1(a)(ii): H2 / hydrogen
+- **J20** 1(a)(iii): N2 / nitrogen
+- **J20** 1(a)(v): Cl - / chloride
+- **J20** 2(a)(iii): 5.6 (mg)
+- **J20** 4(b)(ii): C5H10O2
+- **J20** 5(b)(i): inert / unreactive
+- **J20** 7(c)(i): filtration / filtering
+- **iN17** 1(b)(i): burning fossil fuels / volcanoes / high temperature furnaces / burning named fossil fuel
+- **iN17** 1(b)(ii): breathing difficulties / irritates nose / irritates eyes / irritates throat
+- **iN17** 2(c)(iii): it has 8 electrons in its outer shell
+- **iN17** 2(e)(i): bleach / treating wood pulp / preservative
+- **iN17** 3(c)(i): H2
+- **iN17** 3(c)(ii): filtration / filter
+- **iN17** 4(d)(i): low density
+- **iN17** 4(f)(ii): drill (bits) / jewellery
+- **iN17** 5(f)(ii): cutlery / chemical plant
+- **iN17** 6(c)(ii): 3 (H2)
+- **iN17** 6(c)(iii): takes in heat (from surroundings) / absorbs heat / absorbs thermal energy
+- **iN17** 6(e)(i): (boiling point) increases
+- **iN17** 6(e)(ii): any value between –8 and –80 (°C) inclusive of these values
+- **N24** 1(a)(ii): Al
+- **N24** 1(a)(iv): Ba
+- **N24** 1(a)(v): Al
+- **N24** 1(a)(vi): Au
+- **N24** 1(b)(i): has (only) one atom
+- **N24** 2(a)(ii): electrons
+- **N24** 2(c)(i): cutting (tools)
+- **N24** 3(c)(i): hydrogencarbonate
+- **N24** 3(c)(ii): nitrate
+- **N24** 3(c)(iii): 0.4 (mg)
+- **N24** 3(d)(i): to remove solids
+- **N24** 3(d)(i): to kill (harmful) microbes
+- **N24** 4(a)(ii): C4H6O5
+- **N24** 4(d)(ii): CnH2n
+- **N24** 4(d)(iii): increases
+- **N24** 5(a)(i): values between 116 °C and 335 °C (inclusive of these values)
+- **N24** 5(a)(ii): values between 0.05 and 1.55 g / cm3 (inclusive of these values)
+- **N24** 6(b)(ii): 2,8,1
+- **N24** 7(a)(i): aqueous / dissolved in water
+- **N24** 7(a)(ii): filtration
+- **N24** 7(b)(iii): release of thermal energy
+- **N24** 7(b)(iv): the energy of the products is lower than the energy of the reactants OR the energy of the reactants is higher than the energy of the products
+- **N24** 8(a)(i): 1.0 0.5 2.0
+- **N24** 8(a)(iii): shorter time / decreases time / less time
+- **iJ22** 1(a)(i): He
+- **iJ22** 1(a)(ii): Li+
+- **iJ22** 1(a)(iii): H2
+- **iJ22** 1(a)(iv): CO2
+- **iJ22** 1(a)(v): O2-
+- **iJ22** 2(a)(iii): 0.55 (g)
+- **iJ22** 3(b)(i): yellow-green (1)
+- **iJ22** 4(c)(ii): reaction which absorbs thermal energy / reaction which absorbs heat
+- **iJ22** 4(c)(iii): The energy of the reactants is lower than the energy of the products / the energy of the products is higher than the energy of the reactants
+- **iJ22** 5(d)(i): reversible reaction
+- **iJ22** 5(d)(ii): bleach / manufacture of wood pulp / making paper / food preservative
+- **iJ23** 2(a)(i): values between –100 °C and +10 °C (inclusive of these values)
+- **iJ23** 2(a)(ii): values lower than 0.003
+- **iJ23** 3(a)(ii): contains harmful microbes
+- **iJ23** 3(b)(iii): 0.55 (mg)
+- **iJ23** 3(c)(i): heat
+- **iJ23** 3(c)(ii): hydrated
+- **iJ23** 4(b)(i): 2HBr on left horizontal line AND H2 + Br2 on right horizontal line
+- **iJ23** 4(b)(ii): the energy of the reactant is lower than the energy of the products / the energy of HBr is lower than the energy of H2 + Br2/ the energy of the products is greater than the energy of the reactants
+- **iJ23** 4(b)(iii): surroundings
+- **iJ23** 4(c)(i): H+
+- **iJ23** 4(c)(iii): red / pink
+- **iJ23** 6(a)(i): 40 °C 20 °C 30 °C
+- **iJ23** 6(a)(ii): takes shorter time / less time taken
+- **iJ23** 7(a)(i): circle around C=C bond
+- **iJ23** 7(a)(ii): C4H8O
+- **iJ23** 7(b)(i): CnH2n+1OH
+- **iJ23** 7(b)(ii): H H │ │ H – C – C – O – H │ │ H H
+- **iJ23** 8(c)(iii): a substance that dissolves a solute
+- **iJ21** 2(a)(i): Cl – / chloride
+- **iJ21** 2(a)(ii): Na+ AND NO3–
+- **iJ21** 2(a)(iii): 1.5 (mg)
+- **iJ21** 3(c)(i): (the number of nucleons) decreases (1)
+- **iJ21** 4(b)(i): C8H14O4
+- **iJ21** 4(c)(ii): 23 (cm3)
+- **iJ21** 5(a)(i): limestone
+- **iJ21** 5(c)(ii): measuring cylinder
+- **iJ21** 6(b)(ii): lamps / light bulbs
+- **iJ21** 8(b)(ii): it is hard (1)
+- **iJ20** 1(a)(ii): H2 / hydrogen
+- **iJ20** 1(a)(iii): N2 / nitrogen
+- **iJ20** 1(a)(v): Cl - / chloride
+- **iJ20** 2(a)(iii): 5.6 (mg)
+- **iJ20** 4(b)(ii): C5H10O2
+- **iJ20** 5(b)(i): inert / unreactive
+- **iJ20** 7(c)(i): filtration / filtering
+- **iN18** 2(a)(ii): 3.9 (g)
+- **iN18** 3(d)(ii): add water
+- **iN18** 4(a)(i): C=C (double bond)
+- **iN18** 4(a)(iv): turns it red / pink
+- **iN18** 4(b)(iii): 14 cm3
+- **iN18** 5(d)(iii): bubbles / strong smell (of chlorine)
+- **iN18** 7(b)(i): any value between 5.0 and 5.5 min (inclusive)
+- **iN18** 7(b)(ii): 96 cm3
+- **iN18** 8(a)(ii): (chlorine is a) gas (at room temperature)
+- **iN18** 8(b)(i): to kill bacteria
+- **iN24** 1(a)(i): Zn 1 1a(ii) Ca
+- **iN24** 1(a)(iv): Al
+- **iN24** 1(a)(v): Fe
+- **iN24** 2(a)(i): 21 (%)
+- **iN24** 3(c)(i): tin
+- **iN24** 3(c)(iii): 0.8 (mg)
+- **iN24** 4(a)(ii): C3H7NO3
+- **iN24** 4(c)(ii): CnH2n+1OH
+- **iN24** 4(c)(iii): Increases
+- **iN24** 4(d)(ii): H H │ │ H – C – C – O – H │ │ H H
+- **iN24** 5(a)(i): values between 116 °C and 335 °C (inclusive of these values)
+- **iN24** 5(a)(ii): values less than 22.7 (cm3 / mol) but not below 1.0
+- **iN24** 6(b)(ii): 2,8,8,2
+- **iN24** 7(a)(i): (l)
+- **iN24** 7(a)(ii): filtration
+- **iN24** 7(c)(i): thermal energy is released (in the reaction) / (reaction that) transfers thermal energy / (reaction that) gives out heat
+- **iN24** 7(c)(ii): ZnO + (2)HCl on the line on the left AND ZnCl2 and H2O on the line on the right
+- **iN24** 8(a)(i): 0.8 1.6 0.4
+- **iN20** 1(a)(i): H / H2 / hydrogen
+- **iN20** 1(a)(ii): Cl / chlorine / Cl 2
+- **iN20** 2(a)(ii): 26.5 (ng)
+- **iN20** 2(b)(i): oxygen is not in excess / oxygen is limiting / there is excess carbon / there is excess fuel
+- **iN20** 2(b)(ii): poisonous / toxic / kills you
+- **iN20** 2(d)(ii): reactants on left top line and products on bottom right line
+- **iN20** 4(a)(ii): C4H6O2
+- **iN20** 7(b)(i): decreases (as time increases)
+- **iN20** 7(b)(ii): 60 s
+- **iN20** 8(e)(i): add water (1)
+- **iJ18** 1(a)(i): chlorine / Cl 2
+- **iJ18** 1(b)(ii): shared pair of electrons (between two atoms)
+- **iJ18** 2(a)(i): 72 (%)
+- **iJ18** 2(a)(ii): hydrogen / H2
+- **iJ18** 2(b)(i): breathing difficulties / irritates nose / irritates eyes / asthma attacks
+- **iJ18** 2(b)(iii): sodium nitrate
+- **iJ18** 4(c)(ii): 4 (HCl ) 1 2 (H2O)
+- **iJ18** 5(a)(iv): carbon / platinum
+- **iJ18** 5(b)(i): 150 (g)
+- **iJ18** 7(a)(ii): it is a gas (at room temperature)
+- **iJ18** 8(d)(i): oxygen (on left) 1 water (on right)
+- **iJ18** 8(e)(ii): arrangement: in layers / regular / lattice 1 motion: (only) vibrating
+- **iJ19** 2(a)(i): hematite
+- **iJ19** 2(a)(iii): energy (level) of the products is greater than the energy of the reactants
+- **iJ19** 2(c)(ii): reversible reaction
+- **iJ19** 3(a)(i): 0.7 (%)
+- **iJ19** 5(b)(ii): last box ticked
+- **iJ19** 5(d)(i): water / H2O
+- **iJ19** 5(e)(ii): clothing
+- **iJ19** 6(b)(i): 2nd box down ticked (decomposition)
+- **iJ19** 6(b)(ii): 31.7 (g)
+- **iJ19** 7(b)(i): any value between and including 92–102 s
+- **iJ19** 7(b)(ii): 34 (cm3)
+- **iJ19** 7(b)(iv): increases rate / goes faster
+- **iJ19** 7(b)(v): decreases rate / goes slower
+- **iJ19** 8(a)(ii): brain damage (in children) / damage to nervous system
+- **iN22** 1(c)(i): combustion in limited oxygen / combustion in limited air / not enough air to burn completely
+- **iN22** 2(a)(i): 0.9 (%)
+- **iN22** 2(a)(ii): oxygen
+- **iN22** 2(c)(ii): 2 (CO)
+- **iN22** 2(c)(iii): loss of oxygen (from a compound)
+- **iN22** 2(c)(iv): 20 (g)
+- **iN22** 3(b)(i): refinery gases / kerosene / fuel oil
+- **iN22** 3(b)(ii): boiling point
+- **iN22** 3(b)(iii): X drawn next to bottom right-hand arrow
+- **iN22** 3(c)(i): uranium
+- **iN22** 5(b)(i): reversible reaction
+- **iN22** 5(b)(ii): 78 (%)
+- **iN22** 5(d)(ii): chemical weathering / erosion / pitting of surface
+- **iN22** 6(b)(i): very small large small
+- **iN22** 6(b)(ii): takes longer / time increases
+- **iN22** 6(d)(ii): increases reaction rate / makes the reaction go faster / speeds up the reaction
+- **iN22** 7(a)(ii): C4H6O2
+- **iN22** 7(a)(iii): regular / ordered (1)
+- **iN22** 7(c)(ii): protein
+- **iN22** 7(c)(iii): block drains / litter / (fills) landfill (sites) / poisonous fumes given off when burned
+- **iN22** 8(a)(ii): electrical wiring
+- **iM18** 1(a)(i): E / oxygen / O2
+- **iM18** 1(a)(iii): E / oxygen / O2
+- **iM18** 2(a)(i): 25 (mg)
+- **iM18** 2(b)(ii): C3H6O3
+- **iM18** 2(c)(i): removal of oxygen (from a compound)
+- **iM18** 3(b)(i): density of fluorine: ALLOW: values lower than 1.56 (but not 0 or negative numbers) 1 melting point of chlorine: ALLOW values between –220 and –7 ºC (excluding these two values)
+- **iM18** 4(e)(ii): C11H24
+- **iM18** 5(a)(ii): chlorine
+- **iM18** 5(a)(iv): argon / krypton / xenon
+- **iM18** 5(b)(iii): cobalt AND nickel
+- **iM18** 7(b)(iv): 4th box down ticked
+- **iM18** 8(a)(i): decreases (rate) / slower (rate)
+- **iM18** 8(a)(ii): decreases (rate) / slower (rate)
+- **iM18** 8(a)(iii): increases (rate) / faster (rate)
+- **iM18** 8(b)(i): hematite
+- **iM19** 2(a)(ii): energy production
+- **iM19** 3(a)(i): Br– / bromide
+- **iM19** 3(a)(ii): potassium bromide
+- **iM19** 3(a)(iii): 11 (mg)
+- **iM19** 3(a)(iv): e–
+- **iM19** 3(c)(i): idea of solid turning (directly) to gas
+- **iM19** 4(b)(i): 54 (cm3)
+- **iM19** 5(d)(i): from car engines / lightning / high temperature furnaces
+- **iM19** 5(d)(ii): irritates eyes / nose / mouth / skin / lungs
+- **iM19** 6(b)(ii): energy of reactants greater than energy of products
+- **iM19** 6(d)(ii): spoon silvery in colour
+- **iM19** 7(a)(i): increases as number of carbon atoms increases / decreases as number of carbon atoms decreases
+- **iM19** 7(a)(ii): propane
+- **iM21** 2(a)(i): B3O63– / metaborate
+- **iM21** 2(a)(ii): K+ AND SO42–
+- **iM21** 2(a)(iii): 80 (mg)
+- **iM21** 2(a)(v): bromide
+- **iM21** 2(d)(i): cancer treatment / tracer (e.g. for thyroid function)
+- **iM21** 3(a)(ii): increases
+- **iM21** 3(b)(i): 2,7
+- **iM21** 5(c)(i): C + (2)S on lower line to left AND CS2 on upper line to right (1)
+- **iM21** 5(c)(ii): the product energy level is above the reactant energy level
+- **iM21** 5(f)(ii): food preservation / food preservative
+- **iM21** 6(a)(iii): C5H8O3
+- **iM21** 6(a)(iv): has a C=C double bond
+- **iM20** 1(a)(i): potassium manganate(VII)
+- **iM20** 1(a)(iii): potassium iodide / iodide
+- **iM20** 1(a)(iv): calcium oxide
+- **iM20** 2(d)(ii): 2.8 (g)
+- **iM20** 4(a)(ii): C5H8O2
+- **iM20** 5(d)(ii): lilac
+- **iM20** 6(a)(i): transfers thermal energy to surrounding / transfers heat to surroundings / gives out heat
+- **iM20** 6(a)(iii): combustion
+- **iM20** 8(a)(ii): ionic
+- **iM22** 2(a)(i): 1 (%)
+- **iM22** 3(b)(iii): cutlery / chemical plant / surgical equipment
+- **iM22** 5(a)(ii): volume increases (as temperature increases)
+- **iM22** 5(a)(iii): they have a full outer shell (of electrons) / they have a complete outer shell (of electrons)
+- **iM22** 6(c)(ii): inert / unreactive
+- **iM22** 7(a)(iv): C4H8O2
+- **iM22** 8(c)(ii): releases thermal energy / releases heat
+- **iM23** 2(b)(i): chloride / Cl –
+- **iM23** 2(b)(iii): 3.1 (mg)
+- **iM23** 3(b)(i): car engines / car exhausts / vehicle exhausts
+- **iM23** 4(c)(i): Mg + Cl2 on line on left AND MgCl2 on line on right
+- **iM23** 4(c)(ii): the energy of the reactants is greater than the energy of the products / the energy of the products is less than the energy of the reactants
+- **iM23** 5(d)(i): I2
+- **iM23** 5(d)(ii): displacement
+- **iM23** 5(d)(iii): (pale) yellow-green
+- **iM23** 6(d)(i): covalent
+- **iM23** 6(d)(ii): H H │ │ H – C – C – H │ │ H H
+- **iM23** 7(a)(i): hematite
+- **iM23** 7(c)(i): (substance) chemically combined with water
+- **iM23** 8(a)(i): 27 (cm3)
+- **iM23** 8(b)(i): (rate) decreases / reaction slows down
+- **iM23** 8(b)(ii): (rate) decreases / reaction slows down
+- **iM23** 8(c)(ii): H+
+- **iM17** 6(f)(ii): 315 g 1
+- **iM17** 7(c)(ii): energy (production) / nuclear power 1
+- **iM16** 6(c)(ii): filtration; 1
+- **iJ17** 2(d)(ii): platinum / Pt 1
+- **J24** 6(b)(ii): 1.
+- **J24** 8(c)(iii): combustion (1) substitution with chlorine (1) 2
+- **iJ16** 1(b)(ii): 8; 1
+- **iJ16** 4(d)(ii): C5H10; 1
+- **iJ16** 6(e)(iii): 2 (CO2); 3 (H2O); 2 1 1
+- **iJ16** 7(d)(iii): preservative / bleach / papermaking / wine-making; 1
+- **iJ15** 2(b)(i): Any one from: (making) car (bodies); machinery; chains; pylons; white goods; nails; screws; as a building material; sheds / roofs; reinforcing concrete; 1 A bridges A tools I cutlery
+- **iJ15** 2(b)(ii): Any one from: knives; drills; railway tracks; machine / cutting tools / hammers; razor blades; chisels; 1 I cutlery items I bridges
+- **iJ15** 4(c)(ii): butyl ethanoate; 1 A butanyl R ethenoate and ethanoic
+- **iN15** 5(d)(i): 2NH3 + H2SO4 → (NH4)2SO4 / NH3 + H2SO4 → (NH4)HSO4; 1
+- **iN15** 5(d)(iii): Fe + H2SO4 → FeSO4 + H2; FeSO4; rest of equation correct; or Fe + 2H+ → Fe2+ + H2; Fe2+; rest of equation correct; or 2Fe + 3H2SO4 → Fe2(SO4)3 + 3H2; Fe2(SO4)3; rest of equation correct; or 2Fe + 6H+ 
+- **J22** 3(d)(ii): brown 1
+- **J22** 6(a)(iii): C 1
+- **J23** 4(c)(i): reaction that transfers thermal energy / reaction that gives out heat (1) to the surroundings (1) 2
+- **J23** 7(a)(iii): has a C=C bond / has a carbon – carbon double bond 1
+- **iN16** 2(c)(iii): random / zigzag / go anywhere / irregular 1
+- **iN16** 6(c)(i): H2 (on left)
+- **J21** 3(c)(i): 2 (Fe) (1) 3 (NaOH) (1) 2
+- **J21** 5(b)(i): gas syringe / upturned measuring cylinder dipping into container (1) apparatus is workable and airtight (1) 2
+- **J20** 5(c)(ii): red-brown 1
+- **iN17** 5(f)(i): car bodies / bridges / railings 1
+- **iJ22** 4(c)(iv): 24 (cm3) 1
+- **iJ22** 6(a)(iv): D 1
+- **iJ23** 4(d)(iii): conducts electricity / inert 1
+- **iJ21** 2(d)(i): 2 (NaOH) (1) 2 (NH3) (1) 2
+- **iJ21** 5(c)(iii): gas syringe 1
+- **iJ20** 5(c)(ii): red-brown 1
+- **iN24** 2(b)(ii): 4th box down ticked (strong electrostatic attraction between cations and anions) 1
+- **iN20** 2(d)(i): 2 (CO) (on left) (1) 2 (CO2) (on right) (1) 2
+- **iN20** 7(a)(i): idea of greater values for volume than mass lost / in method 2 mass of flask decreases only slightly / I method 2 idea of small decreases in mass involved / in method 2 mass loss too small (to measure
+- **iN20** 8(e)(ii): hydrated (1) 1
+- **iN22** 1(c)(ii): poisonous / toxic
+- **iN22** 3(c)(ii): testing for leaks in pipes / measuring paper thickness 1
+- **iN22** 7(b)(i): H H │ │ H – C – C – O – H │ │ H H 1
+- **iM21** 2(d)(ii): source of energy / energy production 1
+- **iM22** 2(c)(i): 2 (H2S) (1) 3 (O2) (1) 2
+- **iM22** 5(a)(iv): arrangement: irregular / random (1) separation: far apart (1) 2
+- **iM23** 6(a)(iii): C4H8O 1
+- **iM23** 6(d)(iv): 2 (O2) (1) CO2 (1) 2
+- **iM23** 7(d)(i): filtration / filter 1
+- **iM23** 8(c)(iv): yellow 1
+- **ij15** 2(b)(i): Any one from: (making) car (bodies); machinery; chains; pylons; white goods; nails; screws; as a building material; sheds / roofs; reinforcing concrete; 1 A bridges A tools I cutlery
+- **ij15** 2(b)(ii): Any one from: knives; drills; railway tracks; machine / cutting tools / hammers; razor blades; chisels; 1 I cutlery items I bridges
+- **ij15** 2(b)(iii): M1 atoms or cations or (positive) ions or metal ions; M2 arranged in a lattice or in layers or in rows or in a regular structure; M3 rows or layers slide over one another; 3 I (sea of) electrons R pro
+- **ij15** 2(b)(iv): M1 carbon atoms or particles in structure different size (to cations); M2 so reduce moving or interrupt movement; 2 R ions and molecules for M1 A M2 for prevents sliding A M2 for ‘stops’ sliding
+- **ij15** 4(a)(ii): propanol / propan-1-ol / propan-2-ol;
+- **ij15** 4(c)(ii): butyl ethanoate; 1 A butanyl R ethenoate and ethanoic
+- **ij15** 5(c)(ii): Any two from: (a reaction) M1 which can take place in both directions OR which can be approached from both directions; M2 in which concentrations / macroscopic properties do not change (with time); M3
+- **ij15** 6(c)(ii): C; M2 it has a lower (relative) molecular mass (than HBr); M3 ethylamine diffuses faster (than HBr); 3 A ethylamine is less dense A ethylamine is a lighter molecule but I ‘ethylamine is lighter’ I eth
+- **ij16** 1(a)(i): C and E;
+- **ij16** 1(a)(ii): B;
+- **ij16** 1(a)(iii): B;
+- **ij16** 1(a)(iv): B;
+- **ij16** 1(a)(v): C5H5Cl 5 / CHCl;
+- **ij16** 1(b)(i): different number of neutrons / different mass numbers / different numbers of nucleons;
+- **ij16** 1(b)(ii): 8; 1  
+- **ij16** 2(c)(i): breakdown of an ionic compound by the passage of electricity (1 mark for breakdown of a compound by the passage of / using electricity)
+- **ij16** 3(a)(i): black / grey-black / grey;
+- **ij16** 3(a)(ii): (boiling point) increases down the Group / decreases up the Group;
+- **ij16** 3(b)(i): potassium bromide; astatine; 2 1
+- **ij16** 3(b)(ii): bromine is less reactive than chlorine / chlorine more reactive than bromine;
+- **ij16** 4(c)(i): the higher the values of the boiling range, the greater the number of (carbon) atoms / boiling range is higher, the greater the number of (carbon) atoms / the more atoms, the more energy it takes to b
+- **ij16** 4(c)(ii): 52%;
+- **ij16** 4(c)(iii): A;
+- **ij16** 4(c)(iv): road surfaces / roofing / cattle sprays / synthetic crude oil / battery sealant / treating fences / waterproofing;
+- **ij16** 4(d)(i): high temperature / heat;
+- **ij16** 4(d)(ii): C5H10; 1  
+- **ij16** 6(d)(i): (percentage yield) decreases as temperature increases;
+- **ij16** 6(d)(ii): 32%;
+- **ij16** 6(e)(i): structure of ethanol completed to show all atoms and all bonds;
+- **ij16** 6(e)(ii): any suitable use, e.g. fuel / solvent;
+- **ij16** 6(e)(iii): 2 (CO2); 3 (H2O); 2 1 1  
+- **ij16** 7(b)(ii): 3 minutes / 180 s (unit required);
+- **ij16** 7(b)(iii): line of steeper gradient than the one shown on the grid and starting at (0, 0); line ends at the same volume as the one shown on the grid but reaches this volume sooner; 2 1
+- **ij16** 7(d)(i): (substance containing) 2 or more different atoms bonded / joined together;
+- **ij16** 7(d)(ii): named sulfur ore, e.g. zinc sulfide / underground deposits of element;
+- **ij16** 7(d)(iii): preservative / bleach / papermaking / wine-making; 1  
+- **ij16** 8(c)(i): carbon dioxide loses oxygen;
+- **ij16** 8(c)(ii): “reaction of an acid with a metal oxide” box ticked;
+- **ij16** 8(c)(iii): any 2 from: • climate change / more extreme weather; • desertification; • melting ice caps; • rise in sea levels / increased flooding of low-lying areas; • temperature of atmosphere / oceans increases
+- **ij17** 2(a)(i): 8 (mg)
+- **ij17** 2(a)(ii): hydrogencarbonate / HCO3 –
+- **ij17** 2(a)(iii): nitrate
+- **ij17** 2(a)(iv): 12.5 (mg)
+- **ij17** 2(d)(ii): platinum / Pt 1  
+- **ij17** 4(a)(i): hematite / any other ore of iron
+- **ij17** 4(a)(ii): from the reaction of carbon dioxide 1 with carbon / coke 1 OR reaction of carbon / coke 1 with insufficient oxygen for compete combustion / idea of oxygen not in excess or not limiting
+- **ij17** 4(a)(iii): 2 (Fe) 1 3 (CO2)
+- **ij17** 4(a)(iv): iron(III) oxide loses oxygen / iron(III) oxide loses oxygen
+- **ij17** 4(a)(v): 160 IF full credit is not awarded, allow 1 mark for (Fe =) 56 and (O =16)
+- **ij17** 4(b)(i): hydrogen / H2
+- **ij17** 4(b)(ii): gas syringe connected to flask OR this described in words 1 closed apparatus / workable apparatus OR this described in words 1 timer / stop-watch OR this described in words
+- **ij17** 5(e)(i): decreases with an increasing number of carbon atoms ORA
+- **ij17** 5(e)(ii): any value between 118 and 164 (°C) (exclusive of these values)
+- **ij17** 6(a)(i): J it is (very) strong / it is the strongest 1 it is cheap
+- **ij17** 6(a)(ii): M because it is the hardest
+- **ij17** 6(a)(iii): K because its density is the lowest
+- **ij17** 6(b)(i): line at a steeper gradient than W 1 ends up at same mass loss
+- **ij17** 6(b)(iii): 1.05 days
+- **ij17** 7(d)(i): water 1 air / oxygen
+- **ij17** 7(d)(ii): any 2 methods from: greasing / covering with plastic / galvanising / painting / (electro)plating
+- **ij18** 1(a)(i): chlorine / Cl 2
+- **ij18** 1(a)(ii): ammonia / NH3
+- **ij18** 1(a)(iv): carbon monoxide / CO
+- **ij18** 1(b)(i): (molecules) made up of two atoms
+- **ij18** 1(b)(ii): shared pair of electrons (between two atoms)
+- **ij18** 2(a)(i): 72 (%)
+- **ij18** 2(a)(ii): hydrogen / H2
+- **ij18** 2(b)(i): breathing difficulties / irritates nose / irritates eyes / asthma attacks
+- **ij18** 2(b)(ii): 2 (NO2) 1 2 (NaOH)
+- **ij18** 2(b)(iii): sodium nitrate
+- **ij18** 3(a)(ii): ring around the OH group
+- **ij18** 3(a)(iii): (substance which) speeds up a reaction / increases the rate of reaction
+- **ij18** 3(a)(iv): idea of very long chains of repeating units / idea of lots of monomers joined together
+- **ij18** 3(b)(i): any typical property of an acid e.g. reacts with sodium hydroxide / reacts with hydroxides / reacts with carbonates / reacts with metals / has pH below 7 / colourless / turns litmus red
+- **ij18** 3(c)(ii): addition 1 ethene 1 high 1 catalyst 1  
+- **ij18** 4(c)(i): glowing splint 1 relights
+- **ij18** 4(c)(ii): 4 (HCl ) 1 2 (H2O)
+- **ij18** 5(a)(i): test tubes of solution covering each electrode
+- **ij18** 5(a)(ii): cathode
+- **ij18** 5(a)(iv): carbon / platinum
+- **ij18** 5(b)(i): 150 (g)
+- **ij18** 5(b)(ii): decreases the melting point / melting point is not sharp
+- **ij18** 7(a)(i): density of iodine: values between 3.10 and 6.35 (excluding these two values) 1 melting point of At2 values greater than 114 °C but less than 500 °C 1 colour of At2: black / grey-black
+- **ij18** 7(a)(ii): it is a gas (at room temperature)
+- **ij18** 7(a)(iii): (boiling point) increases down (the group) / (boiling point) decreases up (the group) / increases from chlorine to astatine ORA
+- **ij18** 8(d)(i): oxygen (on left) 1 water (on right)
+- **ij18** 8(d)(ii): exothermic because energy level of reactants above energy level of products / exothermic because the arrow is going downwards
+- **ij18** 8(e)(i): mixture of metals / mixture of metal and non-metal / mixture of metal with another element 1  
+- **ij18** 8(e)(ii): arrangement: in layers / regular / lattice 1 motion: (only) vibrating
+- **ij19** 1(a)(iii): D / Zn / zinc
+- **ij19** 1(a)(v): B / NaCl / sodium chloride
+- **ij19** 2(a)(i): hematite
+- **ij19** 2(a)(ii): iron oxide loses oxygen / oxygen transferred from iron oxide to carbon / carbon takes oxygen away from iron oxide
+- **ij19** 2(a)(iii): energy (level) of the products is greater than the energy of the reactants
+- **ij19** 2(a)(iv): iron is (relatively) low in the reactivity series
+- **ij19** 2(c)(i): 2 (Fe) 3 (Cl2) 2
+- **ij19** 2(c)(ii): reversible reaction
+- **ij19** 3(a)(i): 0.7 (%)
+- **ij19** 3(a)(ii): sodium
+- **ij19** 3(a)(iii): any two differences e.g.: • more chlorine / hydrogen / magnesium / oxygen / sodium in oceans than in biosphere ORA • less carbon / silicon / calcium in oceans ORA
+- **ij19** 3(b)(i): carbon dioxide
+- **ij19** 3(b)(ii): anhydrous copper(II) sulfate / white copper(II) sulfate turns blue OR anhydrous cobalt(II) chloride / blue cobalt(II) chloride turns pink / red 2
+- **ij19** 4(c)(i): chlorine sodium iodide 2
+- **ij19** 4(c)(ii): chlorine is more reactive than bromine / bromine is less reactive than chlorine
+- **ij19** 5(a)(i): circle around COOH group only
+- **ij19** 5(b)(ii): last box ticked
+- **ij19** 5(d)(i): water / H2O
+- **ij19** 5(d)(ii): speeds up reaction / increases the rate of reaction
+- **ij19** 5(e)(i): poly(ethene) / polyethene
+- **ij19** 5(e)(ii): clothing
+- **ij19** 6(b)(i): 2nd box down ticked (decomposition)
+- **ij19** 6(b)(ii): 31.7 (g)
+- **ij19** 7(b)(i): any value between and including 92–102 s
+- **ij19** 7(b)(ii): 34 (cm3)
+- **ij19** 7(b)(iii): line steeper than original and starting from 0 line ends up at same final volume AND levels off at or before 90 s 2
+- **ij19** 7(b)(iv): increases rate / goes faster
+- **ij19** 7(b)(v): decreases rate / goes slower
+- **ij19** 8(a)(i): (combustion of) leaded petrol
+- **ij19** 8(a)(ii): brain damage (in children) / damage to nervous system
+- **ij19** 8(f)(i): methane
+- **ij19** 8(f)(ii): global warming / more extreme weather / ice caps melting / sea level rising / glaciers melting / corals die / sea acidified
+- **ij20** 1(a)(i): CO2 / carbon dioxide
+- **ij20** 1(a)(ii): H2 / hydrogen
+- **ij20** 1(a)(iii): N2 / nitrogen
+- **ij20** 1(a)(iv): Cu2+ / copper(II) (ions)
+- **ij20** 1(a)(v): Cl - / chloride
+- **ij20** 2(a)(i): SO42– / sulfate
+- **ij20** 2(a)(ii): sulfate
+- **ij20** 2(a)(iii): 5.6 (mg)
+- **ij20** 2(a)(iv): ammonium nitrate 1  
+- **ij20** 4(a)(i): decrease down the group / increase up the group
+- **ij20** 4(b)(i): lighted splint pops / explodes
+- **ij20** 4(b)(ii): C5H10O2
+- **ij20** 5(b)(i): inert / unreactive
+- **ij20** 5(b)(ii): platinum / graphite
+- **ij20** 5(c)(i): chlorine has displaced bromine in sodium bromide / chlorine has taken the place of bromine in sodium bromide
+- **ij20** 5(c)(ii): red-brown 1  
+- **ij20** 6(b)(i): increase in concentration increases rate ORA
+- **ij20** 6(b)(ii): larger pieces: decreases (rate) increasing temperature: increases (rate)
+- **ij20** 7(c)(i): filtration / filtering
+- **ij20** 7(e)(i): H H I I H – C – C – O – H I I H H
+- **ij20** 7(e)(ii): steam catalyst
+- **ij21** 2(a)(i): Cl – / chloride
+- **ij21** 2(a)(ii): Na+ AND NO3–
+- **ij21** 2(a)(iii): 1.5 (mg)
+- **ij21** 2(c)(i): potassium nitrogen 2
+- **ij21** 2(c)(ii): to improve crop yield / to replace nitrogen (or other elements) lost from soil (by being absorbed by plants) / to replace nitrogen (or other elements) absorbed by plants
+- **ij21** 2(d)(i): 2 (NaOH) 2 (NH3) 2  
+- **ij21** 3(a)(i): melting point of Cl any values between –215 and –30 (°C) (inclusive of these values) colour of At: black / grey-black density of F: any values between 0.1 and 1.5 (nm) (inclusive of these values) 3
+- **ij21** 3(c)(i): (the number of nucleons) decreases 1
+- **ij21** 3(c)(ii): third box down ticked (all isotopes are radioactive) 1
+- **ij21** 4(a)(ii): substance which speeds up reaction / substance which increases rate of reaction 1  
+- **ij21** 4(a)(iii): ethane
+- **ij21** 4(b)(i): C8H14O4
+- **ij21** 4(b)(iii): universal indicator: turns yellow / orange / red sodium: bubbles / fizzes / sodium decreases in size 2
+- **ij21** 4(c)(i): pH 4.2
+- **ij21** 4(c)(ii): 23 (cm3)
+- **ij21** 4(d)(i): alcohol
+- **ij21** 4(d)(ii): addition
+- **ij21** 5(a)(i): limestone
+- **ij21** 5(a)(ii): methane
+- **ij21** 5(c)(ii): measuring cylinder
+- **ij21** 5(c)(iii): gas syringe 1  
+- **ij21** 5(c)(iv): large pieces: rate decreases / (reaction) slower / rate lower lower temperature: rate decreases / (reaction) slower / rate lower 2
+- **ij21** 6(b)(i): has a complete outer (electron) shell / has a full outer (electron) shell
+- **ij21** 6(b)(ii): lamps / light bulbs
+- **ij21** 7(c)(i): separation: far apart / far away (from each other) / distant (from each other) motion: rapid / unrestricted / random 2
+- **ij21** 7(c)(ii): glowing splint relights 2  
+- **ij21** 8(b)(i): giant (structure) covalent (bonding) 2
+- **ij21** 8(b)(ii): it is hard 1
+- **ij21** 8(b)(iii): graphite
+- **ij22** 1(a)(i): He
+- **ij22** 1(a)(ii): Li+
+- **ij22** 1(a)(iii): H2
+- **ij22** 1(a)(iv): CO2
+- **ij22** 1(a)(v): O2-
+- **ij22** 2(a)(i): PO43- / phosphate
+- **ij22** 2(a)(ii): ammonium carbonate
+- **ij22** 2(a)(iii): 0.55 (g)
+- **ij22** 2(d)(i): group similar 2  
+- **ij22** 2(d)(ii): 1 mark each for any two of:  carbon monoxide  water  carbon
+- **ij22** 3(b)(i): yellow-green 1
+- **ij22** 3(b)(ii): the molecule has two atoms
+- **ij22** 3(b)(iii): Cl2 2 (NaCl) 2
+- **ij22** 3(c)(i): melting point of potassium: values between 42 and 95 (inclusive of these values) atomic radius of sodium: values between 0.160 and 0.230 (inclusive of these values) 2
+- **ij22** 3(c)(iii): 1 mark each for any two of:  low(er) density  low(er) melting point  soft(er) 2
+- **ij22** 4(c)(ii): reaction which absorbs thermal energy / reaction which absorbs heat
+- **ij22** 4(c)(iii): The energy of the reactants is lower than the energy of the products / the energy of the products is higher than the energy of the reactants
+- **ij22** 4(c)(iv): 24 (cm3) 1  
+- **ij22** 5(d)(i): reversible reaction
+- **ij22** 5(d)(ii): bleach / manufacture of wood pulp / making paper / food preservative
+- **ij22** 5(e)(i): pH 4
+- **ij22** 5(e)(ii): (chemical) erosion / corrosion
+- **ij22** 6(a)(iv): D 1  
+- **ij22** 7(b)(iii): inert / unreactive
+- **ij23** 2(a)(i): values between –100 °C and +10 °C (inclusive of these values)
+- **ij23** 2(a)(ii): values lower than 0.003
+- **ij23** 2(b)(i): bromine sodium chloride 2
+- **ij23** 2(b)(ii): flame test / put sodium (compound) in (non-luminous) flame (flame colour) yellow 2  
+- **ij23** 3(a)(i): 1 mark each for any two of:  plastics  phosphates  microbes
+- **ij23** 3(a)(ii): contains harmful microbes
+- **ij23** 3(b)(i): nickel
+- **ij23** 3(b)(ii): sulfate
+- **ij23** 3(b)(iii): 0.55 (mg)
+- **ij23** 3(c)(i): heat
+- **ij23** 3(c)(ii): hydrated
+- **ij23** 4(b)(i): 2HBr on left horizontal line AND H2 + Br2 on right horizontal line
+- **ij23** 4(b)(ii): the energy of the reactant is lower than the energy of the products / the energy of HBr is lower than the energy of H2 + Br2/ the energy of the products is greater than the energy of the reactants
+- **ij23** 4(b)(iii): surroundings
+- **ij23** 4(c)(i): H+
+- **ij23** 4(c)(ii): salt carbon dioxide water 3
+- **ij23** 4(c)(iii): red / pink
+- **ij23** 4(d)(iii): conducts electricity / inert 1  
+- **ij23** 6(a)(i): 40 °C 20 °C 30 °C
+- **ij23** 6(a)(ii): takes shorter time / less time taken
+- **ij23** 6(a)(iii): takes longer time / more time taken
+- **ij23** 7(a)(i): circle around C=C bond
+- **ij23** 7(a)(ii): C4H8O
+- **ij23** 7(b)(i): CnH2n+1OH
+- **ij23** 7(b)(ii): H H │ │ H – C – C – O – H │ │ H H
+- **ij23** 8(c)(iii): a substance that dissolves a solute
+- **ij23** 8(c)(iv): pH 7
+- **im16** 1(a)(i): N / nitrogen;
+- **im16** 1(a)(ii): C / carbon / carbon dioxide;
+- **im16** 1(a)(iii): Al / aluminium;
+- **im16** 1(b)(i): substance containing only one type of atom;
+- **im16** 1(b)(ii): number of protons: 20 and 20; number of neutrons: 23 and 28; number of electrons: 20 and 20;
+- **im16** 1(b)(iii): 18;
+- **im16** 2(b)(i): they are inert / they do not react;
+- **im16** 2(b)(ii): any suitable use, e.g. lubricant / pencil leads / brake linings / steelmaking / walls of blast furnace;
+- **im16** 3(d)(i): rate increases with increasing temperature; idea that graph is not linear / rate does not increase proportionally / upward curve;
+- **im16** 3(d)(ii): 16 ( cm3 hydrogen / min);
+- **im16** 4(b)(i): speeds up (rate of) reaction;
+- **im16** 4(b)(ii): 3(H2); 2(NH3);
+- **im16** 5(a)(iii): magnesium; low density;
+- **im16** 5(d)(i): ⇋;
+- **im16** 5(d)(ii): add water to anhydrous cobalt sulfate / add water to CoSO4; colour changes (from blue) to red / pink;
+- **im16** 6(b)(i): ring around one or more COOH groups;
+- **im16** 6(c)(i): carbon dioxide; water;
+- **im16** 6(c)(ii): filtration; 1  
+- **im16** 6(e)(i): 2(C2H5OH) 2(CO2)
+- **im16** 6(e)(iii): 180; one row correct = [1], e.g. 12 × 1 = 12 or 6 × 16 = 96
+- **im16** 7(d)(i): pH 2; 1  
+- **im16** 7(d)(ii): water;
+- **im16** 7(d)(iii): potassium carbonate;
+- **im17** 1(a)(i): oxygen / O2
+- **im17** 1(a)(iii): aluminium / Al
+- **im17** 2(a)(i): A placed either on the left hand lower tube (or on the one on the right directly opposite this) 1 W placed on both or either of the tubes at the top
+- **im17** 2(a)(ii): the slag is above the molten iron / the iron is below the molten slag
+- **im17** 2(b)(i): breakdown of a substance / breakdown of a compound 1 using heat / using high temperature
+- **im17** 2(b)(ii): CO2
+- **im17** 2(b)(iii): calcium oxide reacts with silicon(IV) oxide / sand 1 to form calcium silicate / slag
+- **im17** 2(d)(i): graphite / platinum / (pure) iron
+- **im17** 2(d)(ii): conducts electricity / inert
+- **im17** 2(e)(i): Fe(CO)5 / FeC5O5
+- **im17** 2(f)(i): water 1 oxygen / air
+- **im17** 2(f)(ii): the lower the pH, the greater the rate / it is faster at a lower pH 1 the higher the temperature, the greater the rate / it is faster at a higher temperature
+- **im17** 3(b)(ii): oxygen on left 1 water on right
+- **im17** 3(b)(iv): incomplete combustion (of hydrocarbon)
+- **im17** 3(b)(v): correct molar mass = 114 8 × 12/96 (in final column) scores [1]
+- **im17** 3(c)(i): increases as the number of carbon atoms increases
+- **im17** 3(c)(ii): pentane / C5H12 1 20 °C is in between its melting and boiling points / boiling point is above 20 °C and melting point is below 20 °C
+- **im17** 3(c)(iii): correct structure of methane showing all four C–H bonds
+- **im17** 4(d)(i): neutralises (the acid) / lowers the acidity / raises pH
+- **im17** 4(d)(ii): plants cannot grow (well) under acidic conditions 1  
+- **im17** 5(c)(i): double C=C bond
+- **im17** 5(f)(i): on the baseline / on the starting line
+- **im17** 6(f)(i): 1.8 g
+- **im17** 6(f)(ii): 315 g 1  
+- **im17** 7(c)(i): atoms with the same number of protons and different numbers of neutrons
+- **im17** 7(c)(ii): energy (production) / nuclear power 1  
+- **im18** 1(a)(i): E / oxygen / O2
+- **im18** 1(a)(ii): A / sodium bromide / NaBr
+- **im18** 1(a)(iii): E / oxygen / O2
+- **im18** 1(a)(iv): C / carbon dioxide / CO2
+- **im18** 1(a)(v): A / sodium bromide / NaBr
+- **im18** 2(a)(i): 25 (mg)
+- **im18** 2(a)(iii): magnesium sulfate
+- **im18** 2(b)(i): circle around COOH group
+- **im18** 2(b)(ii): C3H6O3
+- **im18** 2(c)(i): removal of oxygen (from a compound)
+- **im18** 2(c)(ii): 46 If 2 marks not obtained: 1 mark for 1 row all correct e.g. hydrogen 6 × 1 = 6 oxygen 1 × 16 = 16
+- **im18** 3(b)(i): density of fluorine: ALLOW: values lower than 1.56 (but not 0 or negative numbers) 1 melting point of chlorine: ALLOW values between –220 and –7 ºC (excluding these two values)
+- **im18** 3(b)(ii): lighter because the trend of colour down (the Group) is towards dark(er) colours / lighter because the trend of colour up (the Group) is towards light(er) colours
+- **im18** 4(e)(i): one mark each for any two of: • high temperature • catalyst • high pressure max
+- **im18** 4(e)(ii): C11H24
+- **im18** 5(a)(i): magnesium floats (on the molten magnesium chloride)
+- **im18** 5(a)(ii): chlorine
+- **im18** 5(a)(iii): to stop the magnesium oxidising / to stop the magnesium reacting with the air / to stop it oxidising / to stop it reacting with the air
+- **im18** 5(a)(iv): argon / krypton / xenon
+- **im18** 5(b)(i): aluminium 1 has the lowest density / has a low density
+- **im18** 5(b)(ii): aluminium 1 has the best (electrical) conductivity
+- **im18** 5(b)(iii): cobalt AND nickel
+- **im18** 5(d)(i): mixture of metals / mixture of metal and non-metal / mixture of a metal with another element 1
+- **im18** 6(a)(i): methane
+- **im18** 6(a)(ii): speeds up the reaction / increases the rate of reaction
+- **im18** 6(b)(ii): (chemical) erosion (of buildings) / pitting (of buildings) / corrosion (of metalwork) / weathering
+- **im18** 6(b)(iii): sulfur dioxide gains oxygen / it gains oxygen
+- **im18** 7(b)(i): neutralisation
+- **im18** 7(b)(ii): pH 13
+- **im18** 7(b)(iii): ammonia
+- **im18** 7(b)(iv): 4th box down ticked
+- **im18** 8(a)(i): decreases (rate) / slower (rate)
+- **im18** 8(a)(ii): decreases (rate) / slower (rate)
+- **im18** 8(a)(iii): increases (rate) / faster (rate)
+- **im18** 8(b)(i): hematite
+- **im19** 2(a)(i): electrons: 92 neutrons: 143 2
+- **im19** 2(a)(ii): energy production
+- **im19** 3(a)(i): Br– / bromide
+- **im19** 3(a)(ii): potassium bromide
+- **im19** 3(a)(iii): 11 (mg)
+- **im19** 3(a)(iv): e–
+- **im19** 3(c)(i): idea of solid turning (directly) to gas
+- **im19** 4(b)(i): 54 (cm3)
+- **im19** 4(b)(ii): S on any portion of the graph above 2.0 min and below 3.8 min
+- **im19** 4(b)(iii): steeper gradient starting at 0-0 ends up at same volume (70 cm3) 2
+- **im19** 4(b)(iv): decreases rate / goes slower increases rate / goes faster 2
+- **im19** 5(d)(i): from car engines / lightning / high temperature furnaces
+- **im19** 5(d)(ii): irritates eyes / nose / mouth / skin / lungs
+- **im19** 6(a)(i): chromium is a reactive metal / chromium is high in the reactivity series / chromium is too reactive to be made by reduction with carbon
+- **im19** 6(b)(ii): energy of reactants greater than energy of products
+- **im19** 6(d)(ii): spoon silvery in colour
+- **im19** 6(d)(iii): more corrosion resistant / more attractive appearance
+- **im19** 7(a)(i): increases as number of carbon atoms increases / decreases as number of carbon atoms decreases
+- **im19** 7(a)(ii): propane
+- **im19** 7(b)(ii): carbon dioxide water 2
+- **im20** 1(a)(i): potassium manganate(VII)
+- **im20** 1(a)(ii): methane
+- **im20** 1(a)(iii): potassium iodide / iodide
+- **im20** 1(a)(iv): calcium oxide
+- **im20** 1(a)(v): ethene
+- **im20** 2(b)(i): slag floats on iron / slag is above the iron ORA
+- **im20** 2(d)(i): oxygen removed from Fe2O3 / iron oxide loses oxygen
+- **im20** 2(d)(ii): 2.8 (g)
+- **im20** 4(a)(i): circle round COOH group
+- **im20** 4(a)(ii): C5H8O2
+- **im20** 5(d)(i): 2 (K) (on left) H2 (on right) 2
+- **im20** 5(d)(ii): lilac
+- **im20** 6(a)(i): transfers thermal energy to surrounding / transfers heat to surroundings / gives out heat
+- **im20** 6(a)(ii): salt
+- **im20** 6(a)(iii): combustion
+- **im20** 6(a)(iv): (chemical) erosion (of mortar / building materials) / corrodes (iron) 1  
+- **im20** 6(b)(i): measure volume of gas / measure volume of hydrogen / idea of measuring mass of the reaction mixture reference to (measurement at certain) time(s) suitable collection apparatus related to method sugges
+- **im20** 6(b)(ii): large pieces: (rate) decreases / gets slower / slows down increasing temperature: (rate) increases / gets faster 2
+- **im20** 8(a)(ii): ionic
+- **im20** 8(d)(i): Cl2 (on left) 2 (KCl) (on right) 2
+- **im20** 8(d)(ii): chlorine is more reactive than iodine / iodine is less reactive than chlorine 1  
+- **im21** 2(a)(i): B3O63– / metaborate
+- **im21** 2(a)(ii): K+ AND SO42–
+- **im21** 2(a)(iii): 80 (mg)
+- **im21** 2(a)(iv): sodium chloride
+- **im21** 2(a)(v): bromide
+- **im21** 2(d)(i): cancer treatment / tracer (e.g. for thyroid function)
+- **im21** 2(d)(ii): source of energy / energy production 1  
+- **im21** 3(a)(ii): increases
+- **im21** 3(b)(i): 2,7
+- **im21** 3(b)(ii): the number of electrons is one more than the number of protons / it has 9 protons and 10 electrons 1
+- **im21** 5(c)(i): C +S on lower line to left AND CS2 on upper line to right 1
+- **im21** 5(c)(ii): the product energy level is above the reactant energy level
+- **im21** 5(f)(i): (chemical) weathering / ironwork corrodes
+- **im21** 5(f)(ii): food preservation / food preservative
+- **im21** 6(a)(i): circle around COOH group
+- **im21** 6(a)(iii): C5H8O3
+- **im21** 6(a)(iv): has a C=C double bond
+- **im21** 6(c)(i): idea of breaking down large hydrocarbons to smaller hydrocarbons (using heat)
+- **im21** 6(c)(ii): heat / high temperature catalyst 2  
+- **im21** 7(b)(i): graphite / platinum
+- **im21** 7(b)(ii): ‘square’ in middle of diagram labelled anode
+- **im21** 7(b)(iii): the sodium floats on top of the sodium chloride
+- **im21** 7(e)(i): sodium + hydrogen → sodium hydride 1  
+- **im21** 7(e)(iii): the iron oxide has lost oxygen
+- **im22** 2(a)(i): 1 (%)
+- **im22** 2(c)(i): 2 (H2S) 3 (O2) 2  
+- **im22** 2(c)(ii): sulfur has gained oxygen / hydrogen sulfide has gained oxygen
+- **im22** 3(b)(i): mixture of metal with another element
+- **im22** 3(b)(ii): (alloy is) hard(er) / (more) resistant to corrosion / strong(er)
+- **im22** 3(b)(iii): cutlery / chemical plant / surgical equipment
+- **im22** 4(a)(i): sodium nitrate (and) water 2
+- **im22** 4(a)(ii): named suitable indicator e.g. methyl orange / litmus correct colour in alkali e.g. blue (for litmus) / yellow (for methyl orange) 2  
+- **im22** 4(a)(iii): ammonia sodium chloride 2
+- **im22** 5(a)(i): G is oxygen H is nitrogen 2
+- **im22** 5(a)(ii): volume increases (as temperature increases)
+- **im22** 5(a)(iii): they have a full outer shell (of electrons) / they have a complete outer shell (of electrons)
+- **im22** 5(a)(iv): arrangement: irregular / random separation: far apart 2  
+- **im22** 5(b)(i): oxides of nitrogen: breathing difficulties / irritates lungs / irritates eyes / irritates throat / irritates skin / lung problems lead compounds: poisonous / toxic / harms nervous system / harms brain
+- **im22** 6(a)(i): boiling point of Na any values between 800 and 1300 (°C) (inclusive of these values) hardness of Li: any value above 0.70 (MPa) up to a maximum of 5.0 (MPa) 2
+- **im22** 6(c)(i): carbon / graphite
+- **im22** 6(c)(ii): inert / unreactive
+- **im22** 7(a)(iv): C4H8O2
+- **im22** 7(b)(i): alkenes
+- **im22** 7(b)(ii): breakdown of a compound using heat / by heat 2
+- **im22** 8(c)(i): 2 (P) 5 (Cl2) 2
+- **im22** 8(c)(ii): releases thermal energy / releases heat
+- **im22** 8(d)(i): bromine sodium chloride 2
+- **im22** 8(d)(iii): bromine is less reactive than chlorine / chlorine more reactive than bromine
+- **im23** 2(b)(i): chloride / Cl –
+- **im23** 2(b)(ii): sulfate
+- **im23** 2(b)(iii): 3.1 (mg)
+- **im23** 3(b)(i): car engines / car exhausts / vehicle exhausts
+- **im23** 4(c)(i): Mg + Cl2 on line on left AND MgCl2 on line on right
+- **im23** 4(c)(ii): the energy of the reactants is greater than the energy of the products / the energy of the products is less than the energy of the reactants
+- **im23** 5(b)(ii): anode
+- **im23** 5(d)(i): I2
+- **im23** 5(d)(ii): displacement
+- **im23** 5(d)(iii): (pale) yellow-green
+- **im23** 6(a)(i): circle around the OH group
+- **im23** 6(a)(ii): C=C bond
+- **im23** 6(a)(iii): C4H8O 1  
+- **im23** 6(a)(iv): 1 mark each for any two of: • (when mixture is heated) water boils off first / water boils off before crotyl alcohol • (because) water has a lower boiling point / crotyl alcohol has a higher boiling p
+- **im23** 6(d)(i): covalent
+- **im23** 6(d)(ii): H H │ │ H – C – C – H │ │ H H
+- **im23** 6(d)(iii): chlorine
+- **im23** 6(d)(iv): 2 (O2) CO2 2  
+- **im23** 7(a)(i): hematite
+- **im23** 7(c)(i): (substance) chemically combined with water
+- **im23** 7(c)(ii): air / oxygen water 2
+- **im23** 7(d)(i): filtration / filter 1  
+- **im23** 7(d)(ii): 1 mark each for any 2 of: • evaporate to point of crystallisation / evaporate until saturated solution formed • leave to crystalise • filter off crystals / pick out crystals • dry with filter paper
+- **im23** 8(a)(i): 27 (cm3)
+- **im23** 8(a)(ii): steeper initial gradient starting at 0-0 line levels off at 44 cm3 2
+- **im23** 8(b)(i): (rate) decreases / reaction slows down
+- **im23** 8(b)(ii): (rate) decreases / reaction slows down
+- **im23** 8(c)(i): sodium chloride water 2
+- **im23** 8(c)(ii): H+
+- **im23** 8(c)(iii): pH 13
+- **im23** 8(c)(iv): yellow 1  
+- **in15** 3(a)(i): vibrate (about fixed position) / vibration;
+- **in15** 3(a)(iii): regular / repeated / pattern / framework / ordered / alternating / organised (arrangement of); positive and negative ions / oppositely charged ions / cations and anions / unlike charged ions; 1
+- **in15** 3(b)(ii): Li+ + e– → Li / Li+ → Li – e–;
+- **in15** 3(b)(iii): 2Br– → Br2 + 2e– / 2Br– – 2e– → Br2 formulae; balancing;
+- **in15** 4(a)(i): any three from: • (same) general (molecular) formula; • (consecutive members) differ by CH2; • same functional group; • common (allow similar) methods of preparation; • same / similar chemical propert
+- **in15** 4(b)(ii): any correct equation producing an alkane and an alkene adding up to seven carbon atoms in the products; 1  
+- **in15** 4(c)(i): 150 (cm3);
+- **in15** 4(c)(ii): 100 (cm3);
+- **in15** 4(c)(iii): This question was discounted.
+- **in15** 5(a)(i): proton donor / H+ donor / hydrogen ion donor;
+- **in15** 5(b)(i): barium sulphite / barium sulfate(IV) / BaSO3;
+- **in15** 5(b)(ii): barium sulfate / BaSO4;
+- **in15** 5(b)(iii): Br2 + 2e– → 2Br– / Br2 → 2Br– – 2e–;
+- **in15** 5(c)(i): (→) magnesium sulfate + water;
+- **in15** 5(c)(ii): (→) zinc sulfate + hydrogen;
+- **in15** 5(c)(iii): (→) copper(II) sulfate / copper sulfate + carbon dioxide + water;
+- **in15** 5(d)(i): 2NH3 + H2SO4 → (NH4)2SO4 / NH3 + H2SO4 → (NH4)HSO4; 1  
+- **in15** 5(d)(ii): 2NaOH + H2SO4 → Na2SO4 + 2H2O Na2SO4; rest of equation correct; or H+ + OH– → H2O H2O as the only product on the right hand side; rest of equation correct; or NaOH + H2SO4 → NaHSO4 + H2O NaHSO4; rest 
+- **in15** 5(d)(iii): Fe + H2SO4 → FeSO4 + H2; FeSO4; rest of equation correct; or Fe + 2H+ → Fe2+ + H2; Fe2+; rest of equation correct; or 2Fe + 3H2SO4 → Fe2(SO4)3 + 3H2; Fe2(SO4)3; rest of equation correct; or 2Fe + 6H+ 
+- **in15** 7(b)(i): repeat experiment using same volume / amount of (same) H2SO4; and same volume / amount of (same) KOH; or (add activated) charcoal / carbon; filter out the charcoal; or mix volumes / amounts of H2SO4 a
+- **in16** 1(a)(i): O / oxygen
+- **in16** 1(a)(iv): Br / bromine
+- **in16** 2(a)(i): phosphate / PO4 3–
+- **in16** 2(a)(ii): sulfate
+- **in16** 2(a)(iii): 0.5 (g)
+- **in16** 2(c)(i): filtration / filter
+- **in16** 2(c)(ii): carbohydrate AND protein
+- **in16** 2(c)(iii): random / zigzag / go anywhere / irregular 1  
+- **in16** 2(d)(i): any 2 from: • improve growth of plants • increase protein (in plants) • fertilisers add nitrogen / nitrates / phosphorous / phosphates / potassium • to put back nitrogen / nitrates / phosphorous / pho
+- **in16** 2(d)(ii): ammonia is produced / formed (ammonia) is a gas 1
+- **in16** 3(b)(ii): values between 125(°C)–145 (ºC) inclusive
+- **in16** 3(b)(iii): increases with (increasing) number of carbon atoms
+- **in16** 3(c)(i): structure of ethanol showing all of the atoms and all of the bonds OH instead of O─H and rest of structure correct = [1]
+- **in16** 4(c)(i): A (volumetric) pipette B burette 1
+- **in16** 5(a)(i): endothermic because heating is needed
+- **in16** 5(a)(ii): arrow(s) pointing in both directions / ⇌
+- **in16** 5(b)(i): C in or just outside the tube at the top left L in or just outside the tube at the bottom right 1
+- **in16** 5(b)(ii): to produce a high temperature / for heat(ing)
+- **in16** 5(d)(ii): SiO2 / Si6O12
+- **in16** 5(e)(i): pH 12
+- **in16** 5(e)(ii): H2O
+- **in16** 6(a)(iii): any 2 from: • density increases • melting / boiling point decreases • hardness decreases • reactivity increases
+- **in16** 6(b)(i): from: colourless / (light) green to: brown 1
+- **in16** 6(b)(ii): iodine is more reactive than astatine ORA
+- **in16** 6(c)(i): H2 (on left)
+- **in16** 6(c)(ii): one pair of bonding electrons between H and Cl 6 non-bonding electrons around Cl and none around H 1
+- **in16** 6(c)(iii): lithium chloride water 1 1  
+- **in17** 1(b)(i): burning fossil fuels / volcanoes / high temperature furnaces / burning named fossil fuel
+- **in17** 1(b)(ii): breathing difficulties / irritates nose / irritates eyes / irritates throat
+- **in17** 2(c)(iii): it has 8 electrons in its outer shell
+- **in17** 2(d)(ii): 98 IF full credit is not awarded, award 1 mark for (S =) 32 , (O = 16) and (H =1)
+- **in17** 2(e)(i): bleach / treating wood pulp / preservative
+- **in17** 2(e)(ii): pH 2
+- **in17** 3(b)(i): condensation (at mouth of tube)
+- **in17** 3(c)(i): H2
+- **in17** 3(c)(ii): filtration / filter
+- **in17** 3(d)(i): structure completed correctly with all of the atoms and all of the bonds IF full credit is not awarded, award 1 mark for OH instead of O–H
+- **in17** 3(d)(ii): bubbles OR effervesces / magnesium decreases in size OR magnesium disappears 1  
+- **in17** 4(d)(i): low density
+- **in17** 4(d)(ii): electrolysis
+- **in17** 4(f)(ii): drill (bits) / jewellery
+- **in17** 5(d)(i): to oxidise impurities / to oxidise named impurities (restricted to phosphorus / sulfur / carbon / silicon)
+- **in17** 5(d)(ii): potassium oxide 1 it is the oxide of a metal / metal oxides are basic
+- **in17** 5(f)(i): car bodies / bridges / railings 1  
+- **in17** 5(f)(ii): cutlery / chemical plant
+- **in17** 6(c)(i): correct structure of ethane showing all of the atoms and all of the bonds
+- **in17** 6(c)(ii): 3 (H2)
+- **in17** 6(c)(iii): takes in heat (from surroundings) / absorbs heat / absorbs thermal energy
+- **in17** 6(e)(i): (boiling point) increases
+- **in17** 6(e)(ii): any value between –8 and –80 (°C) inclusive of these values
+- **in18** 2(a)(i): One mark each for any 2 of: • concentration of sodium in squid / nerves lower ORA • concentration of potassium in squid / nerves higher ORA • concentration of hydrogencarbonate in squid / nerves lower
+- **in18** 2(a)(ii): 3.9 (g)
+- **in18** 3(a)(ii): harder / stronger / more resistant to corrosion
+- **in18** 3(b)(ii): nitrogen dioxide / NO2 lightning / high temperature furnaces 2
+- **in18** 3(d)(ii): add water
+- **in18** 4(a)(i): C=C (double bond)
+- **in18** 4(a)(ii): orange / red-brown to colourless / decolourised 2
+- **in18** 4(a)(iii): structure of COOH group showing all atoms and all bonds
+- **in18** 4(a)(iv): turns it red / pink
+- **in18** 4(b)(i): One mark each for any two of: • not much decrease / gradual decrease in pH at first • sudden decrease in pH as more acid added • not much decrease / gradual decrease in pH when acid in excess
+- **in18** 4(b)(ii): any value between pH 12.65 and 12.75 (inclusive)
+- **in18** 4(b)(iii): 14 cm3
+- **in18** 5(d)(iii): bubbles / strong smell (of chlorine)
+- **in18** 7(b)(i): any value between 5.0 and 5.5 min (inclusive)
+- **in18** 7(b)(ii): 96 cm3
+- **in18** 7(d)(i): hematite / any other ore of iron e.g. siderite
+- **in18** 7(d)(ii): air monoxide decomposes slag 4
+- **in18** 8(a)(ii): (chlorine is a) gas (at room temperature)
+- **in18** 8(b)(i): to kill bacteria
+- **in18** 8(b)(ii): any suitable use e.g. coolant / solvent / chemical use in named reaction e.g. hydration of alkenes
+- **in19** 1(a)(i): carbon monoxide
+- **in19** 1(a)(ii): propene
+- **in19** 1(a)(iii): carbon dioxide
+- **in19** 1(a)(iv): chlorine
+- **in19** 1(a)(v): sulfur dioxide
+- **in19** 1(b)(i): goes from solid to gas directly / without liquid (being formed) 2
+- **in19** 1(b)(ii): solid: particles (only) vibrating particles close together / particles touching gas: particles moving rapidly / particles moving randomly particles far apart 4
+- **in19** 2(a)(i): 1.5 (%)
+- **in19** 2(a)(ii): 1 pair of electrons between each O and H 4 non-bonding electrons on oxygen and none on the hydrogens 2
+- **in19** 2(a)(iii): anhydrous copper(II) sulfate turns blue IF: 2 marks not scored 1 mark for anhydrous copper sulfate or copper sulfate turns blue OR anhydrous cobalt(II) chloride turns pink / red IF: 2 marks not scored
+- **in19** 2(b)(i): 2 (CH4) 4 (H2) 2
+- **in19** 2(b)(ii): butane
+- **in19** 2(d)(i): circle round the COOH group
+- **in19** 4(e)(i): food preservative / manufacture of wood pulp
+- **in19** 4(e)(ii): magnesium sulfate hydrogen 2
+- **in19** 5(a)(i): melting point of lithium: values between 110 ºC and 210 ºC (inclusive) atomic radius of potassium: values between 190 pm and 240 pm (inclusive) 2
+- **in19** 5(a)(ii): decreases (down the group)
+- **in19** 5(b)(i): 4 (Li) 2 (Li2O) 2
+- **in19** 5(b)(ii): basic (oxide) AND Li is a metal
+- **in19** 5(b)(iii): electron
+- **in19** 5(b)(iv): 36 if 2 marks not scored: 1 mark for C = 2 × 12 OR 24
+- **in19** 6(d)(i): speeds up rate of reaction / makes reaction faster
+- **in19** 6(d)(ii): any suitable source, e.g. from car engines / lightning / high temperature furnaces
+- **in19** 6(d)(iii): irritates eyes / nose / mouth / skin / airways / lungs
+- **in19** 8(b)(ii): oxidation
+- **in20** 1(a)(i): H / H2 / hydrogen
+- **in20** 1(a)(ii): Cl / chlorine / Cl 2
+- **in20** 1(a)(iii): Al / aluminium / Al 3+
+- **in20** 1(a)(v): Al /aluminium
+- **in20** 1(b)(i): 2nd box down ticked (they are atoms with the same number of protons ...)
+- **in20** 1(b)(ii): protons = 16 neutrons = 17 2
+- **in20** 2(a)(i): ozone
+- **in20** 2(a)(ii): 26.5 (ng)
+- **in20** 2(b)(i): oxygen is not in excess / oxygen is limiting / there is excess carbon / there is excess fuel
+- **in20** 2(b)(ii): poisonous / toxic / kills you
+- **in20** 2(c)(i): increases rate of reaction / speeds up a reaction
+- **in20** 2(c)(ii): decomposition of plants / waste gases from digestion of animals / natural gas
+- **in20** 2(d)(i): 2 (CO) (on left) 2 (CO2) (on right) 2  
+- **in20** 2(d)(ii): reactants on left top line and products on bottom right line
+- **in20** 2(d)(iii): the reactants have more energy / the product(s) have less energy
+- **in20** 2(e)(ii): pH 6
+- **in20** 4(a)(i): circle round C = C group
+- **in20** 4(a)(ii): C4H6O2
+- **in20** 4(a)(iii): 86 If two marks not scored, 1 mark for 6 × 1 = 6 / 2 × 16 = 32 2  
+- **in20** 4(c)(ii): breakdown of a compound by heating / by high temperature 2
+- **in20** 5(d)(ii): fractional distillation 2
+- **in20** 7(a)(i): idea of greater values for volume than mass lost / in method 2 mass of flask decreases only slightly / I method 2 idea of small decreases in mass involved / in method 2 mass loss too small (to measure
+- **in20** 7(a)(ii): carbon dioxide goes out of the flask / carbon dioxide escapes / gas escapes
+- **in20** 7(b)(i): decreases (as time increases)
+- **in20** 7(b)(ii): 60 s
+- **in20** 7(b)(iii): line starts at 0, 0 and steeper gradient line levels out at 48 cm3 carbon dioxide and before the line already on the grid 2
+- **in20** 7(b)(iv): temperature: increases / gets faster concentration: decreases / gets slower 2
+- **in20** 8(a)(i): 1st box down ticked (relatively soft metal) 4th box down ticked (lower density) 2
+- **in20** 8(a)(ii): R: freezing S: boiling / evaporation 2
+- **in20** 8(e)(i): add water 1
+- **in20** 8(e)(ii): hydrated 1  
+- **in21** 1(a)(i): LiCl
+- **in21** 1(a)(ii): MgCl2
+- **in21** 1(a)(iii): CO2
+- **in21** 1(a)(iv): SO2
+- **in21** 1(a)(v): O2
+- **in21** 2(a)(i): Fe3+
+- **in21** 2(a)(ii): calcium nitrate
+- **in21** 2(a)(iii): 5.5 (mg)
+- **in21** 2(c)(i): OH alcohol group circled 1
+- **in21** 2(c)(ii): C3H7O3N
+- **in21** 2(c)(iii): 88 if two marks nor scored, 1 mark for 8 × 1 = 8 OR 2 × 16 = 32 2  
+- **in21** 3(b)(i): hematite
+- **in21** 3(b)(ii): 3 (Fe) 4 (CO2) 2
+- **in21** 3(b)(iii): Fe3O4 loses oxygen / it loses oxygen
+- **in21** 3(d)(i): mixture of metal with another substance
+- **in21** 3(d)(iii): electrons: 23 neutrons: 28 protons: 23 3
+- **in21** 3(d)(iv): 1 mark each for any two of: • lustrous / shiny • conducts heat • ductile 2  
+- **in21** 4(a)(i): boiling point of I: values from 120 to 330 °C (inclusive of these values) density of Br: values from 1.6 to 4.9 (inclusive of these values) 2
+- **in21** 4(a)(ii): increases
+- **in21** 4(b)(i): 2.8.7
+- **in21** 4(b)(ii): it has one more electron than protons / it has 35 protons and 36 electrons 1
+- **in21** 5(d)(i): breakdown of (large / long-chain) hydrocarbons by heat / by heating 2  
+- **in21** 5(d)(ii): ethanol
+- **in21** 5(d)(iii): polymer
+- **in21** 6(c)(i): incomplete combustion / combustion in limited air / combustion in limited oxygen
+- **in21** 6(c)(ii): poisonous / toxic 1  
+- **in21** 7(a)(i): melting / fusion
+- **in21** 7(a)(ii): separation: solid: particles close to each other liquid: particles close to each other motion: solid: vibrating liquid: sliding over each other / limited motion / restricted motion 4
+- **in21** 7(f)(i): natural gas
+- **in22** 1(c)(i): combustion in limited oxygen / combustion in limited air / not enough air to burn completely
+- **in22** 1(c)(ii): poisonous / toxic
+- **in22** 2(a)(i): 0.9 (%)
+- **in22** 2(a)(ii): oxygen
+- **in22** 2(c)(i): to oxidise the carbon / to oxidise the coke / to make carbon dioxide
+- **in22** 2(c)(ii): 2 (CO)
+- **in22** 2(c)(iii): loss of oxygen (from a compound)
+- **in22** 2(c)(iv): 20 (g)
+- **in22** 2(d)(i): calcium oxide oxygen 2
+- **in22** 2(d)(ii): mixture of metal(s) and other elements
+- **in22** 3(b)(i): refinery gases / kerosene / fuel oil
+- **in22** 3(b)(ii): boiling point
+- **in22** 3(b)(iii): X drawn next to bottom right-hand arrow
+- **in22** 3(c)(i): uranium
+- **in22** 3(c)(ii): testing for leaks in pipes / measuring paper thickness 1  
+- **in22** 4(a)(i): boiling point of sodium: values between 770 and 1300 (inclusive of these values) hardness of rubidium: values between 0.1 and 0.35 (inclusive of these values) 2
+- **in22** 4(b)(i): 2 (Na) 2 (Na2O) 2
+- **in22** 4(b)(ii): lighted splint pops / explosion 2
+- **in22** 5(b)(i): reversible reaction
+- **in22** 5(b)(ii): 78 (%)
+- **in22** 5(d)(i): sulfur dioxide
+- **in22** 5(d)(ii): chemical weathering / erosion / pitting of surface
+- **in22** 6(b)(i): very small large small
+- **in22** 6(b)(ii): takes longer / time increases
+- **in22** 6(c)(i): from red / pink to yellow 2
+- **in22** 6(c)(ii): pH 14
+- **in22** 6(d)(ii): increases reaction rate / makes the reaction go faster / speeds up the reaction
+- **in22** 7(a)(i): circle around COOH group
+- **in22** 7(a)(ii): C4H6O2
+- **in22** 7(a)(iii): regular / ordered 1
+- **in22** 7(b)(i): H H │ │ H – C – C – O – H │ │ H H 1  
+- **in22** 7(b)(ii): (reaction of) ethene with steam 2
+- **in22** 7(c)(i): monomer(s)
+- **in22** 7(c)(ii): protein
+- **in22** 7(c)(iii): block drains / litter / (fills) landfill (sites) / poisonous fumes given off when burned
+- **in22** 8(a)(ii): electrical wiring
+- **in22** 8(b)(ii): spoon gets brown / red-brown / pink pure copper rod gets smaller 2
+- **in23** 2(b)(i): X in lowest section of the column / X in the tube where bitumen collects
+- **in23** 2(b)(ii): diesel (oil) / gas oil
+- **in23** 2(b)(iii): refinery gas
+- **in23** 2(b)(iv): chemical feedstock / making chemicals 1  
+- **in23** 3(a)(i): hydrocarbons
+- **in23** 3(a)(ii): sulfur dioxide
+- **in23** 3(a)(iii): 4.4 (ng)
+- **in23** 3(b)(i): car engines / vehicle engines / lightning
+- **in23** 3(b)(iii): pH 7
+- **in23** 3(d)(i): 2(SO2) O2 2
+- **in23** 3(d)(ii): reversible (reaction)
+- **in23** 5(a)(i): values between 20 and 62 °C (inclusive of these values)
+- **in23** 5(a)(ii): values between 24 and 55 cm3 / mol (inclusive of these values)
+- **in23** 5(a)(iii): bubbles form rapidly
+- **in23** 5(b)(i): 21 (%)
+- **in23** 5(b)(ii): the carbon dioxide is reduced and the carbon is oxidised
+- **in23** 5(b)(iii): reaction that transfers thermal energy / reaction that gives out heat to the surroundings 2
+- **in23** 5(c)(i): thermal decomposition
+- **in23** 5(c)(ii): slag / calcium silicate
+- **in23** 6(a)(i): 42 (cm3)
+- **in23** 6(a)(ii): shallower gradient with line starting at 0,0 line levels off at 46 cm3 AND not hitting original line before it reached 46 cm3 2
+- **in23** 6(b)(i): (rate) decreases / rate slower / more slowly
+- **in23** 6(b)(ii): (rate) decreases / rate slower / more slowly
+- **in23** 6(c)(i): soluble base
+- **in23** 6(c)(ii): OH−
+- **in23** 6(c)(iii): yellow
+- **in23** 6(c)(iv): ammonium chloride 1  
+- **in23** 7(b)(i): alcohol
+- **in23** 7(b)(ii): one mark each for any two of: • 25–45 °C (inclusive of these values) • yeast • absence of oxygen / anaerobic
+- **in23** 7(c)(i): circle around C=C bond
+- **in23** 7(c)(ii): orange
+- **in23** 7(c)(iii): C4H6O2
+- **in23** 8(c)(i): decomposition of an ionic compound / breaking down of an ionic compound by an electric current 2
+- **in23** 8(e)(i): covalent
+- **in23** 8(e)(ii): giant structure AND hard / strong bonds AND hard / many bonds AND hard 1  
+- **in24** 1(a)(i): Zn 1 1a(ii) Ca
+- **in24** 1(a)(iv): Al
+- **in24** 1(a)(v): Fe
+- **in24** 2(a)(i): 21 (%)
+- **in24** 2(a)(iii): poly(ethene)
+- **in24** 2(a)(iv): monomer(s)
+- **in24** 2(b)(ii): 4th box down ticked (strong electrostatic attraction between cations and anions) 1  
+- **in24** 3(c)(i): tin
+- **in24** 3(c)(ii): sulfate
+- **in24** 3(c)(iii): 0.8 (mg)
+- **in24** 4(a)(i): COOH group circled
+- **in24** 4(a)(ii): C3H7NO3
+- **in24** 4(c)(i): alcohol(s) 1  
+- **in24** 4(c)(ii): CnH2n+1OH
+- **in24** 4(c)(iii): Increases
+- **in24** 4(d)(i): substances required: • ethene • steam / water • conditions: one mark each for any two of: • 300 °C • 6000 kPa / 60 atm (pressure) • acid catalyst 4
+- **in24** 4(d)(ii): H H │ │ H – C – C – O – H │ │ H H
+- **in24** 4(d)(iii): carbon monoxide
+- **in24** 5(a)(i): values between 116 °C and 335 °C (inclusive of these values)
+- **in24** 5(a)(ii): values less than 22.7 (cm3 / mol) but not below 1.0
+- **in24** 5(b)(i): iodine sodium chloride 2  
+- **in24** 5(b)(ii): bromine is less reactive than chlorine / chlorine is more reactive than bromine / chlorine is higher in the electrochemical series than bromine
+- **in24** 6(b)(i): number of neutrons in Ca = 28 number of electrons in Cu2+= 27 number of protons in Ca = 20 AND number of protons in Cu2+ = 29 3
+- **in24** 6(b)(ii): 2,8,8,2
+- **in24** 7(a)(i): (l)
+- **in24** 7(a)(ii): filtration
+- **in24** 7(a)(iii): one mark each for any two of: • heat to point of crystallisation / heat to form saturated solution • filter off crystals / pick out crystals • dry with filter paper
+- **in24** 7(c)(i): thermal energy is released (in the reaction) / (reaction that) transfers thermal energy / (reaction that) gives out heat
+- **in24** 7(c)(ii): ZnO +HCl on the line on the left AND ZnCl2 and H2O on the line on the right 1
+- **in24** 7(c)(iii): the energy (level) of the reactants is higher than the energy (level) of the products / the energy (level) of the ethene is higher than the energy (level) of the poly(ethene) / the energy of the produ
+- **in24** 8(a)(i): 0.8 1.6 0.4
+- **in24** 8(a)(ii): longer time / increases time / more time
+- **in24** 8(a)(iii): longer time / increases time / more time
+- **j18** 1(a)(i): ammonia / NH3
+- **j18** 1(a)(iv): carbon dioxide / CO2
+- **j18** 1(b)(ii): (old) light bulbs / welding / to protect reactive metals from oxidation / lasers
+- **j18** 2(a)(i): 15.5(%)
+- **j18** 2(a)(ii): hydrogen / H2
+- **j18** 2(a)(iii): nitrogen AND oxygen
+- **j18** 2(a)(iv): NO2
+- **j18** 2(a)(v): the air / the atmosphere
+- **j18** 2(b)(ii): poisonous / toxic
+- **j18** 2(b)(iii): 5 (CO2) 1 6 (H2O)
+- **j18** 3(b)(i): (substance which) speeds up a reaction / substance which increases the rate of reaction
+- **j18** 3(c)(i): C=C bond
+- **j18** 3(c)(ii): orange / red-brown / brown 1 to colourless
+- **j18** 4(e)(ii): Fe2Cl 6
+- **j18** 7(a)(i): atomic radius of Rb: any value between 228 and 264 (inclusive of these values) 1 relative thermal conductivity of K: any value between 3.8 and 1.7 (inclusive of these values)
+- **j18** 7(a)(ii): decreases down (the Group) / increases up (the Group) / decreases from sodium to caesium ORA
+- **j18** 7(a)(iii): bursts into flame / extremely rapid bubbling / explodes
+- **j19** 1(a)(i): B / diamond D / nitrogen / N2 2
+- **j19** 1(a)(ii): D / nitrogen / N2
+- **j19** 1(a)(iii): C / lithium chloride / LiCl
+- **j19** 1(a)(iv): C / lithium chloride / LiCl
+- **j19** 1(a)(v): B / diamond
+- **j19** 2(d)(i): thermal decomposition
+- **j19** 2(d)(ii): basic oxide calcium is a metal (oxide) 2  
+- **j19** 3(a)(i): 5.0%
+- **j19** 3(a)(ii): oxygen
+- **j19** 3(a)(iii): any two from: • more hydrogen in Universe (or reverse argument) • more helium in Universe (or reverse argument) • more oxygen on Earth (or reverse argument) • more magnesium on Earth (or reverse argum
+- **j19** 3(c)(i): has complete outer (electron) shell / has full outer (electron) shell / outer shell cannot gain or lose electron(s)
+- **j19** 3(c)(ii): lamps / inert atmosphere (in metal extraction) 1  
+- **j19** 4(c)(i): bromine potassium iodide 2
+- **j19** 4(c)(ii): chlorine more reactive than iodine / iodine less reactive than chlorine
+- **j19** 4(d)(i): 2 (Na2S2O3) 2 (NaI) 2
+- **j19** 4(d)(ii): the energy of the reactants is more than the energy of the products / the energy of the products is less than the energy of the reactants / the reactants lose energy when they form products
+- **j19** 5(a)(i): methane
+- **j19** 5(a)(iii): with methane (aqueous) bromine remains orange with ethene (aqueous) bromine decolourised 2
+- **j19** 5(b)(ii): monomers
+- **j19** 5(b)(iii): cannot be decomposed by organisms / cannot be broken down by bacteria / cannot be broken down by fungi
+- **j19** 5(b)(iv): gets stuck in gullets of birds / gets stuck in gullets of animals / blocks drains
+- **j19** 6(b)(i): reversible reaction
+- **j19** 6(b)(ii): heat / warm
+- **j19** 6(e)(i): mixture of metal and other elements
+- **j19** 6(e)(ii): (alloy) more resistant to wear / stronger / harder / more resistant to corrosion ORA for copper 1  
+- **j19** 7(b)(i): gas released / gas escapes / gas lost
+- **j19** 7(b)(ii): 0.7 (g)
+- **j19** 7(b)(iii): line steeper than original and starting from 0 and 200.0 g line ends up at same final mass AND levels off at or before 104 s 2
+- **j19** 7(b)(iv): 0.22 (g)
+- **j19** 7(b)(v): large pieces → 0.005 small pieces → 0.030 powder → 0.100
+- **j19** 8(a)(i): burning fossil fuels / volcanoes / heating (sulfide) ores
+- **j19** 8(a)(ii): substance which speeds up a reaction / substance which increases the rate of reaction
+- **j19** 8(a)(iii): pH4
+- **j20** 1(a)(i): CO2 / carbon dioxide
+- **j20** 1(a)(ii): H2 / hydrogen
+- **j20** 1(a)(iii): N2 / nitrogen
+- **j20** 1(a)(iv): Cu2+ / copper(II) (ions)
+- **j20** 1(a)(v): Cl - / chloride
+- **j20** 2(a)(i): SO42– / sulfate
+- **j20** 2(a)(ii): sulfate
+- **j20** 2(a)(iii): 5.6 (mg)
+- **j20** 2(a)(iv): ammonium nitrate 1  
+- **j20** 4(a)(i): decrease down the group / increase up the group
+- **j20** 4(b)(i): lighted splint pops / explodes
+- **j20** 4(b)(ii): C5H10O2
+- **j20** 5(b)(i): inert / unreactive
+- **j20** 5(b)(ii): platinum / graphite
+- **j20** 5(c)(i): chlorine has displaced bromine in sodium bromide / chlorine has taken the place of bromine in sodium bromide
+- **j20** 5(c)(ii): red-brown 1  
+- **j20** 6(b)(i): increase in concentration increases rate ORA
+- **j20** 6(b)(ii): larger pieces: decreases (rate) increasing temperature: increases (rate)
+- **j20** 7(c)(i): filtration / filtering
+- **j20** 7(e)(i): H H I I H – C – C – O – H I I H H
+- **j20** 7(e)(ii): steam catalyst
+- **j21** 2(a)(i): Cl – / chloride
+- **j21** 2(a)(ii): NH4+ AND SO42-
+- **j21** 2(a)(iii): 24 (mg)
+- **j21** 3(a)(i): boiling point of Rb: any values between 675 and 755 (°C) (inclusive of these values) atomic radius of K: any values between 0.195 and 0.245 (nm) (inclusive of these values) 2
+- **j21** 3(a)(ii): decreases 1
+- **j21** 3(b)(i): number of protons in the nucleus of an atom / number of positive charges in the nucleus of an atom
+- **j21** 3(b)(ii): any suitable, e.g. detecting leaks in pipes / measuring thickness of paper / energy production
+- **j21** 3(c)(i): 2 (Fe) 3 (NaOH) 2  
+- **j21** 3(c)(ii): iron(III) oxide loses oxygen / it loses oxygen
+- **j21** 4(a)(i): OH alcohol group circled
+- **j21** 4(a)(ii): C4H6O5
+- **j21** 4(c)(i): large molecules / long chain molecules / macromolecules built up from (many) small units / made from monomers 2
+- **j21** 4(c)(ii): poly(ethene)
+- **j21** 4(e)(i): pH 13
+- **j21** 4(e)(ii): 18 (cm3)
+- **j21** 5(a)(i): breakdown of substance / idea of one substance forming two or more substances using heat / on heating 2
+- **j21** 5(b)(i): gas syringe / upturned measuring cylinder dipping into container apparatus is workable and airtight 2  
+- **j21** 5(c)(ii): alkane(s)
+- **j21** 5(c)(iii): 1 mark each for any 2 of: • carbon monoxide • carbon • water
+- **j21** 6(b)(i): nitrogen oxygen 2
+- **j21** 6(b)(ii): large(r) particles cannot get through (the small gaps in) the filter / large(r) particles get trapped in the filter / large(r) particles too big to get through (filter) water passes through 2
+- **j21** 6(b)(iii): to kill bacteria / to kill micro-organisms
+- **j21** 7(a)(ii): platinum 1
+- **j22** 1(a)(i): CO2
+- **j22** 1(a)(ii): K+
+- **j22** 1(a)(iii): O2
+- **j22** 1(a)(v): Br-
+- **j22** 2(a)(i): Mg2+ / magnesium
+- **j22** 2(a)(ii): magnesium sulfate
+- **j22** 2(a)(iii): 6.4 (g)
+- **j22** 2(d)(i): H H │ │ H─C─C─O─H │ │ H H
+- **j22** 2(d)(ii): carbon dioxide water 2
+- **j22** 2(d)(iii): fuel / solvent
+- **j22** 3(c)(i): melting point of sodium: values between 65 and 178 (inclusive of these values) hardness of potassium: values between 0.3 and 0.6 (inclusive of these values) 2
+- **j22** 3(d)(i): bromine displaces iodine from potassium iodide / bromine replaces iodide in potassium iodide
+- **j22** 3(d)(ii): brown 1  
+- **j22** 4(d)(i): exothermic
+- **j22** 4(d)(ii): reactants on top left horizontal line and products on bottom left horizontal line
+- **j22** 5(c)(i): bauxite
+- **j22** 5(c)(ii): aluminium is too reactive / aluminium is above carbon in the reactivity series
+- **j22** 6(a)(i): D and E
+- **j22** 6(a)(iii): C 1  
+- **j22** 7(a)(ii): density is low(er) / melting point is low(er) / soft
+- **j23** 2(a)(i): values between 115 °C and 335 °C (inclusive of these values)
+- **j23** 2(a)(ii): values between 4.95 and 15.0 (inclusive of these values)
+- **j23** 2(b)(i): iodine potassium bromide 2
+- **j23** 2(b)(ii): bromine is more reactive than iodine / iodine is less reactive than bromine
+- **j23** 3(a)(i): 1 mark each for any two of:  plastics  sewage  microbes
+- **j23** 3(a)(ii): deoxygenation of water / remove oxygen from water
+- **j23** 3(b)(i): potassium
+- **j23** 3(b)(ii): nitrate
+- **j23** 3(b)(iii): 0.4 (mg)
+- **j23** 3(c)(i): add water
+- **j23** 3(c)(ii): anhydrous
+- **j23** 4(c)(i): reaction that transfers thermal energy / reaction that gives out heat to the surroundings 2  
+- **j23** 4(c)(ii): Cl2 + H2 on left horizontal line AND 2HCl on right horizontal line
+- **j23** 4(c)(iii): the energy of the reactants is greater than the energy of the product / the energy of Cl2 + H2 is greater than the energy of HCl / the energy of the products is less than the energy of the reactants
+- **j23** 4(e)(i): sodium chloride water 2
+- **j23** 4(e)(ii): OH-
+- **j23** 5(a)(i): hematite
+- **j23** 5(a)(ii): carbon carbon dioxide 2
+- **j23** 6(a)(i): medium small large
+- **j23** 6(a)(ii): takes shorter time / less time taken
+- **j23** 6(a)(iii): takes longer time / more time taken
+- **j23** 7(a)(i): circle around OH group
+- **j23** 7(a)(ii): C5H6O5
+- **j23** 7(a)(iii): has a C=C bond / has a carbon – carbon double bond 1  
+- **j23** 7(b)(ii): aqueous bromine turns colourless / decolourises 2
+- **j23** 7(c)(i): catalyst high temperature 2
+- **j23** 7(c)(ii): C8H18
+- **j23** 8(b)(ii): CnH2n+2
+- **j23** 8(b)(iii): decomposition of vegetation / waste gases from digestion in animals
+- **j23** 8(b)(v): carbon monoxide
+- **j23** 8(c)(i): pH 4
+- **j24** 2(a)(i): magnesium
+- **j24** 2(a)(ii): hydrogen phosphate
+- **j24** 3(a)(i): anode correctly labelled
+- **j24** 3(a)(ii): graphite
+- **j24** 3(d)(i): H+
+- **j24** 3(d)(ii): hydrogen
+- **j24** 3(d)(iii): blue to colourless 2
+- **j24** 3(d)(iv): universal (indicator) 1  
+- **j24** 4(a)(i): H H │ │ C = C │ │ H H
+- **j24** 4(a)(ii): 1 mark each for any 2 of:  carbon monoxide  carbon  water
+- **j24** 4(b)(i): spot or cross on the chromatography paper vertically below the 4 spots already on the paper solvent level below the dot or cross and chromatography paper dipping into solvent 2
+- **j24** 4(b)(ii): 1 mark each for any 2 of:  does not have a fixed composition  the properties of a mixture are those of the substances present  can be separated (into its components by physical means)  (components
+- **j24** 5(b)(i): acid rain 1  
+- **j24** 5(b)(ii): SO2 2 (MgO) 2
+- **j24** 6(b)(i): X at beginning of graph line
+- **j24** 6(b)(ii): 1.
+- **j24** 6(c)(i): pressure: (rate) decreases / slower (reaction) catalyst: (rate) increases / faster (reaction) 2
+- **j24** 6(d)(i): pH 1
+- **j24** 6(e)(ii): catalytic converter
+- **j24** 7(b)(ii): 4th box down ticked (hydrated iron(III) oxide)
+- **j24** 8(a)(i): increases with the number of carbon atoms / increases down the series
+- **j24** 8(a)(ii): CnH2n+1COOH
+- **j24** 8(b)(i): water carbon dioxide 2  
+- **j24** 8(b)(ii): CH3COONa
+- **j24** 8(c)(ii): covalent
+- **j24** 8(c)(iii): combustion substitution with chlorine 2  
+- **n21** 1(a)(i): CH4
+- **n21** 1(a)(ii): Cl 2
+- **n21** 1(a)(iii): Cl 2
+- **n21** 1(a)(iv): NaCl
+- **n21** 1(a)(v): CH4
+- **n21** 2(a)(i): SiO32-
+- **n21** 2(a)(ii): sodium nitrate
+- **n21** 2(a)(iii): 1.10 / 1.1 (mg)
+- **n21** 2(c)(i): 3 1
+- **n21** 2(c)(ii): 192 if two marks not scored, 1 mark for 8 × 1 = 8 OR 7 × 16 = 112 2  
+- **n21** 3(b)(i): 3 (CO) 2 (Fe) 2
+- **n21** 3(b)(ii): loss of oxygen (from a compound)
+- **n21** 3(d)(i): cutlery / chemical plant
+- **n21** 3(d)(ii): reduced corrosion / harder / stronger
+- **n21** 4(a)(i): melting point of K: values from 41 to 96 °C (inclusive of these values) density of Fr: values from 1.9 to 4.0 (inclusive of these values) 2
+- **n21** 4(a)(ii): slow bubbling
+- **n21** 4(b)(i): 2.8.1
+- **n21** 4(b)(ii): it has one more proton than electrons / it has 19 protons and 18 electrons 1
+- **n21** 4(c)(i): 2 (NaOH) H2 2
+- **n21** 4(c)(ii): pH 14
+- **n21** 5(d)(i): high temperature catalyst 2
+- **n21** 5(d)(ii): hydrogen
+- **n21** 5(f)(i): large molecules / long molecules made from small units / made from monomers 2
+- **n21** 5(f)(ii): clothing, ropes
+- **n21** 5(f)(iii): filling landfill sites / gets stuck in animals digestive system / animals get stuck in the plastic / blocks drains / stops light getting to plants under water 1  
+- **n21** 6(b)(i): iodine
+- **n21** 6(b)(ii): potassium bromide iodine 2
+- **n21** 6(b)(iii): chlorine more reactive than bromine / bromine less reactive than chlorine
+- **n21** 7(c)(i): irritates nose / irritates throat / irritates lungs / irritates eyes
+- **n21** 7(c)(ii): oxides of nitrogen / nitrogen dioxide
+- **n22** 2(a)(i): 3.5 (%)
+- **n22** 2(a)(ii): oxygen
+- **n22** 2(a)(iii): one mark each for any 2 of: • more aluminium in Earth / less aluminium on moon • less iron in Earth / more iron on moon • more oxygen in Earth / less oxygen on moon • more silicon in Earth / less sili
+- **n22** 2(c)(i): 3 (Fe) 2 (O2) 2
+- **n22** 2(c)(iii): air reduced dioxide slag 4
+- **n22** 2(d)(i): oxidises the carbon / converts it to carbon dioxide
+- **n22** 2(d)(ii): basic oxide
+- **n22** 4(a)(i): density of iodine: values between 3.2 and 6.2 (inclusive of these values) boiling point of astatine: values between 305 and 1000 (inclusive of these values) 2
+- **n22** 4(b)(i): 2 (H2O) 2 (HBr) 2
+- **n22** 4(b)(ii): loss of oxygen
+- **n22** 5(b)(i): vehicle engines / high temperature furnaces / lightning
+- **n22** 5(b)(ii): breathing difficulties / asthma
+- **n22** 5(c)(i): phosphorus
+- **n22** 5(c)(ii): to increase crop growth / to replace elements taken from soil by previous crops
+- **n22** 6(c)(ii): pH 2
+- **n22** 6(d)(i): neutralisation
+- **n22** 6(d)(ii): step 3 filter (the mixture) step 6 dry crystals on filter paper / dry crystals in drying oven 2
+- **n22** 6(e)(i): 40 60 20
+- **n22** 6(e)(ii): time taken is less / shorter
+- **n22** 7(a)(ii): C5H10O2
+- **n22** 7(b)(i): (substance that) speeds up a reaction / (substance that) increases the rate of a reaction / (substance that) makes the reaction go faster
+- **n22** 7(b)(ii): fermentation 1  
+- **n22** 7(c)(i): H H │ │ C = C │ │ H H
+- **n22** 7(c)(ii): far apart
+- **n22** 7(c)(iii): to produce more needed products / to produce products in greater demand
+- **n22** 7(c)(iv): poly(ethene)
+- **n22** 8(b)(i): cathode
+- **n22** 8(b)(ii): prevents corrosion / makes object (surface) hard(er)
+- **n23** 2(b)(i): X in lowest section of the column / X in the tube where bitumen collects
+- **n23** 2(b)(ii): naphtha
+- **n23** 2(b)(iii): bitumen
+- **n23** 2(b)(iv): fuel for ships / fuel for home heating
+- **n23** 3(a)(i): sulfur dioxide
+- **n23** 3(a)(ii): carbon monoxide
+- **n23** 3(a)(iii): 7.0 1  
+- **n23** 3(b)(i): (lung) cancer / respiratory problems
+- **n23** 3(b)(ii): combustion when oxygen / air is limiting
+- **n23** 3(c)(i): pH 5
+- **n23** 3(c)(ii): catalytic converter
+- **n23** 3(c)(iii): aqueous solution: sodium hydroxide / potassium hydroxide metal: aluminium 2
+- **n23** 3(d)(i): 2 (NO2) O2 2
+- **n23** 3(d)(ii): reversible (reaction)
+- **n23** 5(a)(i): values between 770 and 1330 °C (inclusive of these values)
+- **n23** 5(a)(ii): values between 46 and 150 cm3 / mol (inclusive of these values)
+- **n23** 5(a)(iii): bubbles form slowly
+- **n23** 5(b)(i): iron(III) oxide / Fe2O3 / it has lost oxygen
+- **n23** 5(b)(iii): calcium oxide carbon dioxide 2
+- **n23** 5(c)(i): C 1  
+- **n23** 5(c)(ii): hard(er) / (more) resistant to corrosion
+- **n23** 6(a)(i): 33 (cm3)
+- **n23** 6(a)(ii): steeper gradient with line starting at 0,0 line levels off at 43 cm3 AND not hitting original line before it’s reached 43 cm3 2
+- **n23** 6(b)(i): rate faster / reaction speeds up / increase
+- **n23** 6(b)(ii): rate slower / more slowly / decrease
+- **n23** 6(c)(i): lithium chloride water 2
+- **n23** 6(c)(ii): neutralisation
+- **n23** 6(c)(iii): blue
+- **n23** 7(a)(i): circle around a COOH group
+- **n23** 7(a)(ii): C4H4O4
+- **n23** 7(a)(iii): orange colourless 2  
+- **n23** 7(d)(i): solvent / fuel
+- **n23** 7(d)(ii): CnH2n+1OH
+- **n23** 7(d)(iii): one mark each for any two of: • 300 °C • 6000 kPa / 60 atm • (acid) catalyst
+- **n23** 8(c)(i): protons: 30 electrons: 37 2
+- **n23** 8(c)(ii): cations 1  
+- **n23** 8(e)(i): inert / unreactive
+- **n23** 8(e)(ii): giant covalent
+- **n23** 8(e)(iii): lubricant 1  
+- **n24** 1(a)(ii): Al
+- **n24** 1(a)(iv): Ba
+- **n24** 1(a)(v): Al
+- **n24** 1(a)(vi): Au
+- **n24** 1(b)(i): has (only) one atom
+- **n24** 1(b)(ii): outer electron shell is complete / outer electron shell is full
+- **n24** 2(a)(i): low melting point / low boiling point poor electrical conductivity 2
+- **n24** 2(a)(ii): electrons
+- **n24** 2(c)(i): cutting (tools)
+- **n24** 2(c)(ii): 2nd box down ticked (giant covalent) 1  
+- **n24** 3(c)(i): hydrogencarbonate
+- **n24** 3(c)(ii): nitrate
+- **n24** 3(c)(iii): 0.4 (mg)
+- **n24** 3(d)(i): to remove solids
+- **n24** 3(d)(i): to kill (harmful) microbes
+- **n24** 4(a)(i): O-H group circled
+- **n24** 4(a)(ii): C4H6O5
+- **n24** 4(d)(i): alkene(s)
+- **n24** 4(d)(ii): CnH2n
+- **n24** 4(d)(iii): increases
+- **n24** 4(e)(i): one mark each for any three of: • larger alkane molecules • using high temperatures • using catalyst • smaller molecules (also produced)
+- **n24** 4(e)(ii): to produce more hydrocarbons / fractions that are in demand e.g. gasoline or diesel / to produce more hydrocarbons / fractions that are in short supply / to produce hydrogen 1  
+- **n24** 5(a)(i): values between 116 °C and 335 °C (inclusive of these values)
+- **n24** 5(a)(ii): values between 0.05 and 1.55 g / cm3 (inclusive of these values)
+- **n24** 5(b)(i): bromine lithium chloride 2
+- **n24** 5(b)(ii): iodine is less reactive than bromine / bromine is more reactive than iodine / bromine is higher in the electrochemical series than iodine
+- **n24** 5(b)(iii): damp litmus paper is bleached 2
+- **n24** 6(b)(i): number of neutrons in Na = 12 number of electrons in Ag+ = 46 number of protons in Na = 11 AND number of protons in Ag+ = 47 3
+- **n24** 6(b)(ii): 2,8,1
+- **n24** 7(a)(i): aqueous / dissolved in water
+- **n24** 7(a)(ii): filtration
+- **n24** 7(b)(ii): (H+) + OH– → H2O OH– H2O 2
+- **n24** 7(b)(iii): release of thermal energy
+- **n24** 7(b)(iv): the energy of the products is lower than the energy of the reactants OR the energy of the reactants is higher than the energy of the products
+- **n24** 8(a)(i): 1.0 0.5 2.0
+- **n24** 8(a)(ii): longer time / increases time / more time
+- **n24** 8(a)(iii): shorter time / decreases time / less time
+- **n24** 8(b)(ii): graphite
