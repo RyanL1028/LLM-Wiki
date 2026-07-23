@@ -12,11 +12,11 @@ from pathlib import Path
 from collections import Counter, defaultdict
 
 ROOT = Path(__file__).resolve().parent.parent
-QP_DIR = ROOT / "Past-Paper" / "0921-Chem"
-MS_DIR = ROOT / "PP-Mark-Schemes"
-OUT_JS = ROOT / "web" / "data" / "chem-exam-data.js"
-OUT_ANALYSIS = ROOT / "web" / "JSON" / "0921-structure-analysis.md"
-OUT_LINKAGE = ROOT / "web" / "JSON" / "LINKAGE.md"
+QP_DIR = ROOT / "Papers" / "Past-Paper" / "0921-Chem"
+MS_DIR = ROOT / "Papers" / "PP-Mark-Schemes"
+OUT_JS = ROOT / "SmartNexus Ecosystems" / "Smart Study" / "data" / "chem-exam-data.js"
+OUT_ANALYSIS = ROOT / "SmartNexus Ecosystems" / "Smart Study" / "JSON" / "0921-structure-analysis.md"
+OUT_LINKAGE = ROOT / "SmartNexus Ecosystems" / "Smart Study" / "JSON" / "LINKAGE.md"
 
 # ── helpers ──────────────────────────────────────────────
 

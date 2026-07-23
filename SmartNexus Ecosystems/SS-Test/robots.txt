@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://smart-study-site.web.app/sitemap.xml

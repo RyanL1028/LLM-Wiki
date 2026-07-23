@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 PDF = "../resources/workbooks/595428-2023-2025-syllabus.pdf"
-OUT = "../wiki-web/wiki/IGCSE Chemistry/Cambridge IGCSE Chemistry 0620 Syllabus (2023-2025).md"
+OUT = "../SmartNexus Ecosystems/Smart Study Wiki/wiki/IGCSE Chemistry/Cambridge IGCSE Chemistry 0620 Syllabus (2023-2025).md"
 
 def norm(s):
     """Normalize whitespace: en-spaces, thin spaces -> regular space."""

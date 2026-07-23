@@ -1,0 +1,18 @@
+# Explicitly welcome major AI search bots
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Allow general AI extension crawling (Gemini/Google)
+User-agent: Google-Extended
+Allow: /
+
+# Default fallback rule for all other automated scrapers
+User-agent: *
+Allow: /
+Sitemap: https://smart-study-site.web.app/sitemap.xml

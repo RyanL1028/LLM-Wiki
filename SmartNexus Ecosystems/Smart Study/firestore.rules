@@ -1,0 +1,215 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && request.auth.uid == uid;
+      allow update: if request.auth != null && (request.auth.uid == uid ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'ultimateadmin'));
+      allow delete: if request.auth != null && (request.auth.uid == uid ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'ultimateadmin'));
+    }
+    match /progress/{uid} {
+      allow read: if request.auth != null && (request.auth.uid == uid ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['teacher', 'admin', 'mainadmin', 'ultimateadmin']));
+      allow write: if request.auth != null && (request.auth.uid == uid ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['mainadmin', 'ultimateadmin']));
+    }
+    match /examHistory/{uid} {
+      allow read: if request.auth != null && (request.auth.uid == uid ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') == 'ultimateadmin'));
+      allow write: if request.auth != null && (request.auth.uid == uid ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') == 'ultimateadmin'));
+    }
+    match /aiUsage/{uid} {
+      allow read: if request.auth != null && (request.auth.uid == uid ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') == 'ultimateadmin'));
+      allow write: if request.auth != null && (request.auth.uid == uid ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') == 'ultimateadmin'));
+    }
+    match /classes/{id} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+    match /homework/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /homeworkChunks/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /supportTickets/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /cardOverrides/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /examOverrides/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /siteUpdates/{id} {
+      allow read: if true;
+      allow write: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['mainadmin', 'ultimateadmin'] ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('subRanks', []).hasAny(['support-staff', 'head-support'])));
+    }
+    match /adminRequests/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'ultimateadmin');
+    }
+    match /paperSuggestions/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['teacher', 'admin', 'mainadmin', 'ultimateadmin']);
+      allow update: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['mainadmin', 'ultimateadmin']);
+    }
+    match /blogs/{id} {
+      allow read: if true;
+      allow create, update, delete: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') == 'ultimateadmin');
+    }
+    match /blogComments/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update, delete: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['admin', 'mainadmin', 'ultimateadmin']);
+    }
+    match /resources/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow delete: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['teacher', 'admin', 'mainadmin', 'ultimateadmin'] ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('subRanks', []).hasAny(['resource-provider'])));
+    }
+    match /resourceChunks/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow delete: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['teacher', 'admin', 'mainadmin', 'ultimateadmin'] ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('subRanks', []).hasAny(['resource-provider'])));
+    }
+    match /usernameLookup/{username} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      allow delete: if request.auth != null;
+    }
+    match /todos/{id} {
+      allow read: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['admin', 'mainadmin', 'ultimateadmin']);
+      allow write: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['mainadmin', 'ultimateadmin']);
+    }
+    match /classAnnouncements/{id} {
+      allow read: if request.auth != null;
+      allow create, update, delete: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['teacher', 'admin', 'ultimateadmin']);
+    }
+    match /adminAudit/{id} {
+      allow read: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') == 'ultimateadmin');
+      allow create: if request.auth != null;
+    }
+    match /wikiSuggestions/{id} {
+      allow read: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['mainadmin', 'ultimateadmin']);
+      allow create: if true;
+    }
+    match /conversations/{id} {
+      allow read, create: if request.auth != null;
+      allow update: if request.auth != null;
+      allow delete: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['teacher', 'admin', 'mainadmin', 'ultimateadmin']);
+    }
+    match /chatMessages/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update: if request.auth != null;
+      allow delete: if request.auth != null &&
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['teacher', 'admin', 'mainadmin', 'ultimateadmin']);
+    }
+    match /chatFileChunks/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+    }
+    match /typingStatus/{convId} {
+      allow read, write: if request.auth != null;
+      match /status/{userId} {
+        allow read, write: if request.auth != null;
+      }
+    }
+    match /polls/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /scheduledMessages/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update: if request.auth != null;
+    }
+    match /stories/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow delete: if request.auth != null;
+    }
+    match /calls/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /callSignals/{id} {
+      allow read, create: if request.auth != null;
+    }
+    match /siteConfig/{id} {
+      allow read, write: if request.auth != null &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') == 'ultimateadmin';
+    }
+    match /siteConfig/whatsappConfig {
+      allow read: if true;
+      allow write: if request.auth != null &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') == 'ultimateadmin';
+    }
+    match /siteMembers/{id} {
+      allow read: if true;
+      allow create, update, delete: if request.auth != null &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['mainadmin', 'ultimateadmin'];
+    }
+    match /whatsappOtps/{phone} {
+      allow read, create, update, delete: if true;
+    }
+    match /whatsappRateLimit/{phone} {
+      allow read, create, update: if true;
+    }
+    match /whatsappUsers/{phone} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      allow update, delete: if false;
+    }
+    match /fcmTokens/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid;
+      allow delete: if request.auth != null && request.auth.uid == uid;
+    }
+  }
+}

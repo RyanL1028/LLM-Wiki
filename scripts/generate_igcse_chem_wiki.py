@@ -2,7 +2,7 @@
 """
 Generate IGCSE Chemistry Obsidian wiki files from exam database.
 Research-backed content synthesized from 1,229 Q+A pairs across 38 papers.
-Output: wiki-web/wiki/IGCSE Chemistry/*.md
+Output: SmartNexus Ecosystems/Smart Study Wiki/wiki/IGCSE Chemistry/*.md
 """
 
 import json, re, os
@@ -11,9 +11,9 @@ from collections import defaultdict, Counter
 from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent.parent
-WIKI_DIR = ROOT / "wiki-web" / "wiki" / "IGCSE Chemistry"
-CONTENT_DB = ROOT / "web" / "data" / "chem-content-db.js"
-EXAM_DATA = ROOT / "web" / "data" / "chem-exam-data.js"
+WIKI_DIR = ROOT / "SmartNexus Ecosystems" / "Smart Study Wiki" / "wiki" / "IGCSE Chemistry"
+CONTENT_DB = ROOT / "SmartNexus Ecosystems" / "Smart Study" / "data" / "chem-content-db.js"
+EXAM_DATA = ROOT / "SmartNexus Ecosystems" / "Smart Study" / "data" / "chem-exam-data.js"
 NOW = "2026-07-14"
 
 # ── Parse JS data files ──────────────────────────────────────────

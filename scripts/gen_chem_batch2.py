@@ -2,7 +2,7 @@
 """Generate ALL remaining IGCSE Chemistry topic and keyword pages efficiently."""
 from pathlib import Path
 
-WIKI = Path(__file__).resolve().parent.parent / 'wiki-web' / 'wiki' / 'IGCSE Chemistry'
+WIKI = Path(__file__).resolve().parent.parent / 'SmartNexus Ecosystems' / 'Smart Study Wiki' / 'wiki' / 'IGCSE Chemistry'
 TOPICS = WIKI / "Topics"
 KEYWORDS = WIKI / "Keywords"
 NOW = "2026-07-14"

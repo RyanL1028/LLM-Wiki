@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "target": "chat",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      ".DS_Store"
+    ],
+    "headers": [
+      { "source": "**", "headers": [{ "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }] }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/chat.html"
+      }
+    ]
+  }
+}

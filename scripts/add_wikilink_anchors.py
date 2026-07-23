@@ -9,7 +9,7 @@ Usage: python3 add_wikilink_anchors.py
 import re
 from pathlib import Path
 
-INDEX_PATH = Path(__file__).resolve().parent.parent / 'wiki-web' / 'wiki' / 'IGCSE Chemistry' / 'IGCSE-Chem-Index.md'
+INDEX_PATH = Path(__file__).resolve().parent.parent / 'SmartNexus Ecosystems' / 'Smart Study Wiki' / 'wiki' / 'IGCSE Chemistry' / 'IGCSE-Chem-Index.md'
 
 with open(INDEX_PATH, 'r') as f:
     content = f.read()

@@ -1,0 +1,79 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "hosting": [
+    {
+      "target": "main",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        ".firebaserc",
+        "firestore.rules",
+        "storage.rules",
+        "**/node_modules/**",
+        "functions/**",
+        "staff.html"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "staff",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        ".firebaserc",
+        "firestore.rules",
+        "storage.rules",
+        "**/node_modules/**",
+        "functions/**",
+        "index.html",
+        "chat.html"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/staff.html"
+        }
+      ]
+    },
+    {
+      "target": "chat",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        ".firebaserc",
+        "firestore.rules",
+        "storage.rules",
+        "**/node_modules/**",
+        "functions/**",
+        "index.html",
+        "staff.html",
+        "exam-data.js",
+        "data.js",
+        "convert/",
+        "data/",
+        "favicon.jpg",
+        "manifest.json",
+        "robots.txt",
+        "sitemap.xml",
+        "sw.js",
+        "storage.rules"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/chat.html"
+        }
+      ]
+    }
+  ]
+}

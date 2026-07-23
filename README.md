@@ -27,54 +27,68 @@ LLM Wiki/
 │   ├── .cursor/             #    Cursor IDE hooks & rules
 │   └── .obsidian/           #    Obsidian vault config
 │
-├── web/                    # 🔥 Smart Study — main app
-│   ├── index.html          #    Main SPA: study modes, games, auth, admin
-│   ├── staff.html          #    Staff/admin dashboard
-│   ├── chat.html           #    SmartChatter real-time messaging
-│   ├── shared/             #    Shared JavaScript modules
-│   │   ├── config.js       #    Firebase init, config, notifications, FCM
-│   │   ├── auth.js         #    Auth (Google/Microsoft/Email/WhatsApp)
-│   │   ├── data.js         #    Data layer (progress, scores, usage)
-│   │   ├── ai.js           #    DeepSeek AI (flashcard generation)
-│   │   ├── chatbot.js      #    Floating AI chatbot (Base44 API)
-│   │   ├── theme.js        #    Dark/light mode
-│   │   └── utils.js        #    Utilities (sanitize, randomChoices, etc.)
-│   ├── data/               #    Static data (exam questions, flashcards)
-│   ├── firebase.json       #    Firebase hosting config
-│   ├── firestore.rules     #    Database security rules
-│   ├── firebase-messaging-sw.js  # FCM push notification worker
-│   └── sw.js               #    PWA service worker
+├── SmartNexus Ecosystems/   # 🏢 All websites & apps
+│   ├── Smart Study/         # 🔥 Main app — AI flashcards, games, chatbot
+│   │   ├── index.html       #    Main SPA: study modes, games, auth, admin
+│   │   ├── staff.html       #    Staff/admin dashboard
+│   │   ├── shared/          #    Shared JavaScript modules
+│   │   │   ├── config.js    #    Firebase init, config, notifications, FCM
+│   │   │   ├── auth.js      #    Auth (Google/Microsoft/Email/WhatsApp)
+│   │   │   ├── data.js      #    Data layer (progress, scores, usage)
+│   │   │   ├── ai.js        #    DeepSeek AI (flashcard generation)
+│   │   │   ├── chatbot.js   #    Floating AI chatbot (Base44 API)
+│   │   │   ├── theme.js     #    Dark/light mode
+│   │   │   └── utils.js     #    Utilities (sanitize, randomChoices, etc.)
+│   │   ├── data/            #    Static data (exam questions, flashcards)
+│   │   ├── firebase.json    #    Firebase hosting config
+│   │   ├── firestore.rules  #    Database security rules
+│   │   ├── firebase-messaging-sw.js  # FCM push notification worker
+│   │   └── sw.js            #    PWA service worker
+│   │
+│   ├── SS-Test/             # 🧪 Test deployment mirror of Smart Study
+│   │
+│   ├── SmartChatter/         # 💬 Real-time class messaging
+│   │   ├── chat.html         #    Chat SPA
+│   │   ├── shared/           #    Shared modules (auth, config, chatbot)
+│   │   ├── assets/           #    Chat-specific images
+│   │   ├── firebase.json     #    Firebase hosting config
+│   │   └── .firebaserc       #    Firebase deploy target
+│   │
+│   ├── Smart Study Wiki/    # 📚 Wiki (Quartz 4 SSG)
+│   │   ├── wiki/            #    Markdown content (all subjects)
+│   │   │   ├── IGCSE Chemistry/  # 150+ topic pages
+│   │   │   ├── IGCSE Biology/    # Biology topic pages
+│   │   │   ├── IGCSE Physics/    # Physics topic pages
+│   │   │   ├── IGCSE Mathematics/ # Math topic pages
+│   │   │   ├── Concepts/         # Cross-subject concept pages
+│   │   │   └── Science Student Book 7/  # KS3 textbook
+│   │   ├── quartz-src/      #    Quartz static site generator
+│   │   │   ├── content → ../wiki  # Symlink to markdown source
+│   │   │   ├── public/      #    Built HTML output (deployed)
+│   │   │   └── quartz.config.ts  # Quartz configuration
+│   │   ├── scripts/         #    Build scripts (link graph, search, etc.)
+│   │   └── data/            #    Generated JSON (search index, graph)
+│   │
+│   ├── SmartNexus/          # 🏢 Parent company landing page
+│   │   └── index.html       #    Single-page site
+│   │
+│   └── SmartHealth Hub/     # 💚 Student wellbeing app (Flask + Cloudflare)
+│       ├── app.py           #    Flask backend
+│       ├── worker.js        #    Cloudflare worker
+│       ├── public/          #    Static assets
+│       ├── templates/       #    Jinja2 templates
+│       └── static/          #    CSS, JS, images
 │
-├── web-test/               # 🧪 Test deployment mirror of web/
-│
-├── SmartNexus-Ecosystems/  # 🏢 SmartNexus parent company landing page
-│   ├── index.html          #    Single-page site
-│   └── cybertech.png       #    Company logo
-│
-├── wiki-web/               # 📚 Smart Study Wiki (Quartz 4 SSG)
-│   ├── wiki/               #    Markdown content (all subjects)
-│   │   ├── IGCSE Chemistry/  # 150+ topic pages
-│   │   ├── IGCSE Biology/    # Biology topic pages
-│   │   ├── IGCSE Physics/     # Physics topic pages
-│   │   ├── IGCSE Mathematics/ # Math topic pages
-│   │   ├── Concepts/         # Cross-subject concept pages
-│   │   └── Science Student Book 7/  # KS3 textbook
-│   ├── quartz-src/         #    Quartz static site generator
-│   │   ├── content → ../wiki  # Symlink to markdown source
-│   │   ├── public/         #    Built HTML output (deployed)
-│   │   └── quartz.config.ts   # Quartz configuration
-│   ├── scripts/            #    Build scripts (link graph, search, etc.)
-│   └── data/               #    Generated JSON (search index, graph)
+├── Papers/                  # 📄 Past exam papers
+│   ├── Past-Paper/          #    Chem 0921 past papers
+│   ├── PP-Mark-Schemes/     #    Mark schemes
+│   └── Specimen-Paper/      #    CS 0478 specimen papers
 │
 ├── resources/              # 📦 Educational content (not deployed)
 │   ├── worksheets/         #    Dr Frost math worksheets (PDF, PPTX)
 │   ├── workbooks/          #    Syllabus PDFs, textbooks
 │   ├── source-materials/   #    Course PPTs, past papers, textbooks
 │   └── templates/          #    Project templates
-│
-├── Past-Paper/             # 📄 Past exam papers (Chem 0921, CS 0478)
-├── PP-Mark-Schemes/        # 📋 Past paper mark schemes
-├── Specimen-Paper/         # 📝 Specimen papers (CS 0478)
 │
 ├── scripts/                # 🔧 Python scripts (syllabus conversion, wiki gen)
 ├── notes/                  # 📝 Personal notes & Obsidian vault
@@ -112,7 +126,7 @@ LLM Wiki/
 - **Admin panel**: User management, homework, support tickets, site updates
 - **Progress tracking**: Per-user scores and history in Firestore
 
-### SmartChatter (`web/chat.html`)
+### SmartChatter (`SmartNexus Ecosystems/SmartChatter/chat.html`)
 - Real-time messaging with Firestore listeners
 - Class group chats + direct messages
 - File sharing, polls, voice messages
@@ -144,7 +158,7 @@ LLM Wiki/
 ### FCM Push Notifications
 1. [Firebase Console → Cloud Messaging](https://console.firebase.google.com/project/smart-study-by-ryan/settings/cloudmessaging) → **Web configuration** → generate key pair
 2. Copy the VAPID public key
-3. Add to `web/chat.html` APP_CONFIG: `"fcmVapidKey": "your-key"`
+3. Add to `SmartNexus Ecosystems/SmartChatter/chat.html` APP_CONFIG: `"fcmVapidKey": "your-key"`
 
 ### Base44 AI Chatbot
 1. Create an app at [base44.com](https://base44.com)
@@ -156,11 +170,12 @@ LLM Wiki/
 
 ```bash
 # Hosting
-cd web && firebase deploy --only hosting:main
-cd SmartNexus-Ecosystems && firebase deploy --only hosting:smartnexus
+cd "SmartNexus Ecosystems/Smart Study" && firebase deploy --only hosting:main
+cd "SmartNexus Ecosystems/SmartChatter" && firebase deploy --only hosting:chat
+cd "SmartNexus Ecosystems/SmartNexus" && firebase deploy --only hosting:smartnexus
 
 # Firestore rules
-cd web && firebase deploy --only firestore:rules --project smart-study-by-ryan
+cd "SmartNexus Ecosystems/Smart Study" && firebase deploy --only firestore:rules --project smart-study-by-ryan
 ```
 
 ---

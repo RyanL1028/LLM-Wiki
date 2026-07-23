@@ -1,0 +1,19 @@
+# SmartNexus Ecosystems
+An interactive smart study platform and IoT dashboard suite for tracking educational progress and device ecosystems. Built with Firebase and modern web technologies.
+
+## Core Information
+- [Homepage](https://smart-study-site.web.app/) — Primary landing page with access to all tools and dashboards
+- [Smart Study Wiki](https://smart-study-wiki.web.app/) — Comprehensive IGCSE study wiki covering Chemistry, Biology, Physics, Computer Science, and Mathematics with past paper data
+- [SmartNexus App](https://smartnexus.web.app/) — IoT ecosystem dashboard for tracking and managing smart devices
+
+## Projects & Tools
+- **Smart Study Wiki**: Static knowledge base built with Quartz, containing thousands of IGCSE past paper Q&A pairs classified by topic
+- **SmartNexus Chat**: Real-time messaging interface with Firebase backend
+- **Staff Portal**: Internal management dashboard for administrators
+
+## Technical Stack
+- Hosting: Google Firebase (multi-site hosting)
+- Static Site: Quartz (markdown-to-HTML with full-text search)
+- Real-time: Firebase Realtime Database
+- Authentication: Firebase Auth
+- Storage: Firebase Storage / Cloud Firestore

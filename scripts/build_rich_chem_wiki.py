@@ -11,7 +11,7 @@ from collections import defaultdict, Counter
 from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent.parent
-WIKI_DIR = ROOT / "wiki-web" / "wiki" / "IGCSE Chemistry"
+WIKI_DIR = ROOT / "SmartNexus Ecosystems" / "Smart Study Wiki" / "wiki" / "IGCSE Chemistry"
 NOW = "2026-07-14"
 
 # ── Load data ────────────────────────────────────────────────────
@@ -810,8 +810,8 @@ def main():
     print(f"✓ Generated {topic_count} topic pages in {topic_dir}")
     print(f"✓ Generated {kw_count} keyword definitions in {keyword_dir}")
     print(f"✓ Total: {topic_count + kw_count} pages\n")
-    print("Next: Rebuild wiki-web indexes with:")
-    print("  cd wiki-web/scripts && python3 generate_tree.py && python3 generate_search.py && python3 generate_home.py")
+    print("Next: Rebuild Smart Study Wiki indexes with:")
+    print("  cd 'SmartNexus Ecosystems/Smart Study Wiki/scripts' && python3 generate_tree.py && python3 generate_search.py && python3 generate_home.py")
 
 
 if __name__ == '__main__':
