@@ -1,0 +1,26 @@
+[
+  [
+    "02-Tools.md",
+    "Tools/Example Tool"
+  ],
+  [
+    "06-Projects.md",
+    "Projects/Example Project"
+  ],
+  [
+    "04-Prompts.md",
+    "Prompts/Example Prompt"
+  ],
+  [
+    "03-Papers.md",
+    "Papers/Example Paper"
+  ],
+  [
+    "05-Evals.md",
+    "Evals/Example Eval"
+  ],
+  [
+    "01-Models.md",
+    "Models/Example Model"
+  ]
+]

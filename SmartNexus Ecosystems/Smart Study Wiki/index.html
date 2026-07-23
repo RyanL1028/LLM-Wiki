@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="PVpMGvC5IxB6HTCGXpfYxbIMX9e6ZT_kZVnd1Q3KwSk" />
+<title>Smart Study Wiki — Free IGCSE Revision Notes & Study Resources</title>
+<meta name="description" content="A free, student-built wiki platform with comprehensive IGCSE study notes covering Chemistry, Biology, Physics, Mathematics, and Computer Science. Built for Cambridge IGCSE exam revision." />
+<meta property="og:title" content="Smart Study Wiki — Free IGCSE Revision Notes & Study Resources" />
+<meta property="og:description" content="A free, student-built wiki platform with comprehensive IGCSE study notes covering Chemistry, Biology, Physics, Mathematics, and Computer Science." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://smart-study-wiki.web.app" />
+<meta name="twitter:card" content="summary_large_image" />
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script src="js/force-graph.js"></script>
+<style>
+:root {
+  --bg: #ffffff; --surface: #f8f9fa; --border: #a2a9b1; --text: #202122;
+  --muted: #54595d; --link: #0645ad; --link-visited: #663366;
+  --accent-light: #eaf3ff; --sidebar-w: 260px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --font-serif: 'Georgia', 'Linux Libertine', 'Times New Roman', serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+body.dark {
+  --bg: #1a1a1a; --surface: #2d2d2d; --border: #555; --text: #ddd;
+  --muted: #aaa; --link: #8cb4ff; --link-visited: #c09cff; --accent-light: #1e2a3a;
+  --shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+
+/* ===== Layout ===== */
+body.desktop-sidebar { padding-left: var(--sidebar-w); }
+.app-layout { display: flex; }
+
+/* ===== Top Chrome Bar ===== */
+.chrome { background: var(--surface); border-bottom: 1px solid var(--border); padding: 8px 16px; display: flex; align-items: center; gap: 12px; position: sticky; top: 0; z-index: 20; }
+.chrome-menu { background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text); padding: 4px 8px; display: flex; align-items: center; }
+body.desktop-sidebar .chrome-menu { display: none; }
+.chrome-logo { display: flex; align-items: center; gap: 6px; text-decoration: none; color: var(--text); font-variant: small-caps; font-family: var(--font-serif); font-size: 1.1rem; letter-spacing: 0.03em; white-space: nowrap; }
+.chrome-logo-icon { width: 36px; height: 36px; background: var(--link); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.85rem; font-weight: 700; font-family: var(--font-sans); font-variant: normal; }
+.chrome-search-wrap { flex: 1; max-width: 500px; margin: 0 auto; position: relative; }
+.chrome-search-wrap input { width: 100%; padding: 8px 14px 8px 36px; border: 1px solid var(--border); border-radius: 2px; font-size: 0.85rem; background: var(--bg); color: var(--text); outline: none; font-family: var(--font-sans); }
+.chrome-search-wrap input:focus { border-color: var(--link); box-shadow: inset 0 0 0 1px var(--link); }
+.chrome-search-wrap .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 0.9rem; pointer-events: none; }
+.search-dropdown { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--surface); border: 1px solid var(--border); border-top: none; border-radius: 0 0 4px 4px; max-height: 420px; overflow-y: auto; z-index: 30; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+.search-dropdown.open { display: block; }
+.search-result { display: block; padding: 10px 14px; border-bottom: 1px solid var(--border); cursor: pointer; text-decoration: none; color: var(--text); }
+.search-result:hover, .search-result.active { background: var(--accent-light); }
+.search-result:last-child { border-bottom: none; }
+.search-result .sr-title { font-size: 0.9rem; font-weight: 600; }
+.search-result .sr-title em { color: var(--link); font-style: normal; }
+.search-result .sr-meta { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+.search-result .sr-tags { font-size: 0.68rem; color: var(--muted); margin-top: 2px; }
+.search-result .sr-tags span { background: var(--accent-light); padding: 1px 5px; border-radius: 3px; margin-right: 3px; }
+.search-empty { padding: 16px; text-align: center; color: var(--muted); font-size: 0.85rem; }
+.chrome-theme { background: none; border: 1px solid var(--border); border-radius: 2px; padding: 5px 10px; font-size: 0.75rem; cursor: pointer; color: var(--muted); font-family: var(--font-sans); white-space: nowrap; }
+.chrome-link { color: var(--link); text-decoration: none; font-size: 0.8rem; white-space: nowrap; }
+.chrome-link:hover { text-decoration: underline; }
+
+/* ===== Obsidian-style Graph Canvas ===== */
+/* Local graph panel on wiki pages — inside right panel */
+.wiki-page-layout { display: flex; gap: 0; max-width: 1080px; margin: 0 auto; }
+.wiki-page-main { flex: 1; min-width: 0; overflow: clip; }
+.wiki-local-graph { margin-bottom: 14px; }
+.wiki-local-graph .graph-box { width: 100%; height: 180px; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; position: relative; overflow: hidden; cursor: grab; }
+.wiki-local-graph .graph-box:active { cursor: grabbing; }
+.wiki-local-graph .graph-box canvas { display: block; }
+.wiki-local-graph .graph-label { font-size: 0.68rem; color: var(--muted); text-align: center; margin-top: 3px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+.wiki-local-graph .graph-tooltip { position: absolute; background: var(--bg); color: var(--text); padding: 3px 8px; border: 1px solid var(--border); border-radius: 3px; font-size: 0.7rem; pointer-events: none; white-space: nowrap; display: none; box-shadow: 0 2px 6px rgba(0,0,0,0.12); z-index: 5; }
+.wiki-local-graph .graph-placeholder { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); color: var(--muted); font-size: 0.75rem; pointer-events: none; z-index: 1; }
+
+@media (max-width: 900px) {
+  .wiki-page-layout { flex-direction: column; }
+  .wiki-right-panel { width: 100%; min-width: 0; height: auto; position: static; margin-bottom: 16px; }
+  .wiki-local-graph .graph-box { height: 160px; }
+}
+
+/* ===== Persistent Desktop Sidebar ===== */
+.sidebar-backdrop { display: none; }
+.sidebar { position: fixed; top: 0; left: 0; bottom: 0; width: var(--sidebar-w); background: var(--surface); border-right: 1px solid var(--border); z-index: 30; display: flex; flex-direction: column; }
+body.desktop-sidebar .sidebar { transform: none; }
+body:not(.desktop-sidebar) .sidebar { transform: translateX(-100%); transition: transform 0.2s; }
+body:not(.desktop-sidebar) .sidebar.open { transform: translateX(0); }
+body:not(.desktop-sidebar) .sidebar-backdrop.open { display: block; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.4); z-index: 25; }
+.sidebar-close { position: absolute; top: 8px; right: 12px; background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--muted); }
+body.desktop-sidebar .sidebar-close { display: none; }
+.sidebar-logo { padding: 20px 18px 12px; font-family: var(--font-serif); font-size: 1rem; font-variant: small-caps; letter-spacing: 0.03em; color: var(--text); border-bottom: 1px solid var(--border); }
+.sidebar-nav { flex: 1; overflow-y: auto; padding: 8px 0; }
+.sidebar-section { padding: 6px 18px; font-size: 0.7rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 8px; }
+
+/* ===== Tree in sidebar ===== */
+.tree-item { cursor: pointer; user-select: none; }
+.tree-row { display: flex; align-items: center; padding: 3px 18px; font-size: 0.8rem; color: var(--text); transition: background 0.1s; gap: 4px; }
+.tree-row:hover { background: var(--accent-light); }
+.tree-row.active { background: var(--accent-light); color: var(--link); font-weight: 600; }
+.tree-arrow { width: 14px; font-size: 0.55rem; color: var(--muted); flex-shrink: 0; text-align: center; transition: transform 0.15s; }
+.tree-arrow.open { transform: rotate(90deg); }
+.tree-bullet { width: 14px; font-size: 0.45rem; color: var(--muted); flex-shrink: 0; text-align: center; }
+.tree-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tree-children { display: none; }
+.tree-children.open { display: block; }
+.tree-children .tree-row { padding-left: 32px; }
+.tree-children .tree-children .tree-row { padding-left: 46px; }
+
+/* ===== Main Content ===== */
+.main { flex: 1; max-width: 860px; margin: 0 auto; padding: 24px 24px 60px; min-width: 0; }
+.main-empty { text-align: center; padding: 100px 20px; color: var(--muted); }
+.main-empty .empty-logo { font-size: 4rem; margin-bottom: 16px; }
+.main-empty h2 { font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 8px; color: var(--text); font-weight: 400; border-bottom: 1px solid var(--border); padding-bottom: 10px; display: inline-block; }
+.main-empty p { font-size: 0.9rem; margin-top: 10px; }
+.main-empty .empty-links { margin-top: 20px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.main-empty .empty-links a { color: var(--link); text-decoration: none; font-size: 0.9rem; }
+.main-empty .empty-links a:hover { text-decoration: underline; }
+
+/* ===== Homepage Sections ===== */
+.home-sections { max-width: 860px; margin: 0 auto; }
+.home-hero { text-align: center; padding: 40px 20px 30px; }
+.home-hero .hero-logo { font-size: 3.5rem; margin-bottom: 10px; }
+.home-hero h2 { font-family: var(--font-serif); font-size: 1.8rem; font-weight: 400; color: var(--text); margin-bottom: 6px; }
+.home-hero .hero-subtitle { font-size: 0.9rem; color: var(--muted); margin-bottom: 4px; }
+.home-hero .hero-count { font-size: 0.8rem; color: var(--muted); }
+
+.home-section { margin: 0 0 32px; }
+.home-section-title { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 400; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 6px; margin-bottom: 14px; }
+
+/* Most connected pages — wikilink cards */
+.connected-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 6px; }
+.connected-card { display: block; padding: 10px 14px; border: 1px solid var(--border); border-radius: 2px; text-decoration: none; color: var(--link); font-size: 0.85rem; transition: background 0.1s; }
+.connected-card:hover { background: var(--accent-light); text-decoration: underline; }
+.connected-card .conn-count { font-size: 0.7rem; color: var(--muted); }
+
+/* Indexes grid */
+.indexes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; }
+.index-card { display: flex; flex-direction: column; padding: 10px 14px; border: 1px solid var(--border); border-radius: 4px; text-decoration: none; color: var(--text); transition: all 0.15s; }
+.index-card:hover { background: var(--accent-light); border-color: var(--link); }
+.index-card.index-master { border-color: var(--link); border-width: 2px; background: var(--accent-light); }
+.index-name { font-size: 0.88rem; font-weight: 600; color: var(--link); }
+.index-desc { font-size: 0.75rem; color: var(--muted); margin-top: 3px; }
+
+/* Wikipedia-style search */
+.chrome-search-wrap.wiki-search { max-width: 600px; }
+.chrome-search-wrap.wiki-search input { padding: 10px 16px 10px 42px; font-size: 0.9rem; border-radius: 2px; border: 1px solid var(--border); }
+.chrome-search-wrap.wiki-search input:focus { border-color: var(--link); box-shadow: 0 0 0 1px var(--link), 0 1px 4px rgba(0,0,0,0.1); }
+.chrome-search-wrap.wiki-search .search-icon { left: 14px; font-size: 1rem; }
+
+/* Wikilinks home section — Obsidian-style */
+.wikilinks-home { display: flex; flex-direction: column; gap: 6px; }
+.wl-source { padding: 8px 12px; border-radius: 4px; background: var(--surface); border: 1px solid var(--border); font-size: 0.82rem; line-height: 1.7; }
+.wl-source:hover { background: var(--accent-light); }
+.wl-source-title { font-weight: 600; color: var(--link); text-decoration: none; }
+.wl-source-title:hover { text-decoration: underline; }
+.wl-arrow { color: var(--muted); margin: 0 4px; }
+.wl-targets { color: var(--text); }
+.wl-target { color: var(--link); text-decoration: none; }
+.wl-target:hover { text-decoration: underline; }
+.wl-more { color: var(--muted); font-size: 0.75rem; }
+
+/* Latest concepts - compact list */
+.latest-list { display: flex; flex-direction: column; gap: 2px; }
+.latest-item { display: flex; align-items: baseline; gap: 12px; padding: 6px 8px; border-radius: 2px; text-decoration: none; color: var(--text); transition: background 0.1s; }
+.latest-item:hover { background: var(--accent-light); }
+.latest-item .latest-title { color: var(--link); font-size: 0.9rem; white-space: nowrap; min-width: 0; }
+.latest-item .latest-title:hover { text-decoration: underline; }
+.latest-item .latest-summary { color: var(--muted); font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+.latest-item .latest-date { color: var(--muted); font-size: 0.7rem; white-space: nowrap; margin-left: auto; }
+
+/* Subject cards */
+.subject-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.subject-card { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 2px; text-decoration: none; color: var(--text); transition: background 0.1s; }
+.subject-card:hover { background: var(--accent-light); }
+.subject-card .subj-icon { font-size: 1.8rem; width: 44px; text-align: center; flex-shrink: 0; }
+.subject-card .subj-name { font-size: 0.9rem; color: var(--link); font-weight: 500; }
+.subject-card .subj-count { font-size: 0.75rem; color: var(--muted); }
+
+/* ===== Global Graph on Homepage ===== */
+.global-graph-section { margin-top: 18px; }
+.global-graph-section .section-title { font-size: 0.8rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 8px; text-align: center; }
+.global-graph-box { width: 100%; height: 380px; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; position: relative; overflow: hidden; cursor: grab; }
+.global-graph-box:active { cursor: grabbing; }
+.global-graph-box canvas { display: block; }
+.global-graph-tooltip { position: absolute; background: var(--bg); color: var(--text); padding: 3px 8px; border: 1px solid var(--border); border-radius: 3px; font-size: 0.7rem; pointer-events: none; white-space: nowrap; display: none; box-shadow: 0 2px 6px rgba(0,0,0,0.12); z-index: 5; }
+.global-graph-placeholder { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); color: var(--muted); font-size: 0.8rem; pointer-events: none; z-index: 1; }
+
+@media (max-width: 600px) {
+  .global-graph-box { height: 260px; }
+}
+
+/* ===== Wikipedia-style Article ===== */
+.wiki-article {}
+.wiki-title { font-family: var(--font-serif); font-size: 1.8rem; font-weight: 400; color: var(--text); margin-bottom: 2px; line-height: 1.3; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.wiki-subtitle { font-size: 0.85rem; color: var(--muted); margin-bottom: 16px; }
+.wiki-toc { background: var(--surface); border: 1px solid var(--border); padding: 12px 18px; margin: 16px 0 24px; font-size: 0.85rem; display: inline-block; min-width: 260px; }
+.wiki-toc-title { font-weight: 700; margin-bottom: 6px; }
+.wiki-toc ol { margin: 0; padding-left: 22px; }
+.wiki-toc li { margin: 2px 0; }
+.wiki-toc a { color: var(--link); text-decoration: none; }
+.wiki-toc a:hover { text-decoration: underline; }
+.wiki-toc .toc-h2 { font-weight: 500; }
+.wiki-toc .toc-h3 { padding-left: 14px; font-size: 0.82rem; }
+
+.wiki-content h2 { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 400; margin: 24px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--border); color: var(--text); }
+.wiki-content h3 { font-family: var(--font-sans); font-size: 1.05rem; font-weight: 700; margin: 18px 0 6px; color: var(--text); }
+.wiki-content h4 { font-family: var(--font-sans); font-size: 0.95rem; font-weight: 700; margin: 14px 0 4px; color: var(--text); }
+.wiki-content p { line-height: 1.65; margin-bottom: 10px; }
+.wiki-content a { color: var(--link); text-decoration: none; }
+.wiki-content a:hover { text-decoration: underline; }
+.wiki-content ul, .wiki-content ol { margin: 6px 0 12px; padding-left: 24px; }
+.wiki-content li { line-height: 1.6; margin-bottom: 2px; }
+.wiki-content hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; max-width: 100%; box-sizing: border-box; }
+.wiki-content code { background: var(--surface); padding: 1px 5px; border-radius: 2px; font-size: 0.9em; border: 1px solid var(--border); }
+.wiki-content pre { background: var(--surface); border: 1px solid var(--border); padding: 12px 16px; overflow-x: auto; margin: 10px 0; font-size: 0.85rem; line-height: 1.5; }
+.wiki-meta { color: var(--muted); font-size: 0.78rem; margin-bottom: 8px; }
+.wiki-meta span { margin-right: 16px; }
+.wiki-meta strong { color: var(--text); }
+.wikilink { color: var(--link); cursor: pointer; }
+.wikilink:hover { text-decoration: underline; }
+.wikilink.broken { color: #ba0000; }
+.wikilink.broken:hover { text-decoration: none; cursor: default; }
+.wiki-redirect { font-style: italic; color: var(--muted); margin-bottom: 16px; }
+
+/* Backlinks section — in right panel */
+.wiki-right-panel { width: 240px; min-width: 240px; flex-shrink: 0; position: sticky; top: 56px; height: calc(100vh - 72px); align-self: flex-start; overflow-y: auto; font-size: 0.82rem; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 10px 12px; }
+.wiki-right-panel h3 { font-size: 0.8rem; font-weight: 600; margin: 14px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.wiki-right-panel ul { list-style: none; padding: 0; margin: 0; }
+.wiki-right-panel li { padding: 3px 0; font-size: 0.8rem; }
+.wiki-right-panel li a { color: var(--link); }
+.wiki-right-panel li a:hover { text-decoration: underline; }
+.wiki-right-panel .wl-empty { color: var(--muted); font-size: 0.75rem; font-style: italic; }
+
+/* Backlinks at bottom (fallback, hidden when right panel present) */
+.wiki-backlinks { margin: 24px 0 16px; padding: 16px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; display: none; }
+.wiki-backlinks h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 10px; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.wiki-backlinks ul { list-style: none; padding: 0; }
+.wiki-backlinks li { padding: 4px 0; font-size: 0.85rem; }
+.wiki-backlinks li a { color: var(--link); }
+.wiki-backlinks li a:hover { text-decoration: underline; }
+.wiki-backlinks .bl-empty { color: var(--muted); font-size: 0.82rem; font-style: italic; }
+
+.wiki-related { margin: 16px 0; }
+.wiki-related h3 { font-size: 0.9rem; font-weight: 600; margin-bottom: 6px; }
+.wiki-related ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.wiki-related li { font-size: 0.8rem; }
+.wiki-related li a { color: var(--link); background: var(--accent-light); padding: 3px 10px; border-radius: 12px; border: 1px solid #bfdbfe; }
+.wiki-related li a:hover { text-decoration: underline; }
+
+/* Source / reference links */
+.paper-ref { color: var(--link); cursor: pointer; border-bottom: 1px dotted var(--muted); }
+.paper-ref:hover { text-decoration: underline; }
+
+/* Tables */
+.wiki-content table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.88rem; }
+.wiki-content thead th { background: var(--surface); border: 1px solid var(--border); padding: 10px 14px; text-align: left; font-weight: 600; color: var(--text); }
+.wiki-content tbody td { border: 1px solid var(--border); padding: 8px 14px; }
+.wiki-content tbody tr:nth-child(even) { background: var(--surface); }
+.wiki-content tbody tr:hover { background: var(--accent-light); }
+
+/* Blockquote */
+.wiki-content blockquote { border-left: 4px solid var(--link); margin: 14px 0; padding: 8px 18px; background: var(--surface); border-radius: 0 4px 4px 0; color: var(--muted); font-style: italic; }
+.wiki-content img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
+.wiki-tags { display: flex; flex-wrap: wrap; gap: 4px; margin: 4px 0 8px; }
+.wiki-tag { display: inline-block; background: var(--accent-light); color: var(--link); padding: 2px 10px; border-radius: 12px; font-size: 0.72rem; font-weight: 500; border: 1px solid #bfdbfe; }
+body.dark .wiki-tag { background: #1e3a5f; border-color: #2a3a5a; color: #93c5fd; }
+.wiki-content dl { margin: 12px 0; }
+.wiki-content dt { font-weight: 700; color: var(--text); margin-top: 10px; }
+.wiki-content dd { margin-left: 20px; color: var(--muted); margin-bottom: 6px; line-height: 1.6; }
+.wiki-footer { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 0.75rem; color: var(--muted); }
+.wiki-footer a { color: var(--link); text-decoration: none; }
+.wiki-footer a:hover { text-decoration: underline; }
+
+/* Mobile */
+@media (max-width: 999px) {
+  body.desktop-sidebar { padding-left: 0; }
+  body.desktop-sidebar .chrome-menu { display: flex; }
+  body.desktop-sidebar .sidebar-close { display: block; }
+  .sidebar { transform: translateX(-100%); transition: transform 0.2s; }
+  .sidebar.open { transform: translateX(0); }
+  .sidebar-backdrop.open { display: block; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.4); z-index: 25; }
+}
+@media (max-width: 768px) {
+  .chrome-logo span { display: none; }
+  .chrome-link { display: none; }
+  .sidebar { width: 100%; }
+  .main { padding: 16px; }
+  .wiki-title { font-size: 1.4rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- Chrome bar -->
+<header class="chrome">
+  <button class="chrome-menu" onclick="toggleSidebar()" title="Menu">☰</button>
+  <a href="#" class="chrome-logo" onclick="goHome();return false">
+    <span class="chrome-logo-icon">W</span>
+    <span>SmartStudy Wiki</span>
+  </a>
+  <div class="chrome-search-wrap wiki-search">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="search" placeholder="Search 898 pages…" oninput="searchPages()" onfocus="searchPages()" onkeydown="searchKey(event)" autocomplete="off">
+    <div class="search-dropdown" id="search-dropdown"></div>
+  </div>
+  <a href="https://ryanl1028.github.io/smart-study/" class="chrome-link" target="_blank">Study App</a>
+  <a href="https://smartchatter.web.app/#chats" class="chrome-link" target="_blank">Chat</a>
+  <button class="chrome-theme" onclick="toggleTheme()">Light/Dark</button>
+</header>
+
+<!-- Sidebar backdrop -->
+<div class="sidebar-backdrop" id="sidebar-backdrop" onclick="toggleSidebar()"></div>
+
+<!-- Left Sidebar (always visible on desktop) -->
+<aside class="sidebar" id="sidebar">
+  <button class="sidebar-close" onclick="toggleSidebar()">✕</button>
+  <div class="sidebar-logo">SmartStudy Wiki</div>
+  <div class="sidebar-section">Contents</div>
+  <nav class="sidebar-nav" id="tree-nav"></nav>
+</aside>
+
+<!-- Main content -->
+<main class="main" id="main-content">
+  <div class="main-empty">
+    <div class="empty-logo">📚</div>
+    <h2>Smart Study Wikipedia</h2>
+    <p>The free knowledge base for IGCSE Computer Science, Chemistry, Physics, and MUN.</p>
+    <p style="font-size:0.82rem;color:var(--muted)">898 pages — Select an article from the sidebar or search above.</p>
+    <div class="empty-links">
+      <a href="#wiki/CS-Index">Computer Science</a>
+      <a href="#wiki/Chem-Index">Chemistry</a>
+      <a href="#wiki/Bio-Index">Biology</a>
+      <a href="#wiki/Phys-Index">Physics</a>
+      <a href="#wiki/MUN-Index">MUN</a>
+      <a href="#wiki/Sci-Index">Basic Science</a>
+    </div>
+  </div>
+</main>
+
+<!-- Suggest Edit Modal -->
+<div id="suggest-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:100;justify-content:center;align-items:center">
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:24px;max-width:500px;width:90%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.3)">
+    <h3 style="margin-bottom:4px;color:var(--text)">Suggest an Edit</h3>
+    <p style="font-size:0.8rem;color:var(--muted);margin-bottom:12px" id="suggest-page-label"></p>
+    <label style="display:block;font-size:0.8rem;font-weight:600;margin-bottom:4px;color:var(--text)">Your Name (optional)</label>
+    <input id="suggest-name" placeholder="Anonymous" style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:4px;margin-bottom:12px;font:0.85rem sans-serif;background:var(--bg);color:var(--text)">
+    <label style="display:block;font-size:0.8rem;font-weight:600;margin-bottom:4px;color:var(--text)">What should be changed?</label>
+    <textarea id="suggest-text" placeholder="Describe the edit or paste corrected text here..." style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:4px;min-height:120px;font:0.85rem sans-serif;resize:vertical;background:var(--bg);color:var(--text);margin-bottom:12px"></textarea>
+    <div id="suggest-msg" style="font-size:0.78rem;margin-bottom:8px"></div>
+    <div style="display:flex;gap:8px;justify-content:flex-end">
+      <button onclick="document.getElementById('suggest-modal').style.display='none'" style="padding:8px 16px;border:1px solid var(--border);border-radius:4px;background:var(--bg);color:var(--text);cursor:pointer;font:0.85rem sans-serif">Cancel</button>
+      <button onclick="submitSuggestion()" style="padding:8px 16px;border:none;border-radius:4px;background:var(--link);color:#fff;cursor:pointer;font:0.85rem sans-serif;font-weight:600">Submit Suggestion</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Firebase init
+firebase.initializeApp({
+  apiKey: "AIzaSyCgT3hxSk7o8M2KXwXoN1FhXqXN9qYHhXk",
+  authDomain: "smart-study-site.firebaseapp.com",
+  projectId: "smart-study-site",
+  storageBucket: "smart-study-site.appspot.com"
+});
+const db = firebase.firestore();
+
+// State
+let treeData = null;
+let linkGraph = null;
+let searchData = [];
+let currentPath = null;
+let _navigating = false;
+
+// Desktop sidebar detection
+function checkDesktop() {
+  if (window.innerWidth >= 1000) {
+    document.body.classList.add('desktop-sidebar');
+  } else {
+    document.body.classList.remove('desktop-sidebar');
+  }
+}
+checkDesktop();
+window.addEventListener('resize', checkDesktop);
+
+// Theme
+(function() {
+  const saved = localStorage.getItem('llmwiki_wiki_theme');
+  if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.body.classList.add('dark');
+  }
+})();
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+  localStorage.setItem('llmwiki_wiki_theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+}
+
+// Sidebar toggle (mobile only)
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('sidebar-backdrop').classList.toggle('open');
+}
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebar-backdrop').classList.remove('open');
+}
+
+// Path helpers
+function normalizePath(p) {
+  return p.replace(/^wiki\//, '').replace(/\.md$/, '');
+}
+function filePath(p) {
+  return p.endsWith('.md') ? p : p + '.md';
+}
+function encodePath(p) {
+  return p.split('/').map(function(seg) { return encodeURIComponent(seg); }).join('/');
+}
+
+// Init
+async function init() {
+  const [treeRes, searchRes, linkRes] = await Promise.all([
+    fetch('data/tree.json'),
+    fetch('data/search-index.json'),
+    fetch('data/link-graph.json')
+  ]);
+  treeData = await treeRes.json();
+  searchData = await searchRes.json();
+  linkGraph = await linkRes.json();
+  renderTree(treeData.children, document.getElementById('tree-nav'));
+
+  if (window.location.hash && window.location.hash.startsWith('#wiki/')) {
+    loadPage(decodeURIComponent(window.location.hash.slice(1)));
+  } else {
+    goHome();
+  }
+
+  window.addEventListener('hashchange', function() {
+    if (_navigating) return;
+    if (window.location.hash && window.location.hash.startsWith('#wiki/')) {
+      loadPage(decodeURIComponent(window.location.hash.slice(1)));
+    } else if (!window.location.hash) {
+      goHome();
+    }
+  });
+}
+
+function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function escAttr(s) { return (s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
+
+// ===== Homepage =====
+async function goHome() {
+  closeSidebar();
+  const main = document.getElementById('main-content');
+  window.location.hash = '';
+  document.querySelectorAll('.tree-row.active').forEach(r => r.classList.remove('active'));
+  main.innerHTML = '<div style="text-align:center;padding:80px;color:var(--muted)">Loading...</div>';
+
+  try {
+    const home = await (await fetch('data/home.json')).json();
+    let html = '<div class="home-sections">';
+
+    // Hero
+    html += '<div class="home-hero"><div class="hero-logo">📚</div>';
+    html += '<h2>Smart Study Wikipedia</h2>';
+    html += '<p class="hero-subtitle">The free knowledge base for IGCSE Computer Science, Chemistry, Physics, and MUN.</p>';
+    html += '<p class="hero-count">' + home.totalPages + ' pages — Select an article from the sidebar or search above.</p>';
+    html += '</div>';
+
+    // Indexes section — all index pages for quick access
+    if (searchData && searchData.length) {
+      var indexes = [];
+      for (var i = 0; i < searchData.length; i++) {
+        var p = searchData[i];
+        var t = (p.title || '').toLowerCase();
+        if (t.indexOf('index') !== -1 && t.indexOf('foundation') === -1) {
+          indexes.push(p);
+        }
+      }
+      indexes.sort(function(a, b) {
+        // Put Master-Index first, then subject indexes, then section indexes
+        var aMaster = a.title === 'Master Index' ? 0 : 1;
+        var bMaster = b.title === 'Master Index' ? 0 : 1;
+        if (aMaster !== bMaster) return aMaster - bMaster;
+        return a.title.localeCompare(b.title);
+      });
+      if (indexes.length > 0) {
+        html += '<div class="home-section"><h3 class="home-section-title">Indexes</h3>';
+        html += '<div class="indexes-grid">';
+        indexes.forEach(function(p) {
+          var cp = normalizePath(p.path);
+          var isMaster = p.title === 'Master Index';
+          html += '<a class="index-card' + (isMaster ? ' index-master' : '') + '" href="#wiki/' + encodePath(cp) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(cp) + '\')">';
+          html += '<span class="index-name">' + esc(p.title) + '</span>';
+          if (p.summary) html += '<span class="index-desc">' + esc(p.summary.slice(0, 60)) + '</span>';
+          html += '</a>';
+        });
+        html += '</div></div>';
+      }
+    }
+
+    // Latest concepts
+    if (home.latest && home.latest.length) {
+      html += '<div class="home-section"><h3 class="home-section-title">Recently Updated</h3><div class="latest-list">';
+      home.latest.forEach(function(p) {
+        var cp = normalizePath(p.path);
+        html += '<a class="latest-item" href="#wiki/' + encodePath(cp) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(cp) + '\')">';
+        html += '<span class="latest-title">' + esc(p.title) + '</span>';
+        html += '<span class="latest-summary">' + esc(p.summary || '') + '</span>';
+        html += p.updated ? '<span class="latest-date">' + esc(p.updated.split('T')[0]) + '</span>' : '';
+        html += '</a>';
+      });
+      html += '</div></div>';
+    }
+
+    // Browse by subject
+    if (home.subjects && home.subjects.length) {
+      html += '<div class="home-section"><h3 class="home-section-title">Browse by Subject</h3><div class="subject-grid">';
+      home.subjects.forEach(function(s) {
+        html += '<a class="subject-card" href="#' + escAttr(s.link) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(s.link.replace('wiki/', '').replace('.md', '')) + '\')">';
+        html += '<span class="subj-icon">' + esc(s.icon) + '</span>';
+        html += '<div><div class="subj-name">' + esc(s.name) + '</div><div class="subj-count">' + esc(String(s.count)) + ' pages</div></div>';
+        html += '</a>';
+      });
+      html += '</div></div>';
+    }
+
+    // Global graph section
+    html += '<div class="global-graph-section">';
+    html += '<div class="section-title">Page Link Graph</div>';
+    html += '<div class="global-graph-box" id="global-graph-box">';
+    html += '<canvas id="global-graph-canvas"></canvas>';
+    html += '<div class="global-graph-tooltip" id="global-graph-tooltip"></div>';
+    html += '<div class="global-graph-placeholder" id="global-graph-placeholder">Loading graph...</div>';
+    html += '</div></div>';
+
+    html += '</div>';
+    main.innerHTML = html;
+
+    // Render global graph after layout
+    requestAnimationFrame(function() { renderGlobalGraph(0); });
+  } catch(e) {
+    main.innerHTML = '<div class="main-empty"><div class="empty-logo">📚</div><h2>Smart Study Wikipedia</h2><p>Select an article from the sidebar or search above.</p></div>';
+  }
+}
+
+// ===== Global Graph (homepage, top pages) =====
+function renderGlobalGraph(retries) {
+  retries = retries || 0;
+  var box = document.getElementById('global-graph-box');
+  var canvas = document.getElementById('global-graph-canvas');
+  var tooltip = document.getElementById('global-graph-tooltip');
+
+  if ((!box || !canvas) && retries < 10) {
+    setTimeout(function() { renderGlobalGraph(retries + 1); }, 100);
+    return;
+  }
+  if (!box || !canvas || !linkGraph || !linkGraph.outgoing) return;
+
+  var placeholder = document.getElementById('global-graph-placeholder');
+  if (placeholder) placeholder.style.display = 'none';
+
+  var W = box.offsetWidth || 800;
+  var H = box.offsetHeight || 380;
+  var dpr = window.devicePixelRatio || 1;
+  canvas.width = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width = W + 'px';
+  canvas.style.height = H + 'px';
+
+  var isDark = document.body.classList.contains('dark');
+  var C = {
+    link: isDark ? 'rgba(100,140,200,0.18)' : 'rgba(100,140,200,0.2)',
+    linkDim: isDark ? 'rgba(100,140,200,0.04)' : 'rgba(100,140,200,0.04)',
+    node: isDark ? '#5a8ecf' : '#3b72b9',
+    center: isDark ? '#ff8833' : '#e04020',
+    neighbor: isDark ? '#8cb4ff' : '#4a8ad4',
+    dim: isDark ? 'rgba(100,140,200,0.12)' : 'rgba(100,140,200,0.12)',
+    text: isDark ? '#ccc' : '#555',
+    bg: isDark ? '#2d2d2d' : '#f8f9fa'
+  };
+
+  // Top pages by total connections
+  var scored = [];
+  for (var p in linkGraph.outgoing) {
+    if (!linkGraph.outgoing.hasOwnProperty(p)) continue;
+    scored.push({ path: p, n: (linkGraph.outgoing[p] || []).length + (linkGraph.backlinks[p] || []).length });
+  }
+  scored.sort(function(a, b) { return b.n - a.n; });
+  scored = scored.slice(0, 100);
+
+  // Build node map
+  var nodeMap = {};
+  scored.forEach(function(s) {
+    nodeMap[s.path] = { id: s.path, title: getTitleForPath(s.path), weight: Math.max(s.n, 1), radius: 2.5 + Math.sqrt(Math.max(s.n, 1)) * 1.2 };
+  });
+
+  // Build edges
+  var edges = [];
+  var edgeSet = {};
+  for (var src in nodeMap) {
+    (linkGraph.outgoing[src] || []).forEach(function(tgt) {
+      if (nodeMap[tgt]) {
+        var key = src < tgt ? src + '|||' + tgt : tgt + '|||' + src;
+        if (!edgeSet[key]) { edgeSet[key] = true; edges.push({ source: src, target: tgt }); }
+      }
+    });
+  }
+
+  // Build nodes array
+  var nodes = [];
+  for (var id in nodeMap) {
+    var n = nodeMap[id];
+    nodes.push({
+      id: n.id, title: n.title, weight: n.weight, radius: n.radius,
+      x: W/2 + (Math.random() - 0.5) * 200, y: H/2 + (Math.random() - 0.5) * 200,
+      vx: 0, vy: 0
+    });
+  }
+
+  if (nodes.length === 0) return;
+
+  var fg = new ForceGraph(canvas, {
+    bg: C.bg, link: C.link, linkDim: C.linkDim,
+    nodeColor: C.node, centerColor: C.center,
+    neighborColor: C.neighbor, dimColor: C.dim, textColor: C.text
+  });
+  fg.resize(W, H);
+  fg.setData(nodes, edges);
+  fg.alphaDecay = 0.01;
+  fg.start();
+
+  // Mouse interactions
+  canvas.onmousemove = function(e) {
+    var m = fg.transformMouse(e.clientX, e.clientY);
+    var node = fg.findNodeAt(m.x, m.y);
+    fg.hoverNode = node;
+    if (node) {
+      tooltip.style.display = 'block';
+      tooltip.style.left = (e.clientX - box.getBoundingClientRect().left + 12) + 'px';
+      tooltip.style.top = (e.clientY - box.getBoundingClientRect().top - 24) + 'px';
+      tooltip.textContent = node.title;
+      canvas.style.cursor = 'pointer';
+    } else { tooltip.style.display = 'none'; canvas.style.cursor = 'grab'; }
+  };
+  canvas.onclick = function(e) {
+    var m = fg.transformMouse(e.clientX, e.clientY);
+    var node = fg.findNodeAt(m.x, m.y);
+    if (node) { var cp = normalizePath(node.id); loadPage(cp); }
+  };
+  canvas.onmouseleave = function() { fg.hoverNode = null; tooltip.style.display = 'none'; };
+  canvas.onwheel = function(e) {
+    e.preventDefault();
+    fg.zoom = Math.max(0.25, Math.min(3, fg.zoom * (e.deltaY > 0 ? 0.9 : 1.1)));
+  };
+}
+
+// ===== Local Graph Panel (per-page, Quartz-style) =====
+function renderLocalGraph(pagePath, retries) {
+  retries = retries || 0;
+  var box = document.getElementById('local-graph-box');
+  var canvas = document.getElementById('local-graph-canvas');
+  var tooltip = document.getElementById('local-graph-tooltip');
+
+  // Retry up to 10 times (1 second) if DOM not ready
+  if ((!box || !canvas) && retries < 10) {
+    setTimeout(function() { renderLocalGraph(pagePath, retries + 1); }, 100);
+    return;
+  }
+  if (!box || !canvas || !linkGraph || !linkGraph.outgoing) return;
+
+  // Hide placeholder
+  var placeholder = document.getElementById('local-graph-placeholder');
+  if (placeholder) placeholder.style.display = 'none';
+
+  var W = box.offsetWidth || 200;
+  var H = box.offsetHeight || 180;
+  var dpr = window.devicePixelRatio || 1;
+  canvas.width = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width = W + 'px';
+  canvas.style.height = H + 'px';
+
+  var isDark = document.body.classList.contains('dark');
+  var C = {
+    link: isDark ? 'rgba(130,160,220,0.35)' : 'rgba(100,140,200,0.35)',
+    linkDim: isDark ? 'rgba(100,130,180,0.04)' : 'rgba(100,140,200,0.04)',
+    node: isDark ? '#5a8ecf' : '#3b72b9',
+    center: isDark ? '#ff8833' : '#e04020',
+    neighbor: isDark ? '#8cb4ff' : '#4a8ad4',
+    dim: isDark ? 'rgba(100,140,200,0.10)' : 'rgba(100,140,200,0.10)',
+    text: isDark ? '#ccc' : '#555',
+    bg: isDark ? '#2d2d2d' : '#f8f9fa'
+  };
+
+  // Build local graph: current page + outgoing + backlinks
+  var nodeSet = {};
+  nodeSet[pagePath] = { id: pagePath, title: getTitleForPath(pagePath), center: true, weight: 5 };
+
+  (linkGraph.outgoing[pagePath] || []).slice(0, 15).forEach(function(t) {
+    if (!nodeSet[t]) nodeSet[t] = { id: t, title: getTitleForPath(t), center: false, weight: 1 };
+  });
+  (linkGraph.backlinks[pagePath] || []).slice(0, 15).forEach(function(t) {
+    if (!nodeSet[t]) nodeSet[t] = { id: t, title: getTitleForPath(t), center: false, weight: 1 };
+  });
+
+  // Build edges
+  var edges = [];
+  var edgeSet = {};
+  var ids = Object.keys(nodeSet);
+  ids.forEach(function(src) {
+    (linkGraph.outgoing[src] || []).forEach(function(tgt) {
+      if (nodeSet[tgt]) {
+        var key = src < tgt ? src + '|||' + tgt : tgt + '|||' + src;
+        if (!edgeSet[key]) { edgeSet[key] = true; edges.push({ source: src, target: tgt }); }
+      }
+    });
+  });
+
+  // Variable node sizes based on connection count (like Quartz)
+  var nodes = ids.map(function(id) {
+    var n = nodeSet[id];
+    return {
+      id: n.id, title: n.title, center: n.center, weight: n.weight,
+      radius: n.center ? 6 : (2 + Math.sqrt(Math.max(n.weight, 1)) * 1.0),
+      x: W/2 + (Math.random() - 0.5) * 30,
+      y: H/2 + (Math.random() - 0.5) * 30,
+      vx: 0, vy: 0
+    };
+  });
+
+  // Fallback for single-node pages — clear canvas first, then draw message
+  if (nodes.length <= 1) {
+    var ctx = canvas.getContext('2d');
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.fillStyle = C.bg;
+    ctx.fillRect(0, 0, W, H);
+    ctx.fillStyle = C.text;
+    ctx.font = '11px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('No connections yet', W/2, H/2);
+    if (placeholder) { placeholder.textContent = 'No connections yet'; placeholder.style.display = 'block'; }
+    return;
+  }
+
+  // Create force graph
+  var fg = new ForceGraph(canvas, {
+    bg: C.bg, link: C.link, linkDim: C.linkDim,
+    nodeColor: C.node, centerColor: C.center,
+    neighborColor: C.neighbor, dimColor: C.dim, textColor: C.text
+  });
+  fg.resize(W, H);
+  fg.setData(nodes, edges);
+  fg.start();
+
+  // Mouse interactions
+  var hoverNode = null;
+  canvas.onmousemove = function(e) {
+    var m = fg.transformMouse(e.clientX, e.clientY);
+    hoverNode = fg.findNodeAt(m.x, m.y);
+    fg.hoverNode = hoverNode;
+    if (hoverNode) {
+      tooltip.style.display = 'block';
+      tooltip.style.left = (e.clientX - box.getBoundingClientRect().left + 12) + 'px';
+      tooltip.style.top = (e.clientY - box.getBoundingClientRect().top - 24) + 'px';
+      tooltip.textContent = hoverNode.title;
+      canvas.style.cursor = 'pointer';
+    } else { tooltip.style.display = 'none'; canvas.style.cursor = 'grab'; }
+  };
+  canvas.onclick = function(e) {
+    var m = fg.transformMouse(e.clientX, e.clientY);
+    var node = fg.findNodeAt(m.x, m.y);
+    if (node) { var cp = normalizePath(node.id); loadPage(cp); }
+  };
+  canvas.onmouseleave = function() { hoverNode = null; fg.hoverNode = null; tooltip.style.display = 'none'; };
+  canvas.onwheel = function(e) {
+    e.preventDefault();
+    fg.zoom = Math.max(0.3, Math.min(3, fg.zoom * (e.deltaY > 0 ? 0.9 : 1.1)));
+  };
+}
+
+// Legacy: stub — the local graph panel (renderLocalGraph) is used instead.
+// This function previously depended on d3-force CDN; now a no-op.
+function renderObsidianGraph_deprecated() {
+  // No-op: use renderLocalGraph() for per-page graphs.
+}
+
+// Get top pages with the most outgoing wikilinks
+function getTopWikilinkSources(n) {
+  if (!linkGraph || !linkGraph.outgoing) return [];
+  var scored = [];
+  for (var path in linkGraph.outgoing) {
+    if (linkGraph.outgoing.hasOwnProperty(path)) {
+      scored.push({ path: path, count: linkGraph.outgoing[path].length });
+    }
+  }
+  scored.sort(function(a, b) { return b.count - a.count; });
+  // Prioritize index files and topic pages
+  var indexes = [], topics = [], rest = [];
+  scored.forEach(function(s) {
+    if (s.path.indexOf('Index') !== -1 || s.path === 'Master-Index.md') indexes.push(s);
+    else if (s.path.indexOf('Topics/') !== -1 || s.path.indexOf('Concepts/') !== -1) topics.push(s);
+    else rest.push(s);
+  });
+  var combined = indexes.concat(topics).concat(rest);
+  return combined.slice(0, n).map(function(s) {
+    return { path: s.path, count: s.count, title: getTitleForPath(s.path) };
+  });
+}
+
+// Get most connected pages (most backlinks)
+function getMostConnected(n) {
+  if (!linkGraph || !linkGraph.backlinks) return [];
+  var scored = [];
+  for (var path in linkGraph.backlinks) {
+    if (linkGraph.backlinks.hasOwnProperty(path)) {
+      scored.push({ path: path, count: linkGraph.backlinks[path].length });
+    }
+  }
+  scored.sort(function(a, b) { return b.count - a.count; });
+  return scored.slice(0, n).map(function(s) {
+    return { path: s.path, count: s.count, title: getTitleForPath(s.path) };
+  });
+}
+
+function getTitleForPath(f) {
+  if (searchData && searchData.length) {
+    var match = searchData.find(function(p) { return p.path === 'wiki/' + f || p.path === f; });
+    if (match) return match.title;
+  }
+  return f.replace(/.*\//, '').replace(/\.md$/, '');
+}
+
+// ===== Tree rendering =====
+function renderTree(children, container, level) {
+  level = level || 0;
+  children.forEach(function(node) {
+    var div = document.createElement('div');
+    div.className = 'tree-item';
+    div.dataset.path = node.path;
+    div.dataset.name = node.name.toLowerCase();
+
+    var row = document.createElement('div');
+    row.className = 'tree-row';
+    row.style.paddingLeft = (18 + level * 14) + 'px';
+
+    if (node.type === 'dir') {
+      row.innerHTML = '<span class="tree-arrow">▶</span><span class="tree-bullet">●</span><span class="tree-name">' + esc(node.name) + '</span>';
+      row.onclick = function(e) {
+        e.stopPropagation();
+        var arrow = this.querySelector('.tree-arrow');
+        var cc = this.parentNode.querySelector('.tree-children');
+        arrow.classList.toggle('open');
+        if (cc) cc.classList.toggle('open');
+      };
+    } else {
+      row.innerHTML = '<span style="width:14px;flex-shrink:0"></span><span class="tree-bullet">●</span><span class="tree-name">' + esc(node.name) + '</span>';
+      row.onclick = function(e) {
+        e.stopPropagation();
+        loadPage(normalizePath(node.path));
+        document.querySelectorAll('.tree-row.active').forEach(function(r) { r.classList.remove('active'); });
+        this.classList.add('active');
+      };
+    }
+
+    div.appendChild(row);
+    container.appendChild(div);
+
+    if (node.children) {
+      var childDiv = document.createElement('div');
+      childDiv.className = 'tree-children';
+      renderTree(node.children, childDiv, level + 1);
+      div.appendChild(childDiv);
+    }
+  });
+}
+
+// ===== Search =====
+var searchIdx = -1;
+function highlight(text, q) {
+  if (!q) return esc(text);
+  var out = esc(text);
+  q.split(/\s+/).filter(function(w) { return w.length > 0; }).forEach(function(w) {
+    out = out.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'), '<em>$1</em>');
+  });
+  return out;
+}
+
+function searchPages() {
+  var q = document.getElementById('search').value.trim();
+  var dd = document.getElementById('search-dropdown');
+  searchIdx = -1;
+  if (!q) { dd.classList.remove('open'); dd.innerHTML = ''; document.querySelectorAll('.tree-item').forEach(function(item) { item.style.display = ''; }); return; }
+
+  var ql = q.toLowerCase();
+  var words = ql.split(/\s+/).filter(function(w) { return w.length > 0; });
+  var results = [];
+  for (var i = 0; i < searchData.length; i++) {
+    var p = searchData[i];
+    var score = 0;
+    var title = (p.title || '').toLowerCase();
+    var summary = (p.summary || '').toLowerCase();
+    var tags = (p.tags || []).join(' ').toLowerCase();
+    var path = (p.path || '').toLowerCase();
+    for (var j = 0; j < words.length; j++) {
+      var w = words[j];
+      if (title.includes(w)) score += 100;
+      else if (tags.includes(w)) score += 50;
+      else if (summary.includes(w)) score += 20;
+      else if (path.includes(w)) score += 10;
+    }
+    if (title === ql) score += 200;
+    if (score > 0) results.push({ title: p.title, summary: p.summary, tags: p.tags, path: p.path, score: score });
+  }
+  results.sort(function(a, b) { return b.score - a.score; });
+  results = results.slice(0, 20);
+
+  if (results.length === 0) {
+    dd.innerHTML = '<div class="search-empty">No pages found matching "' + esc(q) + '"</div>';
+  } else {
+    dd.innerHTML = results.map(function(r, i) {
+      var cp = normalizePath(r.path);
+      return '<a class="search-result' + (i === 0 ? ' active' : '') + '" href="#wiki/' + encodePath(cp) + '" data-path="' + escAttr(cp) + '" data-idx="' + i + '" onclick="event.preventDefault();loadPage(\'' + escAttr(cp) + '\');document.getElementById(\'search-dropdown\').classList.remove(\'open\');document.getElementById(\'search\').blur()">' +
+        '<div class="sr-title">' + highlight(r.title, q) + '</div>' +
+        (r.summary ? '<div class="sr-meta">' + highlight(r.summary, q) + '</div>' : '') +
+        (r.tags.length ? '<div class="sr-tags">' + r.tags.slice(0, 5).map(function(t) { return '<span>' + esc(t) + '</span>'; }).join('') + '</div>' : '') +
+        '</a>';
+    }).join('');
+  }
+  dd.classList.add('open');
+  filterTreeSidebar(q);
+}
+
+function filterTreeSidebar(ql) {
+  document.querySelectorAll('.tree-item').forEach(function(item) {
+    var name = item.dataset.name || '';
+    var path = item.dataset.path || '';
+    if (!ql || name.includes(ql) || path.toLowerCase().includes(ql)) {
+      item.style.display = '';
+      var p = item.parentNode;
+      while (p && p.classList) {
+        if (p.classList.contains('tree-children')) { p.classList.add('open'); var arrow = p.parentNode && p.parentNode.querySelector ? p.parentNode.querySelector('.tree-arrow') : null; if (arrow) arrow.classList.add('open'); }
+        p = p.parentNode;
+      }
+    } else { item.style.display = 'none'; }
+  });
+}
+
+function searchKey(e) {
+  var dd = document.getElementById('search-dropdown');
+  var results = dd.querySelectorAll('.search-result');
+  if (!dd.classList.contains('open') || results.length === 0) return;
+  if (e.key === 'ArrowDown') { e.preventDefault(); searchIdx = Math.min(searchIdx + 1, results.length - 1); }
+  else if (e.key === 'ArrowUp') { e.preventDefault(); searchIdx = Math.max(searchIdx - 1, 0); }
+  else if (e.key === 'Enter') { e.preventDefault(); if (searchIdx >= 0 && results[searchIdx]) { loadPage(results[searchIdx].dataset.path); dd.classList.remove('open'); document.getElementById('search').blur(); } return; }
+  else if (e.key === 'Escape') { dd.classList.remove('open'); document.getElementById('search').blur(); return; }
+  results.forEach(function(r, i) { r.classList.toggle('active', i === searchIdx); });
+}
+
+document.addEventListener('click', function(e) {
+  var wrap = document.querySelector('.chrome-search-wrap');
+  if (wrap && !wrap.contains(e.target)) document.getElementById('search-dropdown').classList.remove('open');
+});
+
+// ===== Page loading =====
+async function loadPage(path) {
+  if (_navigating) return;
+  _navigating = true;
+  var cleanPath = normalizePath(path);
+  var actualFile = filePath(cleanPath);
+  currentPath = cleanPath;
+  window.location.hash = '#wiki/' + encodePath(cleanPath);
+
+  var main = document.getElementById('main-content');
+  main.innerHTML = '<div style="text-align:center;padding:60px;color:var(--muted)">Loading...</div>';
+
+  try {
+    var res = await fetch('wiki/' + actualFile);
+    if (!res.ok) throw new Error('File not found: ' + actualFile);
+    var md = await res.text();
+    var rendered = renderMarkdown(md);
+    var pageName = cleanPath.replace(/.*\//, '');
+
+    main.innerHTML =
+      '<div class="wiki-page-layout">' +
+      '<div class="wiki-page-main">' +
+      '<article class="wiki-article">' +
+      '<h1 class="wiki-title">' + esc(rendered.title || pageName) + '</h1>' +
+      '<div class="wiki-subtitle">From Smart Study Wikipedia' + (rendered.lastUpdated ? ' &middot; <strong>Last updated:</strong> ' + esc(rendered.lastUpdated) : '') + '</div>' +
+      (rendered.tocHtml || '') +
+      (rendered.metaHtml ? '<div class="wiki-meta">' + rendered.metaHtml + '</div>' : '') +
+      '<div class="wiki-content">' + rendered.bodyHtml + '</div>' +
+      renderRelatedLinks(actualFile) +
+      '<div class="wiki-footer">Page: ' + esc(cleanPath) + ' &middot; <a href="javascript:void(0)" onclick="openSuggest(\'' + escAttr(actualFile) + '\')">Suggest Edit</a> &middot; <a href="https://smart-study-wiki.web.app/">Smart Study Wikipedia</a></div>' +
+      '</article>' +
+      '</div>' +
+      '<div class="wiki-right-panel">' +
+      '<div class="wiki-local-graph">' +
+      '<div class="graph-box" id="local-graph-box">' +
+      '<canvas id="local-graph-canvas"></canvas>' +
+      '<div class="graph-tooltip" id="local-graph-tooltip"></div>' +
+      '<div class="graph-placeholder" id="local-graph-placeholder">Loading graph...</div>' +
+      '</div>' +
+      '<div class="graph-label">Local Graph</div>' +
+      '</div>' +
+      renderOutgoingLinks(actualFile) +
+      renderBacklinks(actualFile) +
+      '</div>' +
+      '</div>';
+
+    _navigating = false;
+
+    // Render local graph (waits for layout via rAF)
+    requestAnimationFrame(function() { renderLocalGraph(actualFile, 0); });
+
+    // Highlight tree
+    try { highlightTreeItem(actualFile); } catch(te) {}
+
+  } catch(e) {
+    _navigating = false;
+    main.innerHTML = '<div class="main-empty"><h2>Page not found</h2><p>' + esc(cleanPath) + '</p><p style="color:var(--muted);font-size:0.8rem">Error: ' + esc(e.message || String(e)) + '</p><p style="margin-top:12px"><a href="#" onclick="goHome();return false">Return to main page</a></p></div>';
+  }
+}
+
+// Backlinks section
+function renderOutgoingLinks(filePathWithMd) {
+  if (!linkGraph || !linkGraph.outgoing) return '';
+  var outgoing = linkGraph.outgoing[filePathWithMd] || [];
+  if (outgoing.length === 0) return '<h3>Links from this page</h3><p class="wl-empty">No outgoing links.</p>';
+  var html = '<h3>Links from this page (' + outgoing.length + ')</h3><ul>';
+  outgoing.forEach(function(f) {
+    var cp = normalizePath(f);
+    html += '<li><a href="#wiki/' + encodePath(cp) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(cp) + '\')">' + esc(getTitleForPath(f)) + '</a></li>';
+  });
+  html += '</ul>';
+  return html;
+}
+
+function renderBacklinks(filePathWithMd) {
+  if (!linkGraph || !linkGraph.backlinks) return '';
+  var backlinks = linkGraph.backlinks[filePathWithMd] || [];
+  if (backlinks.length === 0) return '<h3>What Links Here</h3><p class="wl-empty">No other pages link here yet.</p>';
+  var html = '<h3>What Links Here (' + backlinks.length + ')</h3><ul>';
+  backlinks.forEach(function(f) {
+    var cp = normalizePath(f);
+    html += '<li><a href="#wiki/' + encodePath(cp) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(cp) + '\')">' + esc(getTitleForPath(f)) + '</a></li>';
+  });
+  html += '</ul>';
+  return html;
+}
+
+// Related pages (shared tags)
+function renderRelatedLinks(filePathWithMd) {
+  if (!searchData || !searchData.length) return '';
+  var current = null;
+  for (var i = 0; i < searchData.length; i++) {
+    if (searchData[i].path === filePathWithMd || searchData[i].path === 'wiki/' + filePathWithMd) { current = searchData[i]; break; }
+  }
+  if (!current || !current.tags || !current.tags.length) return '';
+
+  var scored = [];
+  for (var i = 0; i < searchData.length; i++) {
+    var p = searchData[i];
+    if (p.path === filePathWithMd || p.path === 'wiki/' + filePathWithMd || p.path === current.path) continue;
+    var shared = (current.tags || []).filter(function(t) { return (p.tags || []).indexOf(t) !== -1; });
+    if (shared.length > 0) scored.push({ title: p.title, path: p.path, shared: shared.length });
+  }
+  scored.sort(function(a, b) { return b.shared - a.shared; });
+  var top = scored.slice(0, 8);
+  if (!top.length) return '';
+
+  var html = '<div class="wiki-related"><h3>Related by Topic</h3><ul>';
+  top.forEach(function(p) {
+    var cp = normalizePath(p.path);
+    html += '<li><a href="#wiki/' + encodePath(cp) + '" onclick="event.preventDefault();loadPage(\'' + escAttr(cp) + '\')">' + esc(p.title) + '</a></li>';
+  });
+  html += '</ul></div>';
+  return html;
+}
+
+function highlightTreeItem(actualFile) {
+  document.querySelectorAll('.tree-row.active').forEach(function(r) { r.classList.remove('active'); });
+  document.querySelectorAll('.tree-item').forEach(function(item) {
+    if (item.dataset.path === actualFile) {
+      var row = item.querySelector('.tree-row');
+      if (row) row.classList.add('active');
+      var p = item.parentNode;
+      while (p && p.classList) {
+        if (p.classList.contains('tree-children')) { p.classList.add('open'); var arrow = p.parentNode && p.parentNode.querySelector ? p.parentNode.querySelector('.tree-arrow') : null; if (arrow) arrow.classList.add('open'); }
+        p = p.parentNode;
+      }
+    }
+  });
+}
+
+// ===== Markdown rendering =====
+function renderMarkdown(md) {
+  var lines = md.split('\n');
+  var title = '', metaHtml = '', lastUpdated = '', bodyHtml = '';
+  var inList = false, listType = '';
+  var tocItems = [];
+  var contentStart = 0;
+
+  function closeList() { if (inList) { bodyHtml += '</' + listType + '>'; inList = false; listType = ''; } }
+
+  for (var i = 0; i < Math.min(lines.length, 12); i++) {
+    var t = lines[i].trim();
+    if (t.startsWith('# ') && !title) { title = t.slice(2); contentStart = Math.max(contentStart, i + 1); }
+    else if (t === '---') { contentStart = Math.max(contentStart, i + 1); break; }
+    else {
+      var m = t.match(/^\*\*(Summary|Tags|Created|Last Updated)\*\*:\s*(.+)/);
+      if (m) {
+        metaHtml += '<span><strong>' + esc(m[1]) + '</strong>: ' + esc(m[2]) + '</span> ';
+        if (m[1] === 'Last Updated') lastUpdated = m[2];
+        contentStart = Math.max(contentStart, i + 1);
+      }
+    }
+  }
+
+  for (var i = contentStart; i < lines.length; i++) {
+    var line = lines[i], trimmed = line.trim();
+    if (!trimmed) { closeList(); continue; }
+    if (trimmed.startsWith('# ') && !title) { title = trimmed.slice(2); continue; }
+    if (trimmed === '---') { closeList(); bodyHtml += '<hr>'; continue; }
+
+    if (trimmed.startsWith('## ')) {
+      closeList();
+      var hText = trimmed.slice(3);
+      var hId = hText.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+      tocItems.push({level: 2, text: hText, id: hId});
+      bodyHtml += '<h2 id="' + hId + '">' + renderInline(hText) + '</h2>';
+      continue;
+    }
+    if (trimmed.startsWith('### ')) {
+      closeList();
+      var hText3 = trimmed.slice(4);
+      var hId3 = hText3.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+      tocItems.push({level: 3, text: hText3, id: hId3});
+      bodyHtml += '<h3 id="' + hId3 + '">' + renderInline(hText3) + '</h3>';
+      continue;
+    }
+    if (trimmed.startsWith('#### ')) { closeList(); bodyHtml += '<h4>' + renderInline(trimmed.slice(5)) + '</h4>'; continue; }
+    if (trimmed.match(/^[-*]\s+/)) {
+      if (!inList || listType !== 'ul') { closeList(); bodyHtml += '<ul>'; inList = true; listType = 'ul'; }
+      bodyHtml += '<li>' + renderInline(trimmed.replace(/^[-*]\s+/, '')) + '</li>';
+      continue;
+    }
+    var olMatch = trimmed.match(/^(\d+)\.\s+/);
+    if (olMatch) {
+      if (!inList || listType !== 'ol') { closeList(); bodyHtml += '<ol>'; inList = true; listType = 'ol'; }
+      bodyHtml += '<li>' + renderInline(trimmed.replace(/^\d+\.\s+/, '')) + '</li>';
+      continue;
+    }
+    if (trimmed.startsWith('```')) { closeList(); bodyHtml += '<pre>'; i++;
+      while (i < lines.length && !lines[i].trim().startsWith('```')) { bodyHtml += esc(lines[i]) + '\n'; i++; }
+      bodyHtml += '</pre>'; continue;
+    }
+    closeList();
+    bodyHtml += '<p>' + renderInline(trimmed) + '</p>';
+  }
+  closeList();
+
+  var tocHtml = '';
+  if (tocItems.length >= 2) {
+    tocHtml = '<div class="wiki-toc"><div class="wiki-toc-title">Contents</div><ol>';
+    tocItems.forEach(function(item) {
+      tocHtml += '<li class="' + (item.level === 3 ? 'toc-h3' : 'toc-h2') + '"><a href="#' + item.id + '">' + esc(item.text) + '</a></li>';
+    });
+    tocHtml += '</ol></div>';
+  }
+  return { title: title, metaHtml: metaHtml, bodyHtml: bodyHtml, tocHtml: tocHtml, lastUpdated: lastUpdated };
+}
+
+function renderInline(text) {
+  var out = esc(text);
+  out = out.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  out = out.replace(/\*(.+?)\*/g, '<em>$1</em>');
+  out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
+  // Wikilinks [[Page]] and [[Page|Display]]
+  out = out.replace(/\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]/g, function(m, page, display) {
+    var pname = page.trim();
+    var dname = display ? display.trim() : pname;
+    var resolved = resolveWikilink(pname);
+    if (resolved) {
+      var cp = normalizePath(resolved);
+      return '<a href="#wiki/' + encodePath(cp) + '" class="wikilink" onclick="event.preventDefault();loadPage(\'' + escAttr(cp) + '\')">' + esc(dname) + '</a>';
+    }
+    return '<span class="wikilink broken" title="Page not found: ' + esc(pname) + '">' + esc(dname) + '</span>';
+  });
+  return out;
+}
+
+function resolveWikilink(name) {
+  if (!treeData) return null;
+  function search(children, target) {
+    for (var i = 0; i < children.length; i++) {
+      var node = children[i];
+      var nodeName = node.name.replace(/\.md$/, '');
+      if (nodeName.toLowerCase() === target.toLowerCase()) return node.path;
+      if (node.name.toLowerCase() === target.toLowerCase() + '.md') return node.path;
+      if (node.children) { var found = search(node.children, target); if (found) return found; }
+    }
+    return null;
+  }
+  return search(treeData.children, name);
+}
+
+// ===== Suggest Edit =====
+function openSuggest(pagePath) {
+  document.getElementById('suggest-page-label').textContent = 'Page: ' + pagePath;
+  document.getElementById('suggest-text').value = '';
+  document.getElementById('suggest-name').value = '';
+  document.getElementById('suggest-msg').textContent = '';
+  document.getElementById('suggest-modal').style.display = 'flex';
+}
+async function submitSuggestion() {
+  var name = document.getElementById('suggest-name').value.trim() || 'Anonymous';
+  var text = document.getElementById('suggest-text').value.trim();
+  var pagePath = document.getElementById('suggest-page-label').textContent.replace('Page: ', '');
+  var msgEl = document.getElementById('suggest-msg');
+  if (!text) { msgEl.style.color = '#ef4444'; msgEl.textContent = 'Please describe your suggested edit.'; return; }
+  try {
+    await db.collection('wikiSuggestions').add({ pagePath: pagePath, authorName: name, text: text, created: new Date().toISOString(), status: 'pending' });
+    msgEl.style.color = '#059669'; msgEl.textContent = 'Suggestion submitted! Thank you.';
+    setTimeout(function() { document.getElementById('suggest-modal').style.display = 'none'; }, 1500);
+  } catch(e) { msgEl.style.color = '#ef4444'; msgEl.textContent = 'Failed to submit. Please try again.'; }
+}
+document.getElementById('suggest-modal').addEventListener('click', function(e) { if (e.target === this) this.style.display = 'none'; });
+
+init();
+</script>
+<div style="text-align:center;padding:10px;font-size:0.72rem;color:var(--muted);border-top:1px solid var(--border);margin-top:20px">
+  A <a href="https://cybertech-co.web.app" target="_blank" rel="noopener" style="color:var(--link);font-weight:500;text-decoration:none">CyberTech</a> product &mdash; student-made, student-driven
+</div>
+</body>
+</html>

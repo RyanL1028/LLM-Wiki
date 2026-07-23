@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "target": "wiki",
+    "public": "quartz-src/public",
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      ".DS_Store"
+    ]
+  }
+}

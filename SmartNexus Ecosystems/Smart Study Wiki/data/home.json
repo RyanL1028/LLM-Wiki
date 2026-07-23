@@ -1,0 +1,271 @@
+{
+  "totalPages": 891,
+  "latest": [
+    {
+      "path": "Master-Index.md",
+      "title": "Master Index",
+      "summary": "The unified master index \u2014 all concepts, subject indexes, and section indexes in one place.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "concepts",
+        "index",
+        "hub",
+        "master-index"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Electrolysis Applications.md",
+      "title": "Electrolysis Applications",
+      "summary": "Industrial applications: extraction of aluminium from bauxite (Hall-H\u00e9roult process), copper refining, electroplating with chromium/silver, and brine electrolysis.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "electrolysis"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Ions and Ionic Bonds.md",
+      "title": "Ions and Ionic Bonds",
+      "summary": "Ionic bonding involves electron transfer from a metal to a non-metal, forming oppositely charged ions held in a giant ionic lattice by strong electrostatic forces.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "bonding"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Uses of Sulfur Compounds.md",
+      "title": "Uses of Sulfur Compounds",
+      "summary": "Sulfuric acid is the most manufactured chemical: used in fertilisers, detergents, paints, plastics, metal processing, and as an electrolyte in car batteries.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "environmental-chem"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Energetics of Reactions.md",
+      "title": "Energetics of Reactions",
+      "summary": "Exothermic reactions release heat to surroundings (\u0394H negative). Endothermic reactions absorb heat (\u0394H positive). Energy level diagrams show relative energies.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "energetics"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Indicators and pH.md",
+      "title": "Indicators and pH",
+      "summary": "pH scale (0-14): <7 acidic, 7 neutral, >7 alkaline. Universal indicator shows full range. Litmus, methyl orange, and phenolphthalein have specific colour changes.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "acids-bases"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Experimental Techniques.md",
+      "title": "Experimental Techniques",
+      "summary": "Methods for separating and purifying substances including chromatography, distillation, filtration, crystallisation, and determining purity.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "practical-skills"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Making Salts.md",
+      "title": "Making Salts",
+      "summary": "Salts are produced by neutralising acids with metals, bases, or carbonates. Soluble salts prepared by titration or acid+excess solid; insoluble salts by precipitation.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "acids-bases"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Acids and Bases.md",
+      "title": "Acids and Bases",
+      "summary": "Acids are proton (H\u207a) donors; bases are proton acceptors. Strong acids fully dissociate in water; weak acids partially dissociate. Common laboratory acids: HCl, H\u2082SO\u2084, HNO\u2083.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "acids-bases"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Rusting of Iron.md",
+      "title": "Rusting of Iron",
+      "summary": "Rusting requires oxygen AND water. Prevention methods: barrier protection (paint, oil, plastic, tin-plating), sacrificial protection (galvanising with zinc), and alloying (stainless steel).",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "metals"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Group 7 Halogens.md",
+      "title": "Group 7 Halogens",
+      "summary": "Group 7 elements (F\u2082, Cl\u2082, Br\u2082, I\u2082) are diatomic non-metals. Reactivity decreases down the group. A more reactive halogen displaces a less reactive one from its halide salt.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "periodic-table"
+      ]
+    },
+    {
+      "path": "IGCSE Chemistry/Rates of Reaction.md",
+      "title": "Rates of Reaction",
+      "summary": "Reaction rate depends on concentration, temperature, surface area, and catalysts. Explained by collision theory \u2014 particles must collide with sufficient energy (activation energy) and correct orientation.",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "tags": [
+        "igcse",
+        "chemistry",
+        "reactions"
+      ]
+    }
+  ],
+  "featured": [
+    {
+      "path": "CS-Index.md",
+      "title": "Computer Science Index",
+      "summary": "Complete index of all IGCSE Computer Science concepts, papers, and sources in the wiki.",
+      "created": "2026-05-08T00:00:00Z",
+      "updated": "2026-05-08T00:00:00Z",
+      "tags": [
+        "index",
+        "computer-science",
+        "igcse-computer-science"
+      ]
+    },
+    {
+      "path": "Chem-Index.md",
+      "title": "Chemistry Index",
+      "summary": "Complete index of all chemistry-related concepts, papers, and sources in the wiki.",
+      "created": "2026-05-05T00:00:00Z",
+      "updated": "2026-05-05T00:00:00Z",
+      "tags": [
+        "index",
+        "chemistry",
+        "hub"
+      ]
+    },
+    {
+      "path": "Bio-Index.md",
+      "title": "Biology Index",
+      "summary": "Complete index of biology concepts, Oxford Science Book 7 biology chapters, and related resources.",
+      "created": "2026-05-19T00:00:00Z",
+      "updated": "2026-05-19T00:00:00Z",
+      "tags": [
+        "index",
+        "biology",
+        "hub"
+      ]
+    },
+    {
+      "path": "Phys-Index.md",
+      "title": "Physics Index",
+      "summary": "Complete index of physics concepts and Oxford Science Book 7 physics chapters.",
+      "created": "2026-05-19T00:00:00Z",
+      "updated": "2026-05-19T00:00:00Z",
+      "tags": [
+        "index",
+        "physics",
+        "hub"
+      ]
+    },
+    {
+      "path": "MUN-Index.md",
+      "title": "MUN & Humanities Index",
+      "summary": "Complete index of Model United Nations, humanitarian aid, international relations, and law concepts.",
+      "created": "2026-05-19T00:00:00Z",
+      "updated": "2026-05-19T00:00:00Z",
+      "tags": [
+        "index",
+        "mun",
+        "humanities",
+        "humanitarian",
+        "international"
+      ]
+    },
+    {
+      "path": "Sci-Index.md",
+      "title": "Basic Science Index",
+      "summary": "Complete chapter-by-chapter index of the Oxford International Lower Secondary Science Book 7 \u2014 covering Working Scientifically, Biology, Chemistry, and Physics.",
+      "created": "2026-05-19T00:00:00Z",
+      "updated": "2026-05-19T00:00:00Z",
+      "tags": [
+        "index",
+        "science",
+        "oxford-science",
+        "student-book-7"
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Computer Science",
+      "icon": "\ud83d\udcbb",
+      "link": "wiki/CS-Index.md",
+      "count": 160
+    },
+    {
+      "name": "Biology",
+      "icon": "\ud83e\uddec",
+      "link": "wiki/Bio-Index.md",
+      "count": 158
+    },
+    {
+      "name": "Chemistry",
+      "icon": "\u2697\ufe0f",
+      "link": "wiki/Chem-Index.md",
+      "count": 315
+    },
+    {
+      "name": "Physics",
+      "icon": "\u26a1",
+      "link": "wiki/Phys-Index.md",
+      "count": 174
+    },
+    {
+      "name": "Basic Science",
+      "icon": "\ud83d\udd2c",
+      "link": "wiki/Sci-Index.md",
+      "count": 118
+    },
+    {
+      "name": "MUN & Humanities",
+      "icon": "\ud83c\udf10",
+      "link": "wiki/MUN-Index.md",
+      "count": 44
+    },
+    {
+      "name": "AI & Models",
+      "icon": "\ud83e\udd16",
+      "link": "wiki/01-Models.md",
+      "count": 1
+    }
+  ]
+}

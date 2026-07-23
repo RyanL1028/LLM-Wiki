@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "smart-study-site"
+  },
+  "targets": {
+    "smart-study-site": {
+      "hosting": {
+        "wiki": [
+          "smart-study-wiki"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
