@@ -1,0 +1,28 @@
+{
+  "projects": {
+    "default": "smart-study-site"
+  },
+  "targets": {
+    "smart-study-site": {
+      "hosting": {
+        "main": [
+          "smart-study-site"
+        ],
+        "staff": [
+          "smart-study-staff"
+        ]
+      }
+    },
+    "smart-study-by-ryan": {
+      "hosting": {
+        "main": [
+          "smart-study-site"
+        ],
+        "staff": [
+          "smart-study-staff"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
