@@ -1,0 +1,40 @@
+{
+  "id": "MS-J21",
+  "type": "mark_scheme",
+  "paperCode": "0971/31",
+  "session": "May/June 2021",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "4(b)",
+      "answer": "it has a C=C double bond",
+      "marks": 1
+    },
+    {
+      "question": "7(b)",
+      "answer": "1 shared pair of electrons AND no other electrons on either H atom (1)",
+      "marks": 1
+    },
+    {
+      "question": "8(b)",
+      "answer": "basic (oxide) AND T is a metal / metal oxides are basic",
+      "marks": 1
+    },
+    {
+      "question": "8(c)",
+      "answer": "has a complete outer (electron) shell / has a full outer (electron) shell",
+      "marks": 1
+    },
+    {
+      "question": "8(f)",
+      "answer": "\u21cc",
+      "marks": 1
+    },
+    {
+      "question": "8(g)",
+      "answer": "mixture of metal with another element",
+      "marks": 1
+    }
+  ],
+  "answerCount": 6
+}

@@ -1,0 +1,1046 @@
+{
+  "id": "0971_32_n23",
+  "subject": "Chemistry",
+  "code": "0971/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering compounds and mixtures, petroleum fractionation, air pollutants, states of matter, metals and extraction, rate of reaction, organic chemistry, and electrolysis of ionic compounds.",
+  "type": "past",
+  "session": "October/November 2023",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Compounds & Mixtures",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "A list of compounds: ammonia, carbon dioxide, carbon monoxide, cobalt(II) chloride, ethane, ethene, glucose, methane, potassium sulfate, sodium phosphate, sulfur dioxide. Give the name of the compound that is an unsaturated hydrocarbon.",
+          "keywords": [
+            [
+              "ethene"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the name of the compound that leads to the deoxygenation of water in rivers.",
+          "keywords": [
+            [
+              "sodium phosphate",
+              "phosphate",
+              "potassium sulfate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the name of the compound that is a gas which turns damp red litmus paper blue.",
+          "keywords": [
+            [
+              "ammonia"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the name of the compound that is the main constituent of natural gas.",
+          "keywords": [
+            [
+              "methane"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the name of the compound that is a product of photosynthesis.",
+          "keywords": [
+            [
+              "glucose"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the name of the compound that is a compound of a transition element.",
+          "keywords": [
+            [
+              "cobalt(II) chloride",
+              "cobalt chloride"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Petroleum Fractionation",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Petroleum is a mixture of hydrocarbons. Describe two characteristics of a mixture.",
+          "keywords": [
+            [
+              "no fixed composition",
+              "variable composition",
+              "not chemically combined",
+              "can be separated physically",
+              "no chemical bonds between components",
+              "components retain properties"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig. 2.1 shows a fractionating column with fractions: refinery gas (top), gasoline, A, kerosene, diesel oil, fuel oil, lubricating oil, bitumen (bottom). Draw an X inside the column to show where the hydrocarbon with the lowest volatility collects.",
+          "keywords": [
+            [
+              "top",
+              "near top",
+              "refinery gas",
+              "top of column"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the fraction labelled A (between gasoline and kerosene) in the fractionating column.",
+          "keywords": [
+            [
+              "naphtha",
+              "naphtha"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of the fraction which has hydrocarbons with the longest chain length.",
+          "keywords": [
+            [
+              "bitumen",
+              "bitumen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one use of the fuel oil fraction.",
+          "keywords": [
+            [
+              "ships",
+              "fuel for ships",
+              "power stations",
+              "heating",
+              "industrial heating",
+              "marine fuel"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Air Pollutants",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table 3.1 shows average concentrations (ng/1000 cm³) of air pollutants over four years: 2019 (CO 2.5, HC 12.0, NOx 19.6, particulates 28.0, SO₂ 30.0); 2020 (CO 2.0, HC 13.5, NOx 21.8, particulates 30.1, SO₂ 21.7); 2021 (CO 1.8, HC 14.8, NOx 18.5, particulates 27.5, SO₂ 23.8); 2022 (CO 1.6, HC 16.0, NOx 22.7, particulates 26.2, SO₂ 25.0). Name the oxide pollutant that has the highest concentration in 2021.",
+          "keywords": [
+            [
+              "oxides of nitrogen",
+              "NOx",
+              "nitrogen oxides"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the pollutant that shows a continuous decrease in concentration from 2019 to 2022.",
+          "keywords": [
+            [
+              "carbon monoxide",
+              "CO"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the average mass, in ng, of particulates in a 250 cm³ sample of polluted air in 2019. (Particulates in 2019: 28.0 ng per 1000 cm³.)",
+          "keywords": [
+            [
+              "7",
+              "7.0",
+              "7 ng"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one adverse effect of particulates on health.",
+          "keywords": [
+            [
+              "breathing problems",
+              "respiratory",
+              "asthma",
+              "bronchitis",
+              "lung damage",
+              "lung cancer"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Particulates are formed by the incomplete combustion of hydrocarbons. State the meaning of the term incomplete combustion.",
+          "keywords": [
+            [
+              "insufficient oxygen",
+              "limited oxygen",
+              "not enough oxygen",
+              "lack of oxygen",
+              "oxygen is limited"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Oxides of nitrogen contribute to acid rain. Choose the pH value for an acidic solution. Circle your answer.",
+          "options": [
+            "pH 5",
+            "pH 7",
+            "pH 9",
+            "pH 13"
+          ],
+          "answer": 0
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the sentence about removing oxides of nitrogen from car exhausts using two words from the list: agent, catalytic, compound, converter, distillation, filter, oxidising, pump. The emission of oxides of nitrogen from car exhausts is reduced by using a .............................. .............................. .",
+          "keywords": [
+            [
+              "catalytic converter",
+              "catalytic",
+              "converter"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Oxides of nitrogen can be formed by the action of bacteria on nitrates. Name the aqueous solution and the metal used in the test for nitrate ions.",
+          "keywords": [
+            [
+              "sodium hydroxide",
+              "NaOH",
+              "aqueous sodium hydroxide",
+              "alkali"
+            ],
+            [
+              "aluminium",
+              "Al",
+              "aluminium powder",
+              "aluminium foil"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Nitrogen dioxide decomposes when heated to produce nitric oxide and oxygen. Complete the symbol equation: .....NO₂ ⇋ 2NO + ...........",
+          "keywords": [
+            [
+              "2",
+              "2NO2"
+            ],
+            [
+              "O2",
+              "oxygen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the meaning of the symbol ⇋ in the equation.",
+          "keywords": [
+            [
+              "reversible",
+              "reversible reaction",
+              "equilibrium",
+              "both directions",
+              "forward and backward"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "States of Matter",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Tin is a solid at room temperature. State two general properties of a solid.",
+          "keywords": [
+            [
+              "fixed shape",
+              "definite shape"
+            ],
+            [
+              "fixed volume",
+              "definite volume"
+            ],
+            [
+              "particles close together",
+              "closely packed",
+              "particles vibrate",
+              "particles in fixed positions",
+              "cannot flow"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Fig. 4.1 shows changes of state: solid tin → (A) → liquid tin → (B) → tin gas. Name the changes of physical states A and B.",
+          "keywords": [
+            [
+              "melting",
+              "fusion",
+              "melt"
+            ],
+            [
+              "boiling",
+              "evaporation",
+              "vaporisation",
+              "vaporization"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "long",
+          "question": "Describe solid and liquid tin in terms of the separation and motion of the particles.",
+          "keywords": [
+            [
+              "close together",
+              "closely packed",
+              "touching",
+              "very close",
+              "solid separation"
+            ],
+            [
+              "vibrate",
+              "vibrating",
+              "vibration",
+              "about fixed positions",
+              "fixed",
+              "solid motion"
+            ],
+            [
+              "close",
+              "close together",
+              "still close",
+              "touching",
+              "liquid separation"
+            ],
+            [
+              "slide past",
+              "move past",
+              "flow",
+              "move around",
+              "random motion",
+              "liquid motion"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "A sealed gas syringe contains 80 cm³ of carbon dioxide gas. State how decreasing the temperature affects the volume of CO₂ when the pressure remains constant.",
+          "keywords": [
+            [
+              "decreases",
+              "volume decreases",
+              "gets smaller",
+              "reduces"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Metals & Extraction",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table 5.1 shows Group I metal properties: Li (mp 181°C, bp 1342°C, atomic vol 12.9 cm³/mol), Na (mp 98°C, atomic vol 23.7, bubbles rapidly, no flame), K (mp 63°C, bp 760°C, atomic vol 45.4, bubbles rapidly and flame), Rb (mp 39°C, bp 686°C, explodes). Predict the boiling point of sodium.",
+          "keywords": [
+            [
+              "883",
+              "about 883",
+              "around 880",
+              "880-890",
+              "between 760 and 1342"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the atomic volume of rubidium.",
+          "keywords": [
+            [
+              "about 56",
+              "around 56",
+              "56",
+              "55-60",
+              "greater than 45"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the observations when lithium reacts with water.",
+          "keywords": [
+            [
+              "bubbles slowly",
+              "bubbles",
+              "slow bubbling",
+              "less vigorous",
+              "no flame",
+              "less reactive than sodium"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 2,
+          "type": "short",
+          "question": "Predict the physical state of lithium at 1300°C. Give a reason for your answer.",
+          "keywords": [
+            [
+              "gas",
+              "gaseous",
+              "gaseous state"
+            ],
+            [
+              "1300",
+              "above boiling point",
+              "greater than 1342",
+              "temperature higher than",
+              "close to bp"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Iron is extracted in a blast furnace: Fe₂O₃ + 3CO → 2Fe + 3CO₂. Explain how this equation shows that iron(III) oxide is reduced.",
+          "keywords": [
+            [
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost",
+              "removal of oxygen",
+              "gains electrons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose the phrase which describes the meaning of (III) in iron(III) oxide. Tick one box.",
+          "options": [
+            "the number of oxygen atoms in iron(III) oxide",
+            "the oxidation number of iron in iron(III) oxide",
+            "the number of CO molecules which react",
+            "the number of electrons in one atom of iron"
+          ],
+          "answer": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Calcium carbonate is added to the blast furnace and undergoes thermal decomposition. Complete the word equation: calcium carbonate → ........................ + ........................",
+          "keywords": [
+            [
+              "calcium oxide",
+              "CaO",
+              "quicklime",
+              "lime"
+            ],
+            [
+              "carbon dioxide",
+              "CO2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Stainless steel is an alloy. Fig. 5.1 shows four diagrams A, B, C, D of atomic arrangements. Choose the diagram that best shows the structure of an alloy (different sized atoms mixed in a regular lattice).",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one reason for using stainless steel instead of pure iron for cutlery.",
+          "keywords": [
+            [
+              "does not rust",
+              "resistant to corrosion",
+              "corrosion resistant",
+              "stainless",
+              "does not corrode",
+              "harder",
+              "stronger"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Table 5.2 shows observations of four metals with dilute HCl: iron (bubbles slowly), mercury (no bubbles), strontium (bubbles very quickly), tin (bubbles very slowly). Put the metals in order of reactivity, least reactive first.",
+          "keywords": [
+            [
+              "mercury",
+              "Hg"
+            ],
+            [
+              "tin",
+              "Sn"
+            ],
+            [
+              "iron",
+              "Fe"
+            ],
+            [
+              "strontium",
+              "Sr"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Rate of Reaction",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig. 6.1 shows volume of hydrogen gas vs time for magnesium with excess HCl at 20°C (curve rising and levelling off at ~50 cm³ by 80s). Deduce the volume of hydrogen gas released after 30 seconds.",
+          "keywords": [
+            [
+              "20",
+              "about 20",
+              "20 cm3",
+              "around 20",
+              "approximately 20"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "The experiment is repeated using smaller pieces of magnesium with the same mass. All other conditions stay the same. Draw a line on the grid to show the volume of hydrogen gas released. (Describe: steeper initial slope, same final volume, reaches endpoint sooner.)",
+          "keywords": [
+            [
+              "steeper",
+              "faster",
+              "higher initial rate",
+              "more steep",
+              "sharper rise"
+            ],
+            [
+              "same final volume",
+              "same maximum",
+              "levels off at same height",
+              "same endpoint"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The experiment is repeated at a higher temperature of 35°C. All other conditions stay the same. Describe how the rate of reaction differs.",
+          "keywords": [
+            [
+              "faster",
+              "increases",
+              "higher rate",
+              "quicker",
+              "more rapid",
+              "greater rate",
+              "increase"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "The experiment is repeated using a lower concentration of acid. All other conditions stay the same. Describe how the rate of reaction differs.",
+          "keywords": [
+            [
+              "slower",
+              "decreases",
+              "lower rate",
+              "less rapid",
+              "rate decreases"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the word equation for the reaction of hydrochloric acid with lithium hydroxide. hydrochloric acid + lithium hydroxide → ........................ + ........................",
+          "keywords": [
+            [
+              "lithium chloride",
+              "LiCl"
+            ],
+            [
+              "water",
+              "H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose from the list the word that best describes this reaction. Circle your answer.",
+          "options": [
+            "addition",
+            "decomposition",
+            "neutralisation",
+            "oxidation"
+          ],
+          "answer": 2
+        },
+        {
+          "label": "c(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the colour of a solution of thymolphthalein dissolved in aqueous sodium hydroxide.",
+          "keywords": [
+            [
+              "blue",
+              "dark blue"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Organic Chemistry",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig. 7.1 shows the displayed formula of fumaric acid (HOOC-CH=CH-COOH, a molecule with a C=C double bond and two COOH groups). On the diagram, draw a circle around one carboxylic acid functional group.",
+          "keywords": [
+            [
+              "COOH",
+              "carboxyl",
+              "carboxylic acid",
+              "-COOH",
+              "CO2H"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the molecular formula of fumaric acid (4 carbons, 4 hydrogens, 4 oxygens).",
+          "keywords": [
+            [
+              "C4H4O4"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Fumaric acid is a colourless compound. Describe the colour change when excess fumaric acid is added to aqueous bromine.",
+          "keywords": [
+            [
+              "brown",
+              "orange",
+              "red-brown",
+              "reddish brown",
+              "yellow-brown"
+            ],
+            [
+              "colourless",
+              "decolourised",
+              "decolorized"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Fumaric acid can be oxidised to produce C₄H₆O₆. Complete Table 7.1 to calculate Mr. C: 4×12=48, H: 6×1=6, O: 6×16=96. Find Mr.",
+          "keywords": [
+            [
+              "150",
+              "Mr 150",
+              "relative molecular mass 150"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete the word equation for the reaction of ethanoic acid with sodium carbonate. ethanoic acid + sodium carbonate → ........................ + ........................ + ........................",
+          "keywords": [
+            [
+              "sodium ethanoate",
+              "sodium acetate"
+            ],
+            [
+              "water",
+              "H2O"
+            ],
+            [
+              "carbon dioxide",
+              "CO2"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Ethanoic acid can be produced by the oxidation of ethanol. State one use of ethanol.",
+          "keywords": [
+            [
+              "fuel",
+              "biofuel",
+              "solvent",
+              "alcoholic drinks",
+              "disinfectant",
+              "antiseptic",
+              "perfume",
+              "cosmetics"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Ethanol, C₂H₅OH, is an alcohol. Choose the general formula for the alcohol homologous series. Circle your answer.",
+          "options": [
+            "CₙHₙOH",
+            "CₙH₂ₙ₊₁OH",
+            "CₙH₂ₙ₊₂OH",
+            "C₂ₙH₂ₙOH"
+          ],
+          "answer": 1
+        },
+        {
+          "label": "d(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Ethanol can be manufactured by the addition of steam to ethene. State two conditions for this reaction.",
+          "keywords": [
+            [
+              "high temperature",
+              "300",
+              "300°C"
+            ],
+            [
+              "high pressure",
+              "60 atm",
+              "70 atm",
+              "60-70 atm"
+            ],
+            [
+              "catalyst",
+              "phosphoric acid",
+              "acid catalyst",
+              "H3PO4"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Electrolysis & Ionic Compounds",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Zinc chloride is an ionic compound. Ionic compounds conduct electricity when molten or in aqueous solution. Describe one other physical property of ionic compounds.",
+          "keywords": [
+            [
+              "high melting point",
+              "high boiling point",
+              "high mp",
+              "high bp",
+              "brittle",
+              "soluble in water",
+              "crystalline"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete Fig. 8.1 to show the electronic configuration of a chloride ion (Cl, atomic number 17) and the charge on the ion. Cl⁻ has 18 electrons, configuration 2,8,8, charge 1–.",
+          "keywords": [
+            [
+              "2,8,8",
+              "18 electrons",
+              "2.8.8",
+              "gained one electron"
+            ],
+            [
+              "1-",
+              "-1",
+              "one minus",
+              "Cl-",
+              "single negative"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Deduce the number of protons and neutrons in the zinc ion ⁶⁷Zn²⁺ (atomic number 30).",
+          "keywords": [
+            [
+              "30",
+              "protons 30",
+              "30 protons"
+            ],
+            [
+              "37",
+              "neutrons 37",
+              "37 neutrons",
+              "67-30=37"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the sentence about positive ions. Positive ions are known as ......................................................................................... .",
+          "keywords": [
+            [
+              "cations",
+              "cation"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 3,
+          "type": "short",
+          "question": "Molten zinc chloride is electrolysed using graphite electrodes. State the names of the products at each electrode and give the observations at the positive electrode.",
+          "keywords": [
+            [
+              "zinc",
+              "Zn",
+              "negative electrode",
+              "cathode"
+            ],
+            [
+              "chlorine",
+              "Cl2",
+              "positive electrode",
+              "anode"
+            ],
+            [
+              "green gas",
+              "yellow-green",
+              "yellowish green",
+              "pungent",
+              "bleaches",
+              "pale green"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "e(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Graphite electrodes conduct electricity. State one other property that the graphite electrode should have.",
+          "keywords": [
+            [
+              "high melting point",
+              "inert",
+              "unreactive",
+              "does not react",
+              "chemically inert",
+              "high mp"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose the correct statement about the structure and bonding in graphite. Tick one box.",
+          "options": [
+            "simple ionic",
+            "simple covalent",
+            "giant ionic",
+            "giant covalent"
+          ],
+          "answer": 3
+        },
+        {
+          "label": "e(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one use of graphite other than as an electrode.",
+          "keywords": [
+            [
+              "lubricant",
+              "pencil",
+              "pencil lead",
+              "pencils",
+              "nuclear reactor",
+              "moderator",
+              "brake linings"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    }
+  ]
+}

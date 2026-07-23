@@ -1,0 +1,65 @@
+{
+  "id": "MS-J19",
+  "type": "mark_scheme",
+  "paperCode": "0971/31",
+  "session": "May/June 2019",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "1(b)",
+      "answer": "substance in which all the atoms have the same proton number / substance containing (only) one type of atom",
+      "marks": 1
+    },
+    {
+      "question": "2(a)",
+      "answer": "hematite",
+      "marks": 1
+    },
+    {
+      "question": "2(c)",
+      "answer": "carbon gains oxygen (from Fe2O3) / oxygen (from Fe2O3) combines with carbon",
+      "marks": 1
+    },
+    {
+      "question": "2(f)",
+      "answer": "Fe2C9O9",
+      "marks": 1
+    },
+    {
+      "question": "3(b)",
+      "answer": "2 electrons in inner shell AND 6 electrons in outer shell AND no additional shells of electrons",
+      "marks": 1
+    },
+    {
+      "question": "4(b)",
+      "answer": "increasing the pressure decreases the volume / decreasing the pressure increases the volume / the higher the volume, the lower",
+      "marks": 1
+    },
+    {
+      "question": "4(f)",
+      "answer": "iodine / I2",
+      "marks": 1
+    },
+    {
+      "question": "6(c)",
+      "answer": "160 (2 marks)",
+      "marks": 2
+    },
+    {
+      "question": "7(a)",
+      "answer": "calcium chloride",
+      "marks": 1
+    },
+    {
+      "question": "8(b)",
+      "answer": "liquid (1)",
+      "marks": 2
+    },
+    {
+      "question": "8(c)",
+      "answer": "ammonium sulfate",
+      "marks": 1
+    }
+  ],
+  "answerCount": 11
+}

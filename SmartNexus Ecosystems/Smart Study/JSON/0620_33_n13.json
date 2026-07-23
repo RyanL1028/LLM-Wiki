@@ -1,0 +1,422 @@
+{
+  "id": "0620_33_n13",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering zirconium and isotopes, ionic and covalent bonding, reaction energetics, equilibrium, organic chemistry, and stoichiometry.",
+  "type": "past",
+  "session": "Oct/Nov 2013",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Zirconium & Isotopes",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "90Zr/40, 91Zr/40, 92Zr/40: How are these three atoms the same and how are they different (protons, neutrons, electrons)?",
+          "keywords": [
+            [
+              "same number of protons and electrons",
+              "40 protons, 40 electrons"
+            ],
+            [
+              "different number of neutrons",
+              "50, 51, 52 neutrons",
+              "different mass numbers"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which isotope of a different element is used as fuel in nuclear reactors?",
+          "keywords": [
+            [
+              "uranium-235",
+              "U-235",
+              "235U"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "State one medical and one industrial use of radioactive isotopes.",
+          "keywords": [
+            [
+              "medical: cancer treatment/radiotherapy",
+              "diagnosis/tracers",
+              "sterilising equipment"
+            ],
+            [
+              "industrial: detecting leaks",
+              "measuring thickness",
+              "monitoring wear"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Above 900C, Zr + H2O -> ZrO2 + H2. Write the equation.",
+          "keywords": [
+            [
+              "Zr + 2H2O -> ZrO2 + 2H2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Why does the presence of hydrogen inside a nuclear reactor greatly increase danger during an accident?",
+          "keywords": [
+            [
+              "hydrogen is explosive",
+              "can explode with air/oxygen",
+              "highly flammable"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "short",
+          "question": "Complete table: how does zirconium(IV) oxide react with HCl and NaOH if it is acidic, neutral, basic or amphoteric? (R = reacts, NR = no reaction)",
+          "keywords": [
+            [
+              "acidic: HCl NR, NaOH R"
+            ],
+            [
+              "neutral: HCl NR, NaOH NR"
+            ],
+            [
+              "basic: HCl R, NaOH NR"
+            ],
+            [
+              "amphoteric: HCl R, NaOH R"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Ionic Compounds & Bonding",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe the structure of a typical ionic compound and explain why it has a high melting point.",
+          "keywords": [
+            [
+              "giant ionic lattice",
+              "regular arrangement of positive and negative ions"
+            ],
+            [
+              "strong electrostatic forces between ions",
+              "ionic bonds",
+              "lot of energy needed to break"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why ionic compounds conduct electricity when molten but not when solid.",
+          "keywords": [
+            [
+              "ions fixed in lattice in solid",
+              "cannot move",
+              "no mobile charge carriers"
+            ],
+            [
+              "ions free to move when molten",
+              "mobile ions can carry charge"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Draw a diagram showing the bonding in a crystal of sodium chloride.",
+          "keywords": [
+            [
+              "Na+ and Cl- alternating",
+              "regular lattice",
+              "each Na+ surrounded by 6 Cl-"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Energetics & Reaction Rates",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain the difference between exothermic and endothermic reactions using energy level diagrams.",
+          "keywords": [
+            [
+              "exothermic: products lower energy than reactants",
+              "energy released to surroundings",
+              "negative delta H"
+            ],
+            [
+              "endothermic: products higher energy than reactants",
+              "energy absorbed from surroundings",
+              "positive delta H"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe how to measure the energy change when zinc reacts with copper sulfate solution.",
+          "keywords": [
+            [
+              "measure temperature change",
+              "calorimeter",
+              "polystyrene cup",
+              "thermometer"
+            ],
+            [
+              "known volume and concentration",
+              "record initial and final temperature"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "short",
+          "question": "Explain how increasing the temperature and adding a catalyst increase the rate of a reaction.",
+          "keywords": [
+            [
+              "temperature: more kinetic energy, faster particles, more frequent collisions, more particles exceed Ea"
+            ],
+            [
+              "catalyst: provides alternative pathway, lower activation energy, more particles have sufficient energy"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Equilibrium",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain what is meant by dynamic equilibrium.",
+          "keywords": [
+            [
+              "forward and reverse rates equal",
+              "rates equal",
+              "in closed system"
+            ],
+            [
+              "concentrations constant",
+              "no net change",
+              "dynamic not static"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "2SO2 + O2 <=> 2SO3 (exothermic). Predict the effect of increasing temperature and increasing pressure on the equilibrium yield.",
+          "keywords": [
+            [
+              "increasing temperature decreases yield",
+              "equilibrium shifts left",
+              "reverse endothermic favoured"
+            ],
+            [
+              "increasing pressure increases yield",
+              "shifts right",
+              "3 moles to 2 moles"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why a catalyst does not affect the position of equilibrium.",
+          "keywords": [
+            [
+              "speeds up forward and reverse equally",
+              "lowers activation energy both ways"
+            ],
+            [
+              "no effect on position",
+              "same concentrations at equilibrium"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Organic Chemistry",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Define the terms: hydrocarbon and saturated.",
+          "keywords": [
+            [
+              "hydrocarbon: compound of carbon and hydrogen only"
+            ],
+            [
+              "saturated: single C-C bonds only",
+              "no double bonds"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe the process of cracking and explain why it is important.",
+          "keywords": [
+            [
+              "breaking long-chain alkanes into shorter ones",
+              "thermal decomposition",
+              "catalyst"
+            ],
+            [
+              "produces more useful shorter alkanes for petrol",
+              "produces alkenes for polymers"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how ethene can be converted to ethanol. Give conditions and equation.",
+          "keywords": [
+            [
+              "addition of steam",
+              "hydration",
+              "C2H4 + H2O -> C2H5OH"
+            ],
+            [
+              "phosphoric acid catalyst",
+              "300C",
+              "60-70 atm"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Ethanol can be oxidised to ethanoic acid. Name a suitable oxidising agent.",
+          "keywords": [
+            [
+              "acidified potassium manganate(VII)",
+              "KMnO4/H+",
+              "acidified potassium dichromate(VI)",
+              "K2Cr2O7/H+"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Stoichiometry & Gas Volumes",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Calculate the mass of one mole of calcium carbonate, CaCO3.",
+          "keywords": [
+            [
+              "40+12+3x16 = 100",
+              "Mr = 100"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Calculate the volume of CO2 produced at r.t.p. when 10g of CaCO3 decomposes: CaCO3 -> CaO + CO2.",
+          "keywords": [
+            [
+              "moles CaCO3 = 10/100 = 0.1",
+              "moles CO2 = 0.1"
+            ],
+            [
+              "volume CO2 = 0.1 x 24 = 2.4 dm3"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "20 cm3 hydrocarbon burnt in excess O2. After cooling: 60 cm3 CO2 and 20 cm3 O2 remained. Determine formula of hydrocarbon.",
+          "keywords": [
+            [
+              "ratio hydrocarbon:CO2 = 20:60 = 1:3",
+              "3 carbons",
+              "C3H8 or C3H6"
+            ],
+            [
+              "from O2 used, determine H",
+              "C3H8",
+              "propane"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,791 @@
+{
+  "id": "0620_33_j11",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering element identification, reactivity series, electrolysis, cells, equilibrium, biodiesel, and organic chemistry.",
+  "type": "past",
+  "session": "May/June 2011",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Element Properties",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Choose from Rb, Fe, Si, I, P, Sr the element that reacts with cold water.",
+          "keywords": [
+            [
+              "Rb",
+              "rubidium",
+              "Sr",
+              "strontium"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Choose the element that is a solid at room temperature and exists as diatomic molecules X2.",
+          "keywords": [
+            [
+              "I",
+              "iodine"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Choose the element that can form two oxides XO and X2O3.",
+          "keywords": [
+            [
+              "Fe",
+              "iron"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Choose the element that has a hydride of the type XH3.",
+          "keywords": [
+            [
+              "P",
+              "phosphorus"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Choose the element that has a macromolecular structure similar to carbon.",
+          "keywords": [
+            [
+              "Si",
+              "silicon"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Tin, Reactivity & Electrolysis",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 4,
+          "type": "short",
+          "question": "Tin reactivity order: zinc > iron > tin > copper. Complete or write 'no reaction': Cu + Sn2+, Fe + Sn2+, Sn + Zn2+.",
+          "keywords": [
+            [
+              "no reaction",
+              "Cu"
+            ],
+            [
+              "Fe + Sn2+ -> Fe2+ + Sn",
+              "iron displaces tin",
+              "reaction occurs"
+            ],
+            [
+              "no reaction",
+              "Sn + Zn2+",
+              "zinc more reactive"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the three products formed when tin(II) nitrate is heated.",
+          "keywords": [
+            [
+              "tin(II) oxide",
+              "SnO"
+            ],
+            [
+              "nitrogen dioxide",
+              "NO2"
+            ],
+            [
+              "oxygen",
+              "O2"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is produced at the negative electrode when aqueous tin(II) sulfate is electrolysed using carbon electrodes?",
+          "keywords": [
+            [
+              "tin",
+              "Sn",
+              "tin metal"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Write the equation for the reaction at the positive electrode (anode).",
+          "keywords": [
+            [
+              "4OH- -> 2H2O + O2 + 4e-",
+              "oxygen produced",
+              "hydroxide oxidised"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the acid formed in this electrolysis.",
+          "keywords": [
+            [
+              "sulfuric acid",
+              "H2SO4",
+              "sulphuric acid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "short",
+          "question": "When zinc coating on steel is damaged the steel does not rust, but when tin coating is broken the steel rusts. Explain.",
+          "keywords": [
+            [
+              "zinc more reactive than iron",
+              "sacrificial protection",
+              "zinc corrodes preferentially"
+            ],
+            [
+              "zinc acts as anode",
+              "zinc loses electrons",
+              "iron is cathode",
+              "iron protected"
+            ],
+            [
+              "tin less reactive than iron",
+              "iron acts as anode",
+              "iron loses electrons",
+              "iron rusts"
+            ],
+            [
+              "tin does not protect",
+              "iron exposed to oxygen and water",
+              "rusts"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Rates of Reaction & Collision Theory",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Na2S2O3 + HCl reaction. Explain why total volume must be kept constant in all experiments.",
+          "keywords": [
+            [
+              "fair test",
+              "control variable",
+              "fair comparison"
+            ],
+            [
+              "same concentration",
+              "same amount",
+              "comparable results"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Experiment 4: 10 cm3 thiosulfate + 40 cm3 water. Experiments 1-3: 48s, 60s, 96s. Complete the table with predicted time.",
+          "keywords": [
+            [
+              "240",
+              "longer than 96",
+              "much slower",
+              "~240"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 3,
+          "type": "short",
+          "question": "How and why does reaction speed vary from experiment 1 to 4?",
+          "keywords": [
+            [
+              "speed decreases",
+              "rate decreases",
+              "reaction gets slower"
+            ],
+            [
+              "lower concentration of thiosulfate",
+              "fewer particles per unit volume"
+            ],
+            [
+              "less frequent collisions",
+              "fewer successful collisions",
+              "fewer collisions per second"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "type": "short",
+          "question": "At 20C time = 96s; at 42C time = 40s (same volumes). Explain using collision theory.",
+          "keywords": [
+            [
+              "particles have more kinetic energy",
+              "move faster",
+              "higher temperature"
+            ],
+            [
+              "more frequent collisions",
+              "collide more often"
+            ],
+            [
+              "more particles have activation energy",
+              "greater proportion of successful collisions"
+            ],
+            [
+              "higher rate at higher temperature"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Iron Extraction in Blast Furnace",
+      "parts": [
+        {
+          "label": "",
+          "marks": 5,
+          "type": "long",
+          "question": "Describe the reactions in the blast furnace for extracting iron from hematite. Include a redox equation and an acid/base equation.",
+          "keywords": [
+            [
+              "coke burns",
+              "C + O2 -> CO2",
+              "carbon dioxide formed"
+            ],
+            [
+              "CO2 reduced to CO",
+              "CO2 + C -> 2CO",
+              "carbon monoxide"
+            ],
+            [
+              "iron oxide reduced",
+              "Fe2O3 + 3CO -> 2Fe + 3CO2",
+              "redox reaction"
+            ],
+            [
+              "limestone decomposes",
+              "CaCO3 -> CaO + CO2",
+              "thermal decomposition"
+            ],
+            [
+              "CaO + SiO2 -> CaSiO3",
+              "slag formation",
+              "acid/base reaction",
+              "calcium oxide basic",
+              "silica acidic"
+            ]
+          ],
+          "anyOf": 5
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Electrochemical Cells",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Write an equation for the overall reaction in the zinc/iron cell with dilute sulfuric acid.",
+          "keywords": [
+            [
+              "Zn + H2SO4 -> ZnSO4 + H2",
+              "zinc + sulfuric acid -> zinc sulfate + hydrogen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain why all cell reactions are exothermic and redox.",
+          "keywords": [
+            [
+              "chemical to electrical energy",
+              "energy released to surroundings",
+              "exothermic"
+            ],
+            [
+              "electrons transferred",
+              "one metal oxidised loses electrons",
+              "other reduced gains electrons",
+              "redox"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Which electrode, zinc or iron, is the negative electrode? Give a reason.",
+          "keywords": [
+            [
+              "zinc"
+            ],
+            [
+              "more reactive metal",
+              "oxidises more easily",
+              "loses electrons more readily",
+              "higher in reactivity series"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Suggest two ways of increasing the voltage of this cell.",
+          "keywords": [
+            [
+              "use more reactive metal",
+              "replace iron with copper",
+              "use magnesium instead of zinc"
+            ],
+            [
+              "increase acid concentration",
+              "change electrolyte",
+              "use different metal pair further apart in reactivity"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Equilibrium, Biodiesel & Organic Chemistry",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "CO + 2H2 <=> CH3OH. Explain why the concentration of methanol at equilibrium does not change.",
+          "keywords": [
+            [
+              "forward rate equals reverse rate",
+              "dynamic equilibrium",
+              "rates equal"
+            ],
+            [
+              "no net change",
+              "concentrations constant"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Forward reaction is exothermic. Suggest temperature and pressure for high methanol yield.",
+          "keywords": [
+            [
+              "low temperature",
+              "because exothermic",
+              "equilibrium favours products when cool"
+            ],
+            [
+              "high pressure",
+              "4 moles gas -> 2 moles gas",
+              "fewer moles on product side"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "How would conditions used in practice compare with (ii)? Explain any differences.",
+          "keywords": [
+            [
+              "higher temperature",
+              "compromise temperature",
+              "faster rate",
+              "reaction too slow at low temperature"
+            ],
+            [
+              "moderate pressure",
+              "economic reasons",
+              "equipment cost"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Vegetable oil + methanol -> biodiesel + glycerol. What type of compound are vegetable oil and biodiesel?",
+          "keywords": [
+            [
+              "ester",
+              "esters"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What useful product is made by heating vegetable oil with aqueous sodium hydroxide?",
+          "keywords": [
+            [
+              "soap",
+              "soap"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Suggest why biodiesel has a smaller effect on atmospheric CO2 than petroleum-based diesel.",
+          "keywords": [
+            [
+              "plants absorb CO2 during growth",
+              "renewable",
+              "carbon neutral"
+            ],
+            [
+              "vegetable oil from plants",
+              "photosynthesis uses CO2",
+              "closed carbon cycle"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw a structural formula of an octene molecule (8 carbon atoms).",
+          "keywords": [
+            [
+              "C8H16",
+              "any octene structural formula",
+              "CH3-(CH2)5-CH=CH2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe a test to distinguish between octane and octene. Give the results.",
+          "keywords": [
+            [
+              "add bromine water",
+              "bromine",
+              "Br2"
+            ],
+            [
+              "octene decolourises bromine water",
+              "orange to colourless",
+              "unsaturated"
+            ],
+            [
+              "octane no change",
+              "remains orange",
+              "saturated"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Phosphorus Trichloride & Acid Strength",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Draw the arrangement of valency electrons in PCl3. Use x for P electrons and o for Cl electrons.",
+          "keywords": [
+            [
+              "three P-Cl single bonds",
+              "P-Cl bonds"
+            ],
+            [
+              "one lone pair on phosphorus",
+              "3 bonding pairs + 1 lone pair",
+              "pyramidal shape"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Balance: PCl3 + ...H2O -> ...HCl + H3PO3",
+          "keywords": [
+            [
+              "3",
+              "3",
+              "PCl3 + 3H2O -> 3HCl + H3PO3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how to show H3PO3 is a weaker acid than HCl.",
+          "keywords": [
+            [
+              "measure pH of equal concentrations",
+              "H3PO3 has higher pH",
+              "less acidic",
+              "fewer H+ ions"
+            ],
+            [
+              "react with magnesium at same concentration",
+              "HCl reacts faster",
+              "more H+ in HCl"
+            ],
+            [
+              "measure electrical conductivity",
+              "HCl conducts better",
+              "more ions in HCl"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(iii)",
+          "marks": 4,
+          "type": "short",
+          "question": "Suggest methods to prepare sodium salt (soluble) and calcium salt (insoluble) of phosphorous acid.",
+          "keywords": [
+            [
+              "titration with NaOH",
+              "neutralisation",
+              "add sodium hydroxide indicator"
+            ],
+            [
+              "evaporate",
+              "crystallise",
+              "dry",
+              "sodium phosphite"
+            ],
+            [
+              "add calcium carbonate or calcium hydroxide",
+              "precipitation",
+              "double decomposition"
+            ],
+            [
+              "filter",
+              "the calcium salt is insoluble",
+              "wash and dry precipitate"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Hydrocarbon Combustion Analysis & Cracking",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Why must excess oxygen be used when burning a hydrocarbon to determine its formula?",
+          "keywords": [
+            [
+              "ensure complete combustion",
+              "all carbon to CO2",
+              "all hydrogen to H2O"
+            ],
+            [
+              "otherwise incomplete combustion",
+              "CO or C could form",
+              "wrong volumes"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "CO2 is slightly soluble in water. Why does it dissolve readily in aqueous sodium hydroxide?",
+          "keywords": [
+            [
+              "CO2 is acidic",
+              "reacts with alkali",
+              "neutralisation",
+              "NaOH absorbs CO2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "20cm3 hydrocarbon + 120cm3 O2. After cooling: 90cm3. After NaOH: 30cm3 O2 remained. Complete the volumes.",
+          "keywords": [
+            [
+              "20",
+              "hydrocarbon = 20"
+            ],
+            [
+              "90",
+              "oxygen used = 120-30 = 90"
+            ],
+            [
+              "60",
+              "CO2 = 90-30 = 60"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "a(iv)",
+          "marks": 2,
+          "type": "short",
+          "question": "Use volume ratios to deduce the formula of the hydrocarbon.",
+          "keywords": [
+            [
+              "C3H8",
+              "propane",
+              "CxHy + 4.5O2 -> 3CO2 + 4H2O"
+            ],
+            [
+              "ratio 20:90:60 = 1:4.5:3",
+              "C3H8"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Butane + Cl2 -> CH3CH2CH2CH2Cl + HCl. Give the structural formula of another possible product.",
+          "keywords": [
+            [
+              "CH3-CHCl-CH2-CH3",
+              "2-chlorobutane",
+              "CH3-CH2-CHCl-CH3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the essential condition for this substitution reaction?",
+          "keywords": [
+            [
+              "UV light",
+              "ultraviolet light",
+              "sunlight",
+              "uv radiation"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 4,
+          "type": "short",
+          "question": "Explain what cracking is. Give an example and explain why it is used.",
+          "keywords": [
+            [
+              "breaking long-chain alkanes",
+              "thermal decomposition",
+              "break C-C bonds"
+            ],
+            [
+              "produces shorter alkane and alkene",
+              "C10H22 -> C8H18 + C2H4",
+              "example"
+            ],
+            [
+              "shorter alkanes more useful as fuels",
+              "more demand for petrol",
+              "alkenes used for polymers"
+            ],
+            [
+              "to meet demand",
+              "larger supply of shorter hydrocarbons needed"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    }
+  ]
+}

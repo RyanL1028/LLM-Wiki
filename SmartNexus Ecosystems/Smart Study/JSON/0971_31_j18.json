@@ -1,0 +1,1098 @@
+{
+  "id": "0971_31_j18",
+  "subject": "Chemistry",
+  "code": "0971/31",
+  "paper": "Paper 3 Theory (Core)",
+  "name": "Cambridge IGCSE (9-1) Chemistry 0971/31 Paper 3 Theory (Core) May/June 2018",
+  "description": "Cambridge IGCSE (9-1) Chemistry 0971/31, Paper 3 Theory (Core), May/June 2018. Covers gases, exhaust composition, kinetic particle theory, iron and transition metals, electrolysis, isotopes, Group I elements, and reaction rates.",
+  "type": "past",
+  "session": "May/June 2018",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Identification of Gases and Atomic Structure",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "long",
+          "question": "The names of eight gases are given: ammonia, argon, carbon dioxide, helium, hydrogen, methane, neon, sulfur dioxide. Each gas may be used once, more than once or not at all. State which gas: (i) turns damp red litmus paper blue; (ii) contributes to the formation of acid rain; (iii) is a hydrocarbon which contributes to climate change; (iv) is a product of the reaction of copper(II) carbonate with hydrochloric acid; (v) is a monatomic gas which has atoms with the electronic structure 2,8,8.",
+          "keywords": [
+            [
+              "ammonia"
+            ],
+            [
+              "sulfur",
+              "dioxide"
+            ],
+            [
+              "methane"
+            ],
+            [
+              "carbon",
+              "dioxide"
+            ],
+            [
+              "argon"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why helium and not hydrogen is used to fill party balloons.",
+          "keywords": [
+            [
+              "helium",
+              "unreactive",
+              "inert",
+              "not",
+              "flammable"
+            ],
+            [
+              "hydrogen",
+              "flammable",
+              "burns",
+              "explosive"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one use of argon.",
+          "keywords": [
+            [
+              "welding",
+              "inert",
+              "atmosphere"
+            ],
+            [
+              "light",
+              "bulbs",
+              "filament"
+            ],
+            [
+              "inert",
+              "atmosphere",
+              "argon"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Carbon dioxide is a compound. What is meant by the term compound?",
+          "keywords": [
+            [
+              "two",
+              "more",
+              "elements",
+              "chemically",
+              "combined",
+              "joined",
+              "bonded"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "long",
+          "question": "Complete the dot-and-cross diagram to show the electron arrangement in a molecule of ammonia. Show outer shell electrons only.",
+          "keywords": [
+            [
+              "nitrogen",
+              "five",
+              "outer",
+              "electrons",
+              "three",
+              "hydrogen",
+              "shared",
+              "pair"
+            ],
+            [
+              "correct",
+              "dot",
+              "cross",
+              "diagram",
+              "ammonia"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Exhaust Gases and Combustion",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "The table shows the percentage by volume of each of the gases present in the exhaust gases from a petrol engine. Calculate the percentage by volume of carbon dioxide in the exhaust gases. (Given: carbon monoxide 1.0%, hydrogen 0.2%, nitrogen 77.0%, nitrogen dioxide 0.3%, oxygen 0.7%, hydrocarbons 0.3%, water vapour 5.0%).",
+          "keywords": [
+            [
+              "15.5"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas shown in the table is present in the lowest percentage by volume?",
+          "keywords": [
+            [
+              "hydrogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Which two elements in the table combine to form nitrogen dioxide?",
+          "keywords": [
+            [
+              "nitrogen",
+              "oxygen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the formula for nitrogen dioxide.",
+          "keywords": [
+            [
+              "NO2",
+              "no2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Where does the nitrogen in the exhaust gases come from?",
+          "keywords": [
+            [
+              "air",
+              "atmosphere"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f",
+          "marks": 2,
+          "type": "long",
+          "question": "What is meant by the term hydrocarbon?",
+          "keywords": [
+            [
+              "compound",
+              "contains",
+              "only",
+              "hydrogen",
+              "carbon"
+            ],
+            [
+              "made",
+              "up",
+              "of",
+              "hydrogen",
+              "carbon"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "g",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one adverse effect of carbon monoxide on health.",
+          "keywords": [
+            [
+              "toxic",
+              "poisonous"
+            ],
+            [
+              "binds",
+              "to",
+              "haemoglobin",
+              "hemoglobin"
+            ],
+            [
+              "reduces",
+              "oxygen",
+              "carrying",
+              "capacity"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "h",
+          "marks": 2,
+          "type": "long",
+          "question": "Balance the chemical equation for the complete combustion of pentane: C5H12 + 8O2 → ___CO2 + ___H2O.",
+          "keywords": [
+            [
+              "5",
+              "CO2",
+              "6",
+              "H2O"
+            ],
+            [
+              "5CO2",
+              "6H2O"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Kinetic Particle Theory, States of Matter and Organic Chemistry",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "long",
+          "question": "Limonene is a volatile liquid which smells of oranges. A teacher placed a beaker of limonene at the front of a classroom. At first, the students at the back of the classroom could not smell the limonene. After two minutes, the smell of limonene had spread throughout the classroom. The air in the classroom was still and calm. Explain these observations using the kinetic particle model.",
+          "keywords": [
+            [
+              "particles",
+              "move",
+              "randomly",
+              "diffuse"
+            ],
+            [
+              "spread",
+              "out",
+              "from",
+              "high",
+              "to",
+              "low",
+              "concentration"
+            ],
+            [
+              "limonene",
+              "particles",
+              "evaporate",
+              "move",
+              "through",
+              "air"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "long",
+          "question": "The melting point of limonene is -74°C. The boiling point of limonene is 176°C. What is the physical state of limonene at -80°C? Explain your answer.",
+          "keywords": [
+            [
+              "solid"
+            ],
+            [
+              "temperature",
+              "below",
+              "melting",
+              "point",
+              "-80",
+              "less",
+              "than",
+              "-74"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "State what is meant by the term catalyst.",
+          "keywords": [
+            [
+              "substance",
+              "speeds",
+              "up",
+              "reaction",
+              "without",
+              "being",
+              "used",
+              "up",
+              "consumed",
+              "unchanged"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "State what is meant by the term oxidation.",
+          "keywords": [
+            [
+              "gain",
+              "of",
+              "oxygen"
+            ],
+            [
+              "loss",
+              "of",
+              "electrons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Limonene can be made from a colourless compound called α-terpineol. What feature of the structure of the α-terpineol molecule shows that it is an unsaturated compound?",
+          "keywords": [
+            [
+              "carbon",
+              "carbon",
+              "double",
+              "bond",
+              "C=C"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f",
+          "marks": 2,
+          "type": "long",
+          "question": "Describe how the colour of aqueous bromine changes when an excess of α-terpineol is added to it.",
+          "keywords": [
+            [
+              "orange",
+              "brown",
+              "red",
+              "brown",
+              "yellow",
+              "brown"
+            ],
+            [
+              "colourless",
+              "decolourised"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Reactivity of Metals, Iron and Rusting",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "long",
+          "question": "The table shows how easy it is to reduce four metal oxides by heating with carbon. Use this information to put the metals in order of their reactivity. Put the least reactive metal first. (Data: nickel(II) oxide reduced above 300°C, iron(III) oxide reduced above 650°C, chromium(III) oxide reduced above 1700°C, magnesium oxide not reduced at 1750°C).",
+          "keywords": [
+            [
+              "nickel",
+              "iron",
+              "chromium",
+              "magnesium"
+            ],
+            [
+              "Ni",
+              "Fe",
+              "Cr",
+              "Mg"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "long",
+          "question": "Iron is a transition element. Potassium is an element in Group I of the Periodic Table. Describe three ways in which the properties of iron differ from those of potassium.",
+          "keywords": [
+            [
+              "harder",
+              "stronger",
+              "higher",
+              "density"
+            ],
+            [
+              "higher",
+              "melting",
+              "boiling",
+              "point"
+            ],
+            [
+              "less",
+              "reactive",
+              "not",
+              "react",
+              "with",
+              "cold",
+              "water"
+            ],
+            [
+              "forms",
+              "coloured",
+              "compounds"
+            ],
+            [
+              "variable",
+              "oxidation",
+              "states",
+              "more",
+              "than",
+              "one",
+              "ion"
+            ],
+            [
+              "catalyst",
+              "catalytic",
+              "properties"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "long",
+          "question": "Iron wire burns in oxygen. Balance the chemical equation for this reaction: ___Fe + ___O₂ → Fe₃O₄.",
+          "keywords": [
+            [
+              "3",
+              "Fe",
+              "2",
+              "O2"
+            ],
+            [
+              "3Fe",
+              "2O2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Pure iron can be made by reducing iron(III) oxide with hydrogen: Fe₂O₃ + 3H₂ → 2Fe + 3H₂O. How does this equation show that iron(III) oxide is reduced?",
+          "keywords": [
+            [
+              "loses",
+              "oxygen",
+              "oxygen",
+              "removed"
+            ],
+            [
+              "oxygen",
+              "taken",
+              "away",
+              "removed"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "long",
+          "question": "When iron reacts with dilute hydrochloric acid, iron(II) chloride is formed. Describe a test for iron(II) ions.",
+          "keywords": [
+            [
+              "add",
+              "sodium",
+              "hydroxide",
+              "NaOH"
+            ],
+            [
+              "green",
+              "precipitate",
+              "forms"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "f",
+          "marks": 1,
+          "type": "short",
+          "question": "Another chloride of iron has the structure shown. Deduce the molecular formula of this compound showing the number of iron and chlorine atoms. (Structure shows two Fe atoms each bonded to three Cl atoms, forming a dimer with bridging chlorines).",
+          "keywords": [
+            [
+              "Fe2Cl6",
+              "Fe₂Cl₆"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "g",
+          "marks": 2,
+          "type": "long",
+          "question": "Some iron nails were placed in bottles under different conditions: A (moist air), B (boiled water), C (water), D (anhydrous calcium chloride to dry the air). In which bottles will the iron nails not rust? Give reasons for your answer.",
+          "keywords": [
+            [
+              "B",
+              "D",
+              "boiled",
+              "water",
+              "anhydrous",
+              "calcium",
+              "chloride"
+            ],
+            [
+              "no",
+              "air",
+              "oxygen",
+              "in",
+              "B",
+              "no",
+              "water",
+              "moisture",
+              "in",
+              "D"
+            ],
+            [
+              "both",
+              "water",
+              "and",
+              "oxygen",
+              "needed",
+              "for",
+              "rusting"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Electrolysis and Halogen Reactivity",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "fillblank",
+          "question": "Complete the sentence about electrolysis using words from the list. Word list: breakdown, compound, electricity, electroplating, element, gaseous, heat, molten. Electrolysis is the ______ of an ionic ______ when ______ or in aqueous solution by the passage of ______.",
+          "blanks": [
+            {
+              "id": "a",
+              "prompt": "Electrolysis is the",
+              "answer": "breakdown",
+              "keywords": [
+                [
+                  "breakdown"
+                ]
+              ]
+            },
+            {
+              "id": "b",
+              "prompt": "of an ionic",
+              "answer": "compound",
+              "keywords": [
+                [
+                  "compound"
+                ]
+              ]
+            },
+            {
+              "id": "c",
+              "prompt": "when",
+              "answer": "molten",
+              "keywords": [
+                [
+                  "molten"
+                ]
+              ]
+            },
+            {
+              "id": "d",
+              "prompt": "or in aqueous solution by the passage of",
+              "answer": "electricity",
+              "keywords": [
+                [
+                  "electricity"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "long",
+          "question": "Molten zinc iodide can be electrolysed using the apparatus shown. On the diagram, label: the anode, the cathode, and the electrolyte.",
+          "keywords": [
+            [
+              "anode",
+              "positive",
+              "electrode"
+            ],
+            [
+              "cathode",
+              "negative",
+              "electrode"
+            ],
+            [
+              "electrolyte",
+              "molten",
+              "zinc",
+              "iodide"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Why are the electrodes made of graphite?",
+          "keywords": [
+            [
+              "inert",
+              "unreactive"
+            ],
+            [
+              "conducts",
+              "electricity"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "long",
+          "question": "Predict the products of the electrolysis of molten zinc iodide at: the negative electrode and the positive electrode.",
+          "keywords": [
+            [
+              "zinc",
+              "Zn"
+            ],
+            [
+              "iodine",
+              "I2",
+              "I₂"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "long",
+          "question": "When chlorine is bubbled through a colourless aqueous solution of zinc iodide, the solution turns brown. Name the brown substance. Suggest, using ideas about reactivity of the halogens, why this reaction occurs.",
+          "keywords": [
+            [
+              "iodine"
+            ],
+            [
+              "chlorine",
+              "more",
+              "reactive",
+              "than",
+              "iodine",
+              "displaces",
+              "iodine"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Isotopes and Atomic Structure",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "long",
+          "question": "An atom of an isotope of fluorine is represented by the symbol ¹⁹F₉. Describe the structure of an atom of this isotope of fluorine. In your answer, include: the position of the protons, neutrons and electrons in the atom, and the number of protons, neutrons and electrons present in the atom.",
+          "keywords": [
+            [
+              "9",
+              "protons",
+              "in",
+              "nucleus"
+            ],
+            [
+              "10",
+              "neutrons",
+              "in",
+              "nucleus"
+            ],
+            [
+              "9",
+              "electrons",
+              "around",
+              "nucleus",
+              "in",
+              "shells"
+            ],
+            [
+              "2",
+              "electrons",
+              "first",
+              "shell"
+            ],
+            [
+              "7",
+              "electrons",
+              "second",
+              "shell"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "fillblank",
+          "question": "Complete the sentence about isotopes using words from the list. Word list: atomic, compound, element, ions, molecular, nucleons. Isotopes are atoms of the same ______ which have the same ______ number but different numbers of ______.",
+          "blanks": [
+            {
+              "id": "a",
+              "prompt": "Isotopes are atoms of the same",
+              "answer": "element",
+              "keywords": [
+                [
+                  "element"
+                ]
+              ]
+            },
+            {
+              "id": "b",
+              "prompt": "which have the same",
+              "answer": "atomic",
+              "keywords": [
+                [
+                  "atomic"
+                ]
+              ]
+            },
+            {
+              "id": "c",
+              "prompt": "number but different numbers of",
+              "answer": "nucleons",
+              "keywords": [
+                [
+                  "nucleons"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one medical use of radioactive isotopes.",
+          "keywords": [
+            [
+              "radiotherapy",
+              "cancer",
+              "treatment"
+            ],
+            [
+              "sterilising",
+              "equipment"
+            ],
+            [
+              "tracers",
+              "tracing",
+              "medical",
+              "imaging"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Which one of the following isotopes is used as a source of energy?",
+          "options": [
+            "A: ¹²⁷I₅₃",
+            "B: ²³⁵U₉₂",
+            "C: ¹³¹Xe₅₄",
+            "D: ⁶⁶Zn₃₀"
+          ],
+          "answer": 1,
+          "keywords": [
+            [
+              "uranium",
+              "235",
+              "U-235"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Group I Elements and Compounds",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "long",
+          "question": "The properties of some Group I elements are shown in the table. Complete the table to estimate: the relative thermal conductivity of potassium, and the atomic radius of rubidium. (Given: Na conductivity 3.9, Rb conductivity 1.6; K radius 227 pm, Cs radius 265 pm).",
+          "keywords": [
+            [
+              "2.5",
+              "2",
+              "3",
+              "between"
+            ],
+            [
+              "248",
+              "245",
+              "250",
+              "240"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the trend in the boiling points of the Group I elements.",
+          "keywords": [
+            [
+              "decreases",
+              "down",
+              "the",
+              "group",
+              "going",
+              "down"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Use the information in the table to predict what you would observe when rubidium reacts with cold water.",
+          "keywords": [
+            [
+              "explodes",
+              "explosive",
+              "violent"
+            ],
+            [
+              "bursts",
+              "into",
+              "flame"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Which one of the statements about the formation of a sodium ion from a sodium atom is correct?",
+          "options": [
+            "A: A sodium atom gains an electron.",
+            "B: A sodium atom loses an electron.",
+            "C: A sodium atom loses a proton.",
+            "D: A sodium atom gains a proton."
+          ],
+          "answer": 1,
+          "keywords": [
+            [
+              "loses",
+              "an",
+              "electron"
+            ]
+          ]
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Is sodium oxide an acidic oxide or a basic oxide? Give a reason for your answer.",
+          "keywords": [
+            [
+              "basic"
+            ],
+            [
+              "sodium",
+              "is",
+              "a",
+              "metal",
+              "metal",
+              "oxides",
+              "are",
+              "basic"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f",
+          "marks": 2,
+          "type": "long",
+          "question": "A compound of sodium has the formula C₄H₅Na. Calculate the relative formula mass of C₄H₅Na. Show all your working. Use your Periodic Table to help you.",
+          "keywords": [
+            [
+              "76"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "g",
+          "marks": 2,
+          "type": "long",
+          "question": "Complete the word equation for the reaction of sodium hydroxide with sulfuric acid.",
+          "keywords": [
+            [
+              "sodium",
+              "sulfate",
+              "Na2SO4"
+            ],
+            [
+              "water",
+              "H2O"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Reaction Rates and Acids",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "When zinc reacts with hydrochloric acid, hydrogen gas is produced. The graph shows how the volume of hydrogen gas produced changes with time when an excess of zinc is reacted with 0.2 mol/dm³ hydrochloric acid. Explain why the volume of hydrogen gas remains constant after six minutes.",
+          "keywords": [
+            [
+              "reaction",
+              "complete",
+              "finished",
+              "stopped"
+            ],
+            [
+              "all",
+              "acid",
+              "used",
+              "up",
+              "consumed"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "What volume of hydrogen gas was released in the first two minutes of the reaction?",
+          "keywords": [
+            [
+              "40",
+              "cm3",
+              "cm³"
+            ],
+            [
+              "38",
+              "42"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "long",
+          "question": "The experiment is repeated using the same volume of 0.1 mol/dm³ hydrochloric acid. All other conditions are kept the same. On the grid, draw the graph for the experiment using 0.1 mol/dm³ hydrochloric acid.",
+          "keywords": [
+            [
+              "slower",
+              "rate",
+              "less",
+              "steep",
+              "curve"
+            ],
+            [
+              "half",
+              "volume",
+              "final",
+              "lower",
+              "total"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the name of the salt formed when zinc reacts with hydrochloric acid.",
+          "keywords": [
+            [
+              "zinc",
+              "chloride",
+              "ZnCl2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Which one of the following pH values could be the pH of dilute hydrochloric acid?",
+          "options": [
+            "A: pH 1",
+            "B: pH 7",
+            "C: pH 9",
+            "D: pH 13"
+          ],
+          "answer": 0,
+          "keywords": [
+            [
+              "pH",
+              "1"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

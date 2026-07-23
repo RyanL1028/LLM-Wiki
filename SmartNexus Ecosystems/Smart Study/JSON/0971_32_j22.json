@@ -1,0 +1,1148 @@
+{
+  "id": "0971_32_j22",
+  "subject": "Chemistry",
+  "code": "0971/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering atomic structure, ions & bonding, Group I & VII elements, acids & bases, aluminium extraction & properties, organic chemistry & petroleum fractions, sodium compounds & electrolysis, and rates of reaction.",
+  "type": "past",
+  "session": "May/June 2022",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Symbols and Formulae",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "A list of symbols and formulae is shown: Br⁻, CH₄, CO₂, Cu²⁺, H₂, K⁺, Na⁺, N₂, O₂, U.\nEach symbol or formula may be used once, more than once or not at all.\nState which symbol or formula represents a compound that is a product of respiration.",
+          "keywords": [
+            [
+              "CO2",
+              "CO₂",
+              "carbon dioxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which symbol or formula represents an ion that gives a lilac colour in a flame test.",
+          "keywords": [
+            [
+              "K+",
+              "K⁺",
+              "potassium",
+              "potassium ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which symbol or formula represents a gas which is 21% of clean, dry air.",
+          "keywords": [
+            [
+              "O2",
+              "O₂",
+              "oxygen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which symbol or formula represents an element that has a radioactive isotope used as a source of energy.",
+          "keywords": [
+            [
+              "U",
+              "uranium"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which symbol or formula represents an ion formed when an atom gains an electron.",
+          "keywords": [
+            [
+              "Br-",
+              "Br⁻",
+              "bromide",
+              "bromide ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the table to show the relative masses of a proton, a neutron and an electron.\nProton: 1\nNeutron: ____\nElectron: ____",
+          "keywords": [
+            [
+              "1",
+              "one",
+              "neutron 1",
+              "neutron mass 1"
+            ],
+            [
+              "0",
+              "negligible",
+              "1/1840",
+              "very small",
+              "electron mass negligible",
+              "electron 1/1840"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "choosethree",
+          "question": "Choose the two correct statements about carbon dioxide. Tick two boxes.",
+          "correctIndices": [
+            1,
+            4
+          ],
+          "options": [
+            "Carbon dioxide is a mixture of two elements.",
+            "Carbon dioxide is an acidic oxide.",
+            "Carbon dioxide has ionic bonding.",
+            "Carbon dioxide has a giant covalent structure.",
+            "There are three atoms in a molecule of carbon dioxide."
+          ]
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Ions in Toothpaste",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The table shows the masses of some ions in a 1000 cm³ sample of toothpaste (NH₄⁺ 0.5g, Ca²⁺ 3.6g, CO₃²⁻ 2.5g, Cl⁻ 0.9g, F⁻ 1.2g, Mg²⁺ 0.2g, PO₄³⁻ 28.0g, Na⁺ 32.0g, SO₄²⁻ 10.4g, Sn²⁺ 0.3g).\nState which positive ion has the lowest mass in 1000 cm³ of toothpaste.",
+          "keywords": [
+            [
+              "Mg2+",
+              "Mg²⁺",
+              "magnesium",
+              "magnesium ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the compound that contains Mg²⁺ and SO₄²⁻ ions.",
+          "keywords": [
+            [
+              "magnesium sulfate",
+              "magnesium sulphate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of sodium ions in 200 cm³ of toothpaste. (Na⁺ is 32.0g in 1000 cm³)",
+          "keywords": [
+            [
+              "6.4",
+              "6.4g",
+              "6.40"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for chloride ions.",
+          "keywords": [
+            [
+              "silver nitrate",
+              "AgNO3",
+              "AgNO₃",
+              "add silver nitrate"
+            ],
+            [
+              "white precipitate",
+              "white ppt",
+              "white solid",
+              "white",
+              "precipitate"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of glycerol is shown (a 3-carbon chain, each carbon bonded to an -OH group, with additional H atoms).\nDeduce the formula of glycerol to show the number of atoms of carbon, hydrogen and oxygen.",
+          "keywords": [
+            [
+              "C3H8O3",
+              "C₃H₈O₃",
+              "3C 8H 3O",
+              "C3 H8 O3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structure of ethanol to show all of the atoms and all of the bonds. (Ethanol: C₂H₅OH, two carbon atoms bonded together, one carbon bonded to three H atoms, the other bonded to two H atoms and an -OH group.)",
+          "keywords": [
+            [
+              "C2H5OH",
+              "C₂H₅OH",
+              "CH3CH2OH",
+              "CH₃CH₂OH",
+              "ethanol structure",
+              "two carbons",
+              "OH",
+              "hydroxyl"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the two products formed when ethanol undergoes complete combustion.",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2",
+              "CO₂"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one use of ethanol.",
+          "keywords": [
+            [
+              "fuel",
+              "biofuel"
+            ],
+            [
+              "solvent"
+            ],
+            [
+              "disinfectant",
+              "antiseptic",
+              "sterilising"
+            ],
+            [
+              "alcoholic drinks",
+              "alcohol"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Group I & VII Elements",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Deduce the number of electrons, neutrons and protons in one atom of the isotope of potassium shown: ⁴⁰K₁₉.\nNumber of electrons: ____\nNumber of neutrons: ____\nNumber of protons: ____",
+          "keywords": [
+            [
+              "19",
+              "19 electrons",
+              "nineteen"
+            ],
+            [
+              "21",
+              "21 neutrons",
+              "twenty one",
+              "40-19"
+            ],
+            [
+              "19",
+              "19 protons",
+              "nineteen"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation for the reaction of potassium with water to form potassium hydroxide and a gas which pops with a lighted splint.\n2K + ____ H₂O → 2KOH + ____",
+          "keywords": [
+            [
+              "2",
+              "2H2O",
+              "2H₂O",
+              "two"
+            ],
+            [
+              "H2",
+              "H₂",
+              "hydrogen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "The table shows properties of Group I elements: lithium (mp 181°C, hardness 5.0), sodium (mp ____, hardness 0.7), potassium (mp 63°C, hardness ____), rubidium (mp 39°C, hardness 0.2).\nPredict the melting point of sodium and the relative hardness of potassium.",
+          "keywords": [
+            [
+              "98",
+              "~98",
+              "about 98",
+              "between 80 and 110",
+              "sodium mp"
+            ],
+            [
+              "0.4",
+              "0.5",
+              "~0.5",
+              "about 0.5",
+              "between 0.2 and 0.7",
+              "potassium hardness"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Predict the physical state of potassium at 100°C. Give a reason for your answer.",
+          "keywords": [
+            [
+              "gas",
+              "gaseous",
+              "gas state"
+            ],
+            [
+              "above",
+              "higher than",
+              "exceeds",
+              "greater than"
+            ],
+            [
+              "boiling point",
+              "760",
+              "760°C",
+              "bp",
+              "boils"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Aqueous bromine reacts with aqueous potassium iodide: Br₂ + 2KI → 2KBr + I₂.\nExplain how this equation shows that bromine is more reactive than iodine.",
+          "keywords": [
+            [
+              "displaces",
+              "displacement",
+              "displaces iodine",
+              "replaces"
+            ],
+            [
+              "more reactive",
+              "higher reactivity",
+              "reactivity series"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the colour of aqueous iodine.",
+          "keywords": [
+            [
+              "brown",
+              "dark brown",
+              "reddish brown",
+              "red-brown",
+              "yellowish brown",
+              "orange-brown"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Bromine is a diatomic molecule. State the meaning of the term diatomic.",
+          "keywords": [
+            [
+              "two atoms",
+              "2 atoms",
+              "two",
+              "pair"
+            ],
+            [
+              "molecule",
+              "molecule of two",
+              "contains two"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Bromine liquid turns into a gas very easily at room temperature. Choose the word which best describes a substance that evaporates easily.",
+          "options": [
+            "conductor",
+            "flammable",
+            "malleable",
+            "volatile"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Acids and Bases",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the type of chemical reaction which occurs when an acid reacts with a base.",
+          "keywords": [
+            [
+              "neutralisation",
+              "neutralization",
+              "neutralisation reaction",
+              "neutralization reaction"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the colour of litmus in acidic and alkaline solutions.\nIn acidic solution: ____\nIn alkaline solution: ____",
+          "keywords": [
+            [
+              "red",
+              "red litmus in acid"
+            ],
+            [
+              "blue",
+              "blue litmus in alkali",
+              "alkaline blue"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the word equation for the reaction of nitric acid with calcium hydroxide.\nnitric acid + calcium hydroxide → ____ + ____",
+          "keywords": [
+            [
+              "calcium nitrate",
+              "calcium nitrate salt"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "When nitric acid reacts with calcium hydroxide, the temperature of the reaction mixture increases. Choose the word which best describes this reaction.",
+          "options": [
+            "decomposition",
+            "endothermic",
+            "exothermic",
+            "oxidation"
+          ],
+          "answer": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the energy level diagram for the reaction of nitric acid with calcium hydroxide by writing the words reactants and products. The diagram shows energy level decreasing from left to right (energy on y-axis vs progress of reaction on x-axis).",
+          "keywords": [
+            [
+              "reactants",
+              "higher",
+              "left",
+              "reactants higher energy"
+            ],
+            [
+              "products",
+              "lower",
+              "right",
+              "products lower energy"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Calcium hydroxide is slaked lime. Give one use of slaked lime.",
+          "keywords": [
+            [
+              "neutralise",
+              "neutralising",
+              "neutralize"
+            ],
+            [
+              "acidic soil",
+              "soil",
+              "acid soil"
+            ],
+            [
+              "mortar",
+              "cement",
+              "building"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Aluminium",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "The changes of state of aluminium are shown: solid aluminium →(A)→ liquid aluminium →(B)→ aluminium gas.\nName the changes of state represented by A and B.\nA: ____\nB: ____",
+          "keywords": [
+            [
+              "melting",
+              "fusion"
+            ],
+            [
+              "boiling",
+              "vaporisation",
+              "evaporation"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "type": "long",
+          "question": "Use the kinetic particle model to describe the differences between solid aluminium and liquid aluminium in terms of the arrangement of the particles and the separation of the particles.",
+          "keywords": [
+            [
+              "regular",
+              "ordered",
+              "lattice",
+              "regular arrangement",
+              "solid regular"
+            ],
+            [
+              "random",
+              "irregular",
+              "disordered",
+              "liquid random"
+            ],
+            [
+              "touching",
+              "close together",
+              "closely packed",
+              "solid touching"
+            ],
+            [
+              "close",
+              "still close",
+              "liquid close",
+              "slightly further",
+              "still touching mostly"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the main ore of aluminium.",
+          "keywords": [
+            [
+              "bauxite"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Aluminium is extracted from aluminium oxide by electrolysis. Explain why aluminium is extracted by electrolysis and not by reduction with carbon.",
+          "keywords": [
+            [
+              "more reactive",
+              "more reactive than carbon",
+              "above carbon",
+              "higher in reactivity"
+            ],
+            [
+              "reactivity series",
+              "electrolysis needed",
+              "cannot be reduced by carbon"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Aluminium can be used to reduce iron(III) oxide to iron: Fe₂O₃ + 2Al → 2Fe + Al₂O₃.\nDescribe how this equation shows that iron(III) oxide is reduced.",
+          "keywords": [
+            [
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost",
+              "loss of oxygen"
+            ],
+            [
+              "reduced",
+              "reduction"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Aluminium is used for electric cables. State one other use of aluminium. Give a reason for this use in terms of the properties of aluminium.",
+          "keywords": [
+            [
+              "aircraft",
+              "aeroplane",
+              "airplane",
+              "aircraft bodies",
+              "aerospace"
+            ],
+            [
+              "window frames",
+              "door frames"
+            ],
+            [
+              "food containers",
+              "cans",
+              "foil",
+              "kitchen foil"
+            ],
+            [
+              "low density",
+              "light",
+              "lightweight",
+              "low mass"
+            ],
+            [
+              "resistant to corrosion",
+              "does not corrode",
+              "corrosion resistant",
+              "oxide layer",
+              "does not rust"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "f",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the electronic structure of aluminium. Use the Periodic Table to help you.",
+          "keywords": [
+            [
+              "2,8,3",
+              "2.8.3",
+              "2-8-3",
+              "two eight three"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Organic Compounds & Petroleum",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structures of four organic compounds C, D, E and F are shown. C and D are alkanes (saturated hydrocarbons with single bonds only). E and F are alkenes (unsaturated hydrocarbons containing a C=C double bond).\nState which two of the compounds, C, D, E and F, are in the same homologous series.",
+          "keywords": [
+            [
+              "C",
+              "D",
+              "C and D"
+            ],
+            [
+              "alkanes",
+              "alkane",
+              "alkane series"
+            ],
+            [
+              "E",
+              "F",
+              "E and F"
+            ],
+            [
+              "alkenes",
+              "alkene",
+              "alkene series"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which compound, C, D, E or F, is the monomer used to make poly(ethene).",
+          "keywords": [
+            [
+              "E",
+              "ethene",
+              "C2H4",
+              "C₂H₄",
+              "alkene",
+              "unsaturated",
+              "compound E"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which compound, C, D, E or F, is a carboxylic acid.",
+          "keywords": [
+            [
+              "D",
+              "carboxylic acid",
+              "COOH",
+              "-COOH",
+              "compound D"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "type": "long",
+          "question": "Petroleum is a mixture of hydrocarbons which can be separated into fractions. Describe how petroleum is separated into fractions to include the name of the process used and how this process separates the different fractions.",
+          "keywords": [
+            [
+              "fractional distillation",
+              "fractionating column",
+              "fractionation"
+            ],
+            [
+              "heat",
+              "heated",
+              "vaporised",
+              "evaporate",
+              "vapour"
+            ],
+            [
+              "rises",
+              "rises up",
+              "column",
+              "goes up",
+              "ascends"
+            ],
+            [
+              "condenses",
+              "condense",
+              "cool",
+              "cooler",
+              "condensation"
+            ],
+            [
+              "boiling point",
+              "different boiling points",
+              "bp"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete the table to show the name and uses of some petroleum fractions: naphtha, diesel oil (gas oil), and bitumen (for making roads).",
+          "keywords": [
+            [
+              "naphtha",
+              "making chemicals",
+              "chemicals",
+              "petrochemicals",
+              "feedstock"
+            ],
+            [
+              "diesel",
+              "fuel",
+              "fuel for vehicles",
+              "lorries",
+              "trucks",
+              "cars",
+              "buses",
+              "trains"
+            ],
+            [
+              "bitumen",
+              "roads",
+              "road surfacing",
+              "road surface",
+              "tarmac",
+              "asphalt"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Sodium & Its Compounds",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Sodium is a metal in Group I of the Periodic Table. Give two physical properties of all metals.",
+          "keywords": [
+            [
+              "conducts electricity",
+              "electrical conductivity",
+              "good electrical conductor"
+            ],
+            [
+              "conducts heat",
+              "thermal conductivity",
+              "good thermal conductor"
+            ],
+            [
+              "malleable",
+              "malleability",
+              "can be hammered"
+            ],
+            [
+              "ductile",
+              "ductility",
+              "drawn into wires"
+            ],
+            [
+              "shiny",
+              "lustrous",
+              "metallic lustre",
+              "shine"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one physical property of Group I metals that is different from most other metals and state how it is different.",
+          "keywords": [
+            [
+              "soft",
+              "very soft",
+              "can be cut with knife",
+              "softness"
+            ],
+            [
+              "low density",
+              "low",
+              "less dense",
+              "float on water",
+              "low density compared to other metals"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation for the reaction of sodium with oxygen to form sodium oxide.\n____ Na + O₂ → ____ Na₂O",
+          "keywords": [
+            [
+              "4",
+              "4Na",
+              "four Na",
+              "four sodium"
+            ],
+            [
+              "2",
+              "2Na2O",
+              "2Na₂O",
+              "two Na2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "The diagram shows the apparatus used to electrolyse molten sodium iodide. Complete the diagram by labelling the electrolyte and the cathode.\n(Power supply with + and - terminals connected to electrodes in a container of molten sodium iodide.)",
+          "keywords": [
+            [
+              "molten sodium iodide",
+              "NaI",
+              "sodium iodide",
+              "electrolyte"
+            ],
+            [
+              "negative electrode",
+              "negative",
+              "cathode is negative",
+              "-",
+              "connected to negative"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the products formed at each electrode during the electrolysis of molten sodium iodide.\nPositive electrode: ____\nNegative electrode: ____",
+          "keywords": [
+            [
+              "iodine",
+              "I2",
+              "I₂",
+              "iodine gas"
+            ],
+            [
+              "sodium",
+              "Na",
+              "sodium metal"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the table to calculate the relative molecular mass of Na₂S₂O₃.\nSodium: 2 atoms x 23 = 46\nSulfur: ____ atoms x 32 = ____\nOxygen: ____ atoms x 16 = ____\nRelative molecular mass = ____",
+          "keywords": [
+            [
+              "2",
+              "two sulfur atoms",
+              "2 sulfur"
+            ],
+            [
+              "64",
+              "64 sulfur",
+              "2x32"
+            ],
+            [
+              "3",
+              "three oxygen atoms",
+              "3 oxygen"
+            ],
+            [
+              "48",
+              "48 oxygen",
+              "3x16"
+            ],
+            [
+              "158",
+              "relative molecular mass 158"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Rate of Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "A student investigates the reaction of small pieces of calcium carbonate with dilute hydrochloric acid. The results are shown on a graph (volume of CO₂ vs time, showing a curve rising to about 55 cm³ then levelling off).\nDeduce the volume of carbon dioxide gas at 35s.",
+          "keywords": [
+            [
+              "45",
+              "about 45",
+              "~45",
+              "44",
+              "45 cm3",
+              "45cm³",
+              "45cm3",
+              "between 42 and 48"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "The experiment is repeated at a higher temperature. All other conditions stay the same. Describe how the line on the graph would change.",
+          "keywords": [
+            [
+              "steeper",
+              "steeper curve",
+              "steeper gradient",
+              "more steep",
+              "sharper rise"
+            ],
+            [
+              "same final volume",
+              "same volume",
+              "same maximum",
+              "levelling at same",
+              "same height"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the effect each of the following has on the rate of reaction of calcium carbonate with dilute hydrochloric acid. All other conditions stay the same.\n● The reaction is carried out using a higher concentration of hydrochloric acid.\n● The reaction is carried out using powdered calcium carbonate.",
+          "keywords": [
+            [
+              "increases",
+              "faster",
+              "higher rate",
+              "more",
+              "greater",
+              "increased rate"
+            ],
+            [
+              "increases",
+              "faster",
+              "higher rate",
+              "more",
+              "greater",
+              "increased rate"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "When 0.11 g of calcium carbonate is used, 25 cm³ of carbon dioxide gas is produced. Calculate the mass of calcium carbonate needed to produce 100 cm³ of carbon dioxide gas.",
+          "keywords": [
+            [
+              "0.44",
+              "0.44g",
+              "0.44 g"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "State one use of calcium carbonate.",
+          "keywords": [
+            [
+              "cement",
+              "making cement"
+            ],
+            [
+              "building",
+              "construction",
+              "building material"
+            ],
+            [
+              "neutralising",
+              "neutralising soil",
+              "liming",
+              "agriculture"
+            ],
+            [
+              "making lime",
+              "making calcium oxide",
+              "making quicklime"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    }
+  ]
+}

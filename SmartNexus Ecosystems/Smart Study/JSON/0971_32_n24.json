@@ -1,0 +1,1425 @@
+{
+  "id": "0971_32_n24",
+  "subject": "Chemistry",
+  "code": "0971/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering the Periodic Table, structure & bonding, water purification & ions, organic chemistry & alkenes, halogens, metals & reactivity, acids bases & salts, and rates & electrolysis.",
+  "type": "past",
+  "session": "October/November 2024",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "The Periodic Table",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig 1.1 shows part of the Periodic Table with the elements: H, N, O, Na, Al, S, Ar, K, Ca, Zn, Br, I, Au, Ba.\nEach symbol may be used once, more than once or not at all.\nGive the symbol of the element that:\n(i) is 78% of clean, dry air",
+          "keywords": [
+            [
+              "N",
+              "nitrogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) forms an ion with a charge of 3+",
+          "keywords": [
+            [
+              "Al",
+              "aluminium",
+              "aluminum"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iii) has an atom with only five occupied electron shells",
+          "keywords": [
+            [
+              "I",
+              "iodine"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iv) forms an ion that gives a light green colour in a flame test",
+          "keywords": [
+            [
+              "Ba",
+              "barium"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(v) is used in food containers because of its resistance to corrosion",
+          "keywords": [
+            [
+              "Al",
+              "aluminium",
+              "aluminum"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(vi) is the metal with the lowest reactivity.",
+          "keywords": [
+            [
+              "Au",
+              "gold"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Helium is a monatomic gas.\n(b)(i) State the meaning of the term monatomic.",
+          "keywords": [
+            [
+              "single atom",
+              "one atom",
+              "individual atoms",
+              "exists as single atoms",
+              "separate atoms",
+              "atoms",
+              "monatomic",
+              "single",
+              "one",
+              "consists of atoms",
+              "made of atoms",
+              "one atom per molecule"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Explain in terms of electronic configuration why helium is unreactive.",
+          "keywords": [
+            [
+              "full outer shell",
+              "full shell",
+              "complete outer shell",
+              "2 electrons",
+              "two electrons",
+              "duplet",
+              "full valence shell",
+              "outer shell is full",
+              "first shell is full",
+              "does not need to gain or lose",
+              "outermost shell full"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Structure & Bonding",
+      "parts": [
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Hydrogen chloride has a simple molecular structure.\n(a)(i) State two physical properties of a compound with a simple molecular structure.",
+          "keywords": [
+            [
+              "low melting point",
+              "low boiling point",
+              "low mp",
+              "low bp",
+              "melts easily",
+              "boils easily"
+            ],
+            [
+              "does not conduct electricity",
+              "poor conductor",
+              "insulator",
+              "non-conductor",
+              "does not conduct"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Hydrogen chloride is a molecule with a covalent bond.\nComplete this sentence about a covalent bond.\nA covalent bond is formed when two atoms share a pair of __________.",
+          "keywords": [
+            [
+              "electrons",
+              "electron",
+              "e-",
+              "e⁻"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "long",
+          "question": "(iii) Complete Fig. 2.1 to show the dot-and-cross diagram for a molecule of hydrogen chloride. Show outer shell electrons only.\nDescribe how to draw this diagram. State which electrons come from each atom and how the bond is represented.",
+          "keywords": [
+            [
+              "hydrogen",
+              "H",
+              "1",
+              "one electron",
+              "one outer electron",
+              "one cross",
+              "one dot"
+            ],
+            [
+              "chlorine",
+              "Cl",
+              "7",
+              "seven electrons",
+              "seven outer electrons",
+              "seven crosses",
+              "seven dots"
+            ],
+            [
+              "share",
+              "shared pair",
+              "sharing",
+              "covalent bond",
+              "covalent",
+              "single bond",
+              "one pair"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(b) Zinc chloride has a giant ionic structure of positive and negative ions.\nState the general name given to any negative ion.",
+          "keywords": [
+            [
+              "anion",
+              "anions"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(c)(i) Diamond is used for jewellery.\nState one other use of diamond.",
+          "keywords": [
+            [
+              "cutting",
+              "cutting tools",
+              "cutting tool",
+              "drill bits",
+              "drilling",
+              "drill",
+              "cutting glass",
+              "glass cutter",
+              "abrasive",
+              "abrasives",
+              "grinding",
+              "polishing",
+              "industrial cutting"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "mcq",
+          "question": "(c)(ii) Tick one box. Choose the correct statement that describes the structure and bonding in diamond.",
+          "options": [
+            "simple covalent molecule",
+            "giant covalent",
+            "simple ionic",
+            "giant ionic"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Water, Ions & Purification",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "The list shows some substances present in water from natural sources: dissolved oxygen, calcium compounds, plastics, harmful microbes.\n(a) State which one of these substances provides essential minerals for aquatic life.",
+          "keywords": [
+            [
+              "calcium compounds",
+              "calcium",
+              "calcium compound"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(b) Explain why phosphates present in polluted water are harmful to aquatic life.",
+          "keywords": [
+            [
+              "eutrophication",
+              "algal bloom",
+              "algae grow",
+              "algae growth",
+              "excess growth",
+              "overgrowth"
+            ],
+            [
+              "oxygen",
+              "deoxygenation",
+              "lack of oxygen",
+              "depletes oxygen",
+              "oxygen depletion",
+              "reduces oxygen",
+              "blocks sunlight",
+              "kill fish",
+              "kill aquatic",
+              "suffocate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Table 3.1 shows the masses of ions in a 1000 cm³ sample of polluted water:\nBr⁻ (0.3 mg), Ca²⁺ (2.5 mg), Cl⁻ (3.5 mg), HCO₃⁻ (10.0 mg), Mg²⁺ (0.8 mg), Hg²⁺ (0.1 mg), NO₃⁻ (0.4 mg), PO₄³⁻ (2.0 mg), K⁺ (5.9 mg), SiO₃²⁻ (4.0 mg), Na⁺ (12.2 mg), SO₄²⁻ (0.5 mg).\n(c)(i) Name the negative ion present in the highest concentration.",
+          "keywords": [
+            [
+              "hydrogencarbonate",
+              "hydrogen carbonate",
+              "HCO3",
+              "HCO₃",
+              "HCO3-",
+              "HCO₃⁻",
+              "bicarbonate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) State the name of the NO₃⁻ ion.",
+          "keywords": [
+            [
+              "nitrate",
+              "nitrate ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iii) Calculate the mass of phosphate ions present in 200 cm³ of polluted water. (Phosphate concentration is 2.0 mg per 1000 cm³)",
+          "keywords": [
+            [
+              "0.4",
+              "0.4mg",
+              "0.4 mg"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig. 3.1 shows stages in the purification of drinking water: sedimentation → filtration → addition of carbon → addition of chlorine.\n(d)(i) State the purpose of sedimentation.",
+          "keywords": [
+            [
+              "remove",
+              "removes",
+              "settle",
+              "settles",
+              "separate",
+              "separates"
+            ],
+            [
+              "large",
+              "larger",
+              "solid",
+              "solids",
+              "insoluble",
+              "suspended",
+              "particles",
+              "debris",
+              "impurities",
+              "suspended solids"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) State why chlorine is added to drinking water.",
+          "keywords": [
+            [
+              "kill",
+              "kills",
+              "destroy",
+              "destroying",
+              "remove",
+              "removing",
+              "disinfect",
+              "disinfects",
+              "sterilise",
+              "sterilise",
+              "sterilize",
+              "sterilization"
+            ],
+            [
+              "bacteria",
+              "microbes",
+              "microorganisms",
+              "germs",
+              "pathogens",
+              "harmful microbes",
+              "micro-organisms"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "long",
+          "question": "(e) Describe how to test for the purity of water using boiling point.",
+          "keywords": [
+            [
+              "boil",
+              "boiling",
+              "heat",
+              "heated"
+            ],
+            [
+              "thermometer",
+              "measure",
+              "temperature",
+              "measure temperature"
+            ],
+            [
+              "100",
+              "100°C",
+              "100 degrees",
+              "exactly 100",
+              "sharp",
+              "pure"
+            ],
+            [
+              "lower",
+              "impure",
+              "impurities",
+              "below",
+              "above",
+              "range",
+              "not sharp"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(f) Complete the symbol equation for the reaction of disulfur dichloride, S₂Cl₂, with water.\nS₂Cl₂ + ____ H₂O → ____ HCl + H₂SO₃ + H₂S",
+          "keywords": [
+            [
+              "3",
+              "three",
+              "3H2O",
+              "3 H2O",
+              "3H₂O",
+              "3 H₂O"
+            ],
+            [
+              "2",
+              "two",
+              "2HCl",
+              "2 HCl"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Organic Chemistry & Homologous Series",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig. 4.1 shows the displayed formula of compound A. The molecule has a chain of four carbon atoms. One end has an -OH group (alcohol functional group). The other end has a -COOH group (carboxylic acid). Two oxygen atoms are double-bonded to two of the carbon atoms.\n(a)(i) Identify the alcohol functional group in compound A and state what atoms it consists of.",
+          "keywords": [
+            [
+              "OH",
+              "-OH",
+              "hydroxyl",
+              "hydroxy",
+              "oxygen and hydrogen",
+              "O and H",
+              "OH group",
+              "hydroxyl group",
+              "alcohol group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Deduce the molecular formula of compound A. Count all atoms shown in the displayed formula of the four-carbon chain with -OH and -COOH groups and two additional =O groups.",
+          "keywords": [
+            [
+              "C4H6O5",
+              "C₄H₆O₅",
+              "C4 H6 O5",
+              "4C 6H 5O"
+            ],
+            [
+              "C5H8O5",
+              "C₅H₈O₅",
+              "C5H8O5"
+            ],
+            [
+              "C4H4O5",
+              "C₄H₄O₅"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(b) Compound A reacts with ethanol to produce a compound with molecular formula C₈H₁₄O₅.\nComplete Table 4.1 to calculate the relative molecular mass of C₈H₁₄O₅.\nCarbon: 8 atoms × 12 = 96\nHydrogen: 14 atoms × 1 = ____\nOxygen: 5 atoms × 16 = ____\nRelative molecular mass = ____",
+          "keywords": [
+            [
+              "14",
+              "fourteen"
+            ],
+            [
+              "80",
+              "eighty"
+            ],
+            [
+              "190",
+              "190 g/mol",
+              "one hundred and ninety"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(c) Complete the word equation for the complete combustion of ethanol.\nethanol + oxygen → ________ + ________",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2",
+              "CO₂"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Table 4.2 shows the names, formulae and boiling points: ethene (C₂H₄, bp -104°C), propene (C₃H₆, bp -47°C), butene (C₄H₈, bp -6°C), pentene (C₅H₁₀, bp +30°C).\n(d)(i) Name the homologous series that includes ethene, propene, butene and pentene.",
+          "keywords": [
+            [
+              "alkenes",
+              "alkene",
+              "alkene series",
+              "alkene homologous series"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Deduce the general formula of this homologous series.",
+          "keywords": [
+            [
+              "CnH2n",
+              "CₙH₂ₙ",
+              "CnH2n",
+              "C n H 2n",
+              "CnH(2n)"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iii) State the trend in the boiling point of this homologous series as the number of carbon atoms increases.",
+          "keywords": [
+            [
+              "increases",
+              "increases",
+              "goes up",
+              "rises",
+              "higher",
+              "greater",
+              "gets higher",
+              "gets greater",
+              "boiling point increases"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 3,
+          "type": "long",
+          "question": "(e)(i) Ethene is manufactured by cracking.\nDescribe the manufacture of ethene by cracking.",
+          "keywords": [
+            [
+              "heat",
+              "heated",
+              "high temperature",
+              "thermal",
+              "hot",
+              "600",
+              "700",
+              "800",
+              "high temp"
+            ],
+            [
+              "catalyst",
+              "aluminium oxide",
+              "alumina",
+              "aluminum oxide",
+              "zeolite",
+              "silicon dioxide",
+              "silica",
+              "catalytic"
+            ],
+            [
+              "long chain",
+              "large",
+              "heavy",
+              "hydrocarbon",
+              "alkane",
+              "petroleum",
+              "diesel",
+              "naphtha",
+              "fraction"
+            ],
+            [
+              "break",
+              "broken",
+              "split",
+              "decompose",
+              "cracked",
+              "breaks down"
+            ],
+            [
+              "smaller",
+              "shorter",
+              "ethene",
+              "alkene",
+              "alkenes",
+              "useful",
+              "shorter chain"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Give a reason for cracking hydrocarbons.",
+          "keywords": [
+            [
+              "demand",
+              "demand for",
+              "more",
+              "greater demand",
+              "more useful"
+            ],
+            [
+              "shorter",
+              "smaller",
+              "short chain",
+              "alkene",
+              "alkenes",
+              "ethene",
+              "propene",
+              "useful",
+              "useful products",
+              "useful hydrocarbons"
+            ],
+            [
+              "supply",
+              "less demand",
+              "surplus",
+              "excess",
+              "not enough",
+              "too much",
+              "more long",
+              "more larger",
+              "more heavy"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "The Halogens",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Table 5.1 shows properties of five halogens:\nFluorine (mp -220°C, bp -188°C)\nChlorine (mp -101°C, bp -35°C, density 1.56 g/cm³)\nBromine (mp -7°C, bp +59°C, density 3.12 g/cm³)\nIodine (mp +114°C, density 3.96 g/cm³)\nAstatine (mp +302°C, bp +337°C, density 6.40 g/cm³)\n(a)(i) Predict the boiling point of iodine.",
+          "keywords": [
+            [
+              "184",
+              "about 184",
+              "~184",
+              "180",
+              "185",
+              "183",
+              "184°C",
+              "180-190",
+              "around 180",
+              "between 180 and 190",
+              "184 degrees"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Predict the density of liquid fluorine.",
+          "keywords": [
+            [
+              "less than 1.56",
+              "less than chlorine",
+              "lower than chlorine",
+              "lower than 1.56",
+              "<1.56",
+              "about 1.5",
+              "about 1.1",
+              "1.1",
+              "1.5",
+              "0.8-1.5",
+              "low",
+              "small",
+              "lower density"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(iii) Predict the physical state of chlorine at -20°C. Give a reason for your answer.\nPhysical state: ________\nReason: ________",
+          "keywords": [
+            [
+              "gas",
+              "gaseous",
+              "gas state"
+            ],
+            [
+              "above boiling point",
+              "above -35",
+              "above bp",
+              "higher than boiling point",
+              "-20 is above -35",
+              "temperature is above",
+              "above its boiling point",
+              "warmer than boiling point",
+              "exceeds boiling point"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(b)(i) Aqueous chlorine reacts with aqueous lithium bromide.\nComplete the word equation for this reaction.\nchlorine + lithium bromide → ________ + ________",
+          "keywords": [
+            [
+              "lithium chloride",
+              "LiCl"
+            ],
+            [
+              "bromine",
+              "Br2",
+              "Br₂"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Explain why aqueous iodine does not react with aqueous lithium bromide.",
+          "keywords": [
+            [
+              "less reactive",
+              "less reactive than bromine",
+              "lower reactivity",
+              "below bromine",
+              "cannot displace",
+              "cannot replace",
+              "weaker",
+              "not reactive enough",
+              "weaker oxidising agent",
+              "lower in group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(iii) Describe a test for chlorine.\nTest: ________\nObservation: ________",
+          "keywords": [
+            [
+              "damp",
+              "moist",
+              "wet",
+              "dampened"
+            ],
+            [
+              "blue litmus",
+              "litmus paper",
+              "litmus",
+              "indicator paper",
+              "universal indicator"
+            ],
+            [
+              "red",
+              "turns red",
+              "reddens"
+            ],
+            [
+              "bleaches",
+              "bleached",
+              "white",
+              "bleaches white",
+              "turns white",
+              "decolourised",
+              "decolorized"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(c) Fluorine reacts with ammonia to produce hydrogen fluoride and nitrogen.\nComplete the symbol equation for this reaction.\n____ F₂ + 2NH₃ → ____ HF + N₂",
+          "keywords": [
+            [
+              "3",
+              "three",
+              "3F2",
+              "3F₂",
+              "3 F2",
+              "3 F₂"
+            ],
+            [
+              "6",
+              "six",
+              "6HF",
+              "6 HF"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Metals & Reactivity",
+      "parts": [
+        {
+          "label": "",
+          "marks": 3,
+          "type": "short",
+          "question": "(a) Many metals have high melting points and boiling points.\nState three other typical physical properties of metals.",
+          "keywords": [
+            [
+              "malleable",
+              "malleability",
+              "can be hammered",
+              "can be bent"
+            ],
+            [
+              "ductile",
+              "ductility",
+              "drawn into wires",
+              "can be stretched"
+            ],
+            [
+              "good conductor",
+              "conducts electricity",
+              "conducts heat",
+              "conductor of heat",
+              "conductor of electricity",
+              "electrical conductivity",
+              "thermal conductivity"
+            ],
+            [
+              "shiny",
+              "lustrous",
+              "metallic lustre",
+              "lustre",
+              "luster",
+              "shine",
+              "shines"
+            ],
+            [
+              "sonorous",
+              "sonority",
+              "ring",
+              "rings",
+              "ringing sound"
+            ],
+            [
+              "high density",
+              "dense",
+              "heavy"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "",
+          "marks": 3,
+          "type": "short",
+          "question": "(b)(i) Complete Table 6.1 to show the number of electrons, neutrons and protons in the sodium atom and silver ion shown.\n²³Na₁₁ (sodium atom): protons = ___, neutrons = ___, electrons = ___\n¹⁰⁹Ag⁺₄₇ (silver ion): protons = ___, neutrons = ___, electrons = ___",
+          "keywords": [
+            [
+              "11",
+              "eleven",
+              "11 protons"
+            ],
+            [
+              "12",
+              "twelve",
+              "12 neutrons",
+              "23-11",
+              "23 minus 11"
+            ],
+            [
+              "11",
+              "eleven",
+              "11 electrons"
+            ],
+            [
+              "47",
+              "forty seven",
+              "47 protons"
+            ],
+            [
+              "62",
+              "sixty two",
+              "109-47",
+              "109 minus 47",
+              "62 neutrons"
+            ],
+            [
+              "46",
+              "forty six",
+              "47-1",
+              "47 minus 1",
+              "46 electrons"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Write the electronic configuration of the sodium atom.",
+          "keywords": [
+            [
+              "2,8,1",
+              "2.8.1",
+              "2-8-1",
+              "two eight one",
+              "2 comma 8 comma 1"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(c) Silver is a transition element. Sodium is in Group I of the Periodic Table.\nState one difference in the physical properties of silver and sodium.",
+          "keywords": [
+            [
+              "higher density",
+              "more dense",
+              "denser",
+              "higher density silver",
+              "silver is denser",
+              "silver more dense"
+            ],
+            [
+              "higher melting point",
+              "higher melting",
+              "higher boiling",
+              "silver has higher mp",
+              "higher bp"
+            ],
+            [
+              "harder",
+              "hard",
+              "hardness",
+              "silver is harder",
+              "silver harder"
+            ],
+            [
+              "less reactive",
+              "silver less reactive",
+              "sodium more reactive"
+            ],
+            [
+              "stronger",
+              "silver stronger"
+            ],
+            [
+              "does not react with water",
+              "silver does not react"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Table 6.2 shows the observations when four different metals are heated in oxygen:\n● Silver: does not form an oxide layer and does not burn\n● Copper: forms an oxide layer very slowly and does not burn\n● Lanthanum: forms an oxide layer rapidly and does not burn\n● Cerium: burns rapidly and forms an oxide\n(d) Put the four metals in order of their reactivity. Put the least reactive metal first.\nleast reactive → most reactive: ____, ____, ____, ____",
+          "keywords": [
+            [
+              "silver",
+              "Ag"
+            ],
+            [
+              "copper",
+              "Cu"
+            ],
+            [
+              "lanthanum",
+              "La"
+            ],
+            [
+              "cerium",
+              "Ce"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(e) Copper(II) oxide is reduced by carbon monoxide.\nCuO + CO → Cu + CO₂\nExplain how this equation shows that copper(II) oxide is reduced.",
+          "keywords": [
+            [
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost",
+              "loss of oxygen",
+              "oxygen is removed",
+              "oxygen is lost",
+              "loses its oxygen"
+            ],
+            [
+              "gains electrons",
+              "gain of electrons",
+              "reduction is gain of electrons"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Acids, Bases & Salts",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Crystals of zinc sulfate are made by warming excess solid zinc oxide with dilute sulfuric acid.\nZnO(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂O(l)\n(a)(i) State the meaning of the state symbol (aq).",
+          "keywords": [
+            [
+              "aqueous",
+              "dissolved in water",
+              "dissolved",
+              "in water",
+              "water",
+              "in solution",
+              "solution"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) State the method used to separate the excess solid zinc oxide from the reaction mixture.",
+          "keywords": [
+            [
+              "filtration",
+              "filtering",
+              "filter",
+              "filtrate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(b)(i) Crystals of sodium nitrate can be made by neutralising an acid with an alkali.\nName the acid and the alkali used.\nAcid: ________\nAlkali: ________",
+          "keywords": [
+            [
+              "nitric acid",
+              "HNO3",
+              "HNO₃"
+            ],
+            [
+              "sodium hydroxide",
+              "NaOH",
+              "sodium hydroxide solution"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(ii) Complete the equation for all neutralisation reactions.\nH⁺ + ________ → ________",
+          "keywords": [
+            [
+              "OH-",
+              "OH⁻",
+              "OH",
+              "hydroxide",
+              "hydroxide ion",
+              "hydroxide ions"
+            ],
+            [
+              "H2O",
+              "H₂O",
+              "water"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iii) Neutralisation reactions are exothermic.\nDefine the term exothermic.",
+          "keywords": [
+            [
+              "releases",
+              "gives out",
+              "gives off",
+              "produces",
+              "transfers",
+              "emits"
+            ],
+            [
+              "heat",
+              "energy",
+              "thermal energy",
+              "heat energy",
+              "to surroundings",
+              "to the surroundings",
+              "surroundings",
+              "into surroundings"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig. 7.1 shows the reaction pathway diagram for an exothermic reaction. The diagram shows reactants at a higher energy level than products, with energy decreasing as the reaction progresses.\n(b)(iv) Explain how Fig. 7.1 shows that the reaction is exothermic.",
+          "keywords": [
+            [
+              "products",
+              "products lower",
+              "lower energy",
+              "products have less energy",
+              "energy of products is less",
+              "products below reactants"
+            ],
+            [
+              "energy",
+              "energy level",
+              "energy of products",
+              "products lower than reactants"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(c) Methyl orange is an acid-base indicator.\nState the colour of methyl orange at pH 2 and at pH 12.\nColour at pH 2: ________\nColour at pH 12: ________",
+          "keywords": [
+            [
+              "red",
+              "pink",
+              "reddish",
+              "pinkish"
+            ],
+            [
+              "yellow",
+              "orange",
+              "yellowish",
+              "gold"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Rates of Reaction & Electrolysis",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "A student investigates the reaction of small pieces of calcium carbonate with excess dilute hydrochloric acid of three different concentrations: 0.5 mol/dm³, 1.0 mol/dm³, 2.0 mol/dm³. The times taken for each reaction to finish are recorded: 64 s, 32 s, 16 s.\n(a)(i) Complete Table 8.1 by matching each concentration to its time. State which time corresponds to each concentration.",
+          "keywords": [
+            [
+              "2.0",
+              "2",
+              "2.0 mol",
+              "2.0M",
+              "highest concentration"
+            ],
+            [
+              "16",
+              "16 s",
+              "16s",
+              "16 seconds"
+            ],
+            [
+              "1.0",
+              "1",
+              "1.0 mol",
+              "1.0M",
+              "middle concentration"
+            ],
+            [
+              "32",
+              "32 s",
+              "32s",
+              "32 seconds"
+            ],
+            [
+              "0.5",
+              "0.5 mol",
+              "0.5M",
+              "lowest concentration"
+            ],
+            [
+              "64",
+              "64 s",
+              "64s",
+              "64 seconds"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Describe the effect on the time taken for the reaction to finish when the reaction is carried out at a lower temperature. All other conditions stay the same.",
+          "keywords": [
+            [
+              "increases",
+              "increase",
+              "longer",
+              "takes longer",
+              "more time",
+              "slower",
+              "longer time",
+              "greater time",
+              "time increases"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iii) Describe the effect on the time taken for the reaction to finish when powdered calcium carbonate is used instead of small pieces of calcium carbonate. All other conditions stay the same.",
+          "keywords": [
+            [
+              "decreases",
+              "decrease",
+              "shorter",
+              "faster",
+              "less time",
+              "quicker",
+              "takes less time",
+              "shorter time",
+              "time decreases",
+              "reduced"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(b)(i) Molten calcium chloride is electrolysed using inert electrodes.\nName the products at the positive and negative electrodes.\nProduct at the positive electrode: ________\nProduct at the negative electrode: ________",
+          "keywords": [
+            [
+              "chlorine",
+              "Cl2",
+              "Cl₂",
+              "chlorine gas"
+            ],
+            [
+              "calcium",
+              "Ca",
+              "calcium metal"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "mcq",
+          "question": "(ii) Choose from the list the substance that is used as an inert electrode. Draw a circle around your chosen answer.",
+          "options": [
+            "graphite",
+            "iodine",
+            "magnesium",
+            "phosphorus"
+          ],
+          "answer": 0
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(c) Carbon dioxide is a gas at room temperature.\nDescribe the motion and separation of the particles in carbon dioxide gas.\nMotion: ________\nSeparation: ________",
+          "keywords": [
+            [
+              "rapid",
+              "fast",
+              "quick",
+              "random",
+              "randomly",
+              "freely",
+              "constant",
+              "constantly",
+              "in all directions",
+              "random motion"
+            ],
+            [
+              "far apart",
+              "widely separated",
+              "far",
+              "large distance",
+              "far from each other",
+              "large separation",
+              "large spaces",
+              "spread out"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

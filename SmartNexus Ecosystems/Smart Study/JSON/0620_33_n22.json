@@ -1,0 +1,1192 @@
+{
+  "id": "0620_33_n22",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering compound structures & combustion, element composition of Earth & iron extraction, fuels & energy production, Group I elements & particle theory, fertilisers & nitrogen compounds, acids bases & salts, organic chemistry & polymers, and metals & electroplating.",
+  "type": "past",
+  "session": "October/November 2022",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Compound Structures & Combustion",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Seven structures A-G are shown: A (CH₄), B (CO₂), C (C₂H₄), D (C₂H₆), E (H₂O), F (SO₂), G (diamond structure).\nState which structure represents a compound that contains an atom of an element in Group V of the Periodic Table.",
+          "keywords": [
+            [
+              "none shown",
+              "but checking structures"
+            ],
+            [
+              "no Group V"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which structure represents an element. (Structure G is diamond - a form of carbon)",
+          "keywords": [
+            [
+              "G",
+              "G diamond",
+              "diamond",
+              "carbon structure"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which structure represents a substance that is used for cutting tools.",
+          "keywords": [
+            [
+              "G",
+              "G diamond",
+              "diamond"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which structure represents a compound that is a major contributor to climate change.",
+          "keywords": [
+            [
+              "B",
+              "CO2",
+              "carbon dioxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which structure represents a saturated hydrocarbon.",
+          "keywords": [
+            [
+              "A",
+              "CH4",
+              "methane",
+              "D",
+              "C2H6",
+              "ethane"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe how aqueous bromine can be used to distinguish between a saturated hydrocarbon and an unsaturated hydrocarbon.",
+          "keywords": [
+            [
+              "saturated",
+              "no change",
+              "stays orange",
+              "stays brown",
+              "no reaction",
+              "remains orange"
+            ],
+            [
+              "unsaturated",
+              "decolourises",
+              "turns colourless",
+              "colour changes",
+              "bromine water decolourised"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "When a hydrocarbon undergoes incomplete combustion, carbon monoxide is formed. State the meaning of the term incomplete combustion.",
+          "keywords": [
+            [
+              "not enough oxygen",
+              "limited oxygen",
+              "insufficient oxygen",
+              "lack of oxygen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one adverse effect of carbon monoxide on health.",
+          "keywords": [
+            [
+              "toxic",
+              "poisonous"
+            ],
+            [
+              "binds to hemoglobin",
+              "haemoglobin"
+            ],
+            [
+              "reduces oxygen",
+              "prevents oxygen transport"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Element Composition & Iron Extraction",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Table compares percentage by mass of elements in whole Earth and oceans. Deduce the percentage by mass of the other elements in the oceans. (Sum of given = 99.1%, total = 100.00%)",
+          "keywords": [
+            [
+              "0.9",
+              "0.9%",
+              "0.90"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which non-metallic element is present in the whole Earth in the greatest percentage by mass. (Oxygen = 29.5%)",
+          "keywords": [
+            [
+              "oxygen",
+              "O",
+              "oxygen element"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two major differences in the composition of the whole Earth and of the oceans.",
+          "keywords": [
+            [
+              "more iron in Earth",
+              "iron mostly in Earth",
+              "Fe difference"
+            ],
+            [
+              "more oxygen in oceans",
+              "oxygen mostly in oceans",
+              "O difference"
+            ],
+            [
+              "more hydrogen in oceans",
+              "hydrogen difference"
+            ],
+            [
+              "more silicon in Earth",
+              "silicon difference"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the diagram to show the electron arrangement in a chlorine atom. (Chlorine atomic number 17: 2,8,7)",
+          "keywords": [
+            [
+              "2,8,7",
+              "2.8.7",
+              "2 8 7",
+              "17 electrons",
+              "Cl electron arrangement"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Iron is extracted from iron(III) oxide in a blast furnace. Explain why air is blown into the blast furnace.",
+          "keywords": [
+            [
+              "oxygen reacts",
+              "provide oxygen",
+              "burn carbon",
+              "coke burns",
+              "reacts with coke",
+              "produces CO2",
+              "produces heat"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the chemical equation: CO₂ + C → ____ CO",
+          "keywords": [
+            [
+              "2",
+              "2CO",
+              "two CO"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Carbon monoxide reduces iron(III) oxide to iron. State the meaning of the term reduction.",
+          "keywords": [
+            [
+              "loss of oxygen",
+              "removal of oxygen",
+              "oxygen removed",
+              "oxygen taken away"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "When 80 g of iron(III) oxide reacts with excess CO, 56 g of iron is produced. Calculate the minimum mass of iron(III) oxide needed to produce 14 g of iron.",
+          "keywords": [
+            [
+              "20",
+              "20g",
+              "20 g"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "choosethree",
+          "question": "Choose two substances from the list that are used in the conversion of iron from the blast furnace into steel: calcium oxide, carbon dioxide, hydrogen, nitrogen, oxygen, silicon(IV) oxide, sulfur dioxide.",
+          "correctIndices": [
+            0,
+            4
+          ],
+          "options": [
+            "calcium oxide",
+            "carbon dioxide",
+            "hydrogen",
+            "nitrogen",
+            "oxygen",
+            "silicon(IV) oxide",
+            "sulfur dioxide"
+          ]
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the meaning of the term alloy.",
+          "keywords": [
+            [
+              "mixture",
+              "mix",
+              "combination"
+            ],
+            [
+              "metal",
+              "metals"
+            ],
+            [
+              "other element",
+              "another element",
+              "other elements",
+              "non-metal",
+              "carbon"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Fuels & Energy Production",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Diagram shows apparatus to compare energy released when heating water by burning different fuels J, K, L, M. Results: J (2g, +4°C), K (4g, +8°C), L (1g, +3°C), M (2g, +5°C).\nDeduce which fuel releases the most energy per gram.",
+          "keywords": [
+            [
+              "L",
+              "fuel L",
+              "L 3°C per gram",
+              "L gives 3 per gram"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name one other petroleum fraction (besides gasoline and diesel) that is used as a fuel.",
+          "keywords": [
+            [
+              "kerosene",
+              "paraffin",
+              "fuel oil",
+              "naphtha",
+              "refinery gas",
+              "LPG"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the physical property on which the fractional distillation of petroleum depends.",
+          "keywords": [
+            [
+              "boiling point",
+              "boiling points",
+              "bp"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "On the fractional distillation column diagram, write an X to show where bitumen is obtained. (At the bottom of the column, highest boiling point)",
+          "keywords": [
+            [
+              "bottom",
+              "at bottom",
+              "bottom of column",
+              "lowest",
+              "base"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name a radioactive element that is used as a source of energy in nuclear power stations.",
+          "keywords": [
+            [
+              "uranium",
+              "U",
+              "plutonium",
+              "Pu",
+              "U-235",
+              "uranium-235"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one other industrial use of radioactive isotopes.",
+          "keywords": [
+            [
+              "medical",
+              "cancer treatment",
+              "radiotherapy",
+              "tracers",
+              "medical imaging"
+            ],
+            [
+              "sterilisation",
+              "sterilizing",
+              "radiation",
+              "food irradiation"
+            ],
+            [
+              "thickness measurement",
+              "gauges",
+              "industrial radiography"
+            ],
+            [
+              "smoke detectors",
+              "carbon dating"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Group I Elements & Particle Theory",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Table shows properties of Group I elements: lithium (mp 181, bp 1342, hardness 5.00), sodium (mp 98, bp __, hardness 0.70), potassium (mp 63, bp 760, hardness 0.36), rubidium (mp 39, bp 686, hardness __).\nComplete the table by predicting the boiling point of sodium and the hardness of rubidium.",
+          "keywords": [
+            [
+              "883",
+              "bp sodium 883",
+              "sodium boiling point about 883"
+            ],
+            [
+              "0.3",
+              "0.2",
+              "hardness rubidium low",
+              "less than 0.36",
+              "about 0.2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Predict the physical state of potassium at 50°C. Give a reason for your answer. (Potassium mp = 63°C, bp = 760°C)",
+          "keywords": [
+            [
+              "solid",
+              "solid state"
+            ],
+            [
+              "below melting point",
+              "50 below 63",
+              "temperature below mp",
+              "mp is 63°C",
+              "not melted yet"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the chemical equation: ____ Na + 2NaOH → ____ Na₂O + H₂",
+          "keywords": [
+            [
+              "2",
+              "2Na",
+              "two Na"
+            ],
+            [
+              "1",
+              "1Na2O",
+              "Na2O",
+              "one Na2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for hydrogen.",
+          "keywords": [
+            [
+              "lighted splint",
+              "burning splint",
+              "lit splint",
+              "flame"
+            ],
+            [
+              "pops",
+              "squeaky pop",
+              "pop sound",
+              "explodes with pop"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "long",
+          "question": "Alizarin (a red dye) is soluble in ethanol. A crystal of alizarin is placed in a beaker of ethanol. After a few hours the red colour has spread throughout the beaker. Explain these observations using the kinetic particle model.",
+          "keywords": [
+            [
+              "dissolves",
+              "dissolving",
+              "dissolution",
+              "soluble"
+            ],
+            [
+              "diffusion",
+              "diffuse",
+              "spread"
+            ],
+            [
+              "particles move",
+              "particles spread out",
+              "random motion",
+              "particles move from high to low concentration"
+            ],
+            [
+              "throughout",
+              "evenly",
+              "uniformly"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Fertilisers & Nitrogen Compounds",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Ammonium chloride is heated with sodium hydroxide: NH₄Cl + NaOH → NH₃ + NaCl + H₂O.\nChoose the word that describes this reaction. Draw a circle around your answer.",
+          "options": [
+            "addition",
+            "displacement",
+            "oxidation",
+            "reduction"
+          ],
+          "answer": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Ammonia is manufactured from nitrogen and hydrogen: N₂ + 3H₂ ⇌ 2NH₃. Give the meaning of the symbol ⇌.",
+          "keywords": [
+            [
+              "reversible",
+              "reversible reaction",
+              "equilibrium",
+              "reversible reaction symbol",
+              "goes both ways"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "The nitrogen for this process is obtained from the air. State the percentage of nitrogen in clean, dry air.",
+          "keywords": [
+            [
+              "78",
+              "78%",
+              "78 percent",
+              "about 78"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Fertilisers contain nitrogen. Name two other elements found in most fertilisers that are essential for plant growth.",
+          "keywords": [
+            [
+              "phosphorus",
+              "P",
+              "phosphate"
+            ],
+            [
+              "potassium",
+              "K",
+              "potash"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Bacteria in soil can convert ammonium ions into oxides of nitrogen. Oxides of nitrogen contribute to acid rain. Name one other pollutant in the air that contributes to acid rain.",
+          "keywords": [
+            [
+              "sulfur dioxide",
+              "SO2",
+              "SO₂",
+              "sulphur dioxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one adverse effect of acid rain on buildings.",
+          "keywords": [
+            [
+              "corrodes",
+              "erodes",
+              "weathers",
+              "damages"
+            ],
+            [
+              "limestone",
+              "marble",
+              "stone",
+              "metal",
+              "stonework",
+              "brickwork"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Acids, Bases & Salts",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "long",
+          "question": "Describe the reaction of excess dilute hydrochloric acid with magnesium and with magnesium carbonate. Give the names of the products and any observations.",
+          "keywords": [
+            [
+              "magnesium chloride",
+              "MgCl2",
+              "MgCl₂",
+              "magnesium chloride product"
+            ],
+            [
+              "hydrogen",
+              "H2",
+              "H₂",
+              "hydrogen gas"
+            ],
+            [
+              "bubbles",
+              "effervescence",
+              "fizzing",
+              "gas produced",
+              "magnesium dissolves"
+            ],
+            [
+              "magnesium chloride",
+              "MgCl2",
+              "MgCl₂",
+              "CO2",
+              "carbon dioxide",
+              "water",
+              "H2O"
+            ],
+            [
+              "bubbles",
+              "effervescence",
+              "fizzing",
+              "gas produced",
+              "solid dissolves"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Different sized pieces of magnesium react with excess dilute HCl. Times recorded: 30s, 200s, 90s. Complete the table by writing the size (large, small, very small) in the first column for each time.",
+          "keywords": [
+            [
+              "very small",
+              "30s very small",
+              "fastest very small"
+            ],
+            [
+              "large",
+              "200s large",
+              "slowest large"
+            ],
+            [
+              "small",
+              "90s small"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the effect on the time taken for small pieces of magnesium to react with hydrochloric acid of a lower concentration. All other conditions stay the same.",
+          "keywords": [
+            [
+              "increases",
+              "longer",
+              "slower",
+              "more time",
+              "takes longer",
+              "rate decreases"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Sodium hydroxide is an alkali. State the colour change when excess aqueous sodium hydroxide is added to a solution of methyl orange in acid.",
+          "keywords": [
+            [
+              "red",
+              "from red",
+              "starts red"
+            ],
+            [
+              "yellow",
+              "to yellow",
+              "turns yellow",
+              "orange",
+              "to orange"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose the pH value of an alkali. Draw a circle around your answer.",
+          "options": [
+            "pH 3",
+            "pH 5",
+            "pH 7",
+            "pH 14"
+          ],
+          "answer": 3
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "The method for preparing pure dry crystals of magnesium chloride is given with missing steps 4 and 6:\n1. Add excess magnesium oxide to dilute HCl\n2. Warm the mixture\n3. Filter off excess and collect filtrate\n4. ____\n5. Remove the crystals\n6. ____\nComplete the missing steps.",
+          "keywords": [
+            [
+              "heat",
+              "evaporate",
+              "warm",
+              "concentrate",
+              "heat the filtrate",
+              "evaporate some water"
+            ],
+            [
+              "dry",
+              "between filter paper",
+              "blotting paper",
+              "press dry",
+              "pat dry",
+              "dry the crystals"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Magnesium oxide is used as a catalyst in some reactions. State the purpose of using a catalyst.",
+          "keywords": [
+            [
+              "increase rate",
+              "speed up",
+              "faster",
+              "increase reaction rate"
+            ],
+            [
+              "not used up",
+              "not consumed",
+              "unchanged"
+            ],
+            [
+              "lower activation energy",
+              "alternative pathway"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Organic Chemistry & Polymers",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of compound S is shown (a 3-carbon chain with a C=C and -COOH group). On the structure, draw a circle around the carboxylic acid functional group.",
+          "keywords": [
+            [
+              "COOH",
+              "-COOH",
+              "carboxyl",
+              "carboxylic acid",
+              "carboxyl group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the formula of compound S to show the number of carbon, hydrogen and oxygen atoms. (C₃H₄O₂)",
+          "keywords": [
+            [
+              "C3H4O2",
+              "C₃H₄O₂",
+              "C3 H4 O2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Compound S is a solid at room temperature. Use the kinetic particle model to describe the arrangement of the particles in a solid.",
+          "keywords": [
+            [
+              "regular",
+              "ordered",
+              "regular arrangement",
+              "regular pattern",
+              "lattice"
+            ],
+            [
+              "close together",
+              "packed",
+              "tightly packed",
+              "touching"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structure of ethanol to show all of the atoms and all of the bonds.",
+          "keywords": [
+            [
+              "CH3CH2OH",
+              "CH₃CH₂OH",
+              "C2H5OH",
+              "ethanol structure",
+              "C-C-O-H"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Ethanol can be manufactured by fermentation. Describe one other method of manufacturing ethanol.",
+          "keywords": [
+            [
+              "ethene",
+              "C2H4",
+              "C₂H₄",
+              "ethylene"
+            ],
+            [
+              "steam",
+              "water",
+              "H2O",
+              "H₂O"
+            ],
+            [
+              "catalyst",
+              "phosphoric acid",
+              "acid catalyst",
+              "high temperature",
+              "high pressure"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Compound S can be polymerised. State the general name given to the small units that join together to form a polymer.",
+          "keywords": [
+            [
+              "monomer",
+              "monomers"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name one natural polymer.",
+          "keywords": [
+            [
+              "starch",
+              "cellulose",
+              "protein",
+              "DNA",
+              "natural rubber",
+              "silk",
+              "wool",
+              "cotton"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Some plastics are non-biodegradable. Describe one pollution problem caused by non-biodegradable plastics.",
+          "keywords": [
+            [
+              "litter",
+              "accumulate",
+              "do not break down",
+              "persist",
+              "landfill"
+            ],
+            [
+              "harm wildlife",
+              "animals eat",
+              "choke",
+              "entanglement"
+            ],
+            [
+              "visual pollution",
+              "aesthetic"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Metals & Electroplating",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Copper is a transition element. Sodium is in Group I. Copper is harder than sodium. Give two other ways in which the physical properties of copper differ from the physical properties of sodium.",
+          "keywords": [
+            [
+              "higher melting point",
+              "higher mp",
+              "higher boiling point",
+              "higher bp"
+            ],
+            [
+              "denser",
+              "higher density",
+              "greater density"
+            ],
+            [
+              "less reactive",
+              "more corrosion resistant",
+              "does not react with water"
+            ],
+            [
+              "coloured compounds",
+              "coloured ions"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one use of copper.",
+          "keywords": [
+            [
+              "electrical wiring",
+              "wires",
+              "cables",
+              "electrical"
+            ],
+            [
+              "plumbing",
+              "pipes",
+              "water pipes"
+            ],
+            [
+              "coins",
+              "jewellery"
+            ],
+            [
+              "alloys",
+              "brass",
+              "bronze"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "The apparatus used to electroplate a steel spoon with copper is shown. Label the diagram to show the anode and the electrolyte.",
+          "keywords": [
+            [
+              "anode",
+              "anode is copper",
+              "copper rod is anode",
+              "positive electrode",
+              "copper anode"
+            ],
+            [
+              "electrolyte",
+              "copper sulfate",
+              "CuSO4",
+              "CuSO₄",
+              "copper salt solution"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the observations made during this electroplating at the steel spoon and copper rod.",
+          "keywords": [
+            [
+              "spoon turns pink",
+              "brown coating",
+              "copper deposited",
+              "copper layer",
+              "pink on spoon"
+            ],
+            [
+              "copper rod dissolves",
+              "gets smaller",
+              "wears away",
+              "copper dissolves",
+              "pink goes into solution"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Deduce the number of electrons and neutrons in one atom of the isotope ⁶⁵Cu₂₉.",
+          "keywords": [
+            [
+              "29",
+              "29 electrons",
+              "twenty nine electrons"
+            ],
+            [
+              "36",
+              "36 neutrons",
+              "65-29",
+              "thirty six neutrons"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the table to calculate the relative molecular mass of K₂CuF₄.\npotassium: 2 × 39 = 78\ncopper: 1 × 64 = __\nfluorine: 4 × 19 = __\nrelative molecular mass = ____",
+          "keywords": [
+            [
+              "64",
+              "copper 64"
+            ],
+            [
+              "76",
+              "fluorine 76"
+            ],
+            [
+              "218",
+              "Mr 218",
+              "relative molecular mass 218"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Table shows rates of reaction of four metals with steam: zinc reacts quickly, gold does not react, iron reacts slowly, lanthanum reacts very quickly.\nPut the four metals in order of their reactivity. Put the least reactive metal first.",
+          "keywords": [
+            [
+              "gold",
+              "Au",
+              "gold least"
+            ],
+            [
+              "iron",
+              "Fe"
+            ],
+            [
+              "zinc",
+              "Zn"
+            ],
+            [
+              "lanthanum",
+              "La",
+              "lanthanum most"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    }
+  ]
+}

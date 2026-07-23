@@ -1,0 +1,75 @@
+{
+  "id": "MS-J23",
+  "type": "mark_scheme",
+  "paperCode": "0971/32",
+  "session": "May/June 2023",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "1(a)",
+      "answer": "O",
+      "marks": 1
+    },
+    {
+      "question": "1(b)",
+      "answer": "Cl",
+      "marks": 1
+    },
+    {
+      "question": "1(c)",
+      "answer": "K",
+      "marks": 1
+    },
+    {
+      "question": "1(d)",
+      "answer": "I",
+      "marks": 1
+    },
+    {
+      "question": "1(e)",
+      "answer": "Cr",
+      "marks": 1
+    },
+    {
+      "question": "1(f)",
+      "answer": "Cu",
+      "marks": 1
+    },
+    {
+      "question": "4(a)",
+      "answer": "(molecule) containing two atoms / (molecule) has two atoms",
+      "marks": 1
+    },
+    {
+      "question": "4(d)",
+      "answer": "red / pink",
+      "marks": 1
+    },
+    {
+      "question": "5(b)",
+      "answer": "coating with plastic / painting / greasing / galvanising",
+      "marks": 1
+    },
+    {
+      "question": "6(b)",
+      "answer": "filtration",
+      "marks": 1
+    },
+    {
+      "question": "6(c)",
+      "answer": "3rd box down ticked (silver chloride)",
+      "marks": 1
+    },
+    {
+      "question": "7(d)",
+      "answer": "fermentation",
+      "marks": 1
+    },
+    {
+      "question": "7(e)",
+      "answer": "sodium ethanoate",
+      "marks": 1
+    }
+  ],
+  "answerCount": 13
+}

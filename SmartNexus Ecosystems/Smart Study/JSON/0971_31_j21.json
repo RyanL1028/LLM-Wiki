@@ -1,0 +1,1198 @@
+{
+  "id": "0971_31_j21",
+  "subject": "Chemistry",
+  "code": "0971/31",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering electronic structures & atomic structure, ions & compounds, Group I elements & trends, organic chemistry & carboxylic acids, thermal decomposition & energy changes, water purification & treatment, electrolysis, and periodic table trends & transition elements.",
+  "type": "past",
+  "session": "May/June 2021",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Electronic Structures & Atoms",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The electronic structures of five atoms A, B, C, D and E are shown (diagrams showing electron shells: A has 2,8,1; B has 2,8,7; C has 2,8,3; D has 2,8,4; E has 2,8,2).\nEach electronic structure may be used once, more than once or not at all.\nState which electronic structure represents an atom in Group II of the Periodic Table.",
+          "keywords": [
+            [
+              "E",
+              "e",
+              "group II",
+              "group 2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which electronic structure represents an atom with a proton number of 13.",
+          "keywords": [
+            [
+              "C",
+              "c",
+              "13",
+              "proton number 13",
+              "atomic number 13",
+              "aluminium"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which electronic structure represents an atom that forms a stable ion with a single negative charge.",
+          "keywords": [
+            [
+              "B",
+              "b",
+              "halogen",
+              "group VII",
+              "group 17",
+              "single negative charge",
+              "-1"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which electronic structure represents an atom of a non-metal that forms a giant covalent structure.",
+          "keywords": [
+            [
+              "D",
+              "d",
+              "silicon",
+              "carbon",
+              "group IV",
+              "group 14",
+              "giant covalent"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "State which electronic structure represents an atom of a metal used in food containers.",
+          "keywords": [
+            [
+              "C",
+              "c",
+              "aluminium",
+              "aluminum",
+              "Al"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete the table to show the number of electrons, neutrons and protons in the vanadium atom and calcium ion shown.\n⁵¹V₂₃: electrons = ____, neutrons = ____, protons = ____\n⁴⁸Ca²⁺₂₀: electrons = ____, neutrons = ____, protons = ____",
+          "keywords": [
+            [
+              "23",
+              "23 electrons",
+              "vanadium electrons"
+            ],
+            [
+              "28",
+              "28 neutrons",
+              "51-23",
+              "vanadium neutrons"
+            ],
+            [
+              "23",
+              "23 protons",
+              "vanadium protons"
+            ],
+            [
+              "18",
+              "18 electrons",
+              "20-2",
+              "20 minus 2",
+              "calcium ion electrons"
+            ],
+            [
+              "28",
+              "28 neutrons",
+              "48-20",
+              "calcium neutrons"
+            ],
+            [
+              "20",
+              "20 protons",
+              "calcium protons"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Ions in Fruit Juice & Soil",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The table shows masses of ions in 1000 cm³ of fruit juice: NH₄⁺ 43mg, Ca²⁺ 79mg, Cl⁻ 135mg, Li⁺ 1mg, Mg²⁺ 80mg, NO₃⁻ 35mg, PO₄³⁻ 120mg, K⁺ 575mg, Na⁺ 120mg, SO₄²⁻ 105mg.\nState which negative ion has the highest mass in 1000 cm³ of fruit juice.",
+          "keywords": [
+            [
+              "chloride",
+              "Cl-",
+              "Cl⁻",
+              "chloride ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the formulae of the ions in ammonium sulfate.",
+          "keywords": [
+            [
+              "NH4+",
+              "NH₄⁺",
+              "ammonium",
+              "ammonium ion"
+            ],
+            [
+              "SO4 2-",
+              "SO₄²⁻",
+              "sulfate",
+              "sulfate ion",
+              "sulphate"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of sodium ions in 200 cm³ of fruit juice. (Na⁺ is 120 mg in 1000 cm³)",
+          "keywords": [
+            [
+              "24",
+              "24mg",
+              "24 mg"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for lithium ions.",
+          "keywords": [
+            [
+              "flame test",
+              "flame"
+            ],
+            [
+              "red",
+              "crimson",
+              "red flame",
+              "crimson red"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Ions of the element potassium are present in most fertilisers. State the names of two other elements that are in most fertilisers.",
+          "keywords": [
+            [
+              "nitrogen",
+              "N"
+            ],
+            [
+              "phosphorus",
+              "P"
+            ],
+            [
+              "phosphorus and nitrogen",
+              "nitrogen and phosphorus"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Orange juice is acidic. Draw a circle around the pH of orange juice.",
+          "options": [
+            "pH 4",
+            "pH 7",
+            "pH 10",
+            "pH 13"
+          ],
+          "answer": 0
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "Some soils are acidic. Give the names of two compounds that are used to make soils less acidic.",
+          "keywords": [
+            [
+              "calcium hydroxide",
+              "slaked lime",
+              "lime",
+              "Ca(OH)2",
+              "Ca(OH)₂"
+            ],
+            [
+              "calcium oxide",
+              "quicklime",
+              "CaO"
+            ],
+            [
+              "calcium carbonate",
+              "limestone",
+              "CaCO3",
+              "CaCO₃"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "f(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Hydrogen chloride is an acidic gas produced when concentrated hydrochloric acid evaporates. Describe the arrangement and separation of the molecules in hydrogen chloride gas.",
+          "keywords": [
+            [
+              "random",
+              "randomly",
+              "irregular",
+              "disordered",
+              "no fixed arrangement"
+            ],
+            [
+              "far apart",
+              "widely separated",
+              "large spaces",
+              "far",
+              "large distances",
+              "spread out"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "f(ii)",
+          "marks": 3,
+          "type": "long",
+          "question": "A long glass tube is set up with cotton wool soaked in concentrated hydrochloric acid at one end and damp blue litmus paper at the other end. At first the blue litmus paper does not turn red. After a short time the litmus paper turns red.\nExplain these observations using the kinetic particle model.",
+          "keywords": [
+            [
+              "diffuse",
+              "diffusion",
+              "move",
+              "spread",
+              "travel"
+            ],
+            [
+              "random",
+              "random motion",
+              "random movement",
+              "randomly"
+            ],
+            [
+              "time",
+              "delay",
+              "takes time",
+              "eventually",
+              "gradually"
+            ],
+            [
+              "collisions",
+              "collide",
+              "air particles",
+              "bounce"
+            ],
+            [
+              "gas particles",
+              "molecules",
+              "HCl particles",
+              "hydrogen chloride particles"
+            ],
+            [
+              "reach",
+              "arrive",
+              "come into contact",
+              "contacts"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Group I Elements",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "The table shows properties of Group I elements: sodium (mp 98°C, bp 883°C, radius 0.191 nm), potassium (mp 63°C, bp 760°C), rubidium (mp 39°C, radius 0.250 nm), caesium (mp 29°C, bp 671°C, radius 0.272 nm).\nPredict the boiling point of rubidium and the atomic radius of potassium.",
+          "keywords": [
+            [
+              "686",
+              "~686",
+              "about 686",
+              "~690",
+              "690"
+            ],
+            [
+              "0.220",
+              "0.22",
+              "~0.22",
+              "about 0.22",
+              "between 0.191 and 0.250"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the trend in the melting point of the Group I elements down the group.",
+          "keywords": [
+            [
+              "decreases",
+              "decrease",
+              "goes down",
+              "falls",
+              "gets lower",
+              "reduces"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Deduce the physical state of potassium at 60°C. Explain your answer.",
+          "keywords": [
+            [
+              "solid",
+              "solid state"
+            ],
+            [
+              "below",
+              "lower than",
+              "less than"
+            ],
+            [
+              "melting point",
+              "63",
+              "63°C",
+              "mp"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Define proton number.",
+          "keywords": [
+            [
+              "number of protons",
+              "protons",
+              "number of protons in nucleus",
+              "atomic number"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one industrial use of radioactive isotopes.",
+          "keywords": [
+            [
+              "medical",
+              "radiotherapy",
+              "cancer treatment",
+              "imaging",
+              "tracers"
+            ],
+            [
+              "sterilisation",
+              "sterilization",
+              "sterilise",
+              "sterilize"
+            ],
+            [
+              "thickness measurement",
+              "checking thickness",
+              "gauging"
+            ],
+            [
+              "smoke detectors",
+              "smoke alarms"
+            ],
+            [
+              "nuclear power",
+              "generating electricity",
+              "nuclear energy"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Balance the equation for the reaction of sodium hydride with iron(III) oxide.\nFe₂O₃ + 3NaH → ____ Fe + ____ NaOH",
+          "keywords": [
+            [
+              "2",
+              "2Fe",
+              "two Fe",
+              "two iron"
+            ],
+            [
+              "3",
+              "3NaOH",
+              "three NaOH"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain how this equation shows that iron(III) oxide is reduced.",
+          "keywords": [
+            [
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost",
+              "loss of oxygen"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Organic Chemistry & Carboxylic Acids",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "The structure of malic acid is shown (a 4-carbon chain with -OH and -COOH groups, including a C=C double bond). On the structure, identify the alcohol functional group. Deduce the formula of malic acid to show the number of carbon, hydrogen and oxygen atoms.",
+          "keywords": [
+            [
+              "OH",
+              "-OH",
+              "hydroxyl",
+              "hydroxy",
+              "alcohol"
+            ],
+            [
+              "C4H6O5",
+              "C₄H₆O₅",
+              "C4 H6 O5",
+              "C4H4O5",
+              "C₄H₄O₅"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "When malic acid is heated it forms compound F. The structure of compound F (containing a C=C double bond) is shown.\nExplain why compound F is described as unsaturated.",
+          "keywords": [
+            [
+              "double bond",
+              "C=C",
+              "carbon carbon double bond",
+              "C double bond"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "State the meaning of the term polymer.",
+          "keywords": [
+            [
+              "large",
+              "long",
+              "giant",
+              "big",
+              "macromolecule"
+            ],
+            [
+              "molecule",
+              "chain"
+            ],
+            [
+              "repeating",
+              "many",
+              "lots of",
+              "multiple"
+            ],
+            [
+              "units",
+              "monomer",
+              "monomers",
+              "repeat units",
+              "smaller molecules"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of the polymer formed when ethene is polymerised.",
+          "keywords": [
+            [
+              "poly(ethene)",
+              "polyethene",
+              "polythene",
+              "polyethylene",
+              "PE"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the observations made when dilute ethanoic acid reacts with magnesium and litmus solution.",
+          "keywords": [
+            [
+              "bubbles",
+              "effervescence",
+              "fizzing",
+              "gas",
+              "hydrogen",
+              "gas produced"
+            ],
+            [
+              "red",
+              "turns red",
+              "red colour",
+              "litmus turns red"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The graph shows how the pH changes when dilute ethanoic acid is added slowly to aqueous sodium hydroxide. The graph starts at high pH and curves down.\nDeduce the pH of the aqueous sodium hydroxide before the addition of dilute ethanoic acid.",
+          "keywords": [
+            [
+              "13",
+              "~13",
+              "about 13",
+              "14",
+              "~14",
+              "between 12 and 14",
+              "12",
+              "high"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the volume of dilute ethanoic acid added when the pH is neutral. (The graph shows a steep drop at around 20 cm³)",
+          "keywords": [
+            [
+              "20",
+              "~20",
+              "about 20",
+              "between 18 and 22"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Thermal Decomposition & Rates",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "State the meaning of the term thermal decomposition.",
+          "keywords": [
+            [
+              "breaking down",
+              "breakdown",
+              "decomposition",
+              "decompose",
+              "splitting"
+            ],
+            [
+              "heat",
+              "heating",
+              "thermal",
+              "temperature",
+              "heated"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for calcium ions.",
+          "keywords": [
+            [
+              "flame test",
+              "flame"
+            ],
+            [
+              "brick red",
+              "orange-red",
+              "red",
+              "brick red flame",
+              "orange-red flame"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Carbon dioxide is produced when dilute hydrochloric acid reacts with calcium carbonate. Complete the diagram to show how to measure the volume of carbon dioxide produced during this reaction.\n(Draw a delivery tube from the conical flask to an inverted measuring cylinder/burette in a trough/basin of water.)",
+          "keywords": [
+            [
+              "delivery tube",
+              "tube",
+              "pipe"
+            ],
+            [
+              "inverted",
+              "upside down",
+              "over"
+            ],
+            [
+              "measuring cylinder",
+              "burette",
+              "gas syringe"
+            ],
+            [
+              "trough",
+              "basin",
+              "beaker",
+              "water",
+              "water trough"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the effect of each of the following on the rate of reaction of dilute hydrochloric acid with calcium carbonate.\n● The concentration of hydrochloric acid is decreased. All other conditions stay the same.\n● The temperature is increased. All other conditions stay the same.",
+          "keywords": [
+            [
+              "decreases",
+              "decrease",
+              "slower",
+              "lower",
+              "less",
+              "rate decreases"
+            ],
+            [
+              "increases",
+              "increase",
+              "faster",
+              "higher",
+              "more",
+              "rate increases"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "State the meaning of the term hydrocarbon.",
+          "keywords": [
+            [
+              "carbon",
+              "C"
+            ],
+            [
+              "hydrogen",
+              "H"
+            ],
+            [
+              "compound",
+              "molecule",
+              "contains only",
+              "composed of",
+              "made of",
+              "consists of"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "The hydrocarbon C₃H₈ is called propane. Name the homologous series that propane belongs to.",
+          "keywords": [
+            [
+              "alkanes",
+              "alkane",
+              "alkane series",
+              "alkane homologous series"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Name two substances formed by the incomplete combustion of propane.",
+          "keywords": [
+            [
+              "carbon monoxide",
+              "CO"
+            ],
+            [
+              "carbon",
+              "C",
+              "soot",
+              "carbon particulates",
+              "carbon particles"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O",
+              "water vapour"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Water Treatment & Purification",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe how universal indicator paper can be used to determine the pH value of the water.",
+          "keywords": [
+            [
+              "dip",
+              "place",
+              "insert",
+              "put",
+              "add"
+            ],
+            [
+              "indicator paper",
+              "universal indicator",
+              "pH paper"
+            ],
+            [
+              "compare",
+              "colour",
+              "match",
+              "chart",
+              "scale",
+              "colour chart",
+              "pH scale"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "The diagram shows stages in water treatment: impure water to aeration tank to mixing tank to filter to purified water. Air is blown through the aeration tank. Name the two gases that make up most of the air.",
+          "keywords": [
+            [
+              "nitrogen",
+              "N2",
+              "N₂"
+            ],
+            [
+              "oxygen",
+              "O2",
+              "O₂"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "After aeration, the water still contains large insoluble particles. The filter is made up of fine sand and stones. Explain how the filter helps purify the water.",
+          "keywords": [
+            [
+              "removes",
+              "remove",
+              "traps",
+              "trap",
+              "separates",
+              "separate"
+            ],
+            [
+              "insoluble",
+              "large",
+              "solid",
+              "solids",
+              "particles",
+              "impurities",
+              "debris",
+              "suspended"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why chlorine is used in water treatment.",
+          "keywords": [
+            [
+              "kill",
+              "kills",
+              "destroy",
+              "disinfect",
+              "sterilise",
+              "sterilize"
+            ],
+            [
+              "bacteria",
+              "microbes",
+              "microorganisms",
+              "germs",
+              "pathogens"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Anhydrous cobalt(II) chloride is used to test for water. State the colour change in this test.",
+          "keywords": [
+            [
+              "blue",
+              "from blue",
+              "starts blue",
+              "anhydrous is blue"
+            ],
+            [
+              "pink",
+              "to pink",
+              "turns pink",
+              "hydrated is pink"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Electrolysis",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Molten lead(II) bromide is electrolysed using carbon electrodes. State the products of this electrolysis at the negative electrode and the positive electrode.",
+          "keywords": [
+            [
+              "lead",
+              "Pb",
+              "lead metal"
+            ],
+            [
+              "bromine",
+              "Br2",
+              "Br₂",
+              "bromine gas"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of another substance which can be used as an inert electrode.",
+          "keywords": [
+            [
+              "graphite",
+              "carbon",
+              "C"
+            ],
+            [
+              "platinum",
+              "Pt"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "When aqueous magnesium chloride is electrolysed using carbon electrodes, hydrogen gas is produced at the negative electrode. Complete the dot-and-cross diagram to show the electron arrangement in one molecule of hydrogen (H₂: two hydrogen atoms sharing a pair of electrons).",
+          "keywords": [
+            [
+              "shared pair",
+              "covalent",
+              "share electrons",
+              "two electrons shared",
+              "one pair",
+              "H2 structure",
+              "dot cross"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Elements in the Periodic Table",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "The table shows properties of five elements P, Q, R, S and T: P (mp 1535°C, density 7.86, very good conductor, radius 0.125), Q (mp -7°C, density 3.12, does not conduct, radius 0.114), R (mp 1495°C, density 8.90, very good conductor, radius 0.126), S (mp -157°C, density 0.0035, does not conduct, radius 0.110), T (mp 839°C, density 1.54, very good conductor, radius 0.174).\nState which two of the elements are covalent molecules. Give two reasons for your answer.",
+          "keywords": [
+            [
+              "Q",
+              "S",
+              "Q and S"
+            ],
+            [
+              "low melting point",
+              "low mp",
+              "melts easily"
+            ],
+            [
+              "does not conduct",
+              "no conductivity",
+              "does not conduct electricity",
+              "insulator",
+              "poor conductor"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Element T is on the left-hand side of the Periodic Table. Suggest whether its oxide is acidic or basic. Give a reason for your answer.",
+          "keywords": [
+            [
+              "basic",
+              "basic oxide",
+              "alkaline"
+            ],
+            [
+              "metal",
+              "metals form basic oxides",
+              "left side metals"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Krypton is an element in Group VIII of the Periodic Table. Explain, using ideas about electronic structure, why krypton is unreactive.",
+          "keywords": [
+            [
+              "full outer shell",
+              "full shell",
+              "complete outer shell",
+              "8 electrons",
+              "eight electrons",
+              "octet",
+              "stable electronic configuration"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Sodium is in Group I. Iron is a transition element. Iron has a higher melting point and boiling point than sodium. Give two other ways in which the properties of transition elements differ from the properties of Group I elements.",
+          "keywords": [
+            [
+              "harder",
+              "hardness",
+              "more hard",
+              "iron harder"
+            ],
+            [
+              "denser",
+              "higher density",
+              "greater density",
+              "more dense"
+            ],
+            [
+              "higher melting point",
+              "higher boiling point",
+              "higher mp",
+              "higher bp"
+            ],
+            [
+              "less reactive",
+              "lower reactivity",
+              "less reactive than sodium"
+            ],
+            [
+              "catalytic activity",
+              "acts as catalyst",
+              "catalyst"
+            ],
+            [
+              "forms coloured compounds",
+              "coloured ions",
+              "coloured compounds"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "The table compares reactivity of four metals with dilute hydrochloric acid: calcium reacts very rapidly, copper no reaction, iron reacts rapidly, nickel reacts slowly.\nPut the four metals in order of their reactivity. Put the least reactive metal first.",
+          "keywords": [
+            [
+              "copper",
+              "Cu"
+            ],
+            [
+              "nickel",
+              "Ni"
+            ],
+            [
+              "iron",
+              "Fe"
+            ],
+            [
+              "calcium",
+              "Ca"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "f",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the equation by writing the symbol for a reversible reaction: 3Fe + 4H₂O ⇌ Fe₃O₄ + 4H₂",
+          "keywords": [
+            [
+              "reversible",
+              "⇌",
+              "equilibrium",
+              "reversible reaction symbol",
+              "double arrow"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "g",
+          "marks": 1,
+          "type": "short",
+          "question": "State the meaning of the term alloy.",
+          "keywords": [
+            [
+              "mixture",
+              "mix",
+              "combination"
+            ],
+            [
+              "metal",
+              "metals"
+            ],
+            [
+              "other element",
+              "other elements",
+              "another element",
+              "non-metal",
+              "carbon"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    }
+  ]
+}

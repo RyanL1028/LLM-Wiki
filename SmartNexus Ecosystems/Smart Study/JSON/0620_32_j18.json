@@ -1,0 +1,883 @@
+{
+  "id": "0620_32_j18",
+  "subject": "Chemistry",
+  "code": "0620/32",
+  "paper": "Paper 3 (Core)",
+  "name": "Theory (Core)",
+  "description": "Core theory covering gas properties, exhaust gases, organic compounds, manganese chemistry, electrolysis, isotopes, halogens, and fuels.",
+  "type": "past",
+  "session": "May/June 2018",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Gases & Bonding",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas bleaches damp litmus paper?",
+          "keywords": [
+            [
+              "chlorine",
+              "Cl2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas dissolves in water to form an alkali?",
+          "keywords": [
+            [
+              "ammonia",
+              "NH3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas is monatomic with ten protons in its nucleus?",
+          "keywords": [
+            [
+              "neon",
+              "Ne",
+              "atomic number 10"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas is formed when hydrocarbons undergo incomplete combustion?",
+          "keywords": [
+            [
+              "carbon monoxide",
+              "CO"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas is an unsaturated hydrocarbon?",
+          "keywords": [
+            [
+              "ethene",
+              "C2H4",
+              "contains C=C double bond"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "State what is meant by the term diatomic.",
+          "keywords": [
+            [
+              "two atoms per molecule",
+              "molecule containing two atoms",
+              "H2 has two H atoms"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State what is meant by covalent bonds.",
+          "keywords": [
+            [
+              "shared pair of electrons between atoms",
+              "electrostatic attraction between shared electrons and nuclei"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the dot-and-cross diagram showing outer shell electrons in a chlorine molecule, Cl2.",
+          "keywords": [
+            [
+              "one shared pair",
+              "single covalent bond",
+              "6 unshared electrons on each Cl"
+            ],
+            [
+              "each Cl has 8 electrons in outer shell after sharing"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Exhaust Gases & Natural Gas",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the percentage by volume of nitrogen in exhaust gases (total = 100%, subtract all others).",
+          "keywords": [
+            [
+              "72.00",
+              "100 - (0.20+15.00+0.02+0.01+0.02+12.75) = 72.00",
+              "~72%"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas in the table is present in the lowest percentage by volume?",
+          "keywords": [
+            [
+              "hydrogen",
+              "0.01%"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one adverse effect of oxides of nitrogen on health.",
+          "keywords": [
+            [
+              "respiratory problems",
+              "asthma",
+              "breathing difficulties",
+              "lung irritation",
+              "acid rain formation"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Balance: ...NO2 + ...NaOH -> NaNO3 + NaNO2 + H2O",
+          "keywords": [
+            [
+              "2",
+              "2",
+              "2NO2 + 2NaOH -> NaNO3 + NaNO2 + H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of the salt with formula NaNO3.",
+          "keywords": [
+            [
+              "sodium nitrate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "State what is meant by the term saturated (hydrocarbons).",
+          "keywords": [
+            [
+              "contains only single C-C bonds",
+              "no double bonds",
+              "maximum number of H atoms"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "State what is meant by the term hydrocarbon.",
+          "keywords": [
+            [
+              "compound containing only carbon and hydrogen",
+              "C and H only",
+              "no other elements present"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the percentage by volume of hydrocarbons in dry natural gas (CH4 95.0, C2H6 3.2, C3H8 0.2, C4H10 0.1).",
+          "keywords": [
+            [
+              "98.5",
+              "95.0+3.2+0.2+0.1 = 98.5%"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Organic Compounds & Enzymes",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "How many different types of atoms are present in compound A (contains C, H, O, N)?",
+          "keywords": [
+            [
+              "4",
+              "four",
+              "C, H, O, N",
+              "carbon hydrogen oxygen nitrogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "On structure B, circle the alcohol functional group (-OH).",
+          "keywords": [
+            [
+              "-OH group",
+              "hydroxyl group",
+              "circle the OH"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the purpose of a catalyst?",
+          "keywords": [
+            [
+              "speeds up reaction",
+              "lowers activation energy",
+              "increases rate",
+              "not used up in reaction"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is meant by the term polymer?",
+          "keywords": [
+            [
+              "large molecule made of many repeating units",
+              "long chain of monomers",
+              "many small molecules joined together"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one property of ethanoic acid.",
+          "keywords": [
+            [
+              "weak acid",
+              "vinegar smell",
+              "soluble in water",
+              "turns blue litmus red",
+              "reacts with metals/carbonates"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the structure of ethanoic acid, CH3COOH, showing all atoms and bonds.",
+          "keywords": [
+            [
+              "H O",
+              "H-C-C",
+              "H O-H",
+              "showing all bonds and atoms"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Ethanol mp -114C, bp 78C. What is the physical state of ethanol at -120C? Explain.",
+          "keywords": [
+            [
+              "solid",
+              "-120C is below melting point of -114C",
+              "temperature below mp",
+              "frozen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 4,
+          "type": "short",
+          "question": "Complete using words from list: Ethanol manufactured by ... of steam to ... at ... temperature with ...",
+          "keywords": [
+            [
+              "addition",
+              "addition reaction"
+            ],
+            [
+              "ethene",
+              "C2H4"
+            ],
+            [
+              "high",
+              "high temperature ~300C"
+            ],
+            [
+              "a catalyst",
+              "phosphoric acid catalyst"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Manganese & Transition Elements",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Purple crystal of KMnO4 placed in centre of damp filter paper; after 1 hour purple colour spread. Explain using kinetic particle model.",
+          "keywords": [
+            [
+              "particles dissolved in water",
+              "KMnO4 is soluble"
+            ],
+            [
+              "particles move/diffuse through water in paper",
+              "random motion of particles"
+            ],
+            [
+              "spread from high concentration to low concentration",
+              "diffusion",
+              "until evenly spread"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "What is meant by the term oxidation?",
+          "keywords": [
+            [
+              "gain of oxygen",
+              "loss of electrons",
+              "increase in oxidation state"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a test for oxygen gas.",
+          "keywords": [
+            [
+              "glowing splint",
+              "lighted splint"
+            ],
+            [
+              "relights",
+              "rekindles",
+              "splint bursts into flame"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Balance: MnO2 + ...HCl -> MnCl2 + Cl2 + ...H2O",
+          "keywords": [
+            [
+              "4",
+              "2",
+              "MnO2 + 4HCl -> MnCl2 + Cl2 + 2H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Put metals in reactivity order (least first): lead (no reaction), magnesium (rapid), manganese (steady slow), tin (very slow).",
+          "keywords": [
+            [
+              "lead < tin < manganese < magnesium",
+              "Pb < Sn < Mn < Mg"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe three ways manganese (transition element) differs from sodium (Group I).",
+          "keywords": [
+            [
+              "manganese is harder/stronger",
+              "higher density",
+              "higher melting point"
+            ],
+            [
+              "manganese forms coloured compounds",
+              "sodium compounds are white/colourless"
+            ],
+            [
+              "manganese has variable oxidation states",
+              "acts as catalyst",
+              "less reactive"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Electrolysis of NaCl",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the diagram to show how gases can be collected during electrolysis of concentrated NaCl.",
+          "keywords": [
+            [
+              "inverted test tubes over electrodes",
+              "collecting tubes",
+              "downward displacement"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of the negative electrode.",
+          "keywords": [
+            [
+              "cathode"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Predict the main products at: negative electrode, positive electrode for electrolysis of concentrated aqueous NaCl.",
+          "keywords": [
+            [
+              "hydrogen at negative electrode",
+              "H2 at cathode"
+            ],
+            [
+              "chlorine at positive electrode",
+              "Cl2 at anode"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the name of a suitable element to use as electrodes in this electrolysis.",
+          "keywords": [
+            [
+              "carbon",
+              "graphite",
+              "platinum"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "After electrolysis 1000 cm3 solution contains 750g NaOH. What mass in 200 cm3?",
+          "keywords": [
+            [
+              "150 g",
+              "750/5 = 150",
+              "750 x 200/1000"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What effect would impurities have on the melting point of sodium hydroxide?",
+          "keywords": [
+            [
+              "lower the melting point",
+              "decrease melting point",
+              "depression of melting point",
+              "melt over a range"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe how to prepare solid sodium chloride from a solution of sodium chloride.",
+          "keywords": [
+            [
+              "evaporate the water",
+              "heat to evaporate",
+              "crystallisation",
+              "leave to dry"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Isotopes",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "short",
+          "question": "Describe the structure of an atom of 15N/7. Include: position of protons, neutrons, electrons; number of each.",
+          "keywords": [
+            [
+              "protons and neutrons in nucleus",
+              "nucleus at centre"
+            ],
+            [
+              "electrons in shells/energy levels around nucleus",
+              "2 in first shell, 5 in second"
+            ],
+            [
+              "7 protons",
+              "7 electrons",
+              "8 neutrons (15-7)"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "What is meant by the term isotopes?",
+          "keywords": [
+            [
+              "atoms of same element with same number of protons",
+              "same atomic number"
+            ],
+            [
+              "different number of neutrons",
+              "different mass number"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one industrial use of radioactive isotopes.",
+          "keywords": [
+            [
+              "tracing leaks in pipes",
+              "medical imaging/treatment",
+              "sterilising equipment",
+              "measuring thickness",
+              "carbon dating"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Halogens & Molecular Mass",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete the table with: density of iodine, melting point of astatine, colour of astatine.",
+          "keywords": [
+            [
+              "density of iodine ~4.9 g/cm3",
+              "about 5"
+            ],
+            [
+              "melting point of astatine >337C",
+              "~350-400C",
+              "higher than iodine"
+            ],
+            [
+              "colour of astatine: black",
+              "dark",
+              "very dark grey/black"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest why density of chlorine (0.0032 g/cm3) is much lower than bromine (3.1) and astatine (6.4).",
+          "keywords": [
+            [
+              "chlorine is a gas at room temperature",
+              "bromine liquid, astatine solid",
+              "gas particles much further apart",
+              "much lower mass per unit volume"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the trend in boiling points of the halogens.",
+          "keywords": [
+            [
+              "increases down the group",
+              "boiling point increases with increasing atomic number",
+              "due to stronger intermolecular forces"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete: bromine + potassium iodide -> ... + ...",
+          "keywords": [
+            [
+              "potassium bromide + iodine",
+              "KBr + I2",
+              "bromine displaces iodine"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Calculate the relative molecular mass of C2F4Cl2.",
+          "keywords": [
+            [
+              "2x12 + 4x19 + 2x35.5",
+              "24 + 76 + 71 = 171",
+              "Mr = 171"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Fuels & Energy",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Suggest two factors to keep constant when comparing energy released by burning different fuels.",
+          "keywords": [
+            [
+              "mass/volume of water",
+              "same amount of water"
+            ],
+            [
+              "same mass of each fuel burned",
+              "distance of flame from can",
+              "same apparatus"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Which fuel (A, B, C, D) gave the greatest temperature rise per gram? (A: 2g, 10C rise; B: 1g, 6C; C: 4g, 16C; D: 2g, 8C)",
+          "keywords": [
+            [
+              "B",
+              "6C per gram",
+              "A 5C/g, B 6C/g, C 4C/g, D 4C/g"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Ethanol is a fuel. Give one other use of ethanol.",
+          "keywords": [
+            [
+              "solvent",
+              "alcoholic drinks",
+              "disinfectant",
+              "perfumes",
+              "pharmaceuticals"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the energy level diagram for ethanol combustion: missing reactant and missing product.",
+          "keywords": [
+            [
+              "oxygen",
+              "O2",
+              "+ 3O2 for ethanol"
+            ],
+            [
+              "water",
+              "H2O",
+              "+ 3H2O for ethanol"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Is ethanol combustion exothermic or endothermic? Use the diagram to explain (products lower than reactants).",
+          "keywords": [
+            [
+              "exothermic",
+              "energy released",
+              "products have less energy than reactants"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is meant by the term alloy?",
+          "keywords": [
+            [
+              "mixture of metals",
+              "mixture of a metal with other elements",
+              "not chemically combined",
+              "metallic bonding"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the arrangement and type of motion of particles in solid iron.",
+          "keywords": [
+            [
+              "regular arrangement",
+              "ordered",
+              "lattice",
+              "close packed"
+            ],
+            [
+              "vibrate about fixed positions",
+              "do not move freely",
+              "vibrational motion"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest why stainless steel is used instead of pure iron for cutlery.",
+          "keywords": [
+            [
+              "resistant to corrosion",
+              "does not rust",
+              "harder",
+              "more attractive appearance"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    }
+  ]
+}

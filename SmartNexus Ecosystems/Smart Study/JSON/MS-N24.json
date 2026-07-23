@@ -1,0 +1,30 @@
+{
+  "id": "MS-N24",
+  "type": "mark_scheme",
+  "paperCode": "0971/32",
+  "session": "October/November 2024",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "2(b)",
+      "answer": "anion",
+      "marks": 1
+    },
+    {
+      "question": "3(a)",
+      "answer": "calcium compounds",
+      "marks": 1
+    },
+    {
+      "question": "3(b)",
+      "answer": "(lead to) deoxygenation (of water)",
+      "marks": 1
+    },
+    {
+      "question": "6(e)",
+      "answer": "copper oxide loses oxygen",
+      "marks": 1
+    }
+  ],
+  "answerCount": 4
+}

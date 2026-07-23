@@ -1,0 +1,25 @@
+{
+  "id": "MS-iN22",
+  "type": "mark_scheme",
+  "paperCode": "0620/33",
+  "session": "October/November 2022",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "3(a)",
+      "answer": "L",
+      "marks": 1
+    },
+    {
+      "question": "5(a)",
+      "answer": "displacement",
+      "marks": 1
+    },
+    {
+      "question": "8(d)",
+      "answer": "218 (2)",
+      "marks": 2
+    }
+  ],
+  "answerCount": 3
+}

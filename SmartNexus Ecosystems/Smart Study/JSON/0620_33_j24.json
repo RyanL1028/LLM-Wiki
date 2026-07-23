@@ -1,0 +1,1278 @@
+{
+  "id": "0620_33_j24",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering structure & bonding, ions & periodic table, electrolysis & acids, photosynthesis & separation, atomic structure & moles, rates & energetics, transition metals, and hydrocarbons.",
+  "type": "past",
+  "session": "May/June 2024",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Structure & Bonding",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig 1.1 shows seven structures:\nA: H₂ (two hydrogen atoms bonded together)\nB: HCl (hydrogen bonded to chlorine)\nC: a giant covalent lattice (each atom bonded to four others in a 3D network)\nD: CH₄ (carbon with four hydrogens, tetrahedral)\nE: C₂H₄ (two carbons joined by a double bond, each with two hydrogens)\nF: NH₃ (nitrogen with three hydrogens, trigonal pyramidal)\nG: Na⁺I⁻ (alternating sodium and iodide ions in a regular lattice)\n\nEach structure may be used once, more than once or not at all.\nState which structure represents:\n(i) a compound that is the main constituent of natural gas",
+          "keywords": [
+            [
+              "D",
+              "d",
+              "CH4",
+              "CH₄",
+              "methane"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) the monomer used to produce poly(ethene)",
+          "keywords": [
+            [
+              "E",
+              "e",
+              "C2H4",
+              "C₂H₄",
+              "ethene"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iii) a giant covalent structure",
+          "keywords": [
+            [
+              "C",
+              "c",
+              "giant covalent"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iv) a compound that has a high melting point",
+          "keywords": [
+            [
+              "G",
+              "g",
+              "NaI",
+              "sodium iodide",
+              "ionic",
+              "ionic compound"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(v) a waste gas from digestion in animals",
+          "keywords": [
+            [
+              "D",
+              "d",
+              "CH4",
+              "CH₄",
+              "methane"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(vi) a solid at room temperature that conducts electricity when dissolved in water",
+          "keywords": [
+            [
+              "G",
+              "g",
+              "NaI",
+              "sodium iodide",
+              "ionic",
+              "ionic compound"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "long",
+          "question": "Describe how to draw the dot-and-cross diagram for structure B (HCl). Show the outer electron shells only. In your answer, state which electrons come from each atom, how the bond is formed, and what the final diagram looks like.",
+          "keywords": [
+            [
+              "hydrogen",
+              "H",
+              "1",
+              "one electron",
+              "one outer electron",
+              "one cross",
+              "one dot"
+            ],
+            [
+              "chlorine",
+              "Cl",
+              "7",
+              "seven electrons",
+              "seven outer electrons",
+              "seven crosses",
+              "seven dots"
+            ],
+            [
+              "share",
+              "shared pair",
+              "sharing",
+              "covalent bond",
+              "covalent",
+              "single bond"
+            ],
+            [
+              "outer shell",
+              "outer shells",
+              "outer electron shells",
+              "outermost shell"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Ions & the Periodic Table",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Intracellular fluid contains ions. Table 2.1 shows masses of ions in 100cm³: Ca²⁺ (6mg), Cl⁻ (7mg), HCO₃⁻ (49mg), PO₄³⁻ (547mg), Mg²⁺ (31mg), K⁺ (624mg), Na⁺ (23mg), SO₄²⁻ (96mg).\n(i) Name the positive ion that is present in the lowest concentration.",
+          "keywords": [
+            [
+              "calcium",
+              "Ca",
+              "Ca2+",
+              "Ca²⁺",
+              "calcium ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Name the ion that contains an element in Group IV of the Periodic Table.",
+          "keywords": [
+            [
+              "hydrogencarbonate",
+              "hydrogen carbonate",
+              "HCO3",
+              "HCO₃",
+              "HCO3-",
+              "HCO₃⁻",
+              "bicarbonate",
+              "carbonate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "long",
+          "question": "Describe a test for sulfate ions. Include the reagent and the observation.",
+          "keywords": [
+            [
+              "barium chloride",
+              "barium nitrate",
+              "BaCl2",
+              "BaCl₂",
+              "Ba(NO3)2",
+              "Ba(NO₃)₂",
+              "barium ions"
+            ],
+            [
+              "white precipitate",
+              "white solid",
+              "white ppt",
+              "white",
+              "precipitate",
+              "forms"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Small amounts of ammonium ions and chloride ions are formed in some cells of the body.\nState the formula of the compound formed from ammonium ions and chloride ions.",
+          "keywords": [
+            [
+              "NH4Cl",
+              "NH₄Cl",
+              "ammonium chloride"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Choose the salt that is insoluble in water.",
+          "options": [
+            "copper(II) nitrate",
+            "lead(II) chloride",
+            "potassium nitrate",
+            "sodium chloride"
+          ],
+          "answer": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Table 2.2 shows properties of Group I metals: lithium (hardness 5.0 MPa, bubbles very slowly, no flame), sodium (hardness 0.69 MPa, bubbles very slowly, no flame), potassium (bubbles very rapidly and flame), rubidium (hardness 0.22 MPa).\nPredict:\n● the hardness of potassium\n● the observations when rubidium reacts with water.",
+          "keywords": [
+            [
+              "between",
+              "0.2",
+              "0.3",
+              "0.4",
+              "0.5",
+              "0.6",
+              "less than",
+              "lower than"
+            ],
+            [
+              "very rapidly",
+              "fast",
+              "vigorous",
+              "vigorously",
+              "explosive",
+              "flame",
+              "sparks",
+              "more vigorous",
+              "more rapidly",
+              "violent"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Sodium reacts with hydrogen to produce sodium hydride, NaH.\nComplete the symbol equation: 2Na + ____ → ____ NaH",
+          "keywords": [
+            [
+              "H2",
+              "H₂",
+              "hydrogen"
+            ],
+            [
+              "2",
+              "two",
+              "2NaH",
+              "2 NaH"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Electrolysis, Acids & Bases",
+      "parts": [
+        {
+          "label": "",
+          "marks": 2,
+          "type": "long",
+          "question": "Molten calcium bromide is electrolysed.\n(i) Define the term electrolysis.",
+          "keywords": [
+            [
+              "decomposition",
+              "breakdown",
+              "breaking down",
+              "splitting"
+            ],
+            [
+              "electricity",
+              "electric current",
+              "electrical energy",
+              "direct current",
+              "DC"
+            ],
+            [
+              "ionic compound",
+              "electrolyte",
+              "molten",
+              "solution",
+              "compound"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Name an inert metal that can be used for the electrodes.",
+          "keywords": [
+            [
+              "platinum",
+              "Pt",
+              "graphite",
+              "carbon"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(iii) Name the product formed at each electrode when molten calcium bromide is electrolysed.\nPositive electrode:\nNegative electrode:",
+          "keywords": [
+            [
+              "bromine",
+              "Br2",
+              "Br₂"
+            ],
+            [
+              "calcium",
+              "Ca"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Calcium reacts with water. An alkaline solution is produced.\n(i) Name the ion which causes a solution to be alkaline.",
+          "keywords": [
+            [
+              "hydroxide",
+              "OH-",
+              "OH⁻",
+              "OH ions",
+              "hydroxide ions",
+              "OH"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "mcq",
+          "question": "(ii) Choose the pH value of an alkaline solution.",
+          "options": [
+            "pH 1",
+            "pH 5",
+            "pH 7",
+            "pH 9"
+          ],
+          "answer": 3
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(iii) Dilute hydrochloric acid is added to a solution of litmus in alkaline solution until the acid is in excess.\nState the colour change of the litmus.\nfrom ________ to ________",
+          "keywords": [
+            [
+              "blue",
+              "from blue",
+              "starts blue"
+            ],
+            [
+              "red",
+              "to red",
+              "turns red"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Calcium carbonate breaks down when heated to produce calcium oxide and a gas that turns limewater milky.\n(i) Name the gas that turns limewater milky.",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2",
+              "CO₂"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Name the type of chemical reaction that takes place when calcium carbonate is heated.",
+          "keywords": [
+            [
+              "thermal decomposition",
+              "decomposition",
+              "thermal",
+              "thermal decomposition reaction"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Photosynthesis & Separation Techniques",
+      "parts": [
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Chlorophyll is needed for photosynthesis.\n(i) Complete the word equation for photosynthesis.\ncarbon dioxide + water → ________ + ________",
+          "keywords": [
+            [
+              "glucose",
+              "C6H12O6",
+              "C₆H₁₂O₆"
+            ],
+            [
+              "oxygen",
+              "O2",
+              "O₂"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) State one other condition that is essential for photosynthesis.",
+          "keywords": [
+            [
+              "sunlight",
+              "light",
+              "sun",
+              "light energy",
+              "solar energy",
+              "chlorophyll"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "A student extracts a mixture of coloured compounds from a plant leaf. Fig 4.1 shows filter paper with a base line drawn in pencil and a solution of methyl ethanoate in ethanoic acid as the solvent.\n(i) Name this method of separation.",
+          "keywords": [
+            [
+              "chromatography",
+              "paper chromatography"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Suggest why the base line is drawn in pencil and not in ink.",
+          "keywords": [
+            [
+              "pencil",
+              "insoluble",
+              "does not dissolve",
+              "does not separate",
+              "does not smudge",
+              "does not run",
+              "does not move"
+            ],
+            [
+              "ink",
+              "soluble",
+              "dissolve",
+              "separate",
+              "smudge",
+              "run",
+              "move",
+              "spread"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iii) The liquid used is a solution of methyl ethanoate in ethanoic acid.\nState the meaning of the term solution.",
+          "keywords": [
+            [
+              "solute",
+              "dissolved substance",
+              "substance dissolved",
+              "dissolved"
+            ],
+            [
+              "solvent",
+              "liquid",
+              "dissolves",
+              "liquid that dissolves"
+            ],
+            [
+              "mixture",
+              "homogeneous",
+              "homogeneous mixture"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig 4.2 shows the displayed formula of a compound found in plant cells. The compound contains an alcohol functional group.\nState the formula of the alcohol functional group and identify which atom it is attached to in the compound.",
+          "keywords": [
+            [
+              "OH",
+              "-OH",
+              "hydroxyl",
+              "hydroxy",
+              "hydroxide"
+            ],
+            [
+              "carbon",
+              "C",
+              "oxygen",
+              "O"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Atomic Structure & Formula Mass",
+      "parts": [
+        {
+          "label": "",
+          "marks": 5,
+          "type": "long",
+          "question": "An atom of phosphorus is represented by the symbol ³¹P₁₅.\nDescribe this atom of phosphorus in terms of:\n● the position of the electrons, neutrons and protons in the atom\n● the number of neutrons and the number of protons\n● the electronic configuration.",
+          "keywords": [
+            [
+              "protons",
+              "neutrons",
+              "nucleus",
+              "centre",
+              "central",
+              "core",
+              "in the middle"
+            ],
+            [
+              "electrons",
+              "shells",
+              "energy levels",
+              "orbits",
+              "orbitals",
+              "surrounding",
+              "around the nucleus",
+              "arranged"
+            ],
+            [
+              "16",
+              "sixteen",
+              "31 minus 15",
+              "31-15"
+            ],
+            [
+              "15",
+              "fifteen",
+              "fifteen protons",
+              "15 protons"
+            ],
+            [
+              "2,8,5",
+              "2.8.5",
+              "2-8-5",
+              "two eight five",
+              "two comma eight comma five"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the symbol equation for the reaction of phosphorus with oxygen.\n___ P + ___ O₂ → P₄O₁₀",
+          "keywords": [
+            [
+              "4",
+              "4P"
+            ],
+            [
+              "5",
+              "5O₂",
+              "5O2",
+              "5 O2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig 5.1 shows the displayed formula of a compound of phosphorus, nitrogen and chlorine forming a ring structure with alternating P and N atoms, each P bonded to two Cl atoms.\nDeduce the molecular formula of this compound.",
+          "keywords": [
+            [
+              "P3N3Cl6",
+              "P₃N₃Cl₆",
+              "N3P3Cl6",
+              "P3N3Cl6"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete Table 5.1 to calculate the relative formula mass of Na₃PO₄.\nNa: 3 atoms × 23 = 69\nP: 1 atom × 31 = ____\nO: 4 atoms × 16 = ____\nRelative formula mass = ____",
+          "keywords": [
+            [
+              "31",
+              "thirty one"
+            ],
+            [
+              "64",
+              "sixty four"
+            ],
+            [
+              "164"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Phosphates in rivers can cause deoxygenation of water.\nState one source of phosphates in river water.",
+          "keywords": [
+            [
+              "fertiliser",
+              "fertilizer",
+              "fertilisers",
+              "fertilizers",
+              "artificial fertiliser"
+            ],
+            [
+              "detergent",
+              "detergents",
+              "washing powder",
+              "cleaning product"
+            ],
+            [
+              "sewage",
+              "waste water",
+              "wastewater",
+              "untreated sewage"
+            ],
+            [
+              "agricultural",
+              "agriculture",
+              "farming",
+              "run-off",
+              "runoff"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Reaction Rates & Energetics",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Dilute hydrochloric acid reacts with calcium carbonate:\n2HCl(aq) + CaCO₃(s) → CaCl₂(aq) + H₂O(l) + CO₂(g)\n(a) State the meaning of the state symbol (aq).",
+          "keywords": [
+            [
+              "aqueous",
+              "dissolved in water",
+              "dissolved",
+              "in water",
+              "water",
+              "in solution"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Fig 6.1 shows the mass of small pieces of calcium carbonate over time. The calcium carbonate is in excess. The graph shows mass decreasing from 10g, curving downwards.\n(i) Deduce the mass of calcium carbonate two minutes from the start of the reaction.",
+          "keywords": [
+            [
+              "4",
+              "4.0",
+              "4.0g",
+              "4g",
+              "about 4",
+              "around 4",
+              "between 3 and 5",
+              "3.5"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) Explain how the graph shows that the calcium carbonate is in excess.",
+          "keywords": [
+            [
+              "does not reach zero",
+              "does not go to zero",
+              "levels off",
+              "plateau",
+              "flattens",
+              "stops",
+              "remains",
+              "mass left",
+              "still some left",
+              "some remains"
+            ],
+            [
+              "above zero",
+              "above 0",
+              "not zero",
+              "unreacted",
+              "not all reacted",
+              "excess is left",
+              "left over",
+              "excess remains"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "long",
+          "question": "(iii) The experiment is repeated at a higher temperature. All other conditions stay the same.\nDescribe how the graph line would change and explain why this happens.",
+          "keywords": [
+            [
+              "steeper",
+              "steeper gradient",
+              "steeper line",
+              "more steep",
+              "sharper decline",
+              "decreases faster",
+              "faster decrease",
+              "drops faster",
+              "more quickly"
+            ],
+            [
+              "faster",
+              "higher rate",
+              "more kinetic energy",
+              "particles move faster",
+              "more frequent collisions",
+              "more collisions",
+              "more successful collisions",
+              "more energy",
+              "greater energy",
+              "collide more often",
+              "collide more frequently"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(c) Describe the effect, if any, on the rate of reaction when large pieces of calcium carbonate are used instead of small pieces. All other conditions stay the same.",
+          "keywords": [
+            [
+              "decrease",
+              "slower",
+              "lower",
+              "reduce",
+              "less",
+              "decreases",
+              "smaller surface area",
+              "less surface area",
+              "fewer collisions"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "mcq",
+          "question": "(d) Choose the correct unit of concentration from the list.",
+          "options": [
+            "dm³/g",
+            "g/dm²",
+            "mol/dm",
+            "mol/dm³"
+          ],
+          "answer": 3
+        },
+        {
+          "label": "",
+          "marks": 3,
+          "type": "long",
+          "question": "(e) Concentrated hydrochloric acid gives off hydrogen chloride gas. A glass tube has concentrated HCl at one end and damp universal indicator paper at the other end. At first the paper does not change colour, but it turns red after a short time.\nExplain these results in terms of kinetic particle theory.",
+          "keywords": [
+            [
+              "diffuse",
+              "diffusion",
+              "move",
+              "spread",
+              "travel",
+              "drift",
+              "flow"
+            ],
+            [
+              "gas particles",
+              "molecules",
+              "particles",
+              "HCl particles",
+              "hydrogen chloride particles",
+              "gas"
+            ],
+            [
+              "random",
+              "random motion",
+              "random movement",
+              "move randomly",
+              "randomly"
+            ],
+            [
+              "time",
+              "delay",
+              "eventually",
+              "gradually",
+              "slow",
+              "takes time",
+              "distance",
+              "travel time"
+            ],
+            [
+              "collide",
+              "collisions",
+              "bounce off",
+              "air particles",
+              "bump into"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(f) Hydrogen chloride breaks down to form hydrogen and chlorine at 1500°C. The reaction is endothermic.\nState the meaning of the term endothermic.",
+          "keywords": [
+            [
+              "absorbs",
+              "takes in",
+              "gains",
+              "requires",
+              "needs"
+            ],
+            [
+              "heat",
+              "energy",
+              "thermal energy",
+              "heat energy",
+              "from surroundings",
+              "surroundings"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Transition Metals & Reactivity",
+      "parts": [
+        {
+          "label": "",
+          "marks": 3,
+          "type": "short",
+          "question": "Chromium and iron are transition elements. They are ductile and have high melting and boiling points.\nState three other physical properties of chromium.",
+          "keywords": [
+            [
+              "malleable",
+              "malleability"
+            ],
+            [
+              "shiny",
+              "lustrous",
+              "metallic lustre",
+              "lustre",
+              "luster",
+              "shine"
+            ],
+            [
+              "conductor",
+              "good conductor of heat",
+              "good conductor of electricity",
+              "conducts heat",
+              "conducts electricity",
+              "conductivity"
+            ],
+            [
+              "sonorous",
+              "sonority"
+            ],
+            [
+              "high density",
+              "dense"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "The formula for rust is Fe₂O₃•xH₂O.\n(i) State the chemical name of rust.",
+          "keywords": [
+            [
+              "hydrated",
+              "hydrated iron"
+            ],
+            [
+              "iron",
+              "iron III",
+              "iron(III)",
+              "Fe"
+            ],
+            [
+              "oxide",
+              "Fe2O3",
+              "Fe₂O₃"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "long",
+          "question": "(ii) An iron object is coated with plastic.\nExplain how this prevents the iron from rusting.",
+          "keywords": [
+            [
+              "barrier",
+              "protective layer",
+              "coating",
+              "cover",
+              "coat",
+              "layer",
+              "plastic layer"
+            ],
+            [
+              "oxygen",
+              "air",
+              "O2",
+              "O₂"
+            ],
+            [
+              "water",
+              "moisture",
+              "H2O",
+              "H₂O"
+            ],
+            [
+              "prevent",
+              "stop",
+              "block",
+              "protect",
+              "cannot reach",
+              "no contact",
+              "cannot contact",
+              "kept away"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Chromium behaves as a typical metal when it reacts with sulfuric acid.\nComplete the word equation:\nchromium + sulfuric acid → ________ + ________",
+          "keywords": [
+            [
+              "chromium sulfate",
+              "chromium(II) sulfate",
+              "chromium sulphate",
+              "CrSO4",
+              "CrSO₄",
+              "chromium salt"
+            ],
+            [
+              "hydrogen",
+              "H2",
+              "H₂",
+              "hydrogen gas"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Put these five metals in order of reactivity from most reactive to least reactive:\naluminium, calcium, copper, iron, zinc",
+          "keywords": [
+            [
+              "calcium",
+              "Ca"
+            ],
+            [
+              "aluminium",
+              "Al",
+              "aluminum"
+            ],
+            [
+              "zinc",
+              "Zn"
+            ],
+            [
+              "iron",
+              "Fe"
+            ],
+            [
+              "copper",
+              "Cu"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Zinc can be produced by heating zinc oxide with carbon:\nZnO + C → Zn + CO\nDescribe how this equation shows that zinc oxide is reduced.",
+          "keywords": [
+            [
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost",
+              "loss of oxygen",
+              "oxygen is removed",
+              "oxygen is lost"
+            ],
+            [
+              "gains electrons",
+              "gain of electrons",
+              "reduction"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Hydrocarbons & Organic Chemistry",
+      "parts": [
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "Table 8.1 shows methane (CH₄, bp -164°C), ethane (C₂H₆, bp -88°C), propane (C₃H₈, bp -42°C) and butane (C₄H₁₀, bp 0°C).\n(i) Name the homologous series that includes methane, ethane, propane and butane.",
+          "keywords": [
+            [
+              "alkanes",
+              "alkane",
+              "alkane series",
+              "alkane homologous series"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(ii) State the trend in boiling point as the number of carbon atoms increases in this homologous series.",
+          "keywords": [
+            [
+              "increases",
+              "increases",
+              "goes up",
+              "rises",
+              "higher",
+              "greater",
+              "gets higher",
+              "gets greater"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(iii) Deduce the general formula of this homologous series.",
+          "keywords": [
+            [
+              "CnH2n+2",
+              "CₙH₂ₙ₊₂",
+              "CnH2n plus 2",
+              "CnH(2n+2)",
+              "C n H 2n+2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the word equation for the complete combustion of ethane.\nethane + oxygen → ________ + ________",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2",
+              "CO₂"
+            ],
+            [
+              "water",
+              "H2O",
+              "H₂O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "short",
+          "question": "(c)(i) Long-chain hydrocarbons can be cracked to produce alkenes and hydrogen.\nState two conditions for cracking.",
+          "keywords": [
+            [
+              "heat",
+              "high temperature",
+              "heated",
+              "high temp",
+              "thermal",
+              "hot"
+            ],
+            [
+              "catalyst",
+              "aluminium oxide",
+              "alumina",
+              "aluminum oxide",
+              "zeolite",
+              "silicon dioxide",
+              "silica"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "",
+          "marks": 1,
+          "type": "short",
+          "question": "(c)(ii) The diesel oil fraction can be used for cracking.\nGive one other use of the diesel oil fraction.",
+          "keywords": [
+            [
+              "fuel",
+              "lorries",
+              "trucks",
+              "buses",
+              "trains",
+              "cars",
+              "vehicles",
+              "transport",
+              "engines",
+              "heating",
+              "diesel engines",
+              "diesel fuel",
+              "fuel for vehicles"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "",
+          "marks": 2,
+          "type": "long",
+          "question": "(d) Alkene molecules can react together to produce polymers.\nDefine the term polymer.",
+          "keywords": [
+            [
+              "large",
+              "long",
+              "giant",
+              "big",
+              "macromolecule",
+              "very large"
+            ],
+            [
+              "molecule",
+              "chain",
+              "molecules"
+            ],
+            [
+              "repeating",
+              "many",
+              "lots of",
+              "multiple",
+              "identical",
+              "smaller",
+              "same"
+            ],
+            [
+              "units",
+              "monomer",
+              "monomers",
+              "repeat units"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

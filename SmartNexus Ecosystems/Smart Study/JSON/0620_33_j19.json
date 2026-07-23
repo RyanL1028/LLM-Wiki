@@ -1,0 +1,933 @@
+{
+  "id": "0620_33_j19",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Core)",
+  "name": "Theory (Core)",
+  "description": "Core theory covering structures and bonding, iron and blast furnace, ocean and biosphere elements, chlorine chemistry, carboxylic acids and polymers, zinc compounds, reaction rates, and Group IV elements.",
+  "type": "past",
+  "session": "May/June 2019",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Structures & Bonding",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "From five structure diagrams, which two are compounds?",
+          "keywords": [
+            [
+              "NaCl",
+              "ionic compound",
+              "substance with two different elements"
+            ],
+            [
+              "hydrocarbon with only C and H is not compound",
+              "element is one type of atom"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which structure is monatomic?",
+          "keywords": [
+            [
+              "argon atoms",
+              "Ar",
+              "noble gas",
+              "single atoms"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which structure conducts electricity when solid?",
+          "keywords": [
+            [
+              "zinc metal",
+              "Zn",
+              "metallic bonding",
+              "delocalised electrons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which structure is the main constituent of natural gas?",
+          "keywords": [
+            [
+              "methane",
+              "CH4",
+              "small hydrocarbon molecule"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which structure is a solid that is soluble in water?",
+          "keywords": [
+            [
+              "NaCl",
+              "sodium chloride",
+              "ionic compound soluble in water"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(vi)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which structure is a hydrocarbon?",
+          "keywords": [
+            [
+              "substance containing only C and H",
+              "methane"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Air is a mixture. Describe two characteristics of a mixture.",
+          "keywords": [
+            [
+              "components not chemically combined",
+              "can be separated by physical means"
+            ],
+            [
+              "no fixed composition",
+              "variable proportions",
+              "each component retains its properties"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Iron & Blast Furnace",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which is an ore of iron? (bauxite, graphite, hematite, limestone)",
+          "keywords": [
+            [
+              "hematite",
+              "haematite",
+              "Fe2O3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "2Fe2O3 + 3C -> 4Fe + 3CO2. How does this show Fe2O3 is reduced?",
+          "keywords": [
+            [
+              "loses oxygen",
+              "oxygen is removed from Fe2O3",
+              "gains electrons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "CO2 + C -> 2CO. Energy diagram shows products higher than reactants. How does this show the reaction is endothermic?",
+          "keywords": [
+            [
+              "products have more energy than reactants",
+              "energy absorbed",
+              "enthalpy positive"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Why is iron extracted by reduction with carbon and not by electrolysis? Refer to position in reactivity series.",
+          "keywords": [
+            [
+              "iron is below carbon in reactivity series",
+              "carbon can reduce iron oxide",
+              "electrolysis more expensive",
+              "iron less reactive than carbon"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe three properties of iron that show it is a transition element and not a Group I element.",
+          "keywords": [
+            [
+              "high melting point and density",
+              "Group I have low mp/density"
+            ],
+            [
+              "forms coloured compounds",
+              "Group I compounds are white/colourless"
+            ],
+            [
+              "variable oxidation states (Fe2+/Fe3+)",
+              "Group I only +1"
+            ],
+            [
+              "acts as catalyst",
+              "less reactive than Group I"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Balance: ...Fe + ...Cl2 -> Fe2Cl6",
+          "keywords": [
+            [
+              "2",
+              "3",
+              "2Fe + 3Cl2 -> Fe2Cl6"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Fe2Cl6 <=> 2FeCl3 at 400C. What is meant by the symbol (reversible arrows)?",
+          "keywords": [
+            [
+              "reversible reaction",
+              "equilibrium",
+              "reaction goes both ways"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the molecular formula of the ion [Fe(CN)6]4- showing numbers of Fe, C and N atoms.",
+          "keywords": [
+            [
+              "FeC6N6",
+              "1 Fe, 6 C, 6 N"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Ocean & Biosphere Elements",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the percentage by mass of other elements in the biosphere (total must equal 100%).",
+          "keywords": [
+            [
+              "0.70",
+              "100 - (0.40+39.00+0.05+6.60+0.10+53.00+0.10+0.05)",
+              "~0.70%"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which metallic element is present in the oceans in the greatest percentage by mass?",
+          "keywords": [
+            [
+              "sodium",
+              "Na",
+              "1.15%"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two major differences in percentage by mass of elements in oceans and biosphere.",
+          "keywords": [
+            [
+              "much more carbon in biosphere (39% vs 0.01%)",
+              "living things contain lots of carbon"
+            ],
+            [
+              "much more oxygen in oceans (85.8% vs 53%)",
+              "water is H2O",
+              "much more hydrogen in oceans"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the other product of respiration (besides water).",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe a chemical test for water.",
+          "keywords": [
+            [
+              "anhydrous copper(II) sulfate",
+              "CuSO4",
+              "white powder"
+            ],
+            [
+              "turns blue",
+              "blue",
+              "hydrated copper sulfate",
+              "CuSO4.5H2O"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Chlorine & Halogens",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "short",
+          "question": "Use kinetic particle model to describe arrangement and motion of molecules in solid chlorine and chlorine gas.",
+          "keywords": [
+            [
+              "solid: regular arrangement, close together",
+              "vibrate about fixed positions",
+              "lattice"
+            ],
+            [
+              "gas: random arrangement, far apart",
+              "move randomly at high speed",
+              "no fixed pattern"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe how pressure of chlorine gas changes with temperature at constant volume.",
+          "keywords": [
+            [
+              "increases",
+              "pressure increases with temperature",
+              "direct relationship",
+              "linear"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete: ... + ... -> iodine + sodium chloride",
+          "keywords": [
+            [
+              "chlorine",
+              "Cl2",
+              "sodium iodide",
+              "NaI",
+              "chlorine + sodium iodide"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain, in terms of halogen reactivity, why aqueous bromine will not react with aqueous sodium chloride.",
+          "keywords": [
+            [
+              "bromine is less reactive than chlorine",
+              "chlorine is more reactive",
+              "cannot displace a more reactive halogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Balance: C10H16 + 8Cl2 -> ...C + ...HCl",
+          "keywords": [
+            [
+              "10",
+              "16",
+              "10C + 16HCl",
+              "10 carbons and 16 hydrogens must balance"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Carboxylic Acids, Ethanol & Polymers",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Circle the carboxylic acid functional group (-COOH) on the structure of compound S.",
+          "keywords": [
+            [
+              "-COOH",
+              "carboxyl",
+              "circle around C=O and O-H group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "How many different types of atom are shown in the structure of S?",
+          "keywords": [
+            [
+              "3",
+              "carbon, hydrogen, oxygen",
+              "C, H, O"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Pure S mp 159C, bp 200C. What is the physical state at 100C? Explain.",
+          "keywords": [
+            [
+              "solid",
+              "100C is below melting point of 159C"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Which statement about impure compound S is correct?",
+          "options": [
+            "A: mp 159C, bp above 200C",
+            "B: mp below 159C, bp 200C",
+            "C: mp 159C, bp 200C",
+            "D: mp below 159C, bp above 200C"
+          ],
+          "answer": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe two chemical properties of aqueous ethanoic acid.",
+          "keywords": [
+            [
+              "reacts with metals to give hydrogen",
+              "reacts with carbonates to give CO2"
+            ],
+            [
+              "turns blue litmus red",
+              "neutralises bases",
+              "weak acid",
+              "pH less than 7"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "C2H5OH -> C2H4 + X (over aluminium oxide catalyst). Identify compound X.",
+          "keywords": [
+            [
+              "water",
+              "H2O"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why a catalyst is used for ethanol -> ethene.",
+          "keywords": [
+            [
+              "speeds up the reaction",
+              "lowers activation energy",
+              "increases rate without being used up"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structure of ethanol molecule showing all atoms and bonds.",
+          "keywords": [
+            [
+              "H H",
+              "H-C-C-O-H",
+              "H H",
+              "C2H5OH structure"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of the polymer formed from ethene.",
+          "keywords": [
+            [
+              "poly(ethene)",
+              "polyethene",
+              "polythene",
+              "polyethylene"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Terylene is also a polymer. State one use of Terylene.",
+          "keywords": [
+            [
+              "clothing",
+              "textiles",
+              "fibres",
+              "fabric",
+              "curtains",
+              "carpets",
+              "sails"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Zinc & Stoichiometry",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how to prepare a pure sample of hydrated zinc sulfate crystals using dilute H2SO4 and excess zinc.",
+          "keywords": [
+            [
+              "add excess zinc to acid",
+              "react until no more bubbles",
+              "zinc in excess"
+            ],
+            [
+              "filter to remove excess zinc",
+              "filtration"
+            ],
+            [
+              "heat filtrate to evaporate some water",
+              "crystallisation",
+              "leave to cool and form crystals",
+              "dry crystals"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "ZnSO4 -> ZnO + SO3. What type of reaction is this?",
+          "options": [
+            "addition",
+            "decomposition",
+            "displacement",
+            "oxidation"
+          ],
+          "answer": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "12.60g ZnSO4 gives 6.34g ZnO. Calculate mass of ZnO from 63.0g ZnSO4.",
+          "keywords": [
+            [
+              "31.7g",
+              "63.0/12.60 = 5",
+              "5 x 6.34 = 31.7"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the table to calculate relative formula mass of ZnSO4.",
+          "keywords": [
+            [
+              "S: 1 x 32 = 32",
+              "O: 4 x 16 = 64"
+            ],
+            [
+              "Mr = 65 + 32 + 64 = 161"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 4,
+          "type": "short",
+          "question": "Complete table for 36S/16 and 67Zn2+/30: electrons, neutrons, protons.",
+          "keywords": [
+            [
+              "S: 16 electrons, 20 neutrons, 16 protons"
+            ],
+            [
+              "Zn2+: 28 electrons, 37 neutrons, 30 protons",
+              "67-30=37 neutrons",
+              "30-2=28 electrons"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "What is meant by the term alloy?",
+          "keywords": [
+            [
+              "mixture of metals",
+              "mixture of a metal with other elements",
+              "not chemically combined"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Reaction Rates & Nitrate Test",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "MgCO3 + 2HNO3 -> Mg(NO3)2 + CO2 + H2O. Name the salt formed.",
+          "keywords": [
+            [
+              "magnesium nitrate",
+              "Mg(NO3)2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "From graph: after how many seconds did the reaction finish?",
+          "keywords": [
+            [
+              "about 100-120 seconds",
+              "when graph levels off",
+              "when volume stops increasing"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "From graph: deduce volume of CO2 produced in first 50 seconds.",
+          "keywords": [
+            [
+              "about 42 cm3",
+              "approximately 40-45 cm3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Draw line on grid for experiment using smaller MgCO3 pieces (same mass, all other conditions same).",
+          "keywords": [
+            [
+              "steeper initial curve",
+              "faster initial rate",
+              "finishes sooner",
+              "same final volume of CO2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "How does increasing temperature affect the rate of this reaction?",
+          "keywords": [
+            [
+              "increases rate",
+              "faster",
+              "particles have more kinetic energy",
+              "more successful collisions"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "How does decreasing the concentration of nitric acid affect the rate?",
+          "keywords": [
+            [
+              "decreases rate",
+              "slower",
+              "fewer particles per unit volume",
+              "fewer collisions"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete the nitrate ion test using words: NaOH and ... foil, warmed gently, ... produced turns damp ... litmus paper ...",
+          "keywords": [
+            [
+              "aluminium",
+              "Al"
+            ],
+            [
+              "ammonia",
+              "NH3"
+            ],
+            [
+              "red",
+              "red litmus turns blue"
+            ],
+            [
+              "blue"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Group IV & Environmental Chemistry",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one source of lead compounds in the air.",
+          "keywords": [
+            [
+              "vehicle exhaust",
+              "leaded petrol",
+              "burning fossil fuels",
+              "industrial emissions",
+              "paint"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one adverse effect of lead compounds on health.",
+          "keywords": [
+            [
+              "brain damage",
+              "neurological damage",
+              "learning difficulties",
+              "poisoning"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Put metals in reactivity order (least first): Bi reduced by C above 250C, Cr above 1200C, Pb above 440C, Zn above 990C.",
+          "keywords": [
+            [
+              "Bi < Pb < Zn < Cr",
+              "bismuth < lead < zinc < chromium"
+            ],
+            [
+              "easiest to reduce = least reactive",
+              "highest reduction temperature = most reactive"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Use the diagram of graphite structure to explain why graphite is used as a lubricant.",
+          "keywords": [
+            [
+              "layers of carbon atoms",
+              "sheets"
+            ],
+            [
+              "weak forces between layers",
+              "van der Waals forces",
+              "layers can slide over each other"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "When carbon burns in a limited supply of air, a poisonous gas is formed. Name this gas.",
+          "keywords": [
+            [
+              "carbon monoxide",
+              "CO"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "CO2 forms a slightly acidic solution in water. Which pH value? (circle: pH 6, 7, 8, 10)",
+          "keywords": [
+            [
+              "pH 6",
+              "slightly acidic",
+              "below 7",
+              "carbonic acid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name one other major greenhouse gas besides CO2.",
+          "keywords": [
+            [
+              "methane",
+              "CH4",
+              "water vapour",
+              "H2O",
+              "nitrous oxide",
+              "N2O",
+              "CFCs"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State one effect that greenhouse gases have on the environment.",
+          "keywords": [
+            [
+              "global warming",
+              "climate change",
+              "rising temperatures",
+              "rising sea levels",
+              "extreme weather"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    }
+  ]
+}

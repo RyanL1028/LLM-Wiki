@@ -1,0 +1,1174 @@
+{
+  "id": "0620_32_m21",
+  "subject": "Chemistry",
+  "code": "0620/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering the Periodic Table, sea water ions and isotopes, halogens and their properties, rate of reaction, sulfur and its compounds, organic compounds and polymers, electrolysis of sodium chloride, and ammonia and fertilisers.",
+  "type": "past",
+  "session": "Feb/March 2021",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Periodic Table",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "The diagram shows part of the Periodic Table. Give the symbol of the element that is extracted from bauxite.",
+          "keywords": [
+            [
+              "Al",
+              "aluminium",
+              "aluminum"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the symbol of the element that forms 21% of clean, dry air.",
+          "keywords": [
+            [
+              "O",
+              "oxygen",
+              "O2",
+              "O2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the symbol of the element that forms an oxide which contributes to acid rain.",
+          "keywords": [
+            [
+              "N",
+              "nitrogen",
+              "S",
+              "sulfur"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the symbol of the element that forms an aqueous ion that gives a red-brown precipitate on addition of aqueous sodium hydroxide.",
+          "keywords": [
+            [
+              "Fe",
+              "iron",
+              "Fe3+",
+              "Fe3+"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the symbol of the element that has an atom with a complete outer electron shell.",
+          "keywords": [
+            [
+              "Ar",
+              "argon",
+              "Ne",
+              "neon"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Sea Water Ions & Isotopes",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The table shows the mass of some ions in a 1000 cm3 sample of sea water. State which negative ion has the lowest mass in 1000 cm3 of sea water.",
+          "keywords": [
+            [
+              "metaborate",
+              "B3O6",
+              "B3O6 3-"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the formulae of the ions in potassium sulfate.",
+          "keywords": [
+            [
+              "K+",
+              "K+"
+            ],
+            [
+              "SO4 2-",
+              "SO4 2-",
+              "SO4",
+              "SO4",
+              "sulfate"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of calcium ions in 200 cm3 of this sample of sea water (400 mg in 1000 cm3).",
+          "keywords": [
+            [
+              "80",
+              "80 mg",
+              "80mg"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "A sample of this sea water is evaporated. State the name of the compound which is present in the greatest quantity when this sample is evaporated.",
+          "keywords": [
+            [
+              "sodium chloride",
+              "NaCl",
+              "salt",
+              "common salt"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the name of the ion which reacts with aqueous silver nitrate to give a cream precipitate.",
+          "keywords": [
+            [
+              "bromide",
+              "Br-",
+              "Br-"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "The B3O6 3- ion can be converted to boric acid H3BO3, which is also produced when BCl3 reacts with water. Complete the equation: BCl3 + ...H2O → H3BO3 + ...HCl",
+          "keywords": [
+            [
+              "3",
+              "3 H2O",
+              "3H2O",
+              "3H2O"
+            ],
+            [
+              "3",
+              "3 HCl",
+              "3HCl"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "The symbol of a strontium ion is 87/38 Sr2+. Deduce the number of electrons, protons and neutrons in one atom of this strontium ion.",
+          "keywords": [
+            [
+              "36",
+              "36 electrons"
+            ],
+            [
+              "38",
+              "38 protons"
+            ],
+            [
+              "49",
+              "49 neutrons"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Some isotopes of strontium are radioactive. Give one medical use of radioactive isotopes.",
+          "keywords": [
+            [
+              "cancer treatment",
+              "radiotherapy",
+              "radiation therapy",
+              "treat cancer",
+              "kill cancer cells"
+            ],
+            [
+              "tracing",
+              "tracer",
+              "medical imaging",
+              "diagnosis",
+              "PET scan"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "The isotope 235U is also radioactive. State the major use of this isotope of uranium.",
+          "keywords": [
+            [
+              "nuclear fuel",
+              "nuclear power",
+              "nuclear reactor",
+              "nuclear energy",
+              "atomic energy",
+              "nuclear weapons"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Halogens",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "The table shows properties of halogens. Complete the table by predicting the boiling point of chlorine and the density of fluorine at its melting point. (Fluorine: mp -220 bp -188; Cl: mp -101 bp ?; Br: mp -7 bp 59 density 3.12; I: mp 114 bp 184 density 4.93)",
+          "keywords": [
+            [
+              "trend",
+              "decreases",
+              "increases",
+              "down group",
+              "between F and Br",
+              "estimate"
+            ],
+            [
+              "boiling point between -188 and 59",
+              "about -35",
+              "about -30"
+            ],
+            [
+              "density less than 1.56",
+              "about 1.5",
+              "about 1"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the trend in the melting points of the halogens down the group.",
+          "keywords": [
+            [
+              "increases",
+              "higher",
+              "increases as you go down",
+              "increases down group",
+              "gets higher"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Deduce the physical state of iodine at 130C. Explain your answer. (I2: mp 114C, bp 184C)",
+          "keywords": [
+            [
+              "liquid",
+              "liquid state"
+            ],
+            [
+              "above mp",
+              "above 114",
+              "melting point 114"
+            ],
+            [
+              "below bp",
+              "below 184",
+              "boiling point 184"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the electronic structure of a fluorine atom.",
+          "keywords": [
+            [
+              "2,7",
+              "2.7",
+              "2 7"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why a fluoride ion has a single negative charge.",
+          "keywords": [
+            [
+              "gains one electron",
+              "gains an electron",
+              "one electron gained",
+              "has 10 electrons",
+              "one more electron than protons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Magnesium reacts with excess fluorine to produce magnesium fluoride. When 2.40 g of Mg reacts, 6.20 g of MgF2 is produced. Calculate the mass of magnesium needed to produce 1.24 g of MgF2.",
+          "keywords": [
+            [
+              "0.48",
+              "0.48 g",
+              "0.48g"
+            ],
+            [
+              "6.20/2.40=1.24/x",
+              "2.40/5",
+              "divide by 5"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Rate of Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "A student investigates the reaction of magnesium powder with excess dilute HCl. The graph shows volume of hydrogen vs time. Deduce the time taken for the reaction to finish. (Graph shows reaction finishes at about 120 s.)",
+          "keywords": [
+            [
+              "120",
+              "120 s",
+              "120s",
+              "about 120",
+              "approximately 120",
+              "120 seconds"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "The experiment is repeated using dilute HCl of a lower concentration. Draw a line on the grid to show how the volume of hydrogen changes with time using HCl of lower concentration.",
+          "keywords": [
+            [
+              "slower rate",
+              "less steep",
+              "shallower slope",
+              "slower initial rate",
+              "same final volume",
+              "same final volume of H2",
+              "same total hydrogen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the effect each of the following has on the rate of reaction of magnesium with HCl. Temperature increased: ... Magnesium ribbon used instead of powder: ...",
+          "keywords": [
+            [
+              "increases",
+              "faster",
+              "higher",
+              "greater",
+              "rate increases"
+            ],
+            [
+              "decreases",
+              "slower",
+              "lower",
+              "less",
+              "rate decreases"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 4,
+          "type": "long",
+          "question": "Hydrochloric acid reacts with calcium carbonate. Name the products of this reaction and give the observations.",
+          "keywords": [
+            [
+              "calcium chloride",
+              "CaCl2",
+              "CaCl2"
+            ],
+            [
+              "carbon dioxide",
+              "CO2",
+              "CO2"
+            ],
+            [
+              "water",
+              "H2O",
+              "H2O"
+            ],
+            [
+              "bubbles",
+              "effervescence",
+              "fizzing",
+              "gas evolved"
+            ],
+            [
+              "solid dissolves",
+              "disappears",
+              "calcium carbonate disappears"
+            ],
+            [
+              "limewater turns milky"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Sulfur & Compounds",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Sulfur is a non-metal. Describe three physical properties which are typical of non-metals.",
+          "keywords": [
+            [
+              "low melting point",
+              "low boiling point"
+            ],
+            [
+              "poor conductor of electricity",
+              "does not conduct electricity",
+              "insulator"
+            ],
+            [
+              "poor conductor of heat"
+            ],
+            [
+              "brittle",
+              "not malleable",
+              "not ductile"
+            ],
+            [
+              "dull",
+              "not shiny",
+              "not lustrous"
+            ],
+            [
+              "low density"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Name one source of sulfur.",
+          "keywords": [
+            [
+              "volcanoes",
+              "volcanic",
+              "volcanic regions"
+            ],
+            [
+              "natural gas",
+              "crude oil",
+              "petroleum",
+              "fossil fuels"
+            ],
+            [
+              "underground deposits",
+              "Sicily",
+              "Poland",
+              "USA"
+            ],
+            [
+              "metal ores",
+              "sulfide ores"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "When carbon is heated with sulfur, carbon disulfide is produced: C + 2S → CS2. Complete the energy level diagram (reactants lower than products - endothermic) by writing C + 2S on the reactants side and CS2 on the products side.",
+          "keywords": [
+            [
+              "C + 2S",
+              "reactants",
+              "lower energy",
+              "left side"
+            ],
+            [
+              "CS2",
+              "CS2",
+              "products",
+              "higher energy",
+              "right side"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain, using information on the energy level diagram, how you know that this reaction is endothermic.",
+          "keywords": [
+            [
+              "products higher energy",
+              "products have more energy",
+              "energy absorbed",
+              "energy taken in",
+              "energy of products > energy of reactants",
+              "energy increase"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Carbon disulfide is a liquid at room temperature. Describe the separation and motion of the particles in carbon disulfide liquid.",
+          "keywords": [
+            [
+              "close together",
+              "touching",
+              "close",
+              "particles close",
+              "tightly packed",
+              "contact"
+            ],
+            [
+              "move around",
+              "slide past",
+              "move",
+              "sliding",
+              "random motion",
+              "flow",
+              "particles can move"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 3,
+          "type": "long",
+          "question": "Hydrogen sulfide gas from cotton wool soaked in H2S turns lead(II) ethanoate paper from white to black. At first the paper does not turn black, but after a short time it does. Explain these observations using the kinetic particle model.",
+          "keywords": [
+            [
+              "diffusion",
+              "diffuse",
+              "moves",
+              "spread",
+              "travels"
+            ],
+            [
+              "particles",
+              "molecules",
+              "gas particles"
+            ],
+            [
+              "random motion",
+              "movement",
+              "move"
+            ],
+            [
+              "time",
+              "takes time",
+              "not instant",
+              "delay"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "f(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one adverse effect of sulfur dioxide on buildings.",
+          "keywords": [
+            [
+              "erodes",
+              "corrodes",
+              "wears away",
+              "weathering",
+              "dissolves"
+            ],
+            [
+              "limestone",
+              "marble",
+              "stone",
+              "metal",
+              "concrete"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Sulfur dioxide is used to bleach paper. Give one other use of sulfur dioxide.",
+          "keywords": [
+            [
+              "preserve food",
+              "food preservative",
+              "preserving food",
+              "kill bacteria in food"
+            ],
+            [
+              "manufacture sulfuric acid",
+              "make sulfuric acid",
+              "H2SO4 production"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Organic Compounds & Polymers",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of compound A (CH3CH2CH=CHCOOH) is shown. Draw a circle around the carboxylic acid functional group.",
+          "keywords": [
+            [
+              "COOH",
+              "-COOH",
+              "carboxyl",
+              "carboxylic acid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of the carboxylic acid that has only two carbon atoms.",
+          "keywords": [
+            [
+              "ethanoic acid",
+              "acetic acid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the molecular formula of compound A to show the number of carbon, hydrogen and oxygen atoms. (Structure shows 5 C, 8 H, 2 O)",
+          "keywords": [
+            [
+              "C5H8O2",
+              "C5H8O2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain, by referring to its structure, why compound A is described as unsaturated.",
+          "keywords": [
+            [
+              "double bond",
+              "C=C",
+              "carbon carbon double bond",
+              "C double bond"
+            ],
+            [
+              "contains C=C",
+              "has a double bond"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Ethene is an unsaturated hydrocarbon. Draw the structure of ethene to show all of the atoms and all of the bonds.",
+          "keywords": [
+            [
+              "C2H4",
+              "C2H4",
+              "two carbons",
+              "four hydrogens",
+              "double bond",
+              "C=C",
+              "all atoms",
+              "all bonds"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Ethene can be produced by cracking hydrocarbons. State the meaning of the term cracking.",
+          "keywords": [
+            [
+              "breaking down",
+              "break down",
+              "splitting",
+              "decompose"
+            ],
+            [
+              "long chain",
+              "large hydrocarbon",
+              "long hydrocarbon"
+            ],
+            [
+              "shorter chain",
+              "smaller hydrocarbons",
+              "alkenes",
+              "alkanes and alkenes",
+              "shorter alkanes"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give the conditions required for cracking.",
+          "keywords": [
+            [
+              "high temperature",
+              "heat",
+              "hot",
+              "high temp"
+            ],
+            [
+              "catalyst",
+              "alumina",
+              "silica",
+              "zeolite",
+              "aluminium oxide",
+              "silicon dioxide"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "fillblank",
+          "question": "Complete the sentences about polymerisation of ethene using words from the list (addition, decomposition, neutralisation, poly(ethene), poly(ethane), reduction, Terylene). When ethene polymerises, it produces a molecule called ____. The type of reaction which occurs is ____.",
+          "blanks": [
+            {
+              "id": "1",
+              "prompt": "first blank",
+              "answer": "poly(ethene)",
+              "keywords": [
+                [
+                  "poly(ethene)",
+                  "polyethene",
+                  "polythene",
+                  "polyethylene"
+                ]
+              ]
+            },
+            {
+              "id": "2",
+              "prompt": "second blank",
+              "answer": "addition",
+              "keywords": [
+                [
+                  "addition"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe one pollution problem caused by non-biodegradable plastics.",
+          "keywords": [
+            [
+              "litter",
+              "rubbish",
+              "waste",
+              "landfill",
+              "does not rot",
+              "does not decompose"
+            ],
+            [
+              "harms wildlife",
+              "animals eat",
+              "animals trapped",
+              "kills animals",
+              "marine pollution",
+              "ocean pollution"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Electrolysis of Sodium Chloride",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Sodium is manufactured by electrolysis. Explain why sodium is manufactured by electrolysis and not by reduction with carbon.",
+          "keywords": [
+            [
+              "more reactive than carbon",
+              "sodium more reactive than carbon",
+              "above carbon in reactivity series",
+              "carbon cannot reduce sodium oxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The anode is inert. Suggest a suitable substance that can be used for the anode.",
+          "keywords": [
+            [
+              "graphite",
+              "carbon",
+              "C"
+            ],
+            [
+              "platinum",
+              "Pt"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Label the anode on the diagram. (ANODE is on the right, connected to + of power supply)",
+          "keywords": [
+            [
+              "anode",
+              "positive electrode",
+              "+"
+            ],
+            [
+              "right side",
+              "connected to +"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe, by reference to the diagram, how you know that sodium is less dense than molten sodium chloride.",
+          "keywords": [
+            [
+              "sodium floats",
+              "sodium is on top",
+              "sodium is above",
+              "sodium rises to surface",
+              "upper layer"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "long",
+          "question": "When concentrated aqueous sodium chloride is electrolysed, gases are produced at each electrode. State the names of the products and give the observations at each electrode.",
+          "keywords": [
+            [
+              "hydrogen",
+              "H2",
+              "H2"
+            ],
+            [
+              "bubbles",
+              "effervescence",
+              "gas",
+              "fizzing"
+            ],
+            [
+              "chlorine",
+              "Cl2",
+              "Cl2"
+            ],
+            [
+              "green gas",
+              "yellow-green gas",
+              "pale green",
+              "greenish-yellow",
+              "bleaches litmus"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two ways in which the physical properties of sodium are different from the physical properties of transition elements.",
+          "keywords": [
+            [
+              "lower melting point",
+              "low mp",
+              "lower mp"
+            ],
+            [
+              "lower density",
+              "less dense",
+              "lower density"
+            ],
+            [
+              "softer",
+              "less hard",
+              "not as hard"
+            ],
+            [
+              "not coloured compounds",
+              "white compounds",
+              "colourless"
+            ],
+            [
+              "more reactive",
+              "very reactive"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "2Na + H2 → 2NaH. Write a word equation for this reaction.",
+          "keywords": [
+            [
+              "sodium + hydrogen",
+              "sodium and hydrogen"
+            ],
+            [
+              "sodium hydride",
+              "NaH"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest why the hydrogen must be dry.",
+          "keywords": [
+            [
+              "sodium reacts with water",
+              "sodium reacts with moisture",
+              "Na reacts with H2O",
+              "would produce NaOH",
+              "water reacts with sodium",
+              "sodium is reactive with water"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Fe2O3 + 3NaH → 2Fe + 3NaOH. Explain how this equation shows that iron(III) oxide is reduced.",
+          "keywords": [
+            [
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f",
+          "marks": 1,
+          "type": "short",
+          "question": "State the colour observed in the flame test for sodium.",
+          "keywords": [
+            [
+              "yellow",
+              "yellow-orange",
+              "golden yellow"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Ammonia & Fertilisers",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the dot-and-cross diagram to show the electron arrangement in a molecule of ammonia. (NH3: N has 5 outer electrons, shares 3 with H, one lone pair.)",
+          "keywords": [
+            [
+              "lone pair",
+              "2 electrons",
+              "one lone pair",
+              "pair of electrons on N",
+              "3 shared pairs",
+              "3 covalent bonds",
+              "3 H bonds"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the word equation: ammonia + hydrochloric acid → ____ ____",
+          "keywords": [
+            [
+              "ammonium chloride",
+              "NH4Cl",
+              "NH4Cl"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the colour change when excess aqueous ammonia is added to an acidified solution of methyl orange.",
+          "keywords": [
+            [
+              "from red to yellow",
+              "red to yellow",
+              "red then yellow",
+              "red to yellow"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "The formula of compound B is CuN4H16O2. Complete the table to calculate the relative molecular mass (Cu: 1x64=64, N: 4x14=56, H: 16x1=16, O: 2x16=32).",
+          "keywords": [
+            [
+              "168",
+              "one hundred sixty eight",
+              "168 g/mol"
+            ],
+            [
+              "64+56+16+32"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Ammonia is used in the production of fertilisers. State why farmers put fertilisers on the soil where crops are to be grown.",
+          "keywords": [
+            [
+              "nutrients",
+              "nitrogen",
+              "minerals",
+              "NPK",
+              "essential elements",
+              "growth"
+            ],
+            [
+              "replace nutrients",
+              "improve soil fertility",
+              "crops remove nutrients"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    }
+  ]
+}

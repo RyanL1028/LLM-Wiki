@@ -1,0 +1,956 @@
+{
+  "id": "0620_03_n03",
+  "subject": "Chemistry",
+  "code": "0620/03",
+  "paper": "Paper 3",
+  "name": "October/November 2003 Paper 3",
+  "description": "IGCSE Chemistry 0620 Paper 3 from the October/November 2003 session. Covers the Haber process and ammonia, rates of reaction, zinc extraction, esters and macromolecules, and sulphur compounds.",
+  "type": "past",
+  "session": "October/November 2003",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Ammonia and the Haber Process",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Nitrogen is obtained from liquid air by fractional distillation. Why does this technique separate liquid oxygen and nitrogen?",
+          "keywords": [
+            [
+              "different boiling points",
+              "nitrogen has lower boiling point",
+              "oxygen has higher boiling point"
+            ],
+            [
+              "nitrogen boils first",
+              "nitrogen distils off first",
+              "-196 vs -183"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Name two raw materials from which hydrogen is manufactured.",
+          "keywords": [
+            [
+              "methane",
+              "natural gas",
+              "CH4"
+            ],
+            [
+              "water",
+              "steam",
+              "H2O"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why the percentage of ammonia in the equilibrium mixture increases as the pressure increases.",
+          "keywords": [
+            [
+              "fewer moles on product side",
+              "4 moles reactants to 2 moles product",
+              "fewer gas molecules on right"
+            ],
+            [
+              "equilibrium shifts to reduce pressure",
+              "equilibrium shifts right",
+              "Le Chatelier principle favours fewer molecules"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "How would the percentage of ammonia change if the measurements had been made at a lower temperature? Explain your answer.",
+          "keywords": [
+            [
+              "increase",
+              "higher percentage",
+              "more ammonia"
+            ],
+            [
+              "forward reaction is exothermic",
+              "equilibrium shifts to release heat",
+              "lower temperature favours exothermic reaction"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "sublabel": "iii",
+          "marks": 2,
+          "type": "short",
+          "question": "State two of the reaction conditions used in the Haber Process.",
+          "keywords": [
+            [
+              "iron catalyst",
+              "finely divided iron",
+              "iron with promoters"
+            ],
+            [
+              "450°C",
+              "about 450°C",
+              "400-500°C",
+              "high temperature"
+            ],
+            [
+              "200 atm",
+              "high pressure",
+              "200-500 atm"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Ammonia is a base. Name a particle that an ammonia molecule can accept from an acid.",
+          "keywords": [
+            [
+              "proton",
+              "H+",
+              "hydrogen ion",
+              "hydronium ion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "Write an equation for ammonia acting as a base.",
+          "keywords": [
+            [
+              "NH3 + H+",
+              "ammonia + hydrogen ion"
+            ],
+            [
+              "NH4+",
+              "ammonium ion"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Given aqueous solutions of 0.1 mol/dm3 sodium hydroxide and ammonia, describe how you could show that ammonia is the weaker base.",
+          "keywords": [
+            [
+              "measure pH",
+              "use universal indicator",
+              "use pH meter"
+            ],
+            [
+              "ammonia has lower pH",
+              "NaOH has higher pH",
+              "ammonia is less alkaline"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structural formula of hydrazine, N2H4. Hydrogen can form only one bond per atom but nitrogen can form three.",
+          "keywords": [
+            [
+              "H2N-NH2",
+              "N-N single bond",
+              "each N bonded to two H"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "long",
+          "question": "Draw a diagram that shows the arrangement of the valency electrons in one molecule of hydrazine. Use x for nitrogen electrons, o for hydrogen electrons.",
+          "keywords": [
+            [
+              "N-N single bond",
+              "two nitrogen atoms joined",
+              "one shared pair between N atoms"
+            ],
+            [
+              "each N bonded to two H",
+              "two H on each nitrogen",
+              "four N-H bonds"
+            ],
+            [
+              "lone pair on each nitrogen",
+              "each N has one lone pair",
+              "non-bonding pair on each N"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Rates of Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 3,
+          "type": "fillblank",
+          "question": "Complete the table for the reaction of CaCO3 with HCl. Assume rate is proportional to both acid concentration and number of pieces of carbonate.",
+          "blanks": [
+            {
+              "id": "time1",
+              "prompt": "Time for 1 piece with 4 mol/dm3 acid",
+              "answer": "40",
+              "keywords": [
+                [
+                  "40",
+                  "40s",
+                  "40 seconds"
+                ]
+              ]
+            },
+            {
+              "id": "conc2",
+              "prompt": "Concentration when 2 pieces and time 80s",
+              "answer": "1",
+              "keywords": [
+                [
+                  "1",
+                  "1.0",
+                  "1 mol/dm3"
+                ]
+              ]
+            },
+            {
+              "id": "time2pieces",
+              "prompt": "Time for 2 pieces with 2 mol/dm3 acid",
+              "answer": "40",
+              "keywords": [
+                [
+                  "40",
+                  "40s",
+                  "40 seconds"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why the reaction rate would increase if the temperature was increased.",
+          "keywords": [
+            [
+              "particles have more kinetic energy",
+              "particles move faster",
+              "more energetic collisions"
+            ],
+            [
+              "more collisions exceed activation energy",
+              "more successful collisions",
+              "greater proportion of effective collisions"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a",
+          "sublabel": "iii",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why the rate of this reaction increases if the piece of carbonate is crushed to a powder.",
+          "keywords": [
+            [
+              "larger surface area",
+              "increased surface area",
+              "more area exposed",
+              "more particles in contact with acid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a",
+          "sublabel": "iv",
+          "marks": 1,
+          "type": "short",
+          "question": "Fine powders mixed with air can explode violently. Name an industrial process where there is a risk of this type of explosion.",
+          "keywords": [
+            [
+              "coal mining",
+              "mining",
+              "flour milling",
+              "grain silos",
+              "sugar refining"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Sodium chlorate(I) decomposes: 2NaClO(aq) → 2NaCl(aq) + O2(g). The rate depends on light intensity. Describe how the rate of this reaction could be measured.",
+          "keywords": [
+            [
+              "measure volume of oxygen produced",
+              "collect oxygen gas",
+              "measure gas volume"
+            ],
+            [
+              "measure at time intervals",
+              "measure every minute",
+              "measure against time"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "How could you show that this reaction is photochemical?",
+          "keywords": [
+            [
+              "compare rate in light and dark",
+              "repeat in dark",
+              "vary light intensity",
+              "rate depends on light",
+              "no reaction in dark"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the equation for photosynthesis: 6CO2 + 6H2O → C6H12O6 + ____.",
+          "keywords": [
+            [
+              "6O2",
+              "oxygen",
+              "O2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "long",
+          "question": "Glucose can be represented as a ring structure. Draw the structure of a more complex carbohydrate that can be formed from glucose by condensation polymerisation.",
+          "keywords": [
+            [
+              "two glucose units joined",
+              "disaccharide",
+              "glycosidic link"
+            ],
+            [
+              "elimination of water",
+              "-O- bridge",
+              "oxygen bridge between rings"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Zinc Extraction and Metals",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe how zinc blende is changed into zinc oxide.",
+          "keywords": [
+            [
+              "roasted in air",
+              "heated in air",
+              "roasting"
+            ],
+            [
+              "zinc sulphide converted to oxide",
+              "2ZnS + 3O2",
+              "sulphur dioxide produced"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "Write an equation for the reduction of zinc oxide by carbon.",
+          "keywords": [
+            [
+              "ZnO + C",
+              "zinc oxide + carbon"
+            ],
+            [
+              "Zn + CO",
+              "zinc + carbon monoxide"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a",
+          "sublabel": "iii",
+          "marks": 2,
+          "type": "short",
+          "question": "The boiling point of lead is 1740°C and zinc is 907°C. When both oxides are reduced by carbon at 1400°C, explain why only lead remains in the furnace.",
+          "keywords": [
+            [
+              "zinc boils off",
+              "zinc vaporises",
+              "zinc becomes a gas",
+              "zinc distils off"
+            ],
+            [
+              "lead stays liquid",
+              "lead does not boil",
+              "lead boiling point above 1400°C"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Give one other large scale use of zinc (besides diecasting alloys).",
+          "keywords": [
+            [
+              "galvanising",
+              "galvanizing",
+              "coating steel",
+              "protecting iron"
+            ],
+            [
+              "making brass",
+              "batteries"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "ii",
+          "marks": 3,
+          "type": "long",
+          "question": "Describe the structure of a typical metal, such as zinc, and explain why it is malleable.",
+          "keywords": [
+            [
+              "positive ions in a sea of electrons",
+              "metal cations",
+              "regular lattice of positive ions"
+            ],
+            [
+              "delocalised electrons",
+              "sea of electrons",
+              "free electrons"
+            ],
+            [
+              "layers can slide over each other",
+              "layers slip",
+              "ions can move past each other without breaking bonds"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "sublabel": "iii",
+          "marks": 2,
+          "type": "short",
+          "question": "Suggest why the introduction of a different metallic atom into the structure makes the alloy stronger than the pure metal.",
+          "keywords": [
+            [
+              "different sized atoms distort the lattice",
+              "layers disrupted",
+              "different atom sizes disrupt regular arrangement"
+            ],
+            [
+              "layers cannot slide easily",
+              "prevents slipping",
+              "atoms cannot move past each other"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "Zn(s) + Pb2+(aq) → Zn2+(aq) + Pb(s). Which change is reduction? Explain your answer.",
+          "keywords": [
+            [
+              "change 2",
+              "Pb2+ to Pb",
+              "lead ions to lead metal"
+            ],
+            [
+              "gain of electrons",
+              "Pb2+ gains 2 electrons",
+              "oxidation number decreases from +2 to 0"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "short",
+          "question": "Write an ionic equation for the reaction between zinc atoms and silver(I) ions.",
+          "keywords": [
+            [
+              "Zn",
+              "zinc"
+            ],
+            [
+              "2Ag+",
+              "silver ions"
+            ],
+            [
+              "Zn2+",
+              "zinc ions"
+            ],
+            [
+              "2Ag",
+              "silver"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Esters and Macromolecules",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain the term solvent.",
+          "keywords": [
+            [
+              "liquid that dissolves other substances",
+              "dissolves solutes",
+              "forms a solution",
+              "dissolves another substance"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the formula of ethyl ethanoate.",
+          "keywords": [
+            [
+              "CH3COOC2H5",
+              "CH3COOCH2CH3",
+              "ethyl ethanoate formula"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a",
+          "sublabel": "iii",
+          "marks": 4,
+          "type": "long",
+          "question": "Ethyl ethanoate can be made from ethanol and ethanoic acid. Describe how ethanol is made from ethene, and how ethanoic acid is made from ethanol.",
+          "keywords": [
+            [
+              "ethene + steam",
+              "hydration of ethene",
+              "C2H4 + H2O",
+              "phosphoric acid catalyst",
+              "300°C",
+              "60 atm"
+            ],
+            [
+              "oxidation of ethanol",
+              "ethanol oxidised",
+              "using acidified potassium dichromate",
+              "reflux",
+              "oxidation"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "a",
+          "sublabel": "iv",
+          "marks": 1,
+          "type": "short",
+          "question": "Name two chemicals from which butyl ethanoate can be made.",
+          "keywords": [
+            [
+              "butanol",
+              "butan-1-ol",
+              "butyl alcohol"
+            ],
+            [
+              "ethanoic acid",
+              "acetic acid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "In the alkaline hydrolysis of a naturally occurring ester (fat), which substance is an alcohol? Underline it in the equation.",
+          "keywords": [
+            [
+              "CH2OH",
+              "CHOH",
+              "glycerol",
+              "propane-1,2,3-triol",
+              "glycerine"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the major use for compounds of the type C17H35COONa?",
+          "keywords": [
+            [
+              "soap",
+              "detergent",
+              "soap making",
+              "cleaning agent"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "A polymer has repeating ester linkages. What type of polymer is this?",
+          "keywords": [
+            [
+              "polyester",
+              "condensation polymer"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "sublabel": "ii",
+          "marks": 2,
+          "type": "long",
+          "question": "Complete the structures of the two monomers from which the polyester could be made (diol and dioic acid).",
+          "keywords": [
+            [
+              "diol",
+              "HO-R-OH",
+              "two OH groups"
+            ],
+            [
+              "dicarboxylic acid",
+              "HOOC-R-COOH",
+              "two COOH groups"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "A natural macromolecule was hydrolysed to give a mixture of amino acids. What type of macromolecule was hydrolysed?",
+          "keywords": [
+            [
+              "protein",
+              "polypeptide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "What type of linkage was broken by hydrolysis?",
+          "keywords": [
+            [
+              "peptide",
+              "peptide bond",
+              "amide",
+              "amide linkage",
+              "peptide linkage"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "sublabel": "iii",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why the chromatogram must be sprayed with a locating agent before the amino acids can be identified.",
+          "keywords": [
+            [
+              "amino acids are colourless",
+              "amino acids are not visible",
+              "spots cannot be seen",
+              "need to make visible"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "sublabel": "iv",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain how it is possible to identify the amino acids from the chromatogram.",
+          "keywords": [
+            [
+              "compare Rf values",
+              "calculate Rf",
+              "measure distance moved by spot / distance moved by solvent"
+            ],
+            [
+              "compare with known amino acids",
+              "run standards alongside",
+              "match with reference spots",
+              "compare distances"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Sulphur Dioxide and Sulphur Trioxide",
+      "parts": [
+        {
+          "label": "a",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Sulphur dioxide can kill bacteria. Give a use of sulphur dioxide that depends on this property.",
+          "keywords": [
+            [
+              "food preservative",
+              "preserving food",
+              "preservative",
+              "dried fruit",
+              "jam",
+              "fruit juice preservation"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Sulphur dioxide has bleaching properties. Give a use that depends on this property.",
+          "keywords": [
+            [
+              "bleaching wood pulp",
+              "bleaching paper",
+              "bleaching straw",
+              "bleaching fabrics"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "i",
+          "marks": 1,
+          "type": "short",
+          "question": "Why is the reaction of SO2 to SO3 important industrially?",
+          "keywords": [
+            [
+              "to make sulphuric acid",
+              "manufacture of H2SO4",
+              "Contact Process",
+              "sulphuric acid production"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "ii",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the word equation: sulphur dioxide + ____ → sulphur trioxide.",
+          "keywords": [
+            [
+              "oxygen",
+              "O2",
+              "air"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "sublabel": "iii",
+          "marks": 2,
+          "type": "short",
+          "question": "What are the conditions for the reaction of SO2 to SO3?",
+          "keywords": [
+            [
+              "vanadium(V) oxide",
+              "V2O5",
+              "vanadium pentoxide",
+              "catalyst"
+            ],
+            [
+              "450°C",
+              "about 450°C",
+              "high temperature",
+              "400-500°C"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "sublabel": "i",
+          "marks": 2,
+          "type": "short",
+          "question": "What colour change would be observed when an excess of aqueous sulphur dioxide is added to an acidic solution of potassium manganate(VII)?",
+          "keywords": [
+            [
+              "purple to colourless",
+              "purple disappears",
+              "manganate decolourised",
+              "purple solution turns clear"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "sublabel": "ii",
+          "marks": 3,
+          "type": "long",
+          "question": "To aqueous SO2, acidified barium chloride is added. The mixture remains clear. When bromine is added, a thick white precipitate forms. What is the white precipitate? Explain why it forms.",
+          "keywords": [
+            [
+              "barium sulphate",
+              "BaSO4",
+              "barium sulfate"
+            ],
+            [
+              "bromine oxidises SO2 to SO4 2-",
+              "SO2 oxidised to sulphate",
+              "bromine oxidises sulphur dioxide"
+            ],
+            [
+              "Ba2+ reacts with SO4 2-",
+              "barium ions react with sulphate ions",
+              "Ba2+ + SO4 2- -> BaSO4"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d",
+          "marks": 5,
+          "type": "long",
+          "question": "SO2 + Cl2 → SO2Cl2. 8.0 g of SO2 mixed with 14.2 g of Cl2. Mass of one mole of SO2Cl2 is 135 g. Calculate the mass of sulphuryl chloride formed.",
+          "keywords": [
+            [
+              "0.125",
+              "0.125 mol",
+              "8/64"
+            ],
+            [
+              "0.2",
+              "0.20",
+              "14.2/71"
+            ],
+            [
+              "SO2",
+              "sulphur dioxide",
+              "SO2 is limiting"
+            ],
+            [
+              "0.125",
+              "same as limiting"
+            ],
+            [
+              "16.9",
+              "16.875",
+              "17",
+              "16.9g",
+              "0.125 x 135"
+            ]
+          ],
+          "anyOf": 5
+        }
+      ]
+    }
+  ]
+}

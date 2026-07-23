@@ -1,0 +1,343 @@
+{
+  "id": "0620_33_n15",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering the Periodic Table, bonding and structure, acids and bases, extraction of metals, organic chemistry, and stoichiometry.",
+  "type": "past",
+  "session": "Oct/Nov 2015",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Periodic Table & Trends",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the trend in reactivity of Group I metals down the group. Explain in terms of atomic structure.",
+          "keywords": [
+            [
+              "increases down group",
+              "more reactive",
+              "easier to lose outer electron"
+            ],
+            [
+              "outer electron further from nucleus",
+              "more shielding",
+              "weaker attraction"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the trend in reactivity of Group VII halogens down the group.",
+          "keywords": [
+            [
+              "decreases down group",
+              "less reactive",
+              "harder to gain electron"
+            ],
+            [
+              "outer shell further from nucleus",
+              "weaker attraction for incoming electron"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Predict the properties of francium based on its position in Group I.",
+          "keywords": [
+            [
+              "very reactive metal",
+              "reacts violently with water",
+              "soft",
+              "low melting point",
+              "forms Fr+ ions",
+              "radioactive"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Bonding & Structure",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Compare the properties of diamond and graphite. Explain the differences in terms of structure.",
+          "keywords": [
+            [
+              "diamond: hard, 4 bonds per C, tetrahedral, 3D network, no conduction"
+            ],
+            [
+              "graphite: soft, layered, 3 bonds per C, delocalised electrons, conducts electricity"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why silicon dioxide (SiO2) has a very high melting point.",
+          "keywords": [
+            [
+              "giant covalent structure",
+              "macromolecular",
+              "each Si bonded to 4 O atoms"
+            ],
+            [
+              "strong covalent bonds throughout structure",
+              "lot of energy to break"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why magnesium oxide has a higher melting point than sodium chloride.",
+          "keywords": [
+            [
+              "Mg2+ and O2- have double the charge of Na+ and Cl-",
+              "stronger electrostatic attraction",
+              "more energy needed"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Acids, Bases & pH",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Define an acid and a base in terms of proton transfer.",
+          "keywords": [
+            [
+              "acid: proton donor",
+              "donates H+",
+              "proton donor"
+            ],
+            [
+              "base: proton acceptor",
+              "accepts H+",
+              "proton acceptor"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how to prepare a pure dry sample of a soluble salt from an acid and an insoluble base.",
+          "keywords": [
+            [
+              "add excess insoluble base to warm acid",
+              "react until no more dissolves"
+            ],
+            [
+              "filter to remove excess base",
+              "filtration"
+            ],
+            [
+              "heat filtrate to evaporate water",
+              "crystallise",
+              "filter and dry crystals"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why the pH of 0.1M HCl is different from 0.1M ethanoic acid.",
+          "keywords": [
+            [
+              "HCl is strong acid, fully ionised",
+              "lower pH",
+              "all H+ released"
+            ],
+            [
+              "ethanoic acid is weak, partially ionised",
+              "higher pH",
+              "fewer H+ released"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Extraction of Metals",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain how the method of metal extraction depends on the metal's position in the reactivity series.",
+          "keywords": [
+            [
+              "most reactive: electrolysis",
+              "K, Na, Ca, Mg, Al"
+            ],
+            [
+              "middle: reduction with carbon",
+              "Zn, Fe, Pb, Cu"
+            ],
+            [
+              "least reactive: found native/uncombined",
+              "Ag, Au"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe the extraction of iron in the blast furnace. Include equations.",
+          "keywords": [
+            [
+              "coke + O2 -> CO2",
+              "CO2 + C -> 2CO"
+            ],
+            [
+              "Fe2O3 + 3CO -> 2Fe + 3CO2"
+            ],
+            [
+              "CaCO3 -> CaO + CO2",
+              "CaO + SiO2 -> CaSiO3 (slag)"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why aluminium is more expensive to extract than iron.",
+          "keywords": [
+            [
+              "electrolysis uses large amounts of electricity",
+              "more energy intensive"
+            ],
+            [
+              "more reactive, cannot use carbon reduction",
+              "electrolysis is more costly"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Organic Chemistry",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "State the general formula and functional group of alkenes.",
+          "keywords": [
+            [
+              "CnH2n",
+              "C=C double bond",
+              "alkenyl group"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe addition polymerisation using ethene as an example.",
+          "keywords": [
+            [
+              "many ethene monomers join",
+              "C=C bonds break",
+              "form long saturated chain"
+            ],
+            [
+              "poly(ethene) formed",
+              "addition polymer",
+              "repeating -CH2-CH2- unit"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the ester formed from methanol and propanoic acid.",
+          "keywords": [
+            [
+              "methyl propanoate"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Stoichiometry & Calculations",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Calculate the percentage by mass of nitrogen in ammonium nitrate, NH4NO3.",
+          "keywords": [
+            [
+              "N: 28, total Mr: 14+4+14+48=80",
+              "%N = 28/80 x 100 = 35%"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Calculate the mass of CaO produced when 25g of CaCO3 is heated: CaCO3 -> CaO + CO2.",
+          "keywords": [
+            [
+              "moles CaCO3 = 25/100 = 0.25"
+            ],
+            [
+              "moles CaO = 0.25",
+              "mass CaO = 0.25 x 56 = 14g"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    }
+  ]
+}

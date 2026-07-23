@@ -1,0 +1,886 @@
+{
+  "id": "0620_33_j10",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering periodic trends, redox, organic chemistry, electrolysis, equilibrium, and salt preparation.",
+  "type": "past",
+  "session": "May/June 2010",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Periodic Table & Element Properties",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "For caesium (Cs), predict one physical and one chemical property.",
+          "keywords": [
+            [
+              "soft",
+              "low melting",
+              "low density"
+            ],
+            [
+              "reacts vigorously with water",
+              "very reactive",
+              "alkali metal"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "For vanadium (V), predict one physical and one chemical property.",
+          "keywords": [
+            [
+              "hard",
+              "high melting",
+              "high density",
+              "transition metal"
+            ],
+            [
+              "forms coloured compounds",
+              "catalyst",
+              "variable oxidation states"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "For fluorine (F), predict one physical and one chemical property.",
+          "keywords": [
+            [
+              "pale yellow gas",
+              "yellow gas",
+              "gas at room temperature"
+            ],
+            [
+              "most reactive halogen",
+              "very reactive",
+              "reacts with most elements"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Enzymes & Carbohydrates",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "How do enzymes differ from catalysts such as dilute acids?",
+          "keywords": [
+            [
+              "specific",
+              "specificity",
+              "biological catalyst",
+              "protein"
+            ],
+            [
+              "work at moderate temperatures",
+              "biological"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why ethanol, C2H6O, is not a carbohydrate but glucose, C6H12O6, is a carbohydrate.",
+          "keywords": [
+            [
+              "H to O ratio not 2:1",
+              "C2H6O has 6H and 1O",
+              "not the right ratio"
+            ],
+            [
+              "C6H12O6 has 12H and 6O",
+              "2:1 ratio",
+              "carbon and water"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Draw the structure of a complex carbohydrate such as starch. Represent a simple sugar by a ring diagram.",
+          "keywords": [
+            [
+              "many rings joined",
+              "polymer",
+              "condensation polymerisation"
+            ],
+            [
+              "chain of rings",
+              "repeating glucose units",
+              "linked by oxygen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 3,
+          "type": "short",
+          "question": "Aqueous starch + saliva tested with iodine: 0 min deep blue, 10 min pale blue, 30 min colourless. Explain these results.",
+          "keywords": [
+            [
+              "enzyme amylase in saliva",
+              "carbohydrase",
+              "breaks down starch"
+            ],
+            [
+              "starch-iodine complex fades",
+              "less starch over time",
+              "hydrolysed to sugar"
+            ],
+            [
+              "all starch broken down",
+              "only glucose",
+              "no colour with iodine"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "At 60C all samples stayed blue. Suggest an explanation.",
+          "keywords": [
+            [
+              "enzyme denatured",
+              "protein destroyed",
+              "active site changed shape"
+            ],
+            [
+              "temperature too high",
+              "above optimum",
+              "enzyme no longer works"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Redox & Rusting",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Bromine water added to aqueous sodium sulfide, Br2(aq) + S2-(aq) -> 2Br-(aq) + S(s). Describe what you would observe.",
+          "keywords": [
+            [
+              "bromine colour disappears",
+              "orange to colourless",
+              "brown to colourless",
+              "decolourises"
+            ],
+            [
+              "yellow precipitate",
+              "pale yellow solid",
+              "sulfur formed",
+              "sulphur"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Write a symbol equation for this reaction.",
+          "keywords": [
+            [
+              "Br2 + S2- -> 2Br- + S",
+              "Br2 + Na2S -> 2NaBr + S"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain, in terms of electron transfer, why bromine is the oxidant (oxidising agent) in this reaction.",
+          "keywords": [
+            [
+              "bromine gains electrons",
+              "Br2 reduced to Br-",
+              "electron acceptor"
+            ],
+            [
+              "S2- loses electrons",
+              "sulfide oxidised to sulfur"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Fe -> Fe2+ + 2e-. What type of reaction is this?",
+          "keywords": [
+            [
+              "oxidation",
+              "loss of electrons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the name of the colourless gas formed near the surface during rusting.",
+          "keywords": [
+            [
+              "hydrogen",
+              "H2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the name of the iron compound Fe(OH)2 formed during rusting?",
+          "keywords": [
+            [
+              "iron(II) hydroxide",
+              "ferrous hydroxide"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Balance: ...Fe(OH)2 + O2 + ...H2O -> ...Fe(OH)3",
+          "keywords": [
+            [
+              "4",
+              "2",
+              "4",
+              "4Fe(OH)2 + O2 + 2H2O -> 4Fe(OH)3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why the change Fe(OH)2 to Fe(OH)3 is oxidation.",
+          "keywords": [
+            [
+              "gain of oxygen",
+              "increase in oxidation state",
+              "Fe2+ to Fe3+",
+              "loss of electron"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(vi)",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain why iron in electrical contact with zinc does not rust.",
+          "keywords": [
+            [
+              "zinc more reactive",
+              "sacrificial protection",
+              "zinc corrodes instead"
+            ],
+            [
+              "zinc loses electrons",
+              "zinc oxidises",
+              "electrons flow to iron"
+            ],
+            [
+              "iron becomes cathode",
+              "iron protected",
+              "iron does not lose electrons"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Alkenes & Isomerism",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Define the term isomer.",
+          "keywords": [
+            [
+              "same molecular formula",
+              "same number of atoms"
+            ],
+            [
+              "different structural formula",
+              "different arrangement of atoms"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structural formula of another isomer of but-1-ene.",
+          "keywords": [
+            [
+              "but-2-ene",
+              "CH3-CH=CH-CH3"
+            ],
+            [
+              "2-methylpropene",
+              "(CH3)2C=CH2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe a test to distinguish between but-1-ene and cyclobutane. Give reagent and results.",
+          "keywords": [
+            [
+              "bromine water",
+              "Br2(aq)"
+            ],
+            [
+              "decolourises with but-1-ene",
+              "orange to colourless",
+              "brown to colourless"
+            ],
+            [
+              "no change with cyclobutane",
+              "stays orange",
+              "cyclobutane is saturated"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe how alkenes can be made from alkanes.",
+          "keywords": [
+            [
+              "cracking",
+              "thermal decomposition",
+              "catalytic cracking"
+            ],
+            [
+              "high temperature",
+              "catalyst",
+              "aluminium oxide",
+              "silica"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Name the product when but-1-ene reacts with: (i) bromine, (ii) hydrogen, (iii) steam.",
+          "keywords": [
+            [
+              "1,2-dibromobutane",
+              "dibromobutane"
+            ],
+            [
+              "butane"
+            ],
+            [
+              "butan-2-ol",
+              "butanol",
+              "butan-1-ol"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Fuel Cells & Bond Energy",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "How is oxygen obtained from liquid air?",
+          "keywords": [
+            [
+              "fractional distillation",
+              "fractional distillation of liquid air"
+            ],
+            [
+              "different boiling points",
+              "nitrogen boils at -196C",
+              "oxygen at -183C"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "2H2 + O2 -> 2H2O. Give an example of bond breaking in this reaction.",
+          "keywords": [
+            [
+              "H-H bond breaks",
+              "hydrogen-hydrogen bond",
+              "O=O bond breaks",
+              "oxygen-oxygen bond"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give an example of bond forming in this reaction.",
+          "keywords": [
+            [
+              "O-H bond forms",
+              "oxygen-hydrogen bond",
+              "water bonds form"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Is this change exothermic or endothermic?",
+          "keywords": [
+            [
+              "exothermic"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two reasons why hydrogen may be the ideal fuel for the future.",
+          "keywords": [
+            [
+              "only product is water",
+              "no pollution",
+              "clean",
+              "no CO2"
+            ],
+            [
+              "renewable",
+              "from water",
+              "abundant",
+              "can be made from water"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest a reason why hydrogen is not widely used at present.",
+          "keywords": [
+            [
+              "expensive to produce",
+              "electrolysis costly",
+              "storage difficult",
+              "transport",
+              "infrastructure lacking"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Thallium, Salt Preparation & Alkali Properties",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the formula for thallium(I) sulfide.",
+          "keywords": [
+            [
+              "Tl2S"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the formula for thallium(III) chloride.",
+          "keywords": [
+            [
+              "TlCl3"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete the description of preparing pure thallium(I) chloride: Step 2, Step 3, Step 4 (after precipitation).",
+          "keywords": [
+            [
+              "filter",
+              "filtration",
+              "separate precipitate",
+              "filter paper"
+            ],
+            [
+              "wash with distilled water",
+              "wash precipitate",
+              "remove soluble impurities"
+            ],
+            [
+              "dry",
+              "warm gently",
+              "between filter paper",
+              "in oven"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Name another metal halide that changes colour in light. Give its major use.",
+          "keywords": [
+            [
+              "silver chloride",
+              "AgCl",
+              "silver bromide",
+              "AgBr",
+              "silver iodide",
+              "AgI"
+            ],
+            [
+              "photography",
+              "photographic film",
+              "photochromic lenses"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Suggest two ways of increasing the time for the violet colour to appear on thallium(I) chloride paper exposed to light.",
+          "keywords": [
+            [
+              "reduce light intensity",
+              "dimmer light",
+              "lamp further away",
+              "less bright"
+            ],
+            [
+              "lower temperature",
+              "cool the paper",
+              "place in cold"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "thallium(I) hydroxide + ammonium sulfate -> ... + ... + ... + ...",
+          "keywords": [
+            [
+              "thallium sulfate",
+              "Tl2SO4",
+              "ammonia",
+              "NH3",
+              "water",
+              "H2O"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "...TlOH + H2SO4 -> ... + ...",
+          "keywords": [
+            [
+              "2TlOH",
+              "2"
+            ],
+            [
+              "Tl2SO4 + 2H2O",
+              "Tl2SO4",
+              "2H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Aqueous TlOH added to aqueous iron(II) sulfate. Describe observation and complete: Fe2+ + ...OH- -> ...",
+          "keywords": [
+            [
+              "green precipitate",
+              "iron(II) hydroxide",
+              "Fe(OH)2 green"
+            ],
+            [
+              "2",
+              "Fe(OH)2",
+              "2OH-",
+              "Fe(OH)2 precipitate"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Aluminium Extraction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "AlCl3 + 3Na -> Al + 3NaCl. Suggest why aluminium was so expensive when first isolated using sodium.",
+          "keywords": [
+            [
+              "sodium was expensive",
+              "sodium costly to make",
+              "sodium rare"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two reasons why aluminium oxide is dissolved in cryolite for electrolysis.",
+          "keywords": [
+            [
+              "lowers melting point",
+              "reduces temperature",
+              "less energy needed"
+            ],
+            [
+              "improves conductivity",
+              "electrolyte",
+              "dissolves the alumina"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the ionic equation: ...O2- -> O2 + ...e-",
+          "keywords": [
+            [
+              "2",
+              "4",
+              "2O2- -> O2 + 4e-"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Why do the carbon anodes need to be replaced frequently?",
+          "keywords": [
+            [
+              "carbon reacts with oxygen",
+              "burns to CO2",
+              "anodes wear away",
+              "oxidised"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why electrolysis of aqueous solution and reduction by carbon cannot extract aluminium.",
+          "keywords": [
+            [
+              "hydrogen produced at cathode instead",
+              "H+ reduced not Al3+",
+              "aluminium above hydrogen in reactivity series"
+            ],
+            [
+              "aluminium more reactive than carbon",
+              "carbon cannot reduce Al2O3",
+              "above carbon in reactivity series"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Nitrogen Dioxide, Equilibrium & Stoichiometry",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name another metal whose nitrate decomposes to metal oxide, NO2 and O2 on heating.",
+          "keywords": [
+            [
+              "zinc",
+              "Zn",
+              "copper",
+              "Cu",
+              "calcium",
+              "Ca",
+              "magnesium",
+              "Mg"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete: metal nitrate -> ... + oxygen (for a metal whose nitrate does NOT give NO2).",
+          "keywords": [
+            [
+              "metal nitrite",
+              "sodium nitrite",
+              "potassium nitrite",
+              "NaNO2",
+              "KNO2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "2NO2(g) (brown) <=> N2O4(g) (pale yellow). At 25C 20% NO2; at 100C 90% NO2. Is the forward reaction exothermic or endothermic? Explain.",
+          "keywords": [
+            [
+              "exothermic",
+              "forward is exothermic"
+            ],
+            [
+              "more NO2 at higher temperature",
+              "equilibrium shifts left when heated",
+              "reverse is endothermic"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why the colour becomes lighter when pressure on the mixture is increased.",
+          "keywords": [
+            [
+              "equilibrium shifts to N2O4",
+              "forward",
+              "fewer gas molecules",
+              "2 moles -> 1 mole"
+            ],
+            [
+              "pale yellow",
+              "less NO2",
+              "more N2O4",
+              "N2O4 is pale"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "short",
+          "question": "5.00g impure lead(II) nitrate heated produced 0.16 dm3 O2 at r.t.p. Calculate % Pb(NO3)2. Mr Pb(NO3)2 = 331. 2Pb(NO3)2 -> 2PbO + 4NO2 + O2.",
+          "keywords": [
+            [
+              "0.00667",
+              "moles O2 = 0.16/24"
+            ],
+            [
+              "0.0133",
+              "moles Pb(NO3)2 = 2 x moles O2"
+            ],
+            [
+              "4.40",
+              "mass = 0.0133 x 331 = 4.40g"
+            ],
+            [
+              "88",
+              "% = 4.40/5.00 x 100 = 88%"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    }
+  ]
+}

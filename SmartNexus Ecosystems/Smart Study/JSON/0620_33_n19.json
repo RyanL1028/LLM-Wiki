@@ -1,0 +1,466 @@
+{
+  "id": "0620_33_n19",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Core)",
+  "name": "Theory (Core)",
+  "description": "Core theory covering gases and solids, biogas and fuels, atomic structure and bonding, acids and bases, electrolysis, organic chemistry, and reaction rates.",
+  "type": "past",
+  "session": "Oct/Nov 2019",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Gases & Kinetic Theory",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas is a poisonous product of incomplete combustion of carbon? (from: ammonia, butane, CO2, CO, Cl2, CH4, propene, SO2)",
+          "keywords": [
+            [
+              "carbon monoxide",
+              "CO"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas is an alkene?",
+          "keywords": [
+            [
+              "propene",
+              "C3H6"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas is formed when limestone is thermally decomposed?",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas is an element?",
+          "keywords": [
+            [
+              "chlorine",
+              "Cl2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which gas causes acid rain?",
+          "keywords": [
+            [
+              "sulfur dioxide",
+              "SO2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Solid CO2 (dry ice) undergoes sublimation. What is meant by sublimation?",
+          "keywords": [
+            [
+              "solid to gas directly",
+              "without passing through liquid state",
+              "skips liquid phase"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 4,
+          "type": "short",
+          "question": "Use kinetic particle model to describe motion and separation of particles in solid CO2 and CO2 gas.",
+          "keywords": [
+            [
+              "solid: regular arrangement, close together, vibrate about fixed positions"
+            ],
+            [
+              "gas: random arrangement, far apart, move randomly at high speed"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Biogas & Fuels",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Biogas contains CH4 and CO2. Describe how biogas is made.",
+          "keywords": [
+            [
+              "anaerobic fermentation of organic waste",
+              "animal and vegetable waste"
+            ],
+            [
+              "bacteria break down waste in absence of oxygen",
+              "produce methane"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two advantages of using biogas as a fuel.",
+          "keywords": [
+            [
+              "renewable energy source",
+              "from waste materials"
+            ],
+            [
+              "reduces waste going to landfill",
+              "carbon neutral",
+              "reduces greenhouse gas emissions"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Write the equation for complete combustion of methane.",
+          "keywords": [
+            [
+              "CH4 + 2O2 -> CO2 + 2H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why methane is a greenhouse gas and state one effect of global warming.",
+          "keywords": [
+            [
+              "traps heat/IR radiation in atmosphere",
+              "greenhouse effect"
+            ],
+            [
+              "rising sea levels",
+              "climate change",
+              "extreme weather",
+              "melting ice caps"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Atomic Structure & The Periodic Table",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete the table for particles: protons, neutrons, electrons, atomic number, mass number for given atoms/ions.",
+          "keywords": [
+            [
+              "Mg2+: 12p, 12n, 10e",
+              "atomic number 12, mass number 24"
+            ],
+            [
+              "O2-: 8p, 8n, 10e",
+              "atomic number 8, mass number 16"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why magnesium is in Group II and Period 3.",
+          "keywords": [
+            [
+              "Group II: 2 electrons in outer shell"
+            ],
+            [
+              "Period 3: 3 occupied electron shells"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the trend in melting points of Group I metals.",
+          "keywords": [
+            [
+              "decreases down the group",
+              "lithium highest, caesium lowest"
+            ],
+            [
+              "atoms get larger, metallic bonding weaker"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Acids, Bases & The pH Scale",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe what the pH scale measures and give the pH of a strong acid, weak acid, neutral, and strong alkali.",
+          "keywords": [
+            [
+              "measures acidity/alkalinity",
+              "concentration of H+ ions"
+            ],
+            [
+              "strong acid: pH 0-1, weak acid: pH 3-6, neutral: pH 7, strong alkali: pH 13-14"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "How could you use universal indicator to compare the acidity of 0.1M HCl and 0.1M ethanoic acid?",
+          "keywords": [
+            [
+              "add indicator to each",
+              "compare colours to pH chart"
+            ],
+            [
+              "HCl gives lower pH / red colour",
+              "more acidic",
+              "ethanoic acid gives higher pH / orange colour",
+              "less acidic"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Write equations for the neutralisation of: (i) HCl + NaOH, (ii) H2SO4 + KOH.",
+          "keywords": [
+            [
+              "HCl + NaOH -> NaCl + H2O"
+            ],
+            [
+              "H2SO4 + 2KOH -> K2SO4 + 2H2O"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Electrolysis & Reactivity",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Define electrolysis and explain why ionic compounds must be molten or dissolved for electrolysis.",
+          "keywords": [
+            [
+              "decomposition by electricity",
+              "breaking down using DC current"
+            ],
+            [
+              "ions free to move when molten/dissolved",
+              "can carry charge to electrodes"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe the electrolysis of aqueous copper(II) sulfate using inert electrodes.",
+          "keywords": [
+            [
+              "copper at cathode",
+              "Cu2+ + 2e- -> Cu",
+              "pink-brown deposit"
+            ],
+            [
+              "oxygen at anode",
+              "4OH- -> 2H2O + O2 + 4e-",
+              "blue colour fades",
+              "sulfuric acid formed"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "State one use of electrolysis in industry.",
+          "keywords": [
+            [
+              "extraction of aluminium",
+              "electroplating",
+              "purification of copper",
+              "production of chlorine/NaOH"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Organic Chemistry & Polymers",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the functional groups present in alcohols and carboxylic acids.",
+          "keywords": [
+            [
+              "alcohols: -OH (hydroxyl group)"
+            ],
+            [
+              "carboxylic acids: -COOH (carboxyl group)"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe the manufacture of ethanol by fermentation and by hydration of ethene. Compare the two methods.",
+          "keywords": [
+            [
+              "fermentation: yeast, glucose, 35C, anaerobic, produces dilute ethanol, batch process"
+            ],
+            [
+              "hydration: ethene + steam, phosphoric acid, 300C, 60 atm, produces pure ethanol, continuous process"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the formation of poly(ethene) from ethene and give two uses.",
+          "keywords": [
+            [
+              "addition polymerisation",
+              "many ethene molecules join",
+              "C=C breaks",
+              "forms long chain"
+            ],
+            [
+              "plastic bags, bottles, packaging, cling film"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Reaction Rates & Equilibria",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain how temperature, concentration and surface area affect the rate of a reaction.",
+          "keywords": [
+            [
+              "higher temperature: more kinetic energy, more frequent collisions, more exceed Ea"
+            ],
+            [
+              "higher concentration: more particles per volume, more frequent collisions"
+            ],
+            [
+              "greater surface area: more particles exposed, more frequent collisions"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain what is meant by a reversible reaction and dynamic equilibrium.",
+          "keywords": [
+            [
+              "reaction can go forwards and backwards",
+              "reversible"
+            ],
+            [
+              "equilibrium: forward and reverse rates equal, concentrations constant, closed system"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Predict the effect of increasing pressure on the equilibrium 2NO2 <=> N2O4. Explain.",
+          "keywords": [
+            [
+              "more N2O4 formed",
+              "equilibrium shifts right"
+            ],
+            [
+              "2 moles gas -> 1 mole gas",
+              "fewer molecules on right",
+              "high pressure favours side with fewer moles"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

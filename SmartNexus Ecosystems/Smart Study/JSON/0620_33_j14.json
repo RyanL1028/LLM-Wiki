@@ -1,0 +1,732 @@
+{
+  "id": "0620_33_j14",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering gas identification, kinetic theory, enzymes and polymers, iron and steel, Haber process, organic chemistry, and aluminium extraction.",
+  "type": "past",
+  "session": "May/June 2014",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Gas Identification",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Identify the gas that is a product of respiration.",
+          "keywords": [
+            [
+              "carbon dioxide",
+              "CO2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "Identify the gas that polymerises to form a poly(alkene).",
+          "keywords": [
+            [
+              "propene",
+              "C3H6"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Identify the noble gas.",
+          "keywords": [
+            [
+              "krypton",
+              "Kr"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Identify the main component of air.",
+          "keywords": [
+            [
+              "nitrogen",
+              "N2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 1,
+          "type": "short",
+          "question": "Identify the very reactive non-metal.",
+          "keywords": [
+            [
+              "fluorine",
+              "F2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "f",
+          "marks": 1,
+          "type": "short",
+          "question": "Identify the gas used to kill micro-organisms in fruit juice.",
+          "keywords": [
+            [
+              "sulfur dioxide",
+              "SO2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "g",
+          "marks": 1,
+          "type": "short",
+          "question": "Identify the gas that burns to form water as the only product.",
+          "keywords": [
+            [
+              "hydrogen",
+              "H2"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Kinetic Particle Theory",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain why the rate of most reactions increases at higher temperatures.",
+          "keywords": [
+            [
+              "particles have more kinetic energy",
+              "move faster",
+              "higher energy"
+            ],
+            [
+              "more frequent collisions",
+              "collide more often per second"
+            ],
+            [
+              "more particles have energy greater than activation energy",
+              "more successful collisions",
+              "greater proportion exceed Ea"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain: a liquid has fixed volume but takes shape of container; a gas takes shape of container but no fixed volume.",
+          "keywords": [
+            [
+              "liquid particles close together",
+              "touching",
+              "fixed volume",
+              "but can flow past each other"
+            ],
+            [
+              "gas particles far apart",
+              "widely spaced",
+              "fill available space",
+              "move randomly at high speed",
+              "no fixed volume"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Enzymes, Photosynthesis & Polymers",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the name of biological catalysts produced by microbes that cause food to deteriorate?",
+          "keywords": [
+            [
+              "enzymes"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Freezing does not kill microbes. Suggest why freezing is still effective for preserving food.",
+          "keywords": [
+            [
+              "slows down chemical reactions",
+              "reduces enzyme activity",
+              "lower kinetic energy"
+            ],
+            [
+              "fewer collisions",
+              "particles move slower",
+              "microbes less active",
+              "reactions very slow"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Pea seeds contain sugar that forms a polymer. Give structural formula of the polymer and name the other product.",
+          "keywords": [
+            [
+              "polysaccharide",
+              "starch",
+              "polymer of glucose",
+              "chain of rings linked by oxygen"
+            ],
+            [
+              "water",
+              "H2O",
+              "condensation polymerisation",
+              "water eliminated"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how the pea plant makes a sugar such as glucose.",
+          "keywords": [
+            [
+              "photosynthesis",
+              "sunlight",
+              "chlorophyll",
+              "light energy absorbed"
+            ],
+            [
+              "carbon dioxide + water -> glucose + oxygen",
+              "CO2 + H2O -> C6H12O6 + O2"
+            ],
+            [
+              "converts light energy to chemical energy",
+              "in chloroplasts"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Iron, Steel & Alloys",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 3,
+          "type": "short",
+          "question": "State how calcium oxide and oxygen are manufactured.",
+          "keywords": [
+            [
+              "calcium oxide: heat limestone",
+              "CaCO3 -> CaO + CO2",
+              "thermal decomposition"
+            ],
+            [
+              "oxygen: fractional distillation of liquid air",
+              "liquefy air then separate",
+              "different boiling points"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "a(ii)",
+          "marks": 5,
+          "type": "short",
+          "question": "Describe how CaO and O2 remove the four impurities (C, S, Si, P) from iron. Include at least one equation.",
+          "keywords": [
+            [
+              "oxygen oxidises impurities",
+              "C + O2 -> CO2",
+              "S + O2 -> SO2",
+              "gases escape"
+            ],
+            [
+              "Si + O2 -> SiO2",
+              "silicon dioxide is acidic oxide",
+              "P + O2 -> P4O10",
+              "acidic"
+            ],
+            [
+              "CaO + SiO2 -> CaSiO3",
+              "calcium oxide basic",
+              "reacts with acidic oxides"
+            ],
+            [
+              "CaO + P4O10 -> calcium phosphate",
+              "slag formation"
+            ],
+            [
+              "slag floats on molten iron",
+              "removed",
+              "separated"
+            ]
+          ],
+          "anyOf": 5
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the structure of a typical metal such as iron.",
+          "keywords": [
+            [
+              "lattice of positive ions",
+              "regular arrangement of metal cations"
+            ],
+            [
+              "sea of delocalised electrons",
+              "free electrons",
+              "mobile electrons between ions"
+            ],
+            [
+              "electrostatic attraction holds structure together",
+              "metallic bonding"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why pure iron is malleable.",
+          "keywords": [
+            [
+              "layers of atoms/ions can slide over each other",
+              "layers move"
+            ],
+            [
+              "delocalised electrons move with ions",
+              "metallic bonding non-directional",
+              "no bonds broken",
+              "new bonds reform"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Mild steel is an alloy of iron and carbon. Suggest why mild steel is harder than pure iron.",
+          "keywords": [
+            [
+              "carbon atoms different size to iron",
+              "distort the regular lattice"
+            ],
+            [
+              "layers cannot slide easily",
+              "atoms cannot move past each other",
+              "disrupted arrangement"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Haber Process & Bond Energy",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "short",
+          "question": "N2 + 3H2 <=> 2NH3 (forward exothermic). What are two advantages of using high pressure (200 atm)? Give a reason for each.",
+          "keywords": [
+            [
+              "higher yield of ammonia",
+              "equilibrium shifts right",
+              "4 moles -> 2 moles",
+              "fewer gas molecules on right"
+            ],
+            [
+              "faster rate of reaction",
+              "more collisions",
+              "higher concentration of gases",
+              "particles closer together"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Why is a higher temperature not used despite giving a faster reaction rate?",
+          "keywords": [
+            [
+              "lower yield",
+              "equilibrium shifts left",
+              "reverse reaction endothermic favoured by heat"
+            ],
+            [
+              "exothermic reaction",
+              "high temperature opposes forward reaction"
+            ],
+            [
+              "compromise temperature",
+              "balance rate and yield",
+              "economic optimum"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Why is the iron catalyst used as a fine powder?",
+          "keywords": [
+            [
+              "increase surface area",
+              "more active sites",
+              "greater contact with reactants",
+              "faster reaction"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two reasons why a catalyst is used.",
+          "keywords": [
+            [
+              "speeds up reaction",
+              "lowers activation energy",
+              "faster rate"
+            ],
+            [
+              "allows lower temperature",
+              "saves energy costs",
+              "not used up in reaction"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Equilibrium mixture has 15% NH3. Suggest how ammonia is separated (bp: H2 -253, N2 -196, NH3 -33 C).",
+          "keywords": [
+            [
+              "cool the mixture",
+              "condense ammonia",
+              "ammonia has highest boiling point",
+              "liquefies first"
+            ],
+            [
+              "ammonia condenses below -33C",
+              "N2 and H2 remain gases",
+              "recycled"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 4,
+          "type": "long",
+          "question": "NH3 + 3F2 -> NF3 + 3HF. Using bond energies (N-H 390, F-F 155, N-F 280, H-F 565 kJ/mol), determine if the reaction is exothermic or endothermic.",
+          "keywords": [
+            [
+              "bonds broken: 3xN-H + 3xF-F = 1170 + 465 = 1635 kJ"
+            ],
+            [
+              "bonds formed: 3xN-F + 3xH-F = 840 + 1695 = 2535 kJ"
+            ],
+            [
+              "more energy released than absorbed",
+              "exothermic",
+              "2535 - 1635 = 900 kJ released"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Alkanes, Cracking & Substitution",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is meant by the term hydrocarbon?",
+          "keywords": [
+            [
+              "compound of carbon and hydrogen only",
+              "contains only C and H"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is meant by the term saturated (for alkanes)?",
+          "keywords": [
+            [
+              "all C-C single bonds",
+              "no double bonds",
+              "maximum number of hydrogen atoms"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the general formula for the homologous series of alkanes?",
+          "keywords": [
+            [
+              "CnH2n+2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Calculate the mass of one mole of an alkane with 14 carbon atoms.",
+          "keywords": [
+            [
+              "C14H30",
+              "Mr = 14x12 + 30x1 = 168+30 = 198"
+            ],
+            [
+              "198 g"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Write the equation for complete combustion of nonane, C9H20.",
+          "keywords": [
+            [
+              "C9H20 + 14O2 -> 9CO2 + 10H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(ii)",
+          "marks": 3,
+          "type": "short",
+          "question": "20 cm3 hydrocarbon + 200 cm3 O2 excess. After cooling: 40 cm3 O2 + 100 cm3 CO2. Deduce formula and equation.",
+          "keywords": [
+            [
+              "oxygen used = 200-40 = 160 cm3",
+              "ratio 20:160:100 = 1:8:5"
+            ],
+            [
+              "C5H12",
+              "pentane",
+              "C5H12 + 8O2 -> 5CO2 + 6H2O"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d(i)",
+          "marks": 3,
+          "type": "short",
+          "question": "Give one use for each product of cracking: short-chain alkanes, alkenes, hydrogen.",
+          "keywords": [
+            [
+              "fuel",
+              "petrol",
+              "gasoline",
+              "heating"
+            ],
+            [
+              "making polymers",
+              "plastics",
+              "poly(ethene)"
+            ],
+            [
+              "making ammonia",
+              "Haber process",
+              "margarine",
+              "fuel"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Write an equation for cracking of decane, C10H22, producing two different alkenes and hydrogen as the only products.",
+          "keywords": [
+            [
+              "C10H22 -> C3H6 + C7H14 + H2",
+              "C10H22 -> C2H4 + C8H16 + H2",
+              "any valid"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Propane + Cl2 -> 1-chloropropane + HCl. What is the essential condition?",
+          "keywords": [
+            [
+              "UV light",
+              "ultraviolet light",
+              "sunlight",
+              "uv radiation"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest the structural formula of a different product from chlorine + propane.",
+          "keywords": [
+            [
+              "CH3-CHCl-CH3",
+              "2-chloropropane",
+              "CH3-CCl2-CH3",
+              "dichloropropane"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Aluminium Extraction & Anodising",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "State the name of the main ore of aluminium.",
+          "keywords": [
+            [
+              "bauxite"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 6,
+          "type": "short",
+          "question": "Describe the extraction of aluminium from alumina. Include electrolyte, electrodes and electrode reactions.",
+          "keywords": [
+            [
+              "alumina dissolved in molten cryolite",
+              "Al2O3 in Na3AlF6",
+              "lowers melting point",
+              "electrolyte"
+            ],
+            [
+              "carbon electrodes",
+              "graphite",
+              "anode and cathode"
+            ],
+            [
+              "at cathode: Al3+ + 3e- -> Al",
+              "aluminium formed",
+              "molten aluminium collected"
+            ],
+            [
+              "at anode: 2O2- -> O2 + 4e-",
+              "oxygen produced",
+              "carbon anodes burn to CO2"
+            ]
+          ],
+          "anyOf": 6
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "State a use of aluminium due to its resistance to corrosion.",
+          "keywords": [
+            [
+              "window frames",
+              "aircraft bodies",
+              "food containers",
+              "cooking utensils",
+              "overhead power cables"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 4,
+          "type": "short",
+          "question": "Complete the equations for anodising: ...OH- -> O2 + 2H2O + ...e-; ...Al + ... -> ...Al2O3",
+          "keywords": [
+            [
+              "4",
+              "4e-",
+              "4OH- -> O2 + 2H2O + 4e-"
+            ],
+            [
+              "4",
+              "3O2",
+              "2",
+              "4Al + 3O2 -> 2Al2O3"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    }
+  ]
+}

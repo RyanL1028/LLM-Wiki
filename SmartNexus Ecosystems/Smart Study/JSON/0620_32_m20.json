@@ -1,0 +1,1059 @@
+{
+  "id": "0620_32_m20",
+  "subject": "Chemistry",
+  "code": "0620/32",
+  "paper": "Paper 3",
+  "name": "Theory (Core)",
+  "description": "Core theory covering compounds, blast furnace extraction of iron, water treatment and changes of state, carboxylic acids and fermentation, Group I metals, magnesium and nitric acid, electrolysis of sulfuric acid, and structure and bonding.",
+  "type": "past",
+  "session": "Feb/March 2020",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Compounds & Bonding",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "A list of compounds is shown (aluminium oxide, calcium bromide, calcium oxide, ethane, ethene, hydrogen chloride, methane, nitrogen dioxide, potassium iodide, potassium manganate(VII), sodium chloride). Which compound, when in acidified solution, is used to test for sulfur dioxide?",
+          "keywords": [
+            [
+              "potassium manganate(VII)",
+              "KMnO4",
+              "KMnO4",
+              "potassium permanganate"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which compound is the main constituent of natural gas?",
+          "keywords": [
+            [
+              "methane",
+              "CH4",
+              "CH4"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which compound, when dissolved in water, gives a yellow precipitate on addition of acidified aqueous silver nitrate?",
+          "keywords": [
+            [
+              "potassium iodide",
+              "KI"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which compound is used in flue gas desulfurisation to neutralise acidic gases?",
+          "keywords": [
+            [
+              "calcium oxide",
+              "CaO",
+              "lime"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(v)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which compound is a reactant used in the manufacture of ethanol?",
+          "keywords": [
+            [
+              "ethene",
+              "C2H4",
+              "C2H4"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "What is the meaning of the term compound?",
+          "keywords": [
+            [
+              "two or more",
+              "different",
+              "more than one"
+            ],
+            [
+              "elements",
+              "atoms",
+              "types of atom"
+            ],
+            [
+              "chemically combined",
+              "chemically bonded",
+              "bonded",
+              "combined",
+              "chemical bond"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the electronic structure of a molecule of hydrogen chloride. Show only the outer shell electrons. (H has 1, Cl has 7 - they share one pair, leaving 3 lone pairs on Cl.)",
+          "keywords": [
+            [
+              "shared pair",
+              "one shared pair",
+              "single covalent bond",
+              "one bonding pair"
+            ],
+            [
+              "lone pairs",
+              "3 lone pairs on Cl",
+              "6 non-bonding electrons on Cl"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Blast Furnace Extraction of Iron",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Iron is extracted by heating a mixture of coke, limestone and iron ore in air in a blast furnace. Name the ore of iron added to the blast furnace.",
+          "keywords": [
+            [
+              "haematite",
+              "hematite"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What information in the diagram shows that slag is less dense than molten iron?",
+          "keywords": [
+            [
+              "slag floats",
+              "slag is above molten iron",
+              "slag on top",
+              "slag is on top",
+              "upper layer"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 3,
+          "type": "long",
+          "question": "Which one of the substances added to the blast furnace helps to remove the impurities? Explain how it does this.",
+          "keywords": [
+            [
+              "limestone",
+              "calcium carbonate",
+              "CaCO3",
+              "CaCO3"
+            ],
+            [
+              "decomposes",
+              "CaCO3 decomposes",
+              "CaO",
+              "calcium oxide"
+            ],
+            [
+              "reacts with silica",
+              "reacts with SiO2",
+              "reacts with SiO2",
+              "reacts with sand",
+              "neutralises acidic impurities",
+              "forms slag",
+              "calcium silicate",
+              "CaSiO3",
+              "CaSiO3"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Hot air is blown into the blast furnace. Explain why.",
+          "keywords": [
+            [
+              "reacts with coke",
+              "reacts with carbon",
+              "produce CO2",
+              "produce CO2",
+              "provide heat",
+              "make carbon dioxide",
+              "combustion of carbon",
+              "CO2 then reduced to CO"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Fe2O3 + 3CO → 2Fe + 3CO2. How does this equation show that Fe2O3 has been reduced?",
+          "keywords": [
+            [
+              "loses oxygen",
+              "oxygen removed",
+              "oxygen lost",
+              "O removed"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "When 16.0 g of Fe2O3 react with excess CO, 11.2 g of iron are produced. Calculate the mass of iron produced when 4.0 g of Fe2O3 react with excess CO.",
+          "keywords": [
+            [
+              "2.8",
+              "2.8 g",
+              "2.8g"
+            ],
+            [
+              "16/4=4",
+              "11.2/4",
+              "4 times less"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "e",
+          "marks": 3,
+          "type": "short",
+          "question": "An isotope of iron is 58/26 Fe. Deduce the number of electrons, protons and neutrons in an atom of this isotope.",
+          "keywords": [
+            [
+              "26",
+              "26 electrons"
+            ],
+            [
+              "26",
+              "26 protons"
+            ],
+            [
+              "32",
+              "32 neutrons"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "f",
+          "marks": 2,
+          "type": "choosethree",
+          "question": "Iron is a transition element. Which two of these statements about iron are correct? Tick two boxes.",
+          "correctIndices": [
+            0,
+            1
+          ],
+          "options": [
+            "Iron forms coloured compounds.",
+            "Iron can act as a catalyst.",
+            "Iron is brown when freshly cut.",
+            "Iron has a low density.",
+            "Iron has a low melting point."
+          ]
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Water & Changes of State",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 1,
+          "type": "short",
+          "question": "Water is essential for many industrial processes. State one use of water in industry.",
+          "keywords": [
+            [
+              "cooling",
+              "coolant"
+            ],
+            [
+              "solvent",
+              "dissolve"
+            ],
+            [
+              "cleaning",
+              "washing"
+            ],
+            [
+              "steam",
+              "generate steam",
+              "power"
+            ],
+            [
+              "irrigation",
+              "farming"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "mcq",
+          "question": "What is the pH of pure water? Draw a circle around the correct answer.",
+          "options": [
+            "pH 0",
+            "pH 6",
+            "pH 7",
+            "pH 14"
+          ],
+          "answer": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Filtration and chlorination are two of the steps used in water treatment. Describe the purpose of each. filtration: ... chlorination: ...",
+          "keywords": [
+            [
+              "removes solids",
+              "removes particles",
+              "removes insoluble",
+              "removes suspended",
+              "clear",
+              "removes debris"
+            ],
+            [
+              "kills bacteria",
+              "kills germs",
+              "disinfects",
+              "sterilises",
+              "kills microorganisms",
+              "makes safe to drink"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "The changes of state of water are shown (ice to water to steam, with freezing and boiling labeled). Give the names of the changes of state represented by A (water to steam) and B (steam to water).",
+          "keywords": [
+            [
+              "boiling",
+              "evaporation",
+              "vaporisation",
+              "boiling/evaporation"
+            ],
+            [
+              "condensation",
+              "condensing"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "e",
+          "marks": 2,
+          "type": "short",
+          "question": "The table compares the reactions of four metals with both steam and dilute hydrochloric acid. Put the four metals in order of reactivity (least reactive first): Cu no reaction with either; Ni no reaction steam, slow bubbles HCl; Zn rapid reaction steam, slow bubbles HCl; Mg rapid reaction steam, rapid bubbles HCl.",
+          "keywords": [
+            [
+              "copper",
+              "Cu"
+            ],
+            [
+              "nickel",
+              "Ni"
+            ],
+            [
+              "zinc",
+              "Zn"
+            ],
+            [
+              "magnesium",
+              "Mg"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Carboxylic Acids & Fermentation",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structure of angelic acid is shown. Draw a circle around the functional group that shows that it is a carboxylic acid.",
+          "keywords": [
+            [
+              "COOH",
+              "-COOH",
+              "carboxyl",
+              "carboxylic acid",
+              "C=O and OH",
+              "CO2H",
+              "CO2H"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Deduce the formula of angelic acid to show the number of carbon, hydrogen and oxygen atoms. (Structure shows 5 carbons, 8 hydrogens, 2 oxygens.)",
+          "keywords": [
+            [
+              "C5H8O2",
+              "C5H8O2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 3,
+          "type": "long",
+          "question": "Angelic acid is an unsaturated compound. Describe a chemical test to distinguish between an unsaturated and a saturated compound. test: ... result with unsaturated: ... result with saturated: ...",
+          "keywords": [
+            [
+              "bromine",
+              "bromine water",
+              "Br2",
+              "Br2",
+              "aqueous bromine"
+            ],
+            [
+              "decolourises",
+              "turns colourless",
+              "goes colourless",
+              "brown to colourless",
+              "orange to colourless"
+            ],
+            [
+              "no change",
+              "stays brown",
+              "stays orange",
+              "remains brown",
+              "no reaction"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "The formula of ethanoic acid is C2H4O2. Complete the table to calculate the relative molecular mass (C: 2x12=24, H: 4x1=4, O: 2x16=32).",
+          "keywords": [
+            [
+              "60",
+              "sixty",
+              "60 g/mol"
+            ],
+            [
+              "24+4+32",
+              "2x12=24,4x1=4,2x16=32"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Ethanoic acid can be reduced to ethanol. Complete the structure of ethanol to show all of the atoms and all of the bonds. (C2H5OH - two carbons, one O-H, five C-H bonds, one C-C bond, one C-O bond.)",
+          "keywords": [
+            [
+              "CH3CH2OH",
+              "CH3CH2OH",
+              "C2H5OH",
+              "C2H5OH",
+              "all atoms shown",
+              "all bonds shown",
+              "OH group"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d",
+          "marks": 4,
+          "type": "long",
+          "question": "Describe the process of fermentation to include: the names of the reactants and catalyst, the conditions required, and the name of the process used to separate the ethanol from the rest of the reaction mixture.",
+          "keywords": [
+            [
+              "glucose",
+              "sugar",
+              "carbohydrate",
+              "C6H12O6",
+              "C6H12O6"
+            ],
+            [
+              "yeast",
+              "enzyme",
+              "zymase"
+            ],
+            [
+              "warm",
+              "30C",
+              "30-40C",
+              "37C",
+              "anaerobic",
+              "no oxygen",
+              "no air",
+              "absence of oxygen"
+            ],
+            [
+              "distillation",
+              "fractional distillation",
+              "distil",
+              "distil off",
+              "boil off",
+              "separate by boiling point"
+            ]
+          ],
+          "anyOf": 4
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Group I Metals",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "The table shows properties of Group I metals (Na, K, Rb, Cs - melting point, boiling point, relative electrical conductivity). Complete the table to estimate: the melting point of rubidium and the relative electrical conductivity of sodium.",
+          "keywords": [
+            [
+              "melting point of Rb about 39",
+              "between K and Cs",
+              "about 39",
+              "about 40"
+            ],
+            [
+              "conductivity of Na >14",
+              "greater than 14",
+              "higher than K",
+              "about 20",
+              "about 18"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "What is the physical state of caesium at 20C? Give a reason for your answer. (Cs: mp 29C, bp 669C)",
+          "keywords": [
+            [
+              "solid",
+              "solid state"
+            ],
+            [
+              "below mp",
+              "below 29C",
+              "melting point 29",
+              "20 is below 29"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the trend in the boiling points of the Group I metals.",
+          "keywords": [
+            [
+              "decreases",
+              "decrease down group",
+              "lower",
+              "decreases as you go down"
+            ],
+            [
+              "down the group",
+              "from top to bottom",
+              "as atomic number increases"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "When potassium reacts with water, a coloured flame is seen and a gas is produced that pops with a lighted splint. Complete the equation: ...K + 2H2O → 2KOH + ____",
+          "keywords": [
+            [
+              "2",
+              "2 K",
+              "2K"
+            ],
+            [
+              "H2",
+              "H2",
+              "hydrogen"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "State the colour of the flame when potassium reacts with water.",
+          "keywords": [
+            [
+              "lilac",
+              "purple",
+              "lilac/purple"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "The solution formed is alkaline. Describe how you can use universal indicator solution to determine the pH of the solution.",
+          "keywords": [
+            [
+              "add universal indicator",
+              "add few drops",
+              "add UI",
+              "universal indicator"
+            ],
+            [
+              "compare colour",
+              "compare to chart",
+              "match colour",
+              "pH colour chart",
+              "purple",
+              "blue",
+              "pH 12-14"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Magnesium with Nitric Acid",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Mg + 4HNO3 → Mg(NO3)2 + 2NO2 + 2H2O. The reaction is exothermic. What is the meaning of the term exothermic?",
+          "keywords": [
+            [
+              "gives out heat",
+              "releases heat",
+              "heat given out",
+              "heat released",
+              "heat evolved",
+              "transfers thermal energy to surroundings",
+              "temperature increases"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Which word best describes the compound Mg(NO3)2? Draw a circle around the correct answer.",
+          "options": [
+            "acid",
+            "base",
+            "oxide",
+            "salt"
+          ],
+          "answer": 3
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "mcq",
+          "question": "Oxides of nitrogen are formed when fossil fuels are burned. What type of chemical reaction occurs when fossil fuels are burned? Draw a circle around the correct answer.",
+          "options": [
+            "combustion",
+            "cracking",
+            "fermentation",
+            "neutralisation"
+          ],
+          "answer": 0
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Oxides of nitrogen dissolve in rain water to form acid rain. State one adverse effect of acid rain on buildings.",
+          "keywords": [
+            [
+              "erodes",
+              "corrodes",
+              "wears away",
+              "dissolves",
+              "weathering"
+            ],
+            [
+              "limestone",
+              "marble",
+              "stone",
+              "metal",
+              "concrete",
+              "statues"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 3,
+          "type": "long",
+          "question": "When very dilute nitric acid reacts with magnesium powder, hydrogen is produced. Describe a practical method for investigating the rate of this reaction.",
+          "keywords": [
+            [
+              "measure volume",
+              "gas syringe",
+              "measuring cylinder",
+              "collect gas",
+              "inverted cylinder",
+              "inverted measuring cylinder"
+            ],
+            [
+              "measure time",
+              "stopwatch",
+              "timer",
+              "clock"
+            ],
+            [
+              "same mass",
+              "same amount",
+              "same surface area"
+            ],
+            [
+              "record",
+              "reading",
+              "volume at intervals",
+              "plot graph"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "What effect would each of the following have on the rate of this reaction? Larger pieces of magnesium are used instead of powder: ... The temperature of the reaction mixture is increased: ...",
+          "keywords": [
+            [
+              "decreases",
+              "slower",
+              "lower",
+              "less",
+              "rate decreases"
+            ],
+            [
+              "increases",
+              "faster",
+              "higher",
+              "greater",
+              "rate increases"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Electrolysis of Sulfuric Acid",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 3,
+          "type": "long",
+          "question": "The electrolysis of dilute sulfuric acid produces gases at both electrodes. Complete the diagram by labelling the anode and cathode, adding connecting wires, and showing how the gases are collected.",
+          "keywords": [
+            [
+              "anode",
+              "positive electrode",
+              "+"
+            ],
+            [
+              "cathode",
+              "negative electrode",
+              "-"
+            ],
+            [
+              "connecting wires",
+              "wire",
+              "wires",
+              "connected to power supply"
+            ],
+            [
+              "gas collection",
+              "test tube",
+              "inverted test tube",
+              "collection over electrode",
+              "collecting gas"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the products formed at each electrode. positive electrode: ... negative electrode: ...",
+          "keywords": [
+            [
+              "oxygen",
+              "O2",
+              "O2"
+            ],
+            [
+              "hydrogen",
+              "H2",
+              "H2"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Carbon dioxide is produced when sulfuric acid reacts with sodium carbonate. Name the two other products which are formed.",
+          "keywords": [
+            [
+              "sodium sulfate",
+              "sodium sulphate",
+              "Na2SO4",
+              "Na2SO4"
+            ],
+            [
+              "water",
+              "H2O",
+              "H2O"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the test for carbon dioxide. test: ... observations: ...",
+          "keywords": [
+            [
+              "limewater",
+              "lime water",
+              "calcium hydroxide",
+              "Ca(OH)2",
+              "Ca(OH)2",
+              "bubble through limewater"
+            ],
+            [
+              "turns milky",
+              "turns cloudy",
+              "milky",
+              "cloudy",
+              "white precipitate"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 1,
+          "type": "short",
+          "question": "Carbon dioxide is a greenhouse gas. State one effect of greenhouse gases on the environment.",
+          "keywords": [
+            [
+              "global warming",
+              "climate change",
+              "Earth warms",
+              "temperature rise",
+              "temperature increase",
+              "sea level rise",
+              "ice caps melt",
+              "extreme weather"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "topic": "Structure, Bonding & Halogens",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "The structures of four substances (C: NaCl ionic lattice, D: methane, E: large alkane, F: polymer/polyethene chain) are shown. Which one of these substances is a gas at room temperature?",
+          "keywords": [
+            [
+              "D",
+              "methane",
+              "CH4",
+              "CH4"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What type of bonding is present in substance E?",
+          "keywords": [
+            [
+              "covalent",
+              "covalent bonding",
+              "shared electrons",
+              "covalent bonds"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which one of these substances is soluble in water?",
+          "keywords": [
+            [
+              "C",
+              "NaCl",
+              "sodium chloride"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "Which one of these substances conducts electricity when solid?",
+          "keywords": [
+            [
+              "none",
+              "neither",
+              "no substance"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b",
+          "marks": 1,
+          "type": "short",
+          "question": "The halogens have molecules containing two atoms. What is the name for molecules containing only two atoms?",
+          "keywords": [
+            [
+              "diatomic",
+              "diatomic molecules"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 1,
+          "type": "short",
+          "question": "The reaction of iodine with hydrogen is shown: I2 + H2 ⇌ 2HI. What is the meaning of the symbol ⇌?",
+          "keywords": [
+            [
+              "reversible",
+              "reversible reaction",
+              "equilibrium",
+              "both directions",
+              "forward and backward",
+              "forward and reverse"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the equation: ____ + 2KI → I2 + ...KCl",
+          "keywords": [
+            [
+              "Cl2",
+              "Cl2",
+              "chlorine"
+            ],
+            [
+              "2",
+              "2 KCl",
+              "2KCl"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "When aqueous iodine is mixed with aqueous potassium chloride, there is no reaction. Suggest, in terms of chemical reactivity, why there is no reaction.",
+          "keywords": [
+            [
+              "chlorine more reactive than iodine",
+              "Cl more reactive than I",
+              "Cl above I in group VII",
+              "iodine cannot displace chlorine",
+              "iodine less reactive",
+              "chlorine is more reactive"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    }
+  ]
+}

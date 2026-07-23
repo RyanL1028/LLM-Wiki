@@ -1,0 +1,750 @@
+{
+  "id": "0620_03_j05",
+  "subject": "Chemistry",
+  "code": "0620/03",
+  "paper": "Paper 3 (Extended)",
+  "name": "Chemistry Paper 3 (Extended)",
+  "description": "Cambridge IGCSE Chemistry Paper 3 (Extended), May/June 2005. Covers Group VII halogens and diffusion, reaction rates and redox, polymers and organic chemistry, limestone caves and the Contact Process, enzymes and fermentation, and aluminium extraction and amphoteric behaviour.",
+  "type": "past",
+  "session": "May/June 2005",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Group VII Halogens: Properties, Tests and Diffusion",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "long",
+          "question": "Three of the halogens in Group VII are chlorine, bromine, iodine. (i) How does their colour change down the Group? (ii) How does their physical state (solid, liquid or gas) change down the Group? (iii) Predict the colour and physical state of fluorine.",
+          "keywords": [
+            [
+              "colours get darker",
+              "darker",
+              "paler to darker",
+              "green to brown to grey-black",
+              "light to dark"
+            ],
+            [
+              "gas to liquid to solid",
+              "gas to solid",
+              "melting point increases",
+              "boiling point increases",
+              "denser"
+            ],
+            [
+              "pale yellow",
+              "yellow",
+              "greenish-yellow",
+              "light yellow"
+            ],
+            [
+              "gas",
+              "gaseous"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "long",
+          "question": "Describe how you could distinguish between aqueous potassium bromide and aqueous potassium iodide. test: ............ result with bromide: ............ result with iodide: ............",
+          "keywords": [
+            [
+              "add chlorine water",
+              "add chlorine",
+              "add aqueous chlorine",
+              "add Cl2"
+            ],
+            [
+              "orange",
+              "brown",
+              "red-brown",
+              "orange solution",
+              "Br2 formed"
+            ],
+            [
+              "brown",
+              "dark brown",
+              "purple",
+              "black",
+              "grey-black",
+              "violet in organic solvent",
+              "I2 formed",
+              "iodine"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "0.015 moles of iodine react with 0.045 moles of chlorine to form 0.030 moles of a single product. Complete the equation: ...I2 + ...Cl2 → ............",
+          "keywords": [
+            [
+              "I2 + 3Cl2",
+              "1I2",
+              "I2",
+              "1"
+            ],
+            [
+              "3Cl2",
+              "3",
+              "three"
+            ],
+            [
+              "2ICl3",
+              "ICl3",
+              "iodine trichloride",
+              "iodine(III) chloride"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Traces of chlorine can be separated from bromine vapour by diffusion. Which gas would diffuse the faster and why?",
+          "keywords": [
+            [
+              "chlorine",
+              "Cl2"
+            ],
+            [
+              "lower Mr",
+              "lower molecular mass",
+              "smaller molecule",
+              "lower density",
+              "lighter",
+              "lower relative molecular mass"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Reaction Rates and Zinc/Iodine Redox Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "The following apparatus was used to measure the rate of the reaction between zinc and iodine. A thin plate of zinc in 100 cm3 of aqueous iodine, 0.1 mol/dm3 at 25 °C. The mass of the zinc plate was measured every minute until the reaction was complete. Write an ionic equation for the redox reaction that occurred between zinc atoms and iodine molecules.",
+          "keywords": [
+            [
+              "Zn",
+              "zinc",
+              "Zn(s)"
+            ],
+            [
+              "I2",
+              "iodine",
+              "I2(aq)"
+            ],
+            [
+              "Zn²⁺",
+              "Zn2+",
+              "zinc ions",
+              "zinc(II) ions"
+            ],
+            [
+              "2I⁻",
+              "I⁻",
+              "iodide",
+              "iodide ions"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "long",
+          "question": "Describe how you could show by adding aqueous sodium hydroxide and aqueous ammonia that a solution contained zinc ions. result with sodium hydroxide: ............ excess sodium hydroxide: ............ result with aqueous ammonia: ............ excess aqueous ammonia: ............",
+          "keywords": [
+            [
+              "white precipitate",
+              "white ppt",
+              "Zn(OH)2",
+              "zinc hydroxide"
+            ],
+            [
+              "dissolves",
+              "soluble",
+              "colourless solution",
+              "redissolves",
+              "zincate",
+              "soluble zincate",
+              "colourless"
+            ],
+            [
+              "white precipitate",
+              "white ppt",
+              "Zn(OH)2",
+              "zinc hydroxide"
+            ],
+            [
+              "dissolves",
+              "soluble",
+              "colourless solution",
+              "redissolves",
+              "tetraamminezinc",
+              "complex ion"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "type": "long",
+          "question": "From the results of this experiment two graphs were plotted: graph 1 (mass of plate vs time), graph 2 (loss of mass vs time). (i) Which reagent iodine or zinc was in excess? Give a reason for your choice. (ii) Describe how the shape of graph 1 would change if 100cm3 of 0.05 mol/dm3 iodine had been used. (iii) On graph 2, sketch the shape if the reaction had been carried out using 100 cm3 of 0.1 mol/dm3 iodine at 35°C instead of at 25°C.",
+          "keywords": [
+            [
+              "zinc",
+              "zinc in excess",
+              "Zn"
+            ],
+            [
+              "plate remains",
+              "mass never reaches zero",
+              "mass plateaus above zero",
+              "zinc still present when reaction stops"
+            ],
+            [
+              "less mass lost",
+              "final mass higher",
+              "smaller decrease in mass",
+              "less iodine so less zinc reacts",
+              "half the iodine so half the mass loss"
+            ],
+            [
+              "steeper",
+              "faster initial rate",
+              "sharper initial slope",
+              "reaches plateau faster",
+              "same final mass loss",
+              "higher temperature increases rate"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Polymers, Silver and Carboxylic Acids",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 5,
+          "type": "long",
+          "question": "A South Korean chemist has discovered a cure for smelly socks. Small particles of silver are attached to a polymer, poly(propene), and this is woven into the socks. (i) Give the structural formula of the monomer. (ii) Draw the structural formula of the polymer. (iii) Suggest which one, monomer or polymer, will react with aqueous bromine and why?",
+          "keywords": [
+            [
+              "CH3–CH=CH2",
+              "propene",
+              "C3H6",
+              "propylene"
+            ],
+            [
+              "—(CH(CH3)–CH2)—n",
+              "polypropene",
+              "polypropylene"
+            ],
+            [
+              "monomer",
+              "propene"
+            ],
+            [
+              "unsaturated",
+              "has C=C double bond",
+              "double bond",
+              "alkene"
+            ],
+            [
+              "polymer saturated",
+              "no double bond in polymer",
+              "C=C broken in polymerisation"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "To show that the polymer contains silver the following test was carried out. The polymer fibres were chopped into small pieces and warmed with nitric acid. The silver atoms were oxidised to silver(I) ions. The mixture was filtered. Aqueous sodium chloride was added to the filtrate and a white precipitate formed. (i) Why was the mixture filtered? (ii) Explain why the change of silver atoms to silver ions is oxidation. (iii) Give the name of the white precipitate.",
+          "keywords": [
+            [
+              "remove polymer",
+              "remove solid residue",
+              "remove unreacted polymer fibres",
+              "separate solid from solution",
+              "remove undissolved polymer"
+            ],
+            [
+              "loss of electrons",
+              "Ag loses an electron",
+              "Ag → Ag⁺ + e⁻",
+              "electron loss",
+              "oxidation is loss of electrons"
+            ],
+            [
+              "silver chloride",
+              "AgCl",
+              "silver(I) chloride"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "The unpleasant smell is caused by carboxylic acids. Bacteria cause the fats on the skin to be hydrolysed to these acids. Silver kills the bacteria and prevents the hydrolysis of the fats. (i) Fats are esters. Give the name and structural formula of an ester. (ii) Complete the word equation: Ester + water → carboxylic acid + ............",
+          "keywords": [
+            [
+              "ethyl ethanoate",
+              "methyl ethanoate",
+              "ethyl acetate",
+              "propyl ethanoate"
+            ],
+            [
+              "alcohol",
+              "alkanol",
+              "ethanol",
+              "methanol",
+              "glycerol"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d",
+          "marks": 4,
+          "type": "long",
+          "question": "Propanoic acid is a weak acid. (i) The following equation represents its reaction with ammonia: CH3CH2COOH + NH3 → CH3CH2COO– + NH4+. Explain why propanoic acid behaves as an acid and ammonia as a base. (ii) Explain the expression weak acid.",
+          "keywords": [
+            [
+              "donates proton",
+              "donates H⁺",
+              "proton donor",
+              "gives H⁺ to NH3",
+              "transfers H⁺"
+            ],
+            [
+              "accepts proton",
+              "accepts H⁺",
+              "proton acceptor",
+              "receives H⁺ from acid"
+            ],
+            [
+              "partially dissociated",
+              "partially ionised",
+              "does not fully ionise",
+              "incomplete dissociation",
+              "only some molecules donate H⁺",
+              "weak electrolyte"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Limestone Caves, Sulphuric Acid and Hydrated Salts",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 4,
+          "type": "long",
+          "question": "The Carlsbad caverns in New Mexico are very large underground caves. Although the walls of these caves are coated with gypsum (hydrated calcium sulphate), the caves have been formed in limestone. It is believed that the caves were formed by sulphuric acid reacting with the limestone. (i) Complete the word equation: calcium carbonate + sulphuric acid → calcium sulphate + ............ + ............ (ii) Describe how you could test the water entering the cave to show that it contained sulphate ions. test: ............ result: ............ (iii) How could you show that the water entering the cave has a high concentration of hydrogen ions?",
+          "keywords": [
+            [
+              "water",
+              "H2O"
+            ],
+            [
+              "carbon dioxide",
+              "CO2"
+            ],
+            [
+              "add barium chloride",
+              "add barium nitrate",
+              "add BaCl2",
+              "add Ba(NO3)2",
+              "acidify with HCl",
+              "add dilute HCl then BaCl2"
+            ],
+            [
+              "white precipitate",
+              "white ppt",
+              "BaSO4",
+              "barium sulphate",
+              "insoluble white solid"
+            ],
+            [
+              "pH",
+              "universal indicator",
+              "pH meter",
+              "pH paper",
+              "indicator",
+              "low pH",
+              "red",
+              "pH less than 7",
+              "acidic"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "type": "long",
+          "question": "Hydrogen sulphide gas which was escaping from nearby petroleum deposits was being oxidised to sulphuric acid. (i) Complete the equation for this reaction forming sulphuric acid: ...H2S + ...O2 → ............ (ii) Explain why all the hydrogen sulphide should be removed from the petroleum before it is used as a fuel. (iii) Draw a diagram to show the arrangement of the valency electrons in one molecule of the covalent compound hydrogen sulphide. Use o to represent an electron from a sulphur atom. Use x to represent an electron from a hydrogen atom.",
+          "keywords": [
+            [
+              "H2S",
+              "1",
+              "one"
+            ],
+            [
+              "2O2",
+              "2",
+              "two"
+            ],
+            [
+              "H2SO4",
+              "sulphuric acid",
+              "sulfuric acid"
+            ],
+            [
+              "toxic",
+              "poisonous",
+              "acid rain",
+              "SO2 produced on burning",
+              "causes pollution",
+              "harmful to environment",
+              "corrosive gases"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "type": "long",
+          "question": "Sulphuric acid is manufactured by the Contact Process. Sulphur dioxide is oxidised to sulphur trioxide by oxygen. 2SO2 + O2 ⇌ 2SO3. (i) Name the catalyst used in this reaction. (ii) What temperature is used for this reaction? (iii) Describe how sulphur trioxide is changed into sulphuric acid.",
+          "keywords": [
+            [
+              "vanadium(V) oxide",
+              "vanadium pentoxide",
+              "V2O5"
+            ],
+            [
+              "450°C",
+              "450 degrees",
+              "about 450",
+              "450C",
+              "450 celsius"
+            ],
+            [
+              "dissolved in concentrated sulphuric acid",
+              "absorbed in H2SO4",
+              "forms oleum",
+              "H2S2O7",
+              "added to water",
+              "SO3 + H2SO4 → H2S2O7",
+              "then water added",
+              "H2S2O7 + H2O → 2H2SO4"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d",
+          "marks": 3,
+          "type": "long",
+          "question": "Gypsum is hydrated calcium sulphate, CaSO4.xH2O. It contains 20.9% water by mass. Calculate x. Mr: CaSO4, 136; H2O, 18. 79.1g of CaSO4 = ...... moles, 20.9 g of H2O = ...... moles, x = ......",
+          "keywords": [
+            [
+              "0.582",
+              "0.58",
+              "0.581"
+            ],
+            [
+              "1.16",
+              "1.161",
+              "1.2"
+            ],
+            [
+              "2",
+              "two",
+              "x=2",
+              "2.0"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Enzymes, Chromatography and Fermentation",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 8,
+          "type": "long",
+          "question": "Enzymes called proteases can hydrolyse proteins to amino acids. The amino acids can be separated and identified by chromatography. (i) The Rf value of a sample = distance travelled by sample / distance travelled by solvent front. Some Rf values for amino acids are: glutamic acid = 0.4, glycine = 0.5, alanine = 0.7, leucine = 0.9. Identify the two amino acids on the chromatogram (sample A and sample B from a diagram). (ii) Explain why the chromatogram must be exposed to a locating agent before Rf values can be measured. (iii) Measuring Rf values is one way of identifying amino acids on a chromatogram. Suggest another. (iv) The synthetic polymer, nylon, has the same linkage as proteins. Draw the structural formula of nylon.",
+          "keywords": [
+            [
+              "glutamic acid",
+              "glutamic",
+              "glutamate"
+            ],
+            [
+              "leucine"
+            ],
+            [
+              "amino acids are colourless",
+              "not visible",
+              "invisible",
+              "cannot be seen",
+              "spots not visible to naked eye"
+            ],
+            [
+              "compare with known amino acids",
+              "run alongside standards",
+              "matching spots",
+              "run known samples at same time",
+              "compare Rf with known",
+              "use standards"
+            ],
+            [
+              "amide linkage",
+              "peptide bond",
+              "–CONH–",
+              "–CO–NH–",
+              "polyamide"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Enzymes called carbohydrases can hydrolyse complex carbohydrates to simple sugars which can be represented as HO–██–OH. Draw the structure of a complex carbohydrate.",
+          "keywords": [
+            [
+              "many sugar units joined",
+              "polymer of sugars",
+              "polysaccharide",
+              "–O– bridge",
+              "glycosidic link",
+              "condensation polymer of sugars",
+              "many glucose units linked",
+              "starch",
+              "cellulose"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 7,
+          "type": "long",
+          "question": "Fermentation can be carried out in the apparatus drawn. After a few days the reaction stops. It has produced a 12% aqueous solution of ethanol. (i) Complete the equation: C6H12O6 → ............ + ............ (ii) Zymase catalyses the anaerobic respiration of glucose. Define the term respiration. (iii) Suggest a reason why the reaction stops after a few days. (iv) Why is it essential that there is no oxygen in the flask? (v) What technique is used to concentrate the aqueous ethanol?",
+          "keywords": [
+            [
+              "2C2H5OH",
+              "2 ethanol",
+              "2CH3CH2OH",
+              "ethanol"
+            ],
+            [
+              "2CO2",
+              "carbon dioxide"
+            ],
+            [
+              "release of energy",
+              "exothermic",
+              "energy released",
+              "breakdown of glucose to release energy"
+            ],
+            [
+              "anaerobic",
+              "without oxygen",
+              "in absence of oxygen"
+            ],
+            [
+              "glucose used up",
+              "substrate depleted",
+              "sugar all used",
+              "ethanol concentration too high",
+              "yeast killed by ethanol",
+              "alcohol kills yeast",
+              "enzyme denatured by ethanol"
+            ],
+            [
+              "oxygen would cause oxidation to ethanoic acid",
+              "air would oxidise ethanol to acid",
+              "yeast would respire aerobically",
+              "would not produce ethanol",
+              "would make CO2 and H2O",
+              "yeast switch to aerobic"
+            ],
+            [
+              "fractional distillation",
+              "distillation",
+              "distil",
+              "fractionating column"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Aluminium: Extraction, Reactivity and Amphoteric Behaviour",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "The position of aluminium in the reactivity series of metals is between magnesium and zinc. Aluminium is extracted by the electrolysis of its molten oxide. (i) Name the main ore of aluminium. (ii) Why does the molten electrolyte contain cryolite? (iii) Oxygen is produced at the positive electrode (anode). Name another gas which is given off at this electrode.",
+          "keywords": [
+            [
+              "bauxite",
+              "Al2O3",
+              "aluminium oxide"
+            ],
+            [
+              "lower melting point",
+              "reduce melting point",
+              "save energy",
+              "reduce temperature",
+              "dissolve Al2O3",
+              "lowers temperature needed",
+              "reduce cost"
+            ],
+            [
+              "carbon dioxide",
+              "CO2",
+              "carbon monoxide",
+              "CO",
+              "anode burns",
+              "carbon anode reacts"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Aluminium reacts very slowly with aqueous copper(II) sulphate. 2Al(s) + 3CuSO4(aq) → Al2(SO4)3(aq) + 3Cu(s). (i) Which of the two metals has the greater tendency to form ions? (ii) Describe what you would see when this reaction occurs. (iii) Explain why aluminium reacts so slowly.",
+          "keywords": [
+            [
+              "aluminium",
+              "Al"
+            ],
+            [
+              "pink-brown solid deposited",
+              "copper deposited",
+              "brown solid",
+              "red-brown deposit",
+              "copper metal appears",
+              "pink solid",
+              "solution fades from blue"
+            ],
+            [
+              "oxide layer",
+              "Al2O3 layer",
+              "oxide coating",
+              "protective oxide layer",
+              "passivating layer",
+              "surface oxide prevents reaction"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Complete the following table by writing \"reaction\" or \"no reaction\" in the spaces provided. Magnesium oxide (basic): reaction with acid ......, reaction with alkali ......  Aluminium oxide (amphoteric): reaction with acid ......, reaction with alkali ......",
+          "keywords": [
+            [
+              "reaction",
+              "reacts",
+              "yes"
+            ],
+            [
+              "no reaction",
+              "does not react",
+              "no",
+              "none"
+            ],
+            [
+              "reaction",
+              "reacts",
+              "yes"
+            ],
+            [
+              "reaction",
+              "reacts",
+              "yes"
+            ]
+          ],
+          "anyOf": 4
+        },
+        {
+          "label": "d",
+          "marks": 4,
+          "type": "long",
+          "question": "Predict the equations for the decomposition of the following aluminium compounds. (i) Al(OH)3 → ............ + ............ (ii) aluminium nitrate → ............ + ............ + ............",
+          "keywords": [
+            [
+              "Al2O3",
+              "aluminium oxide",
+              "alumina"
+            ],
+            [
+              "H2O",
+              "water",
+              "3H2O",
+              "water vapour"
+            ],
+            [
+              "Al2O3",
+              "aluminium oxide",
+              "alumina"
+            ],
+            [
+              "NO2",
+              "nitrogen dioxide",
+              "nitrogen(IV) oxide"
+            ],
+            [
+              "O2",
+              "oxygen"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    }
+  ]
+}

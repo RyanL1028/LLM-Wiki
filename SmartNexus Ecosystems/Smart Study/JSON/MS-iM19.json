@@ -1,0 +1,35 @@
+{
+  "id": "MS-iM19",
+  "type": "mark_scheme",
+  "paperCode": "0620/32",
+  "session": " ????",
+  "maxMark": 80,
+  "answers": [
+    {
+      "question": "3(d)",
+      "answer": "SF6O",
+      "marks": 1
+    },
+    {
+      "question": "4(a)",
+      "answer": "zinc chloride",
+      "marks": 1
+    },
+    {
+      "question": "4(e)",
+      "answer": "4.85 (g)",
+      "marks": 1
+    },
+    {
+      "question": "5(b)",
+      "answer": "pH 10",
+      "marks": 1
+    },
+    {
+      "question": "6(e)",
+      "answer": "K",
+      "marks": 1
+    }
+  ],
+  "answerCount": 5
+}

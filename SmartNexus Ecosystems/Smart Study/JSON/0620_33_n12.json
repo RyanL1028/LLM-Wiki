@@ -1,0 +1,447 @@
+{
+  "id": "0620_33_n12",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering atomic structure, bonding, metals, electrolysis, organic chemistry, rates of reaction, and stoichiometry.",
+  "type": "past",
+  "session": "Oct/Nov 2012",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Atomic Structure & Periodic Table",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Define the term isotope.",
+          "keywords": [
+            [
+              "atoms of same element",
+              "same atomic number",
+              "same number of protons"
+            ],
+            [
+              "different mass number",
+              "different number of neutrons"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Complete the table for 35Cl and 37Cl: protons, electrons, neutrons.",
+          "keywords": [
+            [
+              "35Cl: 17p, 17e, 18n"
+            ],
+            [
+              "37Cl: 17p, 17e, 20n"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Chlorine is in Group VII. Predict two properties of chlorine.",
+          "keywords": [
+            [
+              "green gas",
+              "diatomic Cl2",
+              "poisonous"
+            ],
+            [
+              "reacts with metals to form chlorides",
+              "bleaching action",
+              "disinfectant"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Ionic & Covalent Bonding",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Draw dot-and-cross diagrams for: (i) sodium chloride, (ii) water, showing outer electrons only.",
+          "keywords": [
+            [
+              "Na+ [Cl]-",
+              "no shared electrons in NaCl",
+              "ionic"
+            ],
+            [
+              "H-O-H with 2 shared pairs",
+              "covalent",
+              "two O-H bonds"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain why sodium chloride has a high melting point but water has a low melting point.",
+          "keywords": [
+            [
+              "NaCl: giant ionic lattice",
+              "strong electrostatic forces between ions",
+              "lot of energy needed to break",
+              "giant structure"
+            ],
+            [
+              "water: simple molecular",
+              "weak intermolecular forces between molecules",
+              "little energy needed",
+              "small molecules"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe what happens to the particles when sodium chloride dissolves in water.",
+          "keywords": [
+            [
+              "ions separate from lattice",
+              "water molecules surround ions",
+              "hydration"
+            ],
+            [
+              "Na+ and Cl- ions become free to move",
+              "solution conducts electricity"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Metals & Reactivity",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the general physical properties of metals.",
+          "keywords": [
+            [
+              "shiny/lustrous",
+              "malleable",
+              "ductile",
+              "high melting points",
+              "good conductors of heat and electricity"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain why metals are good conductors of electricity.",
+          "keywords": [
+            [
+              "delocalised electrons",
+              "sea of free electrons",
+              "mobile electrons"
+            ],
+            [
+              "electrons can move through metal",
+              "carry charge",
+              "drift when voltage applied"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Put these metals in reactivity order (most reactive first): zinc, copper, magnesium, iron. Explain how you know.",
+          "keywords": [
+            [
+              "Mg > Zn > Fe > Cu",
+              "magnesium most reactive",
+              "copper least"
+            ],
+            [
+              "based on reactivity series",
+              "reactions with water/acid",
+              "displacement reactions"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Electrolysis & Cells",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Draw a labelled diagram of the electrolysis of molten lead(II) bromide. Include products at each electrode.",
+          "keywords": [
+            [
+              "anode: bromine gas Br2",
+              "brown gas"
+            ],
+            [
+              "cathode: lead metal Pb",
+              "grey solid/molten"
+            ],
+            [
+              "electrodes, power supply, molten PbBr2"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Write equations for the reactions at the anode and cathode during electrolysis of molten PbBr2.",
+          "keywords": [
+            [
+              "2Br- -> Br2 + 2e- at anode"
+            ],
+            [
+              "Pb2+ + 2e- -> Pb at cathode"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain the difference between electrolysis of molten and aqueous sodium chloride.",
+          "keywords": [
+            [
+              "molten: Na at cathode, Cl2 at anode",
+              "only Na+ and Cl- present"
+            ],
+            [
+              "aqueous: H2 at cathode (H+ discharged instead of Na+)",
+              "Cl2 or O2 at anode depending on concentration"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Organic Chemistry & Polymers",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "What is meant by the term homologous series?",
+          "keywords": [
+            [
+              "family of compounds with same general formula",
+              "same functional group"
+            ],
+            [
+              "similar chemical properties",
+              "differ by CH2",
+              "gradual change in physical properties"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Give the general formula of alkanes and alkenes.",
+          "keywords": [
+            [
+              "CnH2n+2 for alkanes"
+            ],
+            [
+              "CnH2n for alkenes"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how ethene can be polymerised. Include the name of the polymer and its uses.",
+          "keywords": [
+            [
+              "addition polymerisation",
+              "high pressure",
+              "catalyst",
+              "heat"
+            ],
+            [
+              "poly(ethene)",
+              "polythene",
+              "polyethylene"
+            ],
+            [
+              "plastic bags",
+              "bottles",
+              "packaging",
+              "cling film"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "d",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why polymers are difficult to dispose of.",
+          "keywords": [
+            [
+              "non-biodegradable",
+              "do not decompose",
+              "last for many years"
+            ],
+            [
+              "produce toxic gases when burned",
+              "take up landfill space"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Rates of Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain how increasing the concentration of an acid affects the rate of reaction with magnesium.",
+          "keywords": [
+            [
+              "increases rate",
+              "faster reaction"
+            ],
+            [
+              "more particles per unit volume",
+              "more frequent collisions",
+              "more successful collisions per second"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain how increasing temperature affects the rate of a reaction.",
+          "keywords": [
+            [
+              "increases rate",
+              "faster"
+            ],
+            [
+              "particles have more kinetic energy",
+              "more frequent collisions",
+              "more particles exceed activation energy"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain what is meant by a catalyst and give an example from industry.",
+          "keywords": [
+            [
+              "substance that speeds up reaction",
+              "lowers activation energy",
+              "not used up"
+            ],
+            [
+              "iron in Haber process",
+              "vanadium(V) oxide in Contact process",
+              "enzyme in fermentation"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Stoichiometry & Moles",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Calculate the relative molecular mass of (NH4)2SO4.",
+          "keywords": [
+            [
+              "N:2x14=28, H:8x1=8, S:32, O:4x16=64",
+              "Mr = 28+8+32+64 = 132"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Calculate the number of moles in 6.6g of (NH4)2SO4.",
+          "keywords": [
+            [
+              "moles = mass/Mr",
+              "6.6/132",
+              "0.05 mol"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Calculate the volume of ammonia gas (at r.t.p.) produced when 6.6g (NH4)2SO4 is heated with excess NaOH. (NH4)2SO4 + 2NaOH -> Na2SO4 + 2NH3 + 2H2O",
+          "keywords": [
+            [
+              "moles (NH4)2SO4 = 0.05",
+              "moles NH3 = 0.05 x 2 = 0.1"
+            ],
+            [
+              "volume = 0.1 x 24 = 2.4 dm3"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    }
+  ]
+}

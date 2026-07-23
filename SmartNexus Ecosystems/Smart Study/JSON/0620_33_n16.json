@@ -1,0 +1,343 @@
+{
+  "id": "0620_33_n16",
+  "subject": "Chemistry",
+  "code": "0620/33",
+  "paper": "Paper 3 (Core/Extended)",
+  "name": "Theory (Extended)",
+  "description": "Extended theory covering atomic structure, bonding, redox and reactivity, organic chemistry, electrochemistry, and rates of reaction.",
+  "type": "past",
+  "session": "Oct/Nov 2016",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Atomic Structure & Periodic Table",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Draw the electronic structure of an atom of sodium (atomic number 11) showing electron shells.",
+          "keywords": [
+            [
+              "2,8,1",
+              "2 electrons in first shell, 8 in second, 1 in third"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why sodium is in Group I and Period 3 of the Periodic Table.",
+          "keywords": [
+            [
+              "Group I: 1 electron in outer shell"
+            ],
+            [
+              "Period 3: 3 occupied electron shells"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe the trend in atomic radius across Period 3 from sodium to chlorine.",
+          "keywords": [
+            [
+              "decreases",
+              "atoms get smaller"
+            ],
+            [
+              "increasing nuclear charge",
+              "same number of shells",
+              "greater attraction pulling electrons in"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Ionic & Covalent Bonding",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Draw dot-and-cross diagrams showing the bonding in magnesium oxide, MgO.",
+          "keywords": [
+            [
+              "Mg loses 2 electrons",
+              "O gains 2 electrons",
+              "Mg2+ and O2-"
+            ],
+            [
+              "ionic bonding",
+              "electrostatic attraction between oppositely charged ions"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Draw a diagram showing the bonding in a molecule of ammonia, NH3.",
+          "keywords": [
+            [
+              "N with 3 single bonds to H",
+              "one lone pair on N",
+              "pyramidal shape"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Compare the melting points and electrical conductivity of MgO and NH3. Explain.",
+          "keywords": [
+            [
+              "MgO: high mp (giant ionic), conducts when molten"
+            ],
+            [
+              "NH3: low mp (simple molecular), does not conduct"
+            ],
+            [
+              "strong ionic bonds vs weak intermolecular forces"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Redox & Reactivity",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Define oxidation and reduction in terms of electrons.",
+          "keywords": [
+            [
+              "oxidation: loss of electrons"
+            ],
+            [
+              "reduction: gain of electrons"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "For the reaction Zn + CuSO4 -> ZnSO4 + Cu, identify what is oxidised, reduced, and the oxidising agent.",
+          "keywords": [
+            [
+              "Zn oxidised: Zn -> Zn2+ + 2e-"
+            ],
+            [
+              "Cu2+ reduced: Cu2+ + 2e- -> Cu"
+            ],
+            [
+              "Cu2+/CuSO4 is oxidising agent"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why zinc can displace copper from copper sulfate but copper cannot displace zinc from zinc sulfate.",
+          "keywords": [
+            [
+              "zinc more reactive than copper",
+              "zinc higher in reactivity series"
+            ],
+            [
+              "copper less reactive",
+              "cannot displace a more reactive metal"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Organic Chemistry",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Name the first four alkanes and give their molecular formulae.",
+          "keywords": [
+            [
+              "methane CH4",
+              "ethane C2H6",
+              "propane C3H8",
+              "butane C4H10"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe the reaction of ethane with chlorine. Include conditions and type of reaction.",
+          "keywords": [
+            [
+              "substitution reaction",
+              "UV light/sunlight required"
+            ],
+            [
+              "C2H6 + Cl2 -> C2H5Cl + HCl",
+              "hydrogen atom replaced by chlorine"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "type": "short",
+          "question": "Describe how a sample of ethanoic acid can be made from ethanol. Include conditions.",
+          "keywords": [
+            [
+              "oxidation",
+              "acidified potassium manganate(VII) or dichromate(VI)"
+            ],
+            [
+              "warm/reflux",
+              "CH3CH2OH + 2[O] -> CH3COOH + H2O"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Electrochemistry",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Draw a labelled diagram of a simple cell made from zinc and copper electrodes in dilute sulfuric acid.",
+          "keywords": [
+            [
+              "zinc negative electrode",
+              "copper positive electrode",
+              "electrolyte dilute H2SO4"
+            ],
+            [
+              "voltmeter connected",
+              "electrons flow from Zn to Cu through external circuit"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain why the zinc electrode becomes smaller and bubbles form at the copper electrode.",
+          "keywords": [
+            [
+              "Zn -> Zn2+ + 2e-",
+              "zinc dissolves"
+            ],
+            [
+              "2H+ + 2e- -> H2 at copper",
+              "hydrogen gas bubbles"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "How could the voltage of this cell be increased?",
+          "keywords": [
+            [
+              "use metals further apart in reactivity series",
+              "Mg instead of Zn",
+              "use higher acid concentration"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Rates of Reaction",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 3,
+          "type": "short",
+          "question": "Explain, using collision theory, the effects of increasing concentration and temperature on reaction rate.",
+          "keywords": [
+            [
+              "concentration: more particles per volume, more frequent collisions, faster rate"
+            ],
+            [
+              "temperature: more kinetic energy, faster particles, more frequent collisions, more particles exceed Ea, faster rate"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Explain how a catalyst works in terms of activation energy.",
+          "keywords": [
+            [
+              "provides alternative pathway",
+              "lower activation energy"
+            ],
+            [
+              "more particles have sufficient energy to react",
+              "faster rate"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe an experiment to investigate the effect of surface area on reaction rate.",
+          "keywords": [
+            [
+              "marble chips vs powder + HCl",
+              "same mass, same concentration acid"
+            ],
+            [
+              "measure volume of CO2 vs time",
+              "powder reacts faster"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}

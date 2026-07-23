@@ -1,0 +1,1235 @@
+{
+  "id": "0620_03_n05",
+  "subject": "Chemistry",
+  "code": "0620/03",
+  "paper": "Paper 3 (Extended)",
+  "name": "Cambridge IGCSE Chemistry Paper 3 (Extended) Oct/Nov 2005",
+  "description": "Full past paper covering ionic compounds, ethanoic acid, reversible reactions and equilibrium, alcohols, strontium and zinc metals, stoichiometry and salt preparation, and the Haber process.",
+  "type": "past",
+  "session": "October/November 2005",
+  "duration": 75,
+  "totalMarks": 80,
+  "questions": [
+    {
+      "num": 1,
+      "topic": "Ionic Bonding and Compounds",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the name of this regular arrangement of particles?",
+          "keywords": [
+            [
+              "giant ionic lattice"
+            ],
+            [
+              "lattice"
+            ],
+            [
+              "giant lattice"
+            ],
+            [
+              "crystal lattice"
+            ],
+            [
+              "giant ionic structure"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two physical properties of ionic compounds.",
+          "keywords": [
+            [
+              "high melting point"
+            ],
+            [
+              "high boiling point"
+            ],
+            [
+              "conducts electricity when molten"
+            ],
+            [
+              "conducts electricity when aqueous"
+            ],
+            [
+              "conducts when molten or dissolved"
+            ],
+            [
+              "hard"
+            ],
+            [
+              "brittle"
+            ],
+            [
+              "soluble in water"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the formula of the magnesium ion.",
+          "keywords": [
+            [
+              "Mg2+"
+            ],
+            [
+              "Mg++"
+            ],
+            [
+              "Mg²⁺"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the formula of the nitride ion.",
+          "keywords": [
+            [
+              "N3-"
+            ],
+            [
+              "N³⁻"
+            ],
+            [
+              "N---"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the formula of the ionic compound, magnesium nitride?",
+          "keywords": [
+            [
+              "Mg3N2"
+            ],
+            [
+              "Mg₃N₂"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iv)",
+          "marks": 1,
+          "type": "short",
+          "question": "In this compound there is an ionic bond. Why are the two ions attracted to each other?",
+          "keywords": [
+            [
+              "opposite charges attract"
+            ],
+            [
+              "electrostatic attraction between oppositely charged ions"
+            ],
+            [
+              "positive and negative ions attract"
+            ],
+            [
+              "electrostatic force between ions"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "topic": "Ethanoic Acid and States of Matter",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the change that occurs in the region D to E on the heating graph.",
+          "keywords": [
+            [
+              "boiling"
+            ],
+            [
+              "vaporisation"
+            ],
+            [
+              "vaporization"
+            ],
+            [
+              "evaporation"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "What would be the difference in the region B to C if an impure sample had been used?",
+          "keywords": [
+            [
+              "melting point would be lower"
+            ],
+            [
+              "would melt over a range of temperatures"
+            ],
+            [
+              "melting point would not be sharp"
+            ],
+            [
+              "lower and broader melting range"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Sketch on the graph how the line would continue if the acid was heated to a higher temperature.",
+          "keywords": [
+            [
+              "line continues to rise"
+            ],
+            [
+              "temperature increases further"
+            ],
+            [
+              "line slopes upward"
+            ],
+            [
+              "temperature continues increasing"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv).1",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the separation of particles in region C to D (liquid).",
+          "keywords": [
+            [
+              "close together"
+            ],
+            [
+              "touching"
+            ],
+            [
+              "close"
+            ],
+            [
+              "packed closely"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv).2",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the separation of particles in region E to F (gas).",
+          "keywords": [
+            [
+              "far apart"
+            ],
+            [
+              "widely separated"
+            ],
+            [
+              "far"
+            ],
+            [
+              "well separated"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv).3",
+          "marks": 1,
+          "type": "short",
+          "question": "Describe the movement of particles in region E to F (gas).",
+          "keywords": [
+            [
+              "random and fast"
+            ],
+            [
+              "rapid random"
+            ],
+            [
+              "quick and random"
+            ],
+            [
+              "fast random motion"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv).4",
+          "marks": 1,
+          "type": "short",
+          "question": "Can particles move apart to fill any volume in region C to D?",
+          "keywords": [
+            [
+              "no"
+            ],
+            [
+              "cannot"
+            ],
+            [
+              "they cannot"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iv).5",
+          "marks": 1,
+          "type": "short",
+          "question": "Can particles move apart to fill any volume in region E to F?",
+          "keywords": [
+            [
+              "yes"
+            ],
+            [
+              "can"
+            ],
+            [
+              "they can"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the word equation: calcium + ethanoic acid → _____ + _____ (first product).",
+          "keywords": [
+            [
+              "calcium ethanoate"
+            ],
+            [
+              "calcium ethanoate and hydrogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the word equation: calcium + ethanoic acid → calcium ethanoate + _____ .",
+          "keywords": [
+            [
+              "hydrogen"
+            ],
+            [
+              "H2"
+            ],
+            [
+              "hydrogen gas"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the word equation: _____ + ethanoic acid → zinc ethanoate + water.",
+          "keywords": [
+            [
+              "zinc oxide"
+            ],
+            [
+              "ZnO"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c",
+          "marks": 2,
+          "type": "long",
+          "question": "Write the symbol equation for the reaction between ethanoic acid and sodium hydroxide.",
+          "keywords": [
+            [
+              "CH3COOH + NaOH \\u2192 CH3COONa + H2O"
+            ],
+            [
+              "CH3COOH + NaOH \\u2192 CH3COO- Na+ + H2O"
+            ],
+            [
+              "CH3CO2H + NaOH \\u2192 CH3CO2Na + H2O"
+            ],
+            [
+              "CH3COOH + NaOH \\u2192 CH3COONa + H2O"
+            ],
+            [
+              "ethanoic acid + sodium hydroxide \\u2192 sodium ethanoate + water"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "topic": "Reversible Reactions and Equilibrium",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain why the rate of the forward reaction decreases with time for the reaction BiCl3(aq) + H2O(l) \\u21CC BiOCl(s) + 2HCl(aq).",
+          "keywords": [
+            [
+              "concentration of reactants decreases"
+            ],
+            [
+              "BiCl3 concentration falls"
+            ],
+            [
+              "reactants are used up"
+            ],
+            [
+              "less reactants available"
+            ],
+            [
+              "fewer reactant particles"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Why does the rate of the backward reaction increase with time?",
+          "keywords": [
+            [
+              "concentration of products increases"
+            ],
+            [
+              "more product particles formed"
+            ],
+            [
+              "products build up"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 2,
+          "type": "long",
+          "question": "After some time why does the appearance of the mixture remain unchanged?",
+          "keywords": [
+            [
+              "equilibrium has been reached"
+            ],
+            [
+              "rate of forward reaction equals rate of backward reaction"
+            ],
+            [
+              "dynamic equilibrium established"
+            ],
+            [
+              "forward and backward rates are equal"
+            ],
+            [
+              "reaction has reached equilibrium"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(iv)",
+          "marks": 2,
+          "type": "long",
+          "question": "When a few drops of concentrated hydrochloric acid are added to the cloudy mixture, it changes to a colourless solution. Suggest an explanation.",
+          "keywords": [
+            [
+              "equilibrium shifts to the left"
+            ],
+            [
+              "backward reaction favoured"
+            ],
+            [
+              "increased concentration of HCl shifts equilibrium left"
+            ],
+            [
+              "BiOCl reacts with HCl to form BiCl3"
+            ],
+            [
+              "equilibrium shifts to form more reactants"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Suggest a reason why an increase in pressure does not affect the position of equilibrium for reaction 1: N2(g) + O2(g) \\u21CC 2NO(g).",
+          "keywords": [
+            [
+              "equal number of moles on both sides"
+            ],
+            [
+              "same volume of gases each side"
+            ],
+            [
+              "2 moles on each side"
+            ],
+            [
+              "no change in number of gas molecules"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "What effect would an increase in pressure have on the position of equilibrium for reaction 2: 2NO(g) + O2(g) \\u21CC 2NO2(g)? Give a reason for your answer.",
+          "keywords": [
+            [
+              "shifts to the right"
+            ],
+            [
+              "equilibrium moves to products"
+            ],
+            [
+              "favours forward reaction"
+            ],
+            [
+              "fewer gas moles on right"
+            ],
+            [
+              "3 moles become 2 moles"
+            ],
+            [
+              "pressure favours side with fewer moles"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "topic": "Alcohols and Homologous Series",
+      "parts": [
+        {
+          "label": "a(i)",
+          "marks": 2,
+          "type": "short",
+          "question": "Give two general characteristics of a homologous series.",
+          "keywords": [
+            [
+              "same general formula"
+            ],
+            [
+              "similar chemical properties"
+            ],
+            [
+              "same functional group"
+            ],
+            [
+              "differ by CH2"
+            ],
+            [
+              "gradation in physical properties"
+            ],
+            [
+              "trend in boiling points"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "a(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Calculate the mass of one mole of the C8 alcohol.",
+          "keywords": [
+            [
+              "130"
+            ],
+            [
+              "130 g"
+            ],
+            [
+              "130 g/mol"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b",
+          "marks": 2,
+          "type": "short",
+          "question": "Give the name and structural formula of the third member of the alcohol homologous series.",
+          "keywords": [
+            [
+              "propan-1-ol"
+            ],
+            [
+              "propanol"
+            ],
+            [
+              "CH3CH2CH2OH"
+            ],
+            [
+              "C3H7OH"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Draw the structural formula of an isomer of pentan-1-ol.",
+          "keywords": [
+            [
+              "pentan-2-ol"
+            ],
+            [
+              "pentan-3-ol"
+            ],
+            [
+              "2-methylbutan-1-ol"
+            ],
+            [
+              "3-methylbutan-1-ol"
+            ],
+            [
+              "2,2-dimethylpropan-1-ol"
+            ],
+            [
+              "branched alcohol"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii).1",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the names of the product(s) formed when pentan-1-ol reacts with an excess of oxygen.",
+          "keywords": [
+            [
+              "carbon dioxide and water"
+            ],
+            [
+              "CO2 and H2O"
+            ],
+            [
+              "carbon dioxide, water"
+            ],
+            [
+              "carbon dioxide + water"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii).2",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the name of the product formed when pentan-1-ol is dehydrated to form an alkene.",
+          "keywords": [
+            [
+              "pentene"
+            ],
+            [
+              "pent-1-ene"
+            ],
+            [
+              "C5H10"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii).3",
+          "marks": 1,
+          "type": "short",
+          "question": "Predict the name of the product formed when pentan-1-ol is oxidised by acidified potassium dichromate(VI).",
+          "keywords": [
+            [
+              "pentanoic acid"
+            ],
+            [
+              "C4H9COOH"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "topic": "Metals: Strontium and Zinc",
+      "parts": [
+        {
+          "label": "a(i).1",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the table for 88Sr: give number of protons, electrons and neutrons.",
+          "keywords": [
+            [
+              "38, 38, 50"
+            ],
+            [
+              "38 protons, 38 electrons, 50 neutrons"
+            ],
+            [
+              "p=38, e=38, n=50"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(i).2",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the table for 90Sr: give number of protons, electrons and neutrons.",
+          "keywords": [
+            [
+              "38, 38, 52"
+            ],
+            [
+              "38 protons, 38 electrons, 52 neutrons"
+            ],
+            [
+              "p=38, e=38, n=52"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(i).3",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the table for 65Zn2+: give number of protons, electrons and neutrons.",
+          "keywords": [
+            [
+              "30, 28, 35"
+            ],
+            [
+              "30 protons, 28 electrons, 35 neutrons"
+            ],
+            [
+              "p=30, e=28, n=35"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Explain why 88Sr and 90Sr are isotopes.",
+          "keywords": [
+            [
+              "same number of protons"
+            ],
+            [
+              "same atomic number"
+            ],
+            [
+              "different number of neutrons"
+            ],
+            [
+              "same protons different neutrons"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(iii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the electron distribution of an atom of strontium: 2 + 8 + 18 + __ + __ .",
+          "keywords": [
+            [
+              "8, 2"
+            ],
+            [
+              "8,2"
+            ],
+            [
+              "8 and 2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(i)",
+          "marks": 2,
+          "type": "long",
+          "question": "Describe how zinc is extracted from zinc blende (ZnS).",
+          "keywords": [
+            [
+              "roast in air to form zinc oxide"
+            ],
+            [
+              "heat with carbon"
+            ],
+            [
+              "reduce zinc oxide with carbon"
+            ],
+            [
+              "roast then reduce with carbon"
+            ],
+            [
+              "roast in air then heat with coke"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(ii)",
+          "marks": 1,
+          "type": "short",
+          "question": "Give a use of zinc.",
+          "keywords": [
+            [
+              "galvanising"
+            ],
+            [
+              "galvanizing"
+            ],
+            [
+              "making brass"
+            ],
+            [
+              "batteries"
+            ],
+            [
+              "sacrificial protection"
+            ],
+            [
+              "coating steel"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "Name the reagent that will react with strontium carbonate to form strontium chloride.",
+          "keywords": [
+            [
+              "hydrochloric acid"
+            ],
+            [
+              "HCl"
+            ],
+            [
+              "HCl(aq)"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii).1",
+          "marks": 1,
+          "type": "short",
+          "question": "Write the ionic equation for the reaction at the negative electrode (cathode) during electrolysis of molten strontium chloride.",
+          "keywords": [
+            [
+              "Sr2+ + 2e- \\u2192 Sr"
+            ],
+            [
+              "Sr2+ + 2e- \\u2192 Sr(l)"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii).2",
+          "marks": 1,
+          "type": "short",
+          "question": "Write the ionic equation for the reaction at the positive electrode (anode) during electrolysis of molten strontium chloride.",
+          "keywords": [
+            [
+              "2Cl- \\u2192 Cl2 + 2e-"
+            ],
+            [
+              "2Cl- - 2e- \\u2192 Cl2"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(iii)",
+          "marks": 2,
+          "type": "short",
+          "question": "One of the products of the electrolysis of concentrated aqueous strontium chloride is chlorine. Name the other two.",
+          "keywords": [
+            [
+              "hydrogen and strontium hydroxide"
+            ],
+            [
+              "H2 and Sr(OH)2"
+            ],
+            [
+              "hydrogen, strontium hydroxide"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(i).1",
+          "marks": 1,
+          "type": "short",
+          "question": "Write a word equation for the reaction of zinc and water.",
+          "keywords": [
+            [
+              "zinc + steam \\u2192 zinc oxide + hydrogen"
+            ],
+            [
+              "zinc + water \\u2192 zinc oxide + hydrogen"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "d(i).2",
+          "marks": 2,
+          "type": "short",
+          "question": "State the reaction conditions for the reaction of zinc with water.",
+          "keywords": [
+            [
+              "heated"
+            ],
+            [
+              "steam"
+            ],
+            [
+              "high temperature"
+            ],
+            [
+              "heat"
+            ],
+            [
+              "steam conditions"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii).1",
+          "marks": 2,
+          "type": "long",
+          "question": "Write an equation for the reaction of strontium with water.",
+          "keywords": [
+            [
+              "Sr + 2H2O \\u2192 Sr(OH)2 + H2"
+            ],
+            [
+              "Sr(s) + 2H2O(l) \\u2192 Sr(OH)2(aq) + H2(g)"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "d(ii).2",
+          "marks": 1,
+          "type": "short",
+          "question": "Give the reaction condition for strontium reacting with water.",
+          "keywords": [
+            [
+              "cold water"
+            ],
+            [
+              "room temperature"
+            ],
+            [
+              "no heating required"
+            ],
+            [
+              "reacts with cold water"
+            ],
+            [
+              "ambient temperature"
+            ]
+          ],
+          "anyOf": 1
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "topic": "Stoichiometry and Salt Preparation",
+      "parts": [
+        {
+          "label": "a(i).1",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of nickel carbonate reacted. (0.08 mol H2SO4 used)",
+          "keywords": [
+            [
+              "9.52"
+            ],
+            [
+              "9.52 g"
+            ],
+            [
+              "9.5"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(i).2",
+          "marks": 1,
+          "type": "short",
+          "question": "Calculate the mass of unreacted nickel carbonate. (12.0 g initially)",
+          "keywords": [
+            [
+              "2.48"
+            ],
+            [
+              "2.48 g"
+            ],
+            [
+              "2.5"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "a(ii)",
+          "marks": 3,
+          "type": "long",
+          "question": "The experiment produced 10.4 g of hydrated nickel sulphate. Calculate the percentage yield. (1 mol NiSO4.7H2O = 281 g)",
+          "keywords": [
+            [
+              "46.3"
+            ],
+            [
+              "46.3%"
+            ],
+            [
+              "46"
+            ],
+            [
+              "46%"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(i)",
+          "marks": 3,
+          "type": "long",
+          "question": "Give a brief description of how the soluble salt rubidium sulphate could be made from the soluble base rubidium hydroxide.",
+          "keywords": [
+            [
+              "titration"
+            ],
+            [
+              "add sulfuric acid to rubidium hydroxide with indicator"
+            ],
+            [
+              "neutralise with acid"
+            ],
+            [
+              "evaporate water"
+            ],
+            [
+              "crystallise"
+            ],
+            [
+              "crystallization"
+            ]
+          ],
+          "anyOf": 3
+        },
+        {
+          "label": "b(ii)",
+          "marks": 3,
+          "type": "long",
+          "question": "Suggest a method of making the insoluble salt calcium fluoride.",
+          "keywords": [
+            [
+              "precipitation"
+            ],
+            [
+              "mix solutions of calcium nitrate and sodium fluoride"
+            ],
+            [
+              "mix soluble calcium salt and soluble fluoride"
+            ],
+            [
+              "filter and wash the precipitate"
+            ],
+            [
+              "precipitation reaction"
+            ],
+            [
+              "double decomposition"
+            ]
+          ],
+          "anyOf": 3
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "topic": "Haber Process and Energetics",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "type": "short",
+          "question": "Describe how hydrogen is obtained for the modern Haber process.",
+          "keywords": [
+            [
+              "methane reacts with steam"
+            ],
+            [
+              "CH4 + H2O \\u2192 CO + 3H2"
+            ],
+            [
+              "from natural gas and steam"
+            ],
+            [
+              "cracking of hydrocarbons"
+            ],
+            [
+              "reforming of methane"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "b(i)",
+          "marks": 1,
+          "type": "short",
+          "question": "What is the catalyst in the modern Haber process?",
+          "keywords": [
+            [
+              "iron"
+            ],
+            [
+              "Fe"
+            ],
+            [
+              "iron(III) oxide"
+            ],
+            [
+              "finely divided iron"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "b(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain why the modern process, which uses a lower temperature, has a higher yield of 15%.",
+          "keywords": [
+            [
+              "forward reaction is exothermic"
+            ],
+            [
+              "lower temperature shifts equilibrium to the right"
+            ],
+            [
+              "forward reaction favoured by low temperature"
+            ],
+            [
+              "equilibrium favours products at lower temperature"
+            ]
+          ],
+          "anyOf": 2
+        },
+        {
+          "label": "c(i).1",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the table: 1 mole of N\\u2261N broken, energy change +945 kJ, and state whether exothermic or endothermic.",
+          "keywords": [
+            [
+              "endothermic"
+            ],
+            [
+              "bond breaking is endothermic"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i).2",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the table: 3 moles of H-H broken, energy change +1308 kJ, and state whether exothermic or endothermic.",
+          "keywords": [
+            [
+              "endothermic"
+            ],
+            [
+              "bond breaking is endothermic"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(i).3",
+          "marks": 1,
+          "type": "short",
+          "question": "Complete the table: 6 moles of N-H formed, energy change -2328 kJ, and state whether exothermic or endothermic.",
+          "keywords": [
+            [
+              "exothermic"
+            ],
+            [
+              "bond making is exothermic"
+            ]
+          ],
+          "anyOf": 1
+        },
+        {
+          "label": "c(ii)",
+          "marks": 2,
+          "type": "long",
+          "question": "Explain, using the bond energy data, why the forward reaction (N2 + 3H2 \\u2192 2NH3) is exothermic.",
+          "keywords": [
+            [
+              "more energy released in bond making than absorbed in bond breaking"
+            ],
+            [
+              "2328 kJ released > 2253 kJ absorbed"
+            ],
+            [
+              "energy released forming bonds exceeds energy to break bonds"
+            ],
+            [
+              "net energy change is negative"
+            ]
+          ],
+          "anyOf": 2
+        }
+      ]
+    }
+  ]
+}
