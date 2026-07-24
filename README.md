@@ -15,6 +15,7 @@ This monorepo contains the full Smart Study ecosystem — an AI-powered learning
 | **Smart Study Wiki** | [smart-study-wiki.web.app](https://smart-study-wiki.web.app) | Collaborative knowledge base |
 | **SmartNexus Ecosystems** | [smartnexus.web.app](https://smartnexus.web.app) | Parent company landing page |
 | **Wellbeing Companion** | [wellbeing-companion-app.web.app](https://wellbeing-companion-app.web.app) | Student mental health app |
+| **Study Game Studio** 🤝 | [study-game-studio.web.app](https://study-game-studio.web.app) | Collaborative partner — educational games |
 
 ---
 
@@ -28,18 +29,39 @@ LLM Wiki/
 │   └── .obsidian/           #    Obsidian vault config
 │
 ├── SmartNexus Ecosystems/   # 🏢 All websites & apps
+│   │
+│   ├── data/                # 📊 Centralized data directory (all apps)
+│   │   ├── study/           #    Smart Study data
+│   │   │   ├── data.js      #    FLASHCARD_DATA (~250KB, concept cards)
+│   │   │   ├── exam-data.js #    EXAM_PAPERS (~1.3MB, exam papers)
+│   │   │   ├── chem-qbank.js    # Chemistry question bank (topics 1–2)
+│   │   │   ├── chem-qbank.json  # Chemistry question bank (JSON)
+│   │   │   └── JSON/        #    106 individual exam paper JSONs
+│   │   ├── test/            #    SS-Test mirror data
+│   │   │   ├── data.js
+│   │   │   └── exam-data.js
+│   │   ├── wiki/            #    Wiki build artifacts
+│   │   │   ├── link-graph.json
+│   │   │   ├── search-index.json
+│   │   │   ├── tree.json
+│   │   │   ├── home.json
+│   │   │   └── broken-links.json
+│   │   └── Papers/           #    📄 Past exam papers
+│   │       ├── Past-Paper/   #       Chem 0921 past papers
+│   │       ├── PP-Mark-Schemes/  #   Mark schemes
+│   │       └── Specimen-Paper/   #   CS 0478 specimen papers
+│   │
 │   ├── Smart Study/         # 🔥 Main app — AI flashcards, games, chatbot
 │   │   ├── index.html       #    Main SPA: study modes, games, auth, admin
 │   │   ├── staff.html       #    Staff/admin dashboard
 │   │   ├── shared/          #    Shared JavaScript modules
 │   │   │   ├── config.js    #    Firebase init, config, notifications, FCM
-│   │   │   ├── auth.js      #    Auth (Google/Microsoft/Email/WhatsApp)
+│   │   │   ├── auth.js      #    Auth (Google/Microsoft/Email/Phone/WhatsApp)
 │   │   │   ├── data.js      #    Data layer (progress, scores, usage)
 │   │   │   ├── ai.js        #    DeepSeek AI (flashcard generation)
 │   │   │   ├── chatbot.js   #    Floating AI chatbot (Base44 API)
 │   │   │   ├── theme.js     #    Dark/light mode
 │   │   │   └── utils.js     #    Utilities (sanitize, randomChoices, etc.)
-│   │   ├── data/            #    Static data (exam questions, flashcards)
 │   │   ├── firebase.json    #    Firebase hosting config
 │   │   ├── firestore.rules  #    Database security rules
 │   │   ├── firebase-messaging-sw.js  # FCM push notification worker
@@ -56,7 +78,7 @@ LLM Wiki/
 │   │
 │   ├── Smart Study Wiki/    # 📚 Wiki (Quartz 4 SSG)
 │   │   ├── wiki/            #    Markdown content (all subjects)
-│   │   │   ├── IGCSE Chemistry/  # 150+ topic pages
+│   │   │   ├── IGCSE Chemistry/  # 262+ topic pages
 │   │   │   ├── IGCSE Biology/    # Biology topic pages
 │   │   │   ├── IGCSE Physics/    # Physics topic pages
 │   │   │   ├── IGCSE Mathematics/ # Math topic pages
@@ -66,8 +88,7 @@ LLM Wiki/
 │   │   │   ├── content → ../wiki  # Symlink to markdown source
 │   │   │   ├── public/      #    Built HTML output (deployed)
 │   │   │   └── quartz.config.ts  # Quartz configuration
-│   │   ├── scripts/         #    Build scripts (link graph, search, etc.)
-│   │   └── data/            #    Generated JSON (search index, graph)
+│   │   └── scripts/         #    Build scripts (link graph, search, etc.)
 │   │
 │   ├── SmartNexus/          # 🏢 Parent company landing page
 │   │   └── index.html       #    Single-page site
@@ -78,11 +99,6 @@ LLM Wiki/
 │       ├── public/          #    Static assets
 │       ├── templates/       #    Jinja2 templates
 │       └── static/          #    CSS, JS, images
-│
-├── Papers/                  # 📄 Past exam papers
-│   ├── Past-Paper/          #    Chem 0921 past papers
-│   ├── PP-Mark-Schemes/     #    Mark schemes
-│   └── Specimen-Paper/      #    CS 0478 specimen papers
 │
 ├── resources/              # 📦 Educational content (not deployed)
 │   ├── worksheets/         #    Dr Frost math worksheets (PDF, PPTX)
@@ -109,14 +125,14 @@ LLM Wiki/
 | **Backend** | Firebase (Auth, Firestore, Storage, Hosting, FCM) |
 | **AI** | DeepSeek API (flashcards), Base44 API (chatbot) |
 | **Messaging** | WhatsApp Cloud API (auth OTP), FCM Web Push |
-| **Auth** | Firebase Auth (Google, Microsoft, Email, WhatsApp) |
+| **Auth** | Firebase Auth (Google, Microsoft, Email, Phone) |
 | **Deployment** | Firebase Hosting (multi-site), CLI deployment |
 
 ---
 
 ## Key Features
 
-### Smart Study (`web/index.html`)
+### Smart Study
 - **8 study modes**: Flashcards, Match, Quiz, Snake, GoldQuest, Climber, Exam Simulator, CrossWord
 - **AI flashcard generator**: DeepSeek API creates flashcards from topics
 - **Floating AI chatbot**: Study tutor via Base44 API (blue bubble, bottom-right)
@@ -126,7 +142,7 @@ LLM Wiki/
 - **Admin panel**: User management, homework, support tickets, site updates
 - **Progress tracking**: Per-user scores and history in Firestore
 
-### SmartChatter (`SmartNexus Ecosystems/SmartChatter/chat.html`)
+### SmartChatter
 - Real-time messaging with Firestore listeners
 - Class group chats + direct messages
 - File sharing, polls, voice messages
@@ -142,41 +158,6 @@ LLM Wiki/
 |---------|---------|
 | `smart-study-by-ryan` | Firestore database, Firebase Auth |
 | `smart-study-site` | Hosting (5 sites: main, staff, chat, wiki, smartnexus) |
-
----
-
-## Configuration
-
-### WhatsApp OTP Login
-1. Create a WhatsApp Business app at [developers.facebook.com](https://developers.facebook.com)
-2. Get your **Phone Number ID** and **Permanent Access Token**
-3. In Firestore (`smart-study-by-ryan`), create `siteConfig/whatsappConfig`:
-   ```json
-   { "accessToken": "your-token", "phoneNumberId": "your-pn-id" }
-   ```
-
-### FCM Push Notifications
-1. [Firebase Console → Cloud Messaging](https://console.firebase.google.com/project/smart-study-by-ryan/settings/cloudmessaging) → **Web configuration** → generate key pair
-2. Copy the VAPID public key
-3. Add to `SmartNexus Ecosystems/SmartChatter/chat.html` APP_CONFIG: `"fcmVapidKey": "your-key"`
-
-### Base44 AI Chatbot
-1. Create an app at [base44.com](https://base44.com)
-2. In Firestore, create `siteConfig/base44AppId`: `{ "appId": "your-app-id" }`
-
----
-
-## Deploying
-
-```bash
-# Hosting
-cd "SmartNexus Ecosystems/Smart Study" && firebase deploy --only hosting:main
-cd "SmartNexus Ecosystems/SmartChatter" && firebase deploy --only hosting:chat
-cd "SmartNexus Ecosystems/SmartNexus" && firebase deploy --only hosting:smartnexus
-
-# Firestore rules
-cd "SmartNexus Ecosystems/Smart Study" && firebase deploy --only firestore:rules --project smart-study-by-ryan
-```
 
 ---
 
