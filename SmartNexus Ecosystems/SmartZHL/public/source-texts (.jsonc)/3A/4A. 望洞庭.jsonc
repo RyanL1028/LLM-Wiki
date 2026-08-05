@@ -1,0 +1,21 @@
+// 望洞庭 (Lake Dongting Viewed from Afar) — 3A 第二单元 L4A — poem
+{
+  "id": "wangdongting",
+  "title": "望洞庭",
+  "sub": "Lake Dongting Viewed from Afar",
+  "icon": "🌊",
+  "level": "Intermediate",
+  "category": "poem",
+  "syllabus": "3A",
+  "unit": "第二单元",
+  "lessonNo": "4A",
+  "type": "poem",
+  "text": [
+    "望 洞 庭",
+    "[唐] 刘 禹 锡",
+    "湖 光 秋 月 两 相 和 ，",
+    "潭 面 无 风 镜 未 磨 。",
+    "遥 望 洞 庭 山 水 翠 ，",
+    "白 银 盘 里 一 青 螺 。"
+  ]
+}

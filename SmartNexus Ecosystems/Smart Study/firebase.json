@@ -8,7 +8,7 @@
   "hosting": [
     {
       "target": "main",
-      "public": ".",
+      "public": "public",
       "ignore": [
         "firebase.json",
         ".firebaserc",
@@ -20,7 +20,15 @@
         "JSON/**"
       ],
       "headers": [
-        { "source": "**", "headers": [{ "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }] }
+        {
+          "source": "**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ]
+        }
       ],
       "rewrites": [
         {
@@ -31,7 +39,7 @@
     },
     {
       "target": "staff",
-      "public": ".",
+      "public": "public",
       "ignore": [
         "firebase.json",
         ".firebaserc",
@@ -45,6 +53,37 @@
         {
           "source": "**",
           "destination": "/staff.html"
+        }
+      ]
+    },
+    {
+      "target": "main-test",
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        ".firebaserc",
+        "firestore.rules",
+        "storage.rules",
+        "**/node_modules/**",
+        "functions/**",
+        "staff.html",
+        "JSON/**"
+      ],
+      "headers": [
+        {
+          "source": "**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ]
+        }
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
         }
       ]
     }

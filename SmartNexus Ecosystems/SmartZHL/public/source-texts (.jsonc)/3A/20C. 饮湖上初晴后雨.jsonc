@@ -1,0 +1,16 @@
+// 饮湖上初晴后雨 (Drinking on the Lake, First Sunny Then Rainy) — 3A 第七单元 L20C — poem
+{
+  "id": "yinhu",
+  "title": "饮湖上初晴后雨",
+  "sub": "Drinking on the Lake, First Sunny Then Rainy",
+  "icon": "🌧️",
+  "level": "Intermediate",
+  "category": "poem",
+  "syllabus": "3A",
+  "unit": "第七单元",
+  "lessonNo": "20C",
+  "type": "poem",
+  "text": [
+    "[ 宋 ] 苏 轼 \n 水 光 潋 滟 晴 方 好，\n 山 色 空 蒙 雨 亦 奇。\n 欲 把 西 湖 比 西 子，\n 淡 妆 浓 抹 总 相 宜。"
+  ]
+}

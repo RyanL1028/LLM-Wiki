@@ -35,6 +35,10 @@ resources/worksheets/
 .tmp.*/
 *.tmp/
 
+# Vercel / Netlify (if used)
+.vercel/
+.netlify/
+
 # Nested repos (managed independently)
 SmartNexus Ecosystems/Smart Study Wiki/quartz-src/
 SmartNexus Ecosystems/SmartHealth Hub/.git/

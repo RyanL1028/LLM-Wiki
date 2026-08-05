@@ -1,0 +1,16 @@
+// 鹿柴 (The Deer Enclosure) — 3A 第七单元 L20A — poem
+{
+  "id": "luzhai",
+  "title": "鹿柴",
+  "sub": "The Deer Enclosure",
+  "icon": "🏔️",
+  "level": "Intermediate",
+  "category": "poem",
+  "syllabus": "3A",
+  "unit": "第七单元",
+  "lessonNo": "20A",
+  "type": "poem",
+  "text": [
+    "[ 唐 ] 王 维 \n 空 山 不 见 人，\n 但 闻 人 语 响。\n 返 景 入 深 林，\n 复 照'青苔' 上。"
+  ]
+}

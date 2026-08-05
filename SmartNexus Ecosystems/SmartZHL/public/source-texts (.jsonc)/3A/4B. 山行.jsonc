@@ -1,0 +1,21 @@
+// 山行 (Travelling in the Mountains) — 3A 第二单元 L4B — poem
+{
+  "id": "shanxing",
+  "title": "山行",
+  "sub": "Travelling in the Mountains",
+  "icon": "⛰️",
+  "level": "Intermediate",
+  "category": "poem",
+  "syllabus": "3A",
+  "unit": "第二单元",
+  "lessonNo": "4B",
+  "type": "poem",
+  "text": [
+    "山 行",
+    "[唐] 杜 牧",
+    "远 上 寒 山 石 径 斜 ，",
+    "白 云 生 处 有 人 家 。",
+    "停 车 坐 爱 枫 林 晚 ，",
+    "霜 叶 红 于 二 月 花 。"
+  ]
+}

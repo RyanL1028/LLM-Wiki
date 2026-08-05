@@ -1,0 +1,16 @@
+// 望天门山 (Mount Heaven's Gate Viewed from Afar) — 3A 第七单元 L20B — poem
+{
+  "id": "wangtianmen",
+  "title": "望天门山",
+  "sub": "Mount Heaven's Gate Viewed from Afar",
+  "icon": "⛰️",
+  "level": "Intermediate",
+  "category": "poem",
+  "syllabus": "3A",
+  "unit": "第七单元",
+  "lessonNo": "20B",
+  "type": "poem",
+  "text": [
+    "[ 唐 ] 李 白 \n 天 门 中 断 楚 江 开，\n 碧 水 东 流 至 此 回。\n 两 岸 青 山 相 对 出，\n 孤 帆 一 片 日 边 来。"
+  ]
+}

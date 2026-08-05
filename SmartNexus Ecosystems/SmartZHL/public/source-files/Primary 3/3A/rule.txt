@@ -1,0 +1,17 @@
+Give me the first four characters (in simplified chinese) of each paragraph in the format: 
+第？段： characters and seperate each paragraph not by a new line but by a comma and space 
+(like this [第一段：Text]，[第二段] and so on and so fourth)
+-----------------------------------------------------------------
+
+
+The first few characters of the paragraphs i want you to add a blank line space to are
+
+
+
+and run the script after you have seperated the paragraphs
+
+and strip the "non-story" text (lesson instructuctions, etc.)
+
+--------------------------------------------------------------------
+
+Here is the paragraph starters: 

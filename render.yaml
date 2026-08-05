@@ -1,0 +1,23 @@
+# Render static site config for SmartZHL
+# After connecting this repo at https://dashboard.render.com:
+#   New Static Site → point to this repo → Render auto-detects this file
+
+services:
+  - type: web
+    name: smartzhl
+    runtime: static
+    rootDir: SmartNexus Ecosystems/SmartZHL
+    buildCommand: echo "No build needed — static SPA"
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    envVars:
+      - key: SKIP_BUILD
+        value: "true"
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: "no-cache"

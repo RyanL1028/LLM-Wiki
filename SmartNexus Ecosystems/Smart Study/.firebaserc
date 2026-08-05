@@ -10,6 +10,12 @@
         ],
         "staff": [
           "smart-study-staff"
+        ],
+        "main-test": [
+          "smart-study-site-test"
+        ],
+        "staff-test": [
+          "ss-staff-tester"
         ]
       }
     },

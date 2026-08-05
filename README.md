@@ -10,10 +10,11 @@ This monorepo contains the full Smart Study ecosystem — an AI-powered learning
 
 | Site | URL | Purpose |
 |------|-----|---------|
-| **Smart Study** | [smart-study-site.web.app](https://smart-study-site.web.app) | AI flashcards, games, chatbot tutoring |
-| **SmartChatter** | [smartchatter.web.app](https://smartchatter.web.app) | Real-time class messaging |
-| **Smart Study Wiki** | [smart-study-wiki.web.app](https://smart-study-wiki.web.app) | Collaborative knowledge base |
 | **SmartNexus Ecosystems** | [smartnexus.web.app](https://smartnexus.web.app) | Parent company landing page |
+| **Our Flagship Product: Smart Study Site** | [smart-study-site.web.app](https://smart-study-site.web.app) | AI flashcards, games, chatbot tutoring |
+| **Smart Study Wiki** | [smart-study-wiki.web.app](https://smart-study-wiki.web.app) | Collaborative knowledge base |
+| **SmartChatter** | [smartchatter.web.app](https://smartchatter.web.app) | Real-time class messaging |
+| **SmartZHL (Smart中文Learner)** | [smartzhl.web.app](smartzhl.web.app) | Our new chinese learning app |
 | **Wellbeing Companion** | [wellbeing-companion-app.web.app](https://wellbeing-companion-app.web.app) | Student mental health app |
 | **Study Game Studio** 🤝 | [study-game-studio.web.app](https://study-game-studio.web.app) | Collaborative partner — educational games |
 
@@ -28,30 +29,35 @@ LLM Wiki/
 │   ├── .cursor/             #    Cursor IDE hooks & rules
 │   └── .obsidian/           #    Obsidian vault config
 │
+├── data/                    # 📊 Unified data directory (single source of truth)
+│   ├── ss/                  #    Smart Study app data (deployed)
+│   │   ├── data.js          #    FLASHCARD_DATA (~250KB)
+│   │   ├── exam-data.js     #    EXAM_PAPERS (~1.3MB)
+│   │   ├── chem-qbank.js    #    Chemistry question bank
+│   │   ├── elements-quiz.jsonc
+│   │   ├── JSON/            #    112 exam paper JSONs
+│   │   └── diagrams/        #    Extracted diagram images (e.g. in24/)
+│   ├── sw/                  #    Smart Wiki build artifacts
+│   │   ├── link-graph.json
+│   │   ├── search-index.json
+│   │   └── tree.json
+│   ├── papers/              #    📄 Past exam papers & mark schemes
+│   │   ├── 0921-Chem/
+│   │   ├── PP-Mark-Schemes/
+│   │   └── Specimen-Paper/
+│   ├── docs/                #    📚 Docs & reference materials
+│   │   ├── skills/          #    Claude project documentation
+│   │   ├── reference/       #    Educational references
+│   │   ├── source-materials/#    Raw source materials
+│   │   └── worksheets/      #    DrFrost math worksheets
+│   └── tools/               #    🔧 Build & extraction scripts
+│       ├── smart-study/     #    Chem extraction, quiz gen, wiki builder
+│       ├── smartzhl/        #    Chinese learner tools
+│       └── wiki/            #    Wikilink anchors
+│
+├── tools/ → data/tools/     # 🔗 Symlink to data/tools/
+│
 ├── SmartNexus Ecosystems/   # 🏢 All websites & apps
-│   │
-│   ├── data/                # 📊 Centralized data directory (all apps)
-│   │   ├── study/           #    Smart Study data
-│   │   │   ├── data.js      #    FLASHCARD_DATA (~250KB, concept cards)
-│   │   │   ├── exam-data.js #    EXAM_PAPERS (~1.3MB, exam papers)
-│   │   │   ├── chem-qbank.js    # Chemistry question bank (topics 1–2)
-│   │   │   ├── chem-qbank.json  # Chemistry question bank (JSON)
-│   │   │   └── JSON/        #    106 individual exam paper JSONs
-│   │   ├── test/            #    SS-Test mirror data
-│   │   │   ├── data.js
-│   │   │   └── exam-data.js
-│   │   ├── wiki/            #    Wiki build artifacts
-│   │   │   ├── link-graph.json
-│   │   │   ├── search-index.json
-│   │   │   ├── tree.json
-│   │   │   ├── home.json
-│   │   │   └── broken-links.json
-│   │   └── Papers/           #    📄 Past exam papers
-│   │       ├── Past-Paper/   #       Chem 0921 past papers
-│   │       ├── PP-Mark-Schemes/  #   Mark schemes
-│   │       └── Specimen-Paper/   #   CS 0478 specimen papers
-│   │
-│   ├── Smart Study/         # 🔥 Main app — AI flashcards, games, chatbot
 │   │   ├── index.html       #    Main SPA: study modes, games, auth, admin
 │   │   ├── staff.html       #    Staff/admin dashboard
 │   │   ├── shared/          #    Shared JavaScript modules
@@ -165,4 +171,4 @@ LLM Wiki/
 
 MIT — see [LICENSE](LICENSE).
 
-Built with ❤️ by [Ryan W.G. Leung](https://ryan-bio.web.app) — Founder, SmartNexus Ecosystems.
+Built by [Ryan W.G. Leung](https://ryan-bio.web.app) — Founder, SmartNexus Ecosystems.
